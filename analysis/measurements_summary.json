@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "sample_count": 82,
+  "canvas_bbox": [
+    448,
+    72,
+    2752,
+    1368
+  ],
+  "all_source_sizes": {
+    "[3200, 1440]": 82
+  },
+  "background_counts": {
+    "black": 73,
+    "white": 9
+  },
+  "confidence_counts": {
+    "high": 65,
+    "low": 11,
+    "medium": 5,
+    "excluded": 1
+  },
+  "primary_black_count": 59,
+  "primary_black_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    28,
+    30,
+    32,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    42,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    51,
+    52,
+    55,
+    56,
+    57,
+    59,
+    61,
+    63,
+    66,
+    67,
+    68,
+    71,
+    72,
+    73,
+    74,
+    76,
+    78,
+    79
+  ],
+  "primary_black_distributions": {
+    "title_bbox_aspect_ratio": {
+      "min": 0.9765,
+      "p25": 2.3326,
+      "median": 3.2007,
+      "p75": 4.1286,
+      "max": 6.6667
+    },
+    "bbox_width_fraction_of_canvas": {
+      "min": 0.3958,
+      "p25": 0.6257,
+      "median": 0.6988,
+      "p75": 0.8448,
+      "max": 0.8854
+    },
+    "bbox_height_fraction_of_canvas": {
+      "min": 0.1914,
+      "p25": 0.2928,
+      "median": 0.3858,
+      "p75": 0.5212,
+      "max": 0.8719
+    },
+    "canvas_whitespace_ratio": {
+      "min": 0.739,
+      "p25": 0.8526,
+      "median": 0.8972,
+      "p75": 0.9273,
+      "max": 0.9694
+    },
+    "bbox_whitespace_ratio": {
+      "min": 0.4626,
+      "p25": 0.5233,
+      "median": 0.6148,
+      "p75": 0.6999,
+      "max": 0.8299
+    },
+    "bbox_area_fraction_of_canvas": {
+      "min": 0.1181,
+      "p25": 0.1798,
+      "median": 0.2824,
+      "p75": 0.3624,
+      "max": 0.7001
+    }
+  },
+  "primary_black_stratified_distributions": {
+    "first_24": {
+      "count": 24,
+      "metrics": {
+        "title_bbox_aspect_ratio": {
+          "min": 1.3522,
+          "p25": 2.3727,
+          "median": 2.9742,
+          "p75": 3.8344,
+          "max": 5.429
+        },
+        "bbox_width_fraction_of_canvas": {
+          "min": 0.3958,
+          "p25": 0.7967,
+          "median": 0.8553,
+          "p75": 0.8723,
+          "max": 0.8854
+        },
+        "bbox_height_fraction_of_canvas": {
+          "min": 0.277,
+          "p25": 0.387,
+          "median": 0.4545,
+          "p75": 0.5938,
+          "max": 0.8719
+        },
+        "canvas_whitespace_ratio": {
+          "min": 0.739,
+          "p25": 0.8266,
+          "median": 0.8482,
+          "p75": 0.8805,
+          "max": 0.942
+        },
+        "bbox_whitespace_ratio": {
+          "min": 0.4821,
+          "p25": 0.5252,
+          "median": 0.6103,
+          "p75": 0.6886,
+          "max": 0.765
+        },
+        "bbox_area_fraction_of_canvas": {
+          "min": 0.1596,
+          "p25": 0.3256,
+          "median": 0.3624,
+          "p75": 0.5041,
+          "max": 0.7001
+        }
+      }
+    },
+    "later": {
+      "count": 35,
+      "metrics": {
+        "title_bbox_aspect_ratio": {
+          "min": 0.9765,
+          "p25": 2.3326,
+          "median": 3.7652,
+          "p75": 4.5373,
+          "max": 6.6667
+        },
+        "bbox_width_fraction_of_canvas": {
+          "min": 0.4141,
+          "p25": 0.5605,
+          "median": 0.6562,
+          "p75": 0.6977,
+          "max": 0.8694
+        },
+        "bbox_height_fraction_of_canvas": {
+          "min": 0.1914,
+          "p25": 0.2604,
+          "median": 0.3148,
+          "p75": 0.483,
+          "max": 0.7539
+        },
+        "canvas_whitespace_ratio": {
+          "min": 0.7882,
+          "p25": 0.8976,
+          "median": 0.9161,
+          "p75": 0.9402,
+          "max": 0.9694
+        },
+        "bbox_whitespace_ratio": {
+          "min": 0.4626,
+          "p25": 0.5198,
+          "median": 0.6244,
+          "p75": 0.706,
+          "max": 0.8299
+        },
+        "bbox_area_fraction_of_canvas": {
+          "min": 0.1181,
+          "p25": 0.1745,
+          "median": 0.2076,
+          "p75": 0.2868,
+          "max": 0.5076
+        }
+      }
+    },
+    "single_line": {
+      "count": 37,
+      "metrics": {
+        "title_bbox_aspect_ratio": {
+          "min": 1.6612,
+          "p25": 3.2007,
+          "median": 3.9581,
+          "p75": 4.7041,
+          "max": 6.6667
+        },
+        "bbox_width_fraction_of_canvas": {
+          "min": 0.3958,
+          "p25": 0.6176,
+          "median": 0.6966,
+          "p75": 0.8403,
+          "max": 0.8832
+        },
+        "bbox_height_fraction_of_canvas": {
+          "min": 0.1914,
+          "p25": 0.2608,
+          "median": 0.3094,
+          "p75": 0.3858,
+          "max": 0.5633
+        },
+        "canvas_whitespace_ratio": {
+          "min": 0.7882,
+          "p25": 0.8529,
+          "median": 0.9116,
+          "p75": 0.9377,
+          "max": 0.9694
+        },
+        "bbox_whitespace_ratio": {
+          "min": 0.4626,
+          "p25": 0.5081,
+          "median": 0.5506,
+          "p75": 0.6276,
+          "max": 0.8299
+        },
+        "bbox_area_fraction_of_canvas": {
+          "min": 0.1181,
+          "p25": 0.1677,
+          "median": 0.1934,
+          "p75": 0.3105,
+          "max": 0.4276
+        }
+      }
+    },
+    "two_lines": {
+      "count": 20,
+      "metrics": {
+        "title_bbox_aspect_ratio": {
+          "min": 1.3522,
+          "p25": 1.7867,
+          "median": 2.4063,
+          "p75": 2.66,
+          "max": 3.85
+        },
+        "bbox_width_fraction_of_canvas": {
+          "min": 0.4818,
+          "p25": 0.6515,
+          "median": 0.7483,
+          "p75": 0.8597,
+          "max": 0.8854
+        },
+        "bbox_height_fraction_of_canvas": {
+          "min": 0.3704,
+          "p25": 0.49,
+          "median": 0.5521,
+          "p75": 0.6202,
+          "max": 0.8719
+        },
+        "canvas_whitespace_ratio": {
+          "min": 0.739,
+          "p25": 0.8452,
+          "median": 0.8787,
+          "p75": 0.9049,
+          "max": 0.9455
+        },
+        "bbox_whitespace_ratio": {
+          "min": 0.5096,
+          "p25": 0.6485,
+          "median": 0.7006,
+          "p75": 0.7438,
+          "max": 0.7975
+        },
+        "bbox_area_fraction_of_canvas": {
+          "min": 0.2435,
+          "p25": 0.2944,
+          "median": 0.4309,
+          "p75": 0.5127,
+          "max": 0.7001
+        }
+      }
+    }
+  },
+  "primary_black_centroid_x": {
+    "min": 0.411,
+    "p25": 0.468,
+    "median": 0.4834,
+    "p75": 0.5023,
+    "max": 0.5548
+  },
+  "primary_black_centroid_y": {
+    "min": 0.4166,
+    "p25": 0.4971,
+    "median": 0.5088,
+    "p75": 0.5142,
+    "max": 0.546
+  },
+  "primary_black_manual_line_count": {
+    "2": 20,
+    "1": 37,
+    "4": 1,
+    "3": 1
+  },
+  "all_manual_line_count": {
+    "2": 27,
+    "1": 51,
+    "3": 3,
+    "4": 1
+  },
+  "primary_black_approx_chromatic_cluster_count": {
+    "0": 19,
+    "1": 37,
+    "2": 2,
+    "4": 1
+  },
+  "excluded_from_primary": [
+    {
+      "index": 25,
+      "file": "Screenshot_2026-10-11-13-01-24-080_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background"
+      ],
+      "confidence": "high"
+    },
+    {
+      "index": 26,
+      "file": "Screenshot_2026-10-11-13-01-26-104_tv.danmaku.bili.jpg",
+      "flags": [
+        "latin_title",
+        "glow"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 27,
+      "file": "Screenshot_2026-10-11-13-01-27-929_tv.danmaku.bili.jpg",
+      "flags": [
+        "decorative_snowflakes"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 29,
+      "file": "Screenshot_2026-10-11-13-01-32-136_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background"
+      ],
+      "confidence": "high"
+    },
+    {
+      "index": 31,
+      "file": "Screenshot_2026-10-11-13-01-35-615_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background",
+        "petals"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "index": 36,
+      "file": "Screenshot_2026-10-11-13-01-45-483_tv.danmaku.bili.jpg",
+      "flags": [
+        "translation_near_descender",
+        "dark_gradient_title"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 41,
+      "file": "Screenshot_2026-10-11-13-01-55-260_tv.danmaku.bili.jpg",
+      "flags": [
+        "latin_title"
+      ],
+      "confidence": "high"
+    },
+    {
+      "index": 43,
+      "file": "Screenshot_2026-10-11-13-01-59-594_tv.danmaku.bili.jpg",
+      "flags": [
+        "purple_gradient_background"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 50,
+      "file": "Screenshot_2026-10-11-13-02-30-453_tv.danmaku.bili.jpg",
+      "flags": [
+        "reflection"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 53,
+      "file": "Screenshot_2026-10-11-13-02-36-202_tv.danmaku.bili.jpg",
+      "flags": [
+        "yellow_gradient_background"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 54,
+      "file": "Screenshot_2026-10-11-13-02-38-105_tv.danmaku.bili.jpg",
+      "flags": [
+        "blood_splatter_background"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "index": 58,
+      "file": "Screenshot_2026-10-11-13-02-45-980_tv.danmaku.bili.jpg",
+      "flags": [
+        "dark_textured_glyphs"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 60,
+      "file": "Screenshot_2026-10-11-13-02-50-037_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background"
+      ],
+      "confidence": "high"
+    },
+    {
+      "index": 62,
+      "file": "Screenshot_2026-10-11-13-02-54-053_tv.danmaku.bili.jpg",
+      "flags": [
+        "warped_multicolor_background"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 64,
+      "file": "Screenshot_2026-10-11-13-02-57-954_tv.danmaku.bili.jpg",
+      "flags": [
+        "glow"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 65,
+      "file": "Screenshot_2026-10-11-13-02-59-988_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background",
+        "very_pale_title"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "index": 69,
+      "file": "Screenshot_2026-10-11-13-03-07-539_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background",
+        "censored_title"
+      ],
+      "confidence": "excluded"
+    },
+    {
+      "index": 70,
+      "file": "Screenshot_2026-10-11-13-03-09-787_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background",
+        "water_background"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "index": 75,
+      "file": "Screenshot_2026-10-11-13-03-19-605_tv.danmaku.bili.jpg",
+      "flags": [
+        "glow",
+        "star_decoration"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 77,
+      "file": "Screenshot_2026-10-11-13-03-23-640_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background"
+      ],
+      "confidence": "high"
+    },
+    {
+      "index": 80,
+      "file": "Screenshot_2026-10-11-13-03-29-595_tv.danmaku.bili.jpg",
+      "flags": [
+        "translation_interleaved",
+        "textured_glyphs"
+      ],
+      "confidence": "low"
+    },
+    {
+      "index": 81,
+      "file": "Screenshot_2026-10-11-13-03-31-528_tv.danmaku.bili.jpg",
+      "flags": [
+        "fractured_rotated_title"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "index": 82,
+      "file": "Screenshot_2026-10-11-13-03-33-536_tv.danmaku.bili.jpg",
+      "flags": [
+        "white_background"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "text_counts_available": false,
+  "glyph_level_statistics_available": false,
+  "notes": "Primary-black subset excludes white cards, Latin-only titles, textured/decorative/glow/overlap variants. Manual line count is visual annotation; all other statistics are threshold-based pixels."
+}

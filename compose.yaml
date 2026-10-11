@@ -1,0 +1,21 @@
+services:
+  title-lab:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      FONT_TTL_SECONDS: "3600"
+      SECURE_COOKIES: "${SECURE_COOKIES:-0}"
+      OPENAI_API_KEY: "${OPENAI_API_KEY:-}"
+      LLM_MODEL: "${LLM_MODEL:-gpt-4.1-mini}"
+      PRIVATE_MODE: "${PRIVATE_MODE:-0}"
+      ADMIN_TOKEN: "${ADMIN_TOKEN:-}"
+      PRIVATE_FONT_DIR: /private-fonts
+    tmpfs: ["/runtime:uid=10001,gid=10001,mode=0700,size=512m"]
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    mem_limit: 2g
+    cpus: 2
+    restart: unless-stopped
+    # Mount administrator-provided fonts only when intentionally using private mode:
+    # volumes: ["/your/private-fonts:/private-fonts:ro"]

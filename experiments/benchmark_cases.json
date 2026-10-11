@@ -1,0 +1,142 @@
+[
+  {
+    "id": "b01",
+    "text": "鎖の音",
+    "reference_id": "s006",
+    "category": "short",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b02",
+    "text": "レム",
+    "reference_id": "s011",
+    "category": "katakana_short",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b03",
+    "text": "待ちかねた再会",
+    "reference_id": "s030",
+    "category": "mixed",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b04",
+    "text": "絶望という病",
+    "reference_id": "s014",
+    "category": "mixed",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b05",
+    "text": "白鯨攻略戦",
+    "reference_id": "s019",
+    "category": "all_kanji",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b06",
+    "text": "命の価値",
+    "reference_id": "s035",
+    "category": "colored_particle",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b07",
+    "text": "ナツキ・スバルのリスタート",
+    "reference_id": "s007",
+    "category": "katakana",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b08",
+    "text": "ヴィルヘルム・ヴァン・アストレア",
+    "reference_id": "s020",
+    "category": "long_name",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b09",
+    "text": "聖域の始まりと、崩壊の始まり",
+    "reference_id": "s048",
+    "category": "punctuation_repeat",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b10",
+    "text": "氷炎の結末",
+    "reference_id": "s055",
+    "category": "contrast",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b11",
+    "text": "最も新しい英雄と最も古い英雄",
+    "reference_id": "s060",
+    "category": "parallel",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b12",
+    "text": "コンビニを出ると、そこは不思議の世界でした",
+    "reference_id": "s078",
+    "category": "long",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b13",
+    "text": "オマエハダレダ",
+    "reference_id": "s079",
+    "category": "katakana_question",
+    "split": "reference_evaluation"
+  },
+  {
+    "id": "b14",
+    "text": "聖域の終わりと、崩壊の始まり",
+    "reference_id": null,
+    "category": "unseen_requested",
+    "split": "unseen_text"
+  },
+  {
+    "id": "b15",
+    "text": "記憶を失った星の旅人",
+    "reference_id": null,
+    "category": "unseen_medium",
+    "split": "unseen_text"
+  },
+  {
+    "id": "b16",
+    "text": "「最後の約束」は、まだ終わらない。",
+    "reference_id": null,
+    "category": "unseen_quotes",
+    "split": "unseen_text"
+  },
+  {
+    "id": "b17",
+    "text": "第7章 ZEROからの再出発",
+    "reference_id": null,
+    "category": "unseen_latin_number",
+    "split": "unseen_text"
+  },
+  {
+    "id": "b18",
+    "text": "いつか、またここで",
+    "reference_id": null,
+    "category": "unseen_hiragana",
+    "split": "unseen_text"
+  },
+  {
+    "id": "b19",
+    "text": "夜明けと黄昏、出会いと別れ",
+    "reference_id": null,
+    "category": "unseen_parallel",
+    "split": "unseen_text"
+  },
+  {
+    "id": "b20",
+    "text": "超電脳都市ネオ・トーキョー",
+    "reference_id": null,
+    "category": "unseen_kanji_katakana",
+    "split": "unseen_text"
+  }
+]

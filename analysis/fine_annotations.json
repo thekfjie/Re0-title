@@ -1,0 +1,1627 @@
+{
+  "schema_version": 1,
+  "coordinate_convention": "half-open XYXY original screenshot pixels",
+  "method": "Original-image visual inspection + existing CV components + manual boundary corrections",
+  "metric_warning": "All relative sizes and ratios are visible ink bounding-box heights. They are NOT font sizes, CSS sizes, or glyph advances.",
+  "uncertainty_warning": "Per-edge errors are conservative manual estimates, not statistical confidence intervals. Color is median visible core RGB, not original authored paint.",
+  "group_warning": "s030 has a four-kana group; its group-height ratio is not directly comparable with a per-character kana median.",
+  "samples": [
+    {
+      "sample_id": "s002",
+      "index": 2,
+      "file": "Screenshot_2026-10-11-12-59-55-775_tv.danmaku.bili.jpg",
+      "source_size": [
+        3200,
+        1440
+      ],
+      "transcribed_text": "再会の魔女",
+      "text_source": "manual transcription after viewing original image",
+      "units": [
+        {
+          "text": "再",
+          "script": "kanji",
+          "component_ids": [
+            1
+          ],
+          "color_label": "white",
+          "visual_role": "secondary_anchor",
+          "bbox_error_per_edge_px": 12,
+          "line": 1,
+          "bbox": [
+            591,
+            603,
+            967,
+            960
+          ],
+          "bbox_basis": "manual_visual_boundary",
+          "confidence": "medium",
+          "unit_kind": "character",
+          "char_span": [
+            0,
+            1
+          ],
+          "ink_bbox_height_px": 357,
+          "height_uncertainty_px": [
+            333,
+            381
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.9177
+        },
+        {
+          "text": "会",
+          "script": "kanji",
+          "component_ids": [
+            1
+          ],
+          "color_label": "white",
+          "visual_role": "secondary_anchor",
+          "bbox_error_per_edge_px": 12,
+          "line": 1,
+          "bbox": [
+            926,
+            640,
+            1318,
+            1037
+          ],
+          "bbox_basis": "manual_visual_boundary",
+          "confidence": "medium",
+          "unit_kind": "character",
+          "char_span": [
+            1,
+            2
+          ],
+          "ink_bbox_height_px": 397,
+          "height_uncertainty_px": [
+            373,
+            421
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.0206
+        },
+        {
+          "text": "の",
+          "script": "hiragana",
+          "component_ids": [
+            3
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1333,
+            651,
+            1666,
+            965
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            2,
+            3
+          ],
+          "ink_bbox_height_px": 314,
+          "height_uncertainty_px": [
+            308,
+            320
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.8072
+        },
+        {
+          "text": "魔",
+          "script": "kanji",
+          "component_ids": [
+            0
+          ],
+          "color_label": "warm_yellow",
+          "visual_role": "dominant_accent_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1683,
+            404,
+            2259,
+            983
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            3,
+            4
+          ],
+          "ink_bbox_height_px": 579,
+          "height_uncertainty_px": [
+            573,
+            585
+          ],
+          "observed_rgb_median": [
+            248.0,
+            210.0,
+            135.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.4884
+        },
+        {
+          "text": "女",
+          "script": "kanji",
+          "component_ids": [
+            2
+          ],
+          "color_label": "white",
+          "visual_role": "secondary_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            2239,
+            650,
+            2608,
+            1031
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            4,
+            5
+          ],
+          "ink_bbox_height_px": 381,
+          "height_uncertainty_px": [
+            375,
+            387
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.9794
+        }
+      ],
+      "median_kanji_ink_bbox_height_px": 389.0,
+      "max_min_ink_height_ratio_including_punctuation": 1.8439,
+      "max_min_ink_height_ratio_excluding_punctuation": 1.8439,
+      "max_min_ink_height_ratio_including_punctuation_bbox_error_range": [
+        1.7906,
+        1.8994
+      ],
+      "max_min_ink_height_ratio_excluding_punctuation_bbox_error_range": [
+        1.7906,
+        1.8994
+      ],
+      "kanji_kana_median_ink_height_ratio": {
+        "value": 1.2389,
+        "approx_bbox_error_range": [
+          1.1687,
+          1.3117
+        ],
+        "numerator_median_ink_height_px": 389.0,
+        "denominator_median_ink_height_px": 314.0
+      },
+      "kana_ratio_unit_basis": "individual kana bboxes",
+      "confidence": "medium",
+      "notes": [
+        "再/会 share a connected ink component; manual overlapping boxes preserve their staggered heights."
+      ],
+      "not_font_size": true
+    },
+    {
+      "sample_id": "s006",
+      "index": 6,
+      "file": "Screenshot_2026-10-11-13-00-07-343_tv.danmaku.bili.jpg",
+      "source_size": [
+        3200,
+        1440
+      ],
+      "transcribed_text": "鎖の音",
+      "text_source": "manual transcription after viewing original image",
+      "units": [
+        {
+          "text": "鎖",
+          "script": "kanji",
+          "component_ids": [
+            0
+          ],
+          "color_label": "pink",
+          "visual_role": "primary_accent_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1083,
+            489,
+            1512,
+            926
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            0,
+            1
+          ],
+          "ink_bbox_height_px": 437,
+          "height_uncertainty_px": [
+            431,
+            443
+          ],
+          "observed_rgb_median": [
+            243.0,
+            178.0,
+            209.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.0698
+        },
+        {
+          "text": "の",
+          "script": "hiragana",
+          "component_ids": [
+            1
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 12,
+          "line": 1,
+          "bbox": [
+            1525,
+            655,
+            1768,
+            872
+          ],
+          "bbox_basis": "manual_visual_boundary",
+          "confidence": "medium",
+          "unit_kind": "character",
+          "char_span": [
+            1,
+            2
+          ],
+          "ink_bbox_height_px": 217,
+          "height_uncertainty_px": [
+            193,
+            241
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.5312
+        },
+        {
+          "text": "音",
+          "script": "kanji",
+          "component_ids": [
+            1,
+            2
+          ],
+          "color_label": "white",
+          "visual_role": "secondary_anchor",
+          "bbox_error_per_edge_px": 12,
+          "line": 1,
+          "bbox": [
+            1758,
+            570,
+            2117,
+            950
+          ],
+          "bbox_basis": "manual_visual_boundary",
+          "confidence": "medium",
+          "unit_kind": "character",
+          "char_span": [
+            2,
+            3
+          ],
+          "ink_bbox_height_px": 380,
+          "height_uncertainty_px": [
+            356,
+            404
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.9302
+        }
+      ],
+      "median_kanji_ink_bbox_height_px": 408.5,
+      "max_min_ink_height_ratio_including_punctuation": 2.0138,
+      "max_min_ink_height_ratio_excluding_punctuation": 2.0138,
+      "max_min_ink_height_ratio_including_punctuation_bbox_error_range": [
+        1.7884,
+        2.2953
+      ],
+      "max_min_ink_height_ratio_excluding_punctuation_bbox_error_range": [
+        1.7884,
+        2.2953
+      ],
+      "kanji_kana_median_ink_height_ratio": {
+        "value": 1.8825,
+        "approx_bbox_error_range": [
+          1.6328,
+          2.1943
+        ],
+        "numerator_median_ink_height_px": 408.5,
+        "denominator_median_ink_height_px": 217.0
+      },
+      "kana_ratio_unit_basis": "individual kana bboxes",
+      "confidence": "medium",
+      "notes": [
+        "の touches the upper portion of 音. Its border and the left edge of 音 require visual correction."
+      ],
+      "not_font_size": true
+    },
+    {
+      "sample_id": "s014",
+      "index": 14,
+      "file": "Screenshot_2026-10-11-13-00-23-186_tv.danmaku.bili.jpg",
+      "source_size": [
+        3200,
+        1440
+      ],
+      "transcribed_text": "絶望という病",
+      "text_source": "manual transcription after viewing original image",
+      "units": [
+        {
+          "text": "絶",
+          "script": "kanji",
+          "component_ids": [
+            1
+          ],
+          "color_label": "white",
+          "visual_role": "primary_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            602,
+            487,
+            1039,
+            930
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            0,
+            1
+          ],
+          "ink_bbox_height_px": 443,
+          "height_uncertainty_px": [
+            437,
+            449
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.0
+        },
+        {
+          "text": "望",
+          "script": "kanji",
+          "component_ids": [
+            3
+          ],
+          "color_label": "white",
+          "visual_role": "secondary_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1057,
+            582,
+            1407,
+            951
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            1,
+            2
+          ],
+          "ink_bbox_height_px": 369,
+          "height_uncertainty_px": [
+            363,
+            375
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.833
+        },
+        {
+          "text": "と",
+          "script": "hiragana",
+          "component_ids": [
+            4
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1429,
+            618,
+            1614,
+            883
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            2,
+            3
+          ],
+          "ink_bbox_height_px": 265,
+          "height_uncertainty_px": [
+            259,
+            271
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.5982
+        },
+        {
+          "text": "い",
+          "script": "hiragana",
+          "component_ids": [
+            6,
+            7
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1636,
+            718,
+            1927,
+            939
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            3,
+            4
+          ],
+          "ink_bbox_height_px": 221,
+          "height_uncertainty_px": [
+            215,
+            227
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.4989
+        },
+        {
+          "text": "う",
+          "script": "hiragana",
+          "component_ids": [
+            2,
+            5
+          ],
+          "color_label": "white",
+          "visual_role": "connector_with_tall_ink_extent",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1905,
+            547,
+            2103,
+            908
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            4,
+            5
+          ],
+          "ink_bbox_height_px": 361,
+          "height_uncertainty_px": [
+            355,
+            367
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.8149
+        },
+        {
+          "text": "病",
+          "script": "kanji",
+          "component_ids": [
+            0
+          ],
+          "color_label": "light_blue",
+          "visual_role": "primary_accent_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            2113,
+            470,
+            2597,
+            970
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            5,
+            6
+          ],
+          "ink_bbox_height_px": 500,
+          "height_uncertainty_px": [
+            494,
+            506
+          ],
+          "observed_rgb_median": [
+            167.0,
+            215.0,
+            251.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.1287
+        }
+      ],
+      "median_kanji_ink_bbox_height_px": 443.0,
+      "max_min_ink_height_ratio_including_punctuation": 2.2624,
+      "max_min_ink_height_ratio_excluding_punctuation": 2.2624,
+      "max_min_ink_height_ratio_including_punctuation_bbox_error_range": [
+        2.1762,
+        2.3535
+      ],
+      "max_min_ink_height_ratio_excluding_punctuation_bbox_error_range": [
+        2.1762,
+        2.3535
+      ],
+      "kanji_kana_median_ink_height_ratio": {
+        "value": 1.6717,
+        "approx_bbox_error_range": [
+          1.6125,
+          1.7336
+        ],
+        "numerator_median_ink_height_px": 443.0,
+        "denominator_median_ink_height_px": 265.0
+      },
+      "kana_ratio_unit_basis": "individual kana bboxes",
+      "confidence": "high",
+      "notes": [
+        "い and う each have disconnected stroke components; each annotation unions its own strokes. A tall う ink box does not prove larger font size."
+      ],
+      "not_font_size": true
+    },
+    {
+      "sample_id": "s030",
+      "index": 30,
+      "file": "Screenshot_2026-10-11-13-01-33-652_tv.danmaku.bili.jpg",
+      "source_size": [
+        3200,
+        1440
+      ],
+      "transcribed_text": "待ちかねた再会",
+      "text_source": "manual transcription after viewing original image",
+      "units": [
+        {
+          "text": "待",
+          "script": "kanji",
+          "component_ids": [
+            0,
+            1
+          ],
+          "color_label": "dark_blue",
+          "visual_role": "left_accent_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            890,
+            571,
+            1173,
+            860
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            0,
+            1
+          ],
+          "ink_bbox_height_px": 289,
+          "height_uncertainty_px": [
+            283,
+            295
+          ],
+          "observed_rgb_median": [
+            56.0,
+            99.0,
+            179.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.1333
+        },
+        {
+          "text": "ちかねた",
+          "script": "hiragana",
+          "component_ids": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            10
+          ],
+          "color_label": "white",
+          "visual_role": "connector_group",
+          "bbox_error_per_edge_px": 5,
+          "line": 1,
+          "bbox": [
+            1170,
+            648,
+            1815,
+            861
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "hiragana_group",
+          "char_span": [
+            1,
+            5
+          ],
+          "ink_bbox_height_px": 213,
+          "height_uncertainty_px": [
+            203,
+            223
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.8353
+        },
+        {
+          "text": "再",
+          "script": "kanji",
+          "component_ids": [
+            2
+          ],
+          "color_label": "pink",
+          "visual_role": "right_accent_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1826,
+            576,
+            2079,
+            831
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            5,
+            6
+          ],
+          "ink_bbox_height_px": 255,
+          "height_uncertainty_px": [
+            249,
+            261
+          ],
+          "observed_rgb_median": [
+            243.0,
+            179.0,
+            207.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.0
+        },
+        {
+          "text": "会",
+          "script": "kanji",
+          "component_ids": [
+            3,
+            9
+          ],
+          "color_label": "white",
+          "visual_role": "secondary_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            2080,
+            646,
+            2304,
+            877
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            6,
+            7
+          ],
+          "ink_bbox_height_px": 231,
+          "height_uncertainty_px": [
+            225,
+            237
+          ],
+          "observed_rgb_median": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.9059
+        }
+      ],
+      "median_kanji_ink_bbox_height_px": 255.0,
+      "max_min_ink_height_ratio_including_punctuation": 1.3568,
+      "max_min_ink_height_ratio_excluding_punctuation": 1.3568,
+      "max_min_ink_height_ratio_including_punctuation_bbox_error_range": [
+        1.2691,
+        1.4532
+      ],
+      "max_min_ink_height_ratio_excluding_punctuation_bbox_error_range": [
+        1.2691,
+        1.4532
+      ],
+      "kanji_kana_median_ink_height_ratio": {
+        "value": 1.1972,
+        "approx_bbox_error_range": [
+          1.1166,
+          1.2857
+        ],
+        "numerator_median_ink_height_px": 255.0,
+        "denominator_median_ink_height_px": 213.0
+      },
+      "kana_ratio_unit_basis": "kana group bbox",
+      "confidence": "high",
+      "notes": [
+        "ち and か share a connected component. The complete continuous small-kana span ちかねた is retained as one group; no invented individual glyph boxes."
+      ],
+      "not_font_size": true
+    },
+    {
+      "sample_id": "s035",
+      "index": 35,
+      "file": "Screenshot_2026-10-11-13-01-43-368_tv.danmaku.bili.jpg",
+      "source_size": [
+        3200,
+        1440
+      ],
+      "transcribed_text": "命の価値",
+      "text_source": "manual transcription after viewing original image",
+      "units": [
+        {
+          "text": "命",
+          "script": "kanji",
+          "component_ids": [
+            0
+          ],
+          "color_label": "light_gray",
+          "visual_role": "primary_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1064,
+            520,
+            1452,
+            921
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            0,
+            1
+          ],
+          "ink_bbox_height_px": 401,
+          "height_uncertainty_px": [
+            395,
+            407
+          ],
+          "observed_rgb_median": [
+            235.0,
+            235.0,
+            235.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.427
+        },
+        {
+          "text": "の",
+          "script": "hiragana",
+          "component_ids": [
+            2
+          ],
+          "color_label": "red",
+          "visual_role": "accent_connector",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1431,
+            697,
+            1625,
+            860
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            1,
+            2
+          ],
+          "ink_bbox_height_px": 163,
+          "height_uncertainty_px": [
+            157,
+            169
+          ],
+          "observed_rgb_median": [
+            191.0,
+            40.0,
+            27.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.5801
+        },
+        {
+          "text": "価",
+          "script": "kanji",
+          "component_ids": [
+            1
+          ],
+          "color_label": "white",
+          "visual_role": "secondary_anchor",
+          "bbox_error_per_edge_px": 12,
+          "line": 1,
+          "bbox": [
+            1600,
+            572,
+            1890,
+            853
+          ],
+          "bbox_basis": "manual_visual_boundary",
+          "confidence": "medium",
+          "unit_kind": "character",
+          "char_span": [
+            2,
+            3
+          ],
+          "ink_bbox_height_px": 281,
+          "height_uncertainty_px": [
+            257,
+            305
+          ],
+          "observed_rgb_median": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.0
+        },
+        {
+          "text": "値",
+          "script": "kanji",
+          "component_ids": [
+            1,
+            3
+          ],
+          "color_label": "white",
+          "visual_role": "secondary_anchor",
+          "bbox_error_per_edge_px": 12,
+          "line": 1,
+          "bbox": [
+            1870,
+            619,
+            2137,
+            900
+          ],
+          "bbox_basis": "manual_visual_boundary",
+          "confidence": "medium",
+          "unit_kind": "character",
+          "char_span": [
+            3,
+            4
+          ],
+          "ink_bbox_height_px": 281,
+          "height_uncertainty_px": [
+            257,
+            305
+          ],
+          "observed_rgb_median": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.0
+        }
+      ],
+      "median_kanji_ink_bbox_height_px": 281.0,
+      "max_min_ink_height_ratio_including_punctuation": 2.4601,
+      "max_min_ink_height_ratio_excluding_punctuation": 2.4601,
+      "max_min_ink_height_ratio_including_punctuation_bbox_error_range": [
+        2.3373,
+        2.5924
+      ],
+      "max_min_ink_height_ratio_excluding_punctuation_bbox_error_range": [
+        2.3373,
+        2.5924
+      ],
+      "kanji_kana_median_ink_height_ratio": {
+        "value": 1.7239,
+        "approx_bbox_error_range": [
+          1.5207,
+          1.9427
+        ],
+        "numerator_median_ink_height_px": 281.0,
+        "denominator_median_ink_height_px": 163.0
+      },
+      "kana_ratio_unit_basis": "individual kana bboxes",
+      "confidence": "medium",
+      "notes": [
+        "価/値 touch and share a connected component. Their visual boxes are manually corrected and have larger uncertainty."
+      ],
+      "not_font_size": true
+    },
+    {
+      "sample_id": "s048",
+      "index": 48,
+      "file": "Screenshot_2026-10-11-13-02-26-450_tv.danmaku.bili.jpg",
+      "source_size": [
+        3200,
+        1440
+      ],
+      "transcribed_text": "聖域の始まりと、崩壊の始まり",
+      "text_source": "manual transcription after viewing original image",
+      "units": [
+        {
+          "text": "聖",
+          "script": "kanji",
+          "component_ids": [
+            0,
+            2,
+            5
+          ],
+          "color_label": "pink",
+          "visual_role": "first_phrase_accent_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1123,
+            232,
+            1388,
+            501
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            0,
+            1
+          ],
+          "ink_bbox_height_px": 269,
+          "height_uncertainty_px": [
+            263,
+            275
+          ],
+          "observed_rgb_median": [
+            247.0,
+            206.0,
+            228.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.1208
+        },
+        {
+          "text": "域",
+          "script": "kanji",
+          "component_ids": [
+            1,
+            4
+          ],
+          "color_label": "white",
+          "visual_role": "first_phrase_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1388,
+            232,
+            1635,
+            478
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            1,
+            2
+          ],
+          "ink_bbox_height_px": 246,
+          "height_uncertainty_px": [
+            240,
+            252
+          ],
+          "observed_rgb_median": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.025
+        },
+        {
+          "text": "の",
+          "script": "hiragana",
+          "component_ids": [
+            3
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 3,
+          "line": 1,
+          "bbox": [
+            1621,
+            307,
+            1790,
+            449
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            2,
+            3
+          ],
+          "ink_bbox_height_px": 142,
+          "height_uncertainty_px": [
+            136,
+            148
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.5917
+        },
+        {
+          "text": "始",
+          "script": "kanji",
+          "component_ids": [
+            6
+          ],
+          "color_label": "white",
+          "visual_role": "concept_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 2,
+          "bbox": [
+            1444,
+            485,
+            1654,
+            702
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            3,
+            4
+          ],
+          "ink_bbox_height_px": 217,
+          "height_uncertainty_px": [
+            211,
+            223
+          ],
+          "observed_rgb_median": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.9042
+        },
+        {
+          "text": "ま",
+          "script": "hiragana",
+          "component_ids": [
+            8
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 3,
+          "line": 2,
+          "bbox": [
+            1651,
+            509,
+            1788,
+            700
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            4,
+            5
+          ],
+          "ink_bbox_height_px": 191,
+          "height_uncertainty_px": [
+            185,
+            197
+          ],
+          "observed_rgb_median": [
+            254.0,
+            254.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.7958
+        },
+        {
+          "text": "り",
+          "script": "hiragana",
+          "component_ids": [
+            7
+          ],
+          "color_label": "pink",
+          "visual_role": "kana_accent",
+          "bbox_error_per_edge_px": 3,
+          "line": 2,
+          "bbox": [
+            1790,
+            494,
+            1893,
+            684
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            5,
+            6
+          ],
+          "ink_bbox_height_px": 190,
+          "height_uncertainty_px": [
+            184,
+            196
+          ],
+          "observed_rgb_median": [
+            247.0,
+            206.0,
+            226.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.7917
+        },
+        {
+          "text": "と",
+          "script": "hiragana",
+          "component_ids": [
+            9
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 3,
+          "line": 2,
+          "bbox": [
+            1904,
+            554,
+            2009,
+            700
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            6,
+            7
+          ],
+          "ink_bbox_height_px": 146,
+          "height_uncertainty_px": [
+            140,
+            152
+          ],
+          "observed_rgb_median": [
+            254.0,
+            253.0,
+            253.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.6083
+        },
+        {
+          "text": "、",
+          "script": "punctuation",
+          "component_ids": [
+            10
+          ],
+          "color_label": "white",
+          "visual_role": "offset_punctuation",
+          "bbox_error_per_edge_px": 3,
+          "line": 2,
+          "bbox": [
+            2030,
+            662,
+            2077,
+            706
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            7,
+            8
+          ],
+          "ink_bbox_height_px": 44,
+          "height_uncertainty_px": [
+            38,
+            50
+          ],
+          "observed_rgb_median": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.1833
+        },
+        {
+          "text": "崩",
+          "script": "kanji",
+          "component_ids": [
+            11,
+            13
+          ],
+          "color_label": "white",
+          "visual_role": "second_phrase_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 3,
+          "bbox": [
+            1220,
+            731,
+            1471,
+            1000
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            8,
+            9
+          ],
+          "ink_bbox_height_px": 269,
+          "height_uncertainty_px": [
+            263,
+            275
+          ],
+          "observed_rgb_median": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 1.1208
+        },
+        {
+          "text": "壊",
+          "script": "kanji",
+          "component_ids": [
+            12
+          ],
+          "color_label": "pink",
+          "visual_role": "second_phrase_accent_anchor",
+          "bbox_error_per_edge_px": 6,
+          "line": 3,
+          "bbox": [
+            1477,
+            731,
+            1702,
+            959
+          ],
+          "bbox_basis": "manual_visual_boundary",
+          "confidence": "medium",
+          "unit_kind": "character",
+          "char_span": [
+            9,
+            10
+          ],
+          "ink_bbox_height_px": 228,
+          "height_uncertainty_px": [
+            216,
+            240
+          ],
+          "observed_rgb_median": [
+            247.0,
+            206.0,
+            227.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.95
+        },
+        {
+          "text": "の",
+          "script": "hiragana",
+          "component_ids": [
+            12
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 6,
+          "line": 3,
+          "bbox": [
+            1691,
+            823,
+            1840,
+            940
+          ],
+          "bbox_basis": "manual_visual_boundary",
+          "confidence": "medium",
+          "unit_kind": "character",
+          "char_span": [
+            10,
+            11
+          ],
+          "ink_bbox_height_px": 117,
+          "height_uncertainty_px": [
+            105,
+            129
+          ],
+          "observed_rgb_median": [
+            254.0,
+            253.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.4875
+        },
+        {
+          "text": "始",
+          "script": "kanji",
+          "component_ids": [
+            14
+          ],
+          "color_label": "white",
+          "visual_role": "concept_anchor",
+          "bbox_error_per_edge_px": 3,
+          "line": 4,
+          "bbox": [
+            1578,
+            959,
+            1807,
+            1193
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            11,
+            12
+          ],
+          "ink_bbox_height_px": 234,
+          "height_uncertainty_px": [
+            228,
+            240
+          ],
+          "observed_rgb_median": [
+            255.0,
+            255.0,
+            255.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.975
+        },
+        {
+          "text": "ま",
+          "script": "hiragana",
+          "component_ids": [
+            15
+          ],
+          "color_label": "pink",
+          "visual_role": "kana_accent",
+          "bbox_error_per_edge_px": 3,
+          "line": 4,
+          "bbox": [
+            1809,
+            974,
+            1946,
+            1165
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            12,
+            13
+          ],
+          "ink_bbox_height_px": 191,
+          "height_uncertainty_px": [
+            185,
+            197
+          ],
+          "observed_rgb_median": [
+            247.0,
+            207.0,
+            225.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.7958
+        },
+        {
+          "text": "り",
+          "script": "hiragana",
+          "component_ids": [
+            16
+          ],
+          "color_label": "white",
+          "visual_role": "connector",
+          "bbox_error_per_edge_px": 3,
+          "line": 4,
+          "bbox": [
+            1958,
+            1009,
+            2061,
+            1209
+          ],
+          "bbox_basis": "visually_assigned_component_union",
+          "confidence": "high",
+          "unit_kind": "character",
+          "char_span": [
+            13,
+            14
+          ],
+          "ink_bbox_height_px": 200,
+          "height_uncertainty_px": [
+            194,
+            206
+          ],
+          "observed_rgb_median": [
+            255.0,
+            253.0,
+            254.0
+          ],
+          "visual_role_basis": "manual visual hierarchy, not an LLM semantic prediction",
+          "font_size": null,
+          "font_family": null,
+          "ink_height_relative_to_median_kanji": 0.8333
+        }
+      ],
+      "median_kanji_ink_bbox_height_px": 240.0,
+      "max_min_ink_height_ratio_including_punctuation": 6.1136,
+      "max_min_ink_height_ratio_excluding_punctuation": 2.2991,
+      "max_min_ink_height_ratio_including_punctuation_bbox_error_range": [
+        5.26,
+        7.2368
+      ],
+      "max_min_ink_height_ratio_excluding_punctuation_bbox_error_range": [
+        2.0388,
+        2.619
+      ],
+      "kanji_kana_median_ink_height_ratio": {
+        "value": 1.2632,
+        "approx_bbox_error_range": [
+          1.1939,
+          1.337
+        ],
+        "numerator_median_ink_height_px": 240.0,
+        "denominator_median_ink_height_px": 190.0
+      },
+      "kana_ratio_unit_basis": "individual kana bboxes",
+      "confidence": "medium",
+      "notes": [
+        "壊/の share a component but have different colors; visual/color separation corrects their boxes. The first り and second ま are pink, showing kana can carry emphasis. Punctuation is independently offset."
+      ],
+      "not_font_size": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "build": "passed",
+  "runtime": "read_only+tmpfs+nonroot",
+  "otf_upload": "passed",
+  "render_candidates": 4,
+  "png_download": "passed",
+  "font_download_route": "absent"
+}

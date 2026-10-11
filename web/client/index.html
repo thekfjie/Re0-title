@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="参考样本驱动的日文标题排版。上传字体，生成多个 PNG / SVG 候选。"><title>字幕 · 日文标题实验室</title><link rel="stylesheet" href="/style.css"><link rel="icon" href="/favicon.svg"></head>
+<body>
+<header><h1>日文标题排版</h1><nav><a href="/benchmark/">A / B 对照</a><a href="/research.html">研究</a></nav></header>
+<main>
+<div class="workspace">
+<aside class="controls">
+<form id="form">
+<label class="field-label" for="text">标题 <span id="length">18 / 80</span></label>
+<textarea id="text" rows="4" maxlength="80" spellcheck="false">聖域の終わりと、崩壊の始まり</textarea>
+<div class="examples"><button type="button" data-text="待ちかねた再会">待ちかねた再会</button><button type="button" data-text="絶望という病">絶望という病</button><button type="button" data-text="命の価値">命の価値</button></div>
+<div class="field-label">字体</div>
+<label class="upload" for="kanji"><div><b>主体字体</b><small id="kanji-name">选择 .ttf / .otf · 最大 24 MiB</small></div><span class="upload-plus">＋</span></label><input id="kanji" type="file" accept=".ttf,.otf" class="file-input">
+<label class="upload secondary" for="kana"><div><b>假名字体（可选）</b><small id="kana-name">未选择时使用主体字体</small></div><span class="upload-plus">＋</span></label><input id="kana" type="file" accept=".ttf,.otf" class="file-input">
+<p class="font-note" id="privacy-note">字体仅在本机处理。请确认拥有使用权。</p>
+<div class="field-label">设置</div>
+<div class="mode-switch" role="group" aria-label="算法模式"><button type="button" class="active" data-mode="classic"><b>A</b> 规则排版</button><button type="button" data-mode="llm"><b>B</b> 语义辅助</button></div>
+<p id="mode-note" class="mode-note">A 无大模型依赖。B 的在线 API 尚未配置。</p>
+<div class="palette-label">强调色</div><div class="palette-switch"><button type="button" data-palette="night" class="active" aria-label="蓝粉"><i style="background:#78b8e2"></i><i style="background:#e9a8cd"></i>蓝 / 粉</button><button type="button" data-palette="violet" aria-label="紫黄"><i style="background:#b3a3e3"></i><i style="background:#f0d27a"></i>紫 / 黄</button><button type="button" data-palette="crimson" aria-label="红灰"><i style="background:#c7343c"></i><i style="background:#75737e"></i>红 / 灰</button><button type="button" data-palette="monochrome" aria-label="灰白"><i style="background:#a2a0ad"></i><i style="background:#f6f5f3"></i>灰 / 白</button></div>
+<div class="inline-settings"><label>候选<select id="count"><option>4</option><option selected>6</option><option>8</option></select></label><label>Seed<input id="seed" type="number" min="0" max="2147483647" value="42"></label></div>
+<details><summary>画布与导出设置</summary><div class="inline-settings"><label>宽<input id="width" type="number" value="1200" min="256" max="2400"></label><label>高<input id="height" type="number" value="675" min="256" max="2400"></label></div><label class="check"><input id="transparent" type="checkbox"> 导出透明背景</label></details>
+<button class="generate" type="submit" id="generate" disabled><span>生成</span></button>
+<div id="status" role="status" aria-live="polite">正在加载字体引擎与日文词典…</div>
+<button type="button" id="clear" class="clear">清理本次字体与结果</button>
+</form>
+</aside>
+<section class="output"><div class="output-top"><h2>候选 <span id="result-count"></span></h2><span id="runtime" class="runtime" hidden></span></div><div id="gallery" class="gallery"><article class="sample-card"><img src="/demo.png" alt="标题排版示例"><div class="sample-caption">示例</div></article></div></section>
+</div>
+</main>
+<script type="module" src="/app.js"></script>
+</body></html>

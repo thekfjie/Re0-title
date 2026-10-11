@@ -1,0 +1,90 @@
+version: 1
+canvas:
+  width: 1200
+  height: 675
+  margin: 0.1
+  target_box_fill: 0.29
+search:
+  beam_width: 32
+  per_family: 4
+  max_lines: 5
+  anneal_steps: 32
+  temperature: 0.06
+  cooling: 0.94
+scale_regimes:
+- 0.72
+- 1.0
+- 1.32
+style:
+  optical_kerning: true
+  optical_target_gap: 0.06
+  primary_size: 1.3
+  secondary_size: 1.02
+  kana_size: 0.69
+  particle_size: 0.61
+  punctuation_size: 0.42
+  font_size_base: 100
+  min_scale_x: 0.85
+  max_scale_x: 1.04
+  optical_gap: 0.055
+  optical_min_distance: 0.035
+  row_gap: 0.13
+  line_height: 1.06
+  accent_budget: 2
+heuristics:
+  pos:
+    noun: 0.44
+    verb: 0.39
+    modifier: 0.35
+    particle: 0.1
+    connector: 0.12
+    punctuation: 0.03
+    other: 0.35
+  kanji_bonus: 0.26
+  length_bonus: 0.03
+  repeated_bonus: 0.1
+  edge_bonus: 0.06
+  primary_threshold: 0.62
+  variant: balanced
+families:
+  compact_anchor:
+    lines:
+    - 1
+    max_chars: 7
+    fill: 0.1765
+    offset: 0.0
+    baseline_shift: 0.08
+  interwoven:
+    lines:
+    - 1
+    - 2
+    max_chars: 30
+    fill: 0.1918
+    offset: 0.0
+    baseline_shift: 0.16
+  wide_block:
+    lines:
+    - 1
+    - 2
+    max_chars: 40
+    fill: 0.28
+    offset: 0.0
+    baseline_shift: 0.04
+  offset_stack:
+    lines:
+    - 2
+    - 3
+    - 4
+    max_chars: 80
+    fill: 0.4243
+    offset: 0.18
+    baseline_shift: 0.1
+  alternating_steps:
+    lines:
+    - 3
+    - 4
+    - 5
+    max_chars: 80
+    fill: 0.36
+    offset: 0.25
+    baseline_shift: 0.12

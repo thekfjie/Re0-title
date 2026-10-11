@@ -1,0 +1,4975 @@
+{
+  "experiment": "Same texts, uniform-size typeface/script-role controls",
+  "texts": [
+    "待ちかねた再会",
+    "聖域の終わりと、崩壊の始まり"
+  ],
+  "render_px": 144,
+  "specimen_px": 72,
+  "raster_alpha_threshold": 16,
+  "renderer": "Pillow with RAQM (FreeType/HarfBuzz via RAQM)",
+  "pillow_version": "10.2.0",
+  "measurement_population": "Unique characters from both fixed texts",
+  "fonts": [
+    {
+      "id": "mplus2-black",
+      "label": "M PLUS 2 / Black (900)",
+      "vertical_metrics": {
+        "hhea_ascent_em": 1.16,
+        "hhea_descent_em": -0.288,
+        "hhea_line_gap_em": 0.0,
+        "typo_ascent_em": 0.88,
+        "typo_descent_em": -0.12,
+        "win_ascent_em": 1.16,
+        "win_descent_em": 0.288,
+        "pillow_ascent_px": 168,
+        "pillow_descent_px": 42
+      },
+      "glyphs": [
+        {
+          "character": "か",
+          "script": "hiragana",
+          "glyph_name": "uni304B",
+          "outline_bbox_font_units": [
+            20,
+            -70,
+            995,
+            825
+          ],
+          "outline_bbox_em": [
+            0.02,
+            -0.07,
+            0.995,
+            0.825
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.02,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -119,
+              144,
+              10
+            ],
+            "width_em": 0.9861111111111112,
+            "height_em": 0.8958333333333334,
+            "top_em": -0.8263888888888888,
+            "bottom_em": 0.06944444444444445,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4841338734567901
+          }
+        },
+        {
+          "character": "た",
+          "script": "hiragana",
+          "glyph_name": "uni305F",
+          "outline_bbox_font_units": [
+            60,
+            -75,
+            930,
+            810
+          ],
+          "outline_bbox_em": [
+            0.06,
+            -0.075,
+            0.93,
+            0.81
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.06,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -117,
+              134,
+              11
+            ],
+            "width_em": 0.875,
+            "height_em": 0.8888888888888888,
+            "top_em": -0.8125,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3680555555555556,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4578993055555556
+          }
+        },
+        {
+          "character": "ち",
+          "script": "hiragana",
+          "glyph_name": "uni3061",
+          "outline_bbox_font_units": [
+            70,
+            -55,
+            930,
+            810
+          ],
+          "outline_bbox_em": [
+            0.07,
+            -0.055,
+            0.93,
+            0.81
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.07,
+          "raster": {
+            "bbox_px_baseline": [
+              10,
+              -117,
+              134,
+              8
+            ],
+            "width_em": 0.8611111111111112,
+            "height_em": 0.8680555555555556,
+            "top_em": -0.8125,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4458912037037037
+          }
+        },
+        {
+          "character": "と",
+          "script": "hiragana",
+          "glyph_name": "uni3068",
+          "outline_bbox_font_units": [
+            105,
+            -70,
+            859,
+            790
+          ],
+          "outline_bbox_em": [
+            0.105,
+            -0.07,
+            0.859,
+            0.79
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.105,
+          "raster": {
+            "bbox_px_baseline": [
+              15,
+              -114,
+              124,
+              11
+            ],
+            "width_em": 0.7569444444444444,
+            "height_em": 0.8680555555555556,
+            "top_em": -0.7916666666666666,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3576388888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.33699845679012347
+          }
+        },
+        {
+          "character": "ね",
+          "script": "hiragana",
+          "glyph_name": "uni306D",
+          "outline_bbox_font_units": [
+            20,
+            -75,
+            995,
+            795
+          ],
+          "outline_bbox_em": [
+            0.02,
+            -0.075,
+            0.995,
+            0.795
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.02,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -115,
+              144,
+              11
+            ],
+            "width_em": 0.9791666666666666,
+            "height_em": 0.875,
+            "top_em": -0.7986111111111112,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3611111111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5305748456790124
+          }
+        },
+        {
+          "character": "の",
+          "script": "hiragana",
+          "glyph_name": "uni306E",
+          "outline_bbox_font_units": [
+            40,
+            -48,
+            960,
+            760
+          ],
+          "outline_bbox_em": [
+            0.04,
+            -0.048,
+            0.96,
+            0.76
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.04,
+          "raster": {
+            "bbox_px_baseline": [
+              5,
+              -110,
+              139,
+              7
+            ],
+            "width_em": 0.9305555555555556,
+            "height_em": 0.8125,
+            "top_em": -0.7638888888888888,
+            "bottom_em": 0.04861111111111111,
+            "center_y_em": -0.3576388888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4734278549382716
+          }
+        },
+        {
+          "character": "ま",
+          "script": "hiragana",
+          "glyph_name": "uni307E",
+          "outline_bbox_font_units": [
+            100,
+            -70,
+            910,
+            800
+          ],
+          "outline_bbox_em": [
+            0.1,
+            -0.07,
+            0.91,
+            0.8
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.1,
+          "raster": {
+            "bbox_px_baseline": [
+              14,
+              -116,
+              131,
+              11
+            ],
+            "width_em": 0.8125,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8055555555555556,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3645833333333333,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5055941358024691
+          }
+        },
+        {
+          "character": "り",
+          "script": "hiragana",
+          "glyph_name": "uni308A",
+          "outline_bbox_font_units": [
+            125,
+            -65,
+            900,
+            775
+          ],
+          "outline_bbox_em": [
+            0.125,
+            -0.065,
+            0.9,
+            0.775
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.125,
+          "raster": {
+            "bbox_px_baseline": [
+              18,
+              -112,
+              130,
+              10
+            ],
+            "width_em": 0.7777777777777778,
+            "height_em": 0.8472222222222222,
+            "top_em": -0.7777777777777778,
+            "bottom_em": 0.06944444444444445,
+            "center_y_em": -0.3541666666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.38580246913580246
+          }
+        },
+        {
+          "character": "わ",
+          "script": "hiragana",
+          "glyph_name": "uni308F",
+          "outline_bbox_font_units": [
+            15,
+            -75,
+            960,
+            795
+          ],
+          "outline_bbox_em": [
+            0.015,
+            -0.075,
+            0.96,
+            0.795
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.015,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -115,
+              139,
+              11
+            ],
+            "width_em": 0.9513888888888888,
+            "height_em": 0.875,
+            "top_em": -0.7986111111111112,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3611111111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.48505015432098764
+          }
+        },
+        {
+          "character": "会",
+          "script": "kanji",
+          "glyph_name": "uni4F1A",
+          "outline_bbox_font_units": [
+            5,
+            -120,
+            995,
+            815
+          ],
+          "outline_bbox_em": [
+            0.005,
+            -0.12,
+            0.995,
+            0.815
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.005,
+          "raster": {
+            "bbox_px_baseline": [
+              0,
+              -118,
+              144,
+              18
+            ],
+            "width_em": 1.0,
+            "height_em": 0.9444444444444444,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.125,
+            "center_y_em": -0.3472222222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5735435956790124
+          }
+        },
+        {
+          "character": "再",
+          "script": "kanji",
+          "glyph_name": "uni518D",
+          "outline_bbox_font_units": [
+            20,
+            -100,
+            980,
+            800
+          ],
+          "outline_bbox_em": [
+            0.02,
+            -0.1,
+            0.98,
+            0.8
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.02,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -116,
+              142,
+              15
+            ],
+            "width_em": 0.9722222222222222,
+            "height_em": 0.9097222222222222,
+            "top_em": -0.8055555555555556,
+            "bottom_em": 0.10416666666666667,
+            "center_y_em": -0.3506944444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6451099537037037
+          }
+        },
+        {
+          "character": "域",
+          "script": "kanji",
+          "glyph_name": "uni57DF",
+          "outline_bbox_font_units": [
+            15,
+            -100,
+            990,
+            845
+          ],
+          "outline_bbox_em": [
+            0.015,
+            -0.1,
+            0.99,
+            0.845
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.015,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -122,
+              143,
+              15
+            ],
+            "width_em": 0.9791666666666666,
+            "height_em": 0.9513888888888888,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.10416666666666667,
+            "center_y_em": -0.3715277777777778,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6727430555555556
+          }
+        },
+        {
+          "character": "壊",
+          "script": "kanji",
+          "glyph_name": "uni58CA",
+          "outline_bbox_font_units": [
+            10,
+            -115,
+            995,
+            830
+          ],
+          "outline_bbox_em": [
+            0.01,
+            -0.115,
+            0.995,
+            0.83
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.01,
+          "raster": {
+            "bbox_px_baseline": [
+              1,
+              -120,
+              144,
+              17
+            ],
+            "width_em": 0.9930555555555556,
+            "height_em": 0.9513888888888888,
+            "top_em": -0.8333333333333334,
+            "bottom_em": 0.11805555555555555,
+            "center_y_em": -0.3576388888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.7234278549382716
+          }
+        },
+        {
+          "character": "始",
+          "script": "kanji",
+          "glyph_name": "uni59CB",
+          "outline_bbox_font_units": [
+            15,
+            -120,
+            995,
+            840
+          ],
+          "outline_bbox_em": [
+            0.015,
+            -0.12,
+            0.995,
+            0.84
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.015,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -121,
+              144,
+              18
+            ],
+            "width_em": 0.9861111111111112,
+            "height_em": 0.9652777777777778,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.125,
+            "center_y_em": -0.3576388888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6629050925925926
+          }
+        },
+        {
+          "character": "崩",
+          "script": "kanji",
+          "glyph_name": "uni5D29",
+          "outline_bbox_font_units": [
+            10,
+            -110,
+            955,
+            830
+          ],
+          "outline_bbox_em": [
+            0.01,
+            -0.11,
+            0.955,
+            0.83
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.01,
+          "raster": {
+            "bbox_px_baseline": [
+              1,
+              -120,
+              138,
+              16
+            ],
+            "width_em": 0.9513888888888888,
+            "height_em": 0.9444444444444444,
+            "top_em": -0.8333333333333334,
+            "bottom_em": 0.1111111111111111,
+            "center_y_em": -0.3611111111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.7020640432098766
+          }
+        },
+        {
+          "character": "待",
+          "script": "kanji",
+          "glyph_name": "uni5F85",
+          "outline_bbox_font_units": [
+            10,
+            -100,
+            970,
+            840
+          ],
+          "outline_bbox_em": [
+            0.01,
+            -0.1,
+            0.97,
+            0.84
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.01,
+          "raster": {
+            "bbox_px_baseline": [
+              1,
+              -121,
+              140,
+              15
+            ],
+            "width_em": 0.9652777777777778,
+            "height_em": 0.9444444444444444,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.10416666666666667,
+            "center_y_em": -0.3680555555555556,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6178626543209876
+          }
+        },
+        {
+          "character": "終",
+          "script": "kanji",
+          "glyph_name": "uni7D42",
+          "outline_bbox_font_units": [
+            25,
+            -120,
+            990,
+            835
+          ],
+          "outline_bbox_em": [
+            0.025,
+            -0.12,
+            0.99,
+            0.835
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.025,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -121,
+              143,
+              18
+            ],
+            "width_em": 0.9722222222222222,
+            "height_em": 0.9652777777777778,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.125,
+            "center_y_em": -0.3576388888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6675829475308642
+          }
+        },
+        {
+          "character": "聖",
+          "script": "kanji",
+          "glyph_name": "uni8056",
+          "outline_bbox_font_units": [
+            40,
+            -85,
+            950,
+            800
+          ],
+          "outline_bbox_em": [
+            0.04,
+            -0.085,
+            0.95,
+            0.8
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.04,
+          "raster": {
+            "bbox_px_baseline": [
+              5,
+              -116,
+              137,
+              13
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.8958333333333334,
+            "top_em": -0.8055555555555556,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.3576388888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.7033661265432098
+          }
+        },
+        {
+          "character": "、",
+          "script": "punctuation",
+          "glyph_name": "uni3001",
+          "outline_bbox_font_units": [
+            50,
+            -90,
+            409,
+            256
+          ],
+          "outline_bbox_em": [
+            0.05,
+            -0.09,
+            0.409,
+            0.256
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.05,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -37,
+              59,
+              13
+            ],
+            "width_em": 0.3611111111111111,
+            "height_em": 0.3472222222222222,
+            "top_em": -0.2569444444444444,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.08333333333333333,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.060522762345679014
+          }
+        }
+      ],
+      "script_summary": {
+        "kanji": {
+          "sample": "会再域壊始崩待終聖",
+          "count": 9,
+          "mean_width_em": 0.970679012345679,
+          "mean_height_em": 0.941358024691358,
+          "mean_ink_area_em2": 0.6631783693415638,
+          "mean_top_em": -0.8294753086419753,
+          "mean_bottom_em": 0.11188271604938271,
+          "mean_center_y_em": -0.3587962962962963,
+          "mean_advance_em": 1.0
+        },
+        "hiragana": {
+          "sample": "かたちとねのまりわ",
+          "count": 9,
+          "mean_width_em": 0.8811728395061729,
+          "mean_height_em": 0.8680555555555556,
+          "mean_ink_area_em2": 0.45615247770919065,
+          "mean_top_em": -0.7986111111111112,
+          "mean_bottom_em": 0.06944444444444445,
+          "mean_center_y_em": -0.3645833333333333,
+          "mean_advance_em": 1.0
+        },
+        "punctuation": {
+          "sample": "、",
+          "count": 1,
+          "mean_width_em": 0.3611111111111111,
+          "mean_height_em": 0.3472222222222222,
+          "mean_ink_area_em2": 0.060522762345679014,
+          "mean_top_em": -0.2569444444444444,
+          "mean_bottom_em": 0.09027777777777778,
+          "mean_center_y_em": -0.08333333333333333,
+          "mean_advance_em": 1.0
+        }
+      },
+      "kanji_hiragana_ratios": {
+        "width_em": 1.1015761821366024,
+        "height_em": 1.0844444444444443,
+        "ink_area_em2": 1.4538523887276957,
+        "kanji_minus_hiragana_center_y_em": 0.005787037037037035
+      }
+    },
+    {
+      "id": "noto-sans-jp-black",
+      "label": "Noto Sans JP / Black (900)",
+      "vertical_metrics": {
+        "hhea_ascent_em": 1.16,
+        "hhea_descent_em": -0.288,
+        "hhea_line_gap_em": 0.0,
+        "typo_ascent_em": 0.88,
+        "typo_descent_em": -0.12,
+        "win_ascent_em": 1.16,
+        "win_descent_em": 0.288,
+        "pillow_ascent_px": 168,
+        "pillow_descent_px": 42
+      },
+      "glyphs": [
+        {
+          "character": "か",
+          "script": "hiragana",
+          "glyph_name": "uni304B",
+          "outline_bbox_font_units": [
+            44,
+            -55,
+            992,
+            814
+          ],
+          "outline_bbox_em": [
+            0.044,
+            -0.055,
+            0.992,
+            0.814
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.044,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -118,
+              143,
+              8
+            ],
+            "width_em": 0.9513888888888888,
+            "height_em": 0.875,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3861400462962963
+          }
+        },
+        {
+          "character": "た",
+          "script": "hiragana",
+          "glyph_name": "uni305F",
+          "outline_bbox_font_units": [
+            73,
+            -60,
+            923,
+            819
+          ],
+          "outline_bbox_em": [
+            0.073,
+            -0.06,
+            0.923,
+            0.819
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.073,
+          "raster": {
+            "bbox_px_baseline": [
+              10,
+              -118,
+              133,
+              9
+            ],
+            "width_em": 0.8541666666666666,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.0625,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3537326388888889
+          }
+        },
+        {
+          "character": "ち",
+          "script": "hiragana",
+          "glyph_name": "uni3061",
+          "outline_bbox_font_units": [
+            99,
+            -63.51111111111111,
+            882,
+            812
+          ],
+          "outline_bbox_em": [
+            0.099,
+            -0.063511,
+            0.882,
+            0.812
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.099,
+          "raster": {
+            "bbox_px_baseline": [
+              14,
+              -117,
+              127,
+              10
+            ],
+            "width_em": 0.7847222222222222,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8125,
+            "bottom_em": 0.06944444444444445,
+            "center_y_em": -0.3715277777777778,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.35932677469135804
+          }
+        },
+        {
+          "character": "と",
+          "script": "hiragana",
+          "glyph_name": "uni3068",
+          "outline_bbox_font_units": [
+            165,
+            -52,
+            856,
+            808
+          ],
+          "outline_bbox_em": [
+            0.165,
+            -0.052,
+            0.856,
+            0.808
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.165,
+          "raster": {
+            "bbox_px_baseline": [
+              23,
+              -117,
+              124,
+              8
+            ],
+            "width_em": 0.7013888888888888,
+            "height_em": 0.8680555555555556,
+            "top_em": -0.8125,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.28973765432098764
+          }
+        },
+        {
+          "character": "ね",
+          "script": "hiragana",
+          "glyph_name": "uni306D",
+          "outline_bbox_font_units": [
+            34,
+            -58,
+            995,
+            820
+          ],
+          "outline_bbox_em": [
+            0.034,
+            -0.058,
+            0.995,
+            0.82
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.034,
+          "raster": {
+            "bbox_px_baseline": [
+              5,
+              -118,
+              143,
+              9
+            ],
+            "width_em": 0.9583333333333334,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.0625,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.44931520061728397
+          }
+        },
+        {
+          "character": "の",
+          "script": "hiragana",
+          "glyph_name": "uni306E",
+          "outline_bbox_font_units": [
+            50,
+            -56,
+            938,
+            756
+          ],
+          "outline_bbox_em": [
+            0.05,
+            -0.056,
+            0.938,
+            0.756
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.05,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -109,
+              136,
+              8
+            ],
+            "width_em": 0.8958333333333334,
+            "height_em": 0.8125,
+            "top_em": -0.7569444444444444,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3506944444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.41705246913580246
+          }
+        },
+        {
+          "character": "ま",
+          "script": "hiragana",
+          "glyph_name": "uni307E",
+          "outline_bbox_font_units": [
+            153,
+            -70,
+            883,
+            817
+          ],
+          "outline_bbox_em": [
+            0.153,
+            -0.07,
+            0.883,
+            0.817
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.153,
+          "raster": {
+            "bbox_px_baseline": [
+              22,
+              -118,
+              127,
+              11
+            ],
+            "width_em": 0.7291666666666666,
+            "height_em": 0.8958333333333334,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3715277777777778,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.40933641975308643
+          }
+        },
+        {
+          "character": "り",
+          "script": "hiragana",
+          "glyph_name": "uni308A",
+          "outline_bbox_font_units": [
+            175,
+            -74,
+            829,
+            818
+          ],
+          "outline_bbox_em": [
+            0.175,
+            -0.074,
+            0.829,
+            0.818
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.175,
+          "raster": {
+            "bbox_px_baseline": [
+              25,
+              -118,
+              120,
+              11
+            ],
+            "width_em": 0.6597222222222222,
+            "height_em": 0.8958333333333334,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3715277777777778,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3050733024691358
+          }
+        },
+        {
+          "character": "わ",
+          "script": "hiragana",
+          "glyph_name": "uni308F",
+          "outline_bbox_font_units": [
+            34,
+            -58,
+            955,
+            820
+          ],
+          "outline_bbox_em": [
+            0.034,
+            -0.058,
+            0.955,
+            0.82
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.034,
+          "raster": {
+            "bbox_px_baseline": [
+              5,
+              -118,
+              138,
+              9
+            ],
+            "width_em": 0.9236111111111112,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.0625,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.388647762345679
+          }
+        },
+        {
+          "character": "会",
+          "script": "kanji",
+          "glyph_name": "uni4F1A",
+          "outline_bbox_font_units": [
+            19,
+            -95,
+            988,
+            853
+          ],
+          "outline_bbox_em": [
+            0.019,
+            -0.095,
+            0.988,
+            0.853
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.019,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -123,
+              142,
+              14
+            ],
+            "width_em": 0.9652777777777778,
+            "height_em": 0.9513888888888888,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.09722222222222222,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5111400462962963
+          }
+        },
+        {
+          "character": "再",
+          "script": "kanji",
+          "glyph_name": "uni518D",
+          "outline_bbox_font_units": [
+            25,
+            -97,
+            975,
+            805
+          ],
+          "outline_bbox_em": [
+            0.025,
+            -0.097,
+            0.975,
+            0.805
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.025,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -116,
+              141,
+              14
+            ],
+            "width_em": 0.9583333333333334,
+            "height_em": 0.9027777777777778,
+            "top_em": -0.8055555555555556,
+            "bottom_em": 0.09722222222222222,
+            "center_y_em": -0.3541666666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5814043209876543
+          }
+        },
+        {
+          "character": "域",
+          "script": "kanji",
+          "glyph_name": "uni57DF",
+          "outline_bbox_font_units": [
+            21,
+            -95,
+            992,
+            856
+          ],
+          "outline_bbox_em": [
+            0.021,
+            -0.095,
+            0.992,
+            0.856
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.021,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -124,
+              143,
+              14
+            ],
+            "width_em": 0.9722222222222222,
+            "height_em": 0.9583333333333334,
+            "top_em": -0.8611111111111112,
+            "bottom_em": 0.09722222222222222,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5799575617283951
+          }
+        },
+        {
+          "character": "壊",
+          "script": "kanji",
+          "glyph_name": "uni58CA",
+          "outline_bbox_font_units": [
+            16,
+            -93,
+            992,
+            856
+          ],
+          "outline_bbox_em": [
+            0.016,
+            -0.093,
+            0.992,
+            0.856
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.016,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -124,
+              143,
+              14
+            ],
+            "width_em": 0.9791666666666666,
+            "height_em": 0.9583333333333334,
+            "top_em": -0.8611111111111112,
+            "bottom_em": 0.09722222222222222,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6233603395061729
+          }
+        },
+        {
+          "character": "始",
+          "script": "kanji",
+          "glyph_name": "uni59CB",
+          "outline_bbox_font_units": [
+            26,
+            -100,
+            995,
+            856
+          ],
+          "outline_bbox_em": [
+            0.026,
+            -0.1,
+            0.995,
+            0.856
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.026,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -124,
+              144,
+              15
+            ],
+            "width_em": 0.9791666666666666,
+            "height_em": 0.9652777777777778,
+            "top_em": -0.8611111111111112,
+            "bottom_em": 0.10416666666666667,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5695891203703703
+          }
+        },
+        {
+          "character": "崩",
+          "script": "kanji",
+          "glyph_name": "uni5D29",
+          "outline_bbox_font_units": [
+            20,
+            -103,
+            919,
+            855
+          ],
+          "outline_bbox_em": [
+            0.02,
+            -0.103,
+            0.919,
+            0.855
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.02,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -124,
+              133,
+              15
+            ],
+            "width_em": 0.9027777777777778,
+            "height_em": 0.9652777777777778,
+            "top_em": -0.8611111111111112,
+            "bottom_em": 0.10416666666666667,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6075424382716049
+          }
+        },
+        {
+          "character": "待",
+          "script": "kanji",
+          "glyph_name": "uni5F85",
+          "outline_bbox_font_units": [
+            13,
+            -96,
+            977,
+            854
+          ],
+          "outline_bbox_em": [
+            0.013,
+            -0.096,
+            0.977,
+            0.854
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.013,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -123,
+              141,
+              14
+            ],
+            "width_em": 0.9652777777777778,
+            "height_em": 0.9513888888888888,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.09722222222222222,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5514081790123457
+          }
+        },
+        {
+          "character": "終",
+          "script": "kanji",
+          "glyph_name": "uni7D42",
+          "outline_bbox_font_units": [
+            10,
+            -106,
+            995,
+            855
+          ],
+          "outline_bbox_em": [
+            0.01,
+            -0.106,
+            0.995,
+            0.855
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.01,
+          "raster": {
+            "bbox_px_baseline": [
+              1,
+              -123,
+              143,
+              16
+            ],
+            "width_em": 0.9861111111111112,
+            "height_em": 0.9652777777777778,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.1111111111111111,
+            "center_y_em": -0.3715277777777778,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5578703703703703
+          }
+        },
+        {
+          "character": "聖",
+          "script": "kanji",
+          "glyph_name": "uni8056",
+          "outline_bbox_font_units": [
+            42,
+            -84,
+            957,
+            822
+          ],
+          "outline_bbox_em": [
+            0.042,
+            -0.084,
+            0.957,
+            0.822
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.042,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -119,
+              138,
+              13
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.9166666666666666,
+            "top_em": -0.8263888888888888,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.3680555555555556,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6307870370370371
+          }
+        },
+        {
+          "character": "、",
+          "script": "punctuation",
+          "glyph_name": "uni3001",
+          "outline_bbox_font_units": [
+            33,
+            -76,
+            374,
+            252
+          ],
+          "outline_bbox_em": [
+            0.033,
+            -0.076,
+            0.374,
+            0.252
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.033,
+          "raster": {
+            "bbox_px_baseline": [
+              5,
+              -36,
+              54,
+              11
+            ],
+            "width_em": 0.3402777777777778,
+            "height_em": 0.3263888888888889,
+            "top_em": -0.25,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.08680555555555555,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.05454282407407408
+          }
+        }
+      ],
+      "script_summary": {
+        "kanji": {
+          "sample": "会再域壊始崩待終聖",
+          "count": 9,
+          "mean_width_em": 0.9583333333333334,
+          "mean_height_em": 0.9483024691358025,
+          "mean_ink_area_em2": 0.5792288237311386,
+          "mean_top_em": -0.8487654320987654,
+          "mean_bottom_em": 0.09953703703703703,
+          "mean_center_y_em": -0.37461419753086417,
+          "mean_advance_em": 1.0
+        },
+        "hiragana": {
+          "sample": "かたちとねのまりわ",
+          "count": 9,
+          "mean_width_em": 0.8287037037037037,
+          "mean_height_em": 0.875,
+          "mean_ink_area_em2": 0.37315136316872427,
+          "mean_top_em": -0.8109567901234568,
+          "mean_bottom_em": 0.06404320987654322,
+          "mean_center_y_em": -0.3734567901234568,
+          "mean_advance_em": 1.0
+        },
+        "punctuation": {
+          "sample": "、",
+          "count": 1,
+          "mean_width_em": 0.3402777777777778,
+          "mean_height_em": 0.3263888888888889,
+          "mean_ink_area_em2": 0.05454282407407408,
+          "mean_top_em": -0.25,
+          "mean_bottom_em": 0.0763888888888889,
+          "mean_center_y_em": -0.08680555555555555,
+          "mean_advance_em": 1.0
+        }
+      },
+      "kanji_hiragana_ratios": {
+        "width_em": 1.1564245810055866,
+        "height_em": 1.0837742504409171,
+        "ink_area_em2": 1.5522623817113976,
+        "kanji_minus_hiragana_center_y_em": -0.0011574074074073848
+      }
+    },
+    {
+      "id": "shippori-mincho-semibold",
+      "label": "Shippori Mincho / SemiBold (600)",
+      "vertical_metrics": {
+        "hhea_ascent_em": 1.16,
+        "hhea_descent_em": -0.288,
+        "hhea_line_gap_em": 0.0,
+        "typo_ascent_em": 0.88,
+        "typo_descent_em": -0.12,
+        "win_ascent_em": 1.16,
+        "win_descent_em": 0.288,
+        "pillow_ascent_px": 168,
+        "pillow_descent_px": 42
+      },
+      "glyphs": [
+        {
+          "character": "か",
+          "script": "hiragana",
+          "glyph_name": "uni304B",
+          "outline_bbox_font_units": [
+            103,
+            5,
+            962,
+            750
+          ],
+          "outline_bbox_em": [
+            0.103,
+            0.005,
+            0.962,
+            0.75
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.103,
+          "raster": {
+            "bbox_px_baseline": [
+              14,
+              -108,
+              139,
+              -1
+            ],
+            "width_em": 0.8680555555555556,
+            "height_em": 0.7430555555555556,
+            "top_em": -0.75,
+            "bottom_em": -0.006944444444444444,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.17722800925925927
+          }
+        },
+        {
+          "character": "た",
+          "script": "hiragana",
+          "glyph_name": "uni305F",
+          "outline_bbox_font_units": [
+            68,
+            -18,
+            854,
+            783
+          ],
+          "outline_bbox_em": [
+            0.068,
+            -0.018,
+            0.854,
+            0.783
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.068,
+          "raster": {
+            "bbox_px_baseline": [
+              10,
+              -113,
+              124,
+              3
+            ],
+            "width_em": 0.7916666666666666,
+            "height_em": 0.8055555555555556,
+            "top_em": -0.7847222222222222,
+            "bottom_em": 0.020833333333333332,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.1636284722222222
+          }
+        },
+        {
+          "character": "ち",
+          "script": "hiragana",
+          "glyph_name": "uni3061",
+          "outline_bbox_font_units": [
+            169,
+            -58,
+            781,
+            817
+          ],
+          "outline_bbox_em": [
+            0.169,
+            -0.058,
+            0.781,
+            0.817
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.169,
+          "raster": {
+            "bbox_px_baseline": [
+              24,
+              -118,
+              113,
+              9
+            ],
+            "width_em": 0.6180555555555556,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.0625,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.14877507716049382
+          }
+        },
+        {
+          "character": "と",
+          "script": "hiragana",
+          "glyph_name": "uni3068",
+          "outline_bbox_font_units": [
+            290,
+            -28,
+            722,
+            816
+          ],
+          "outline_bbox_em": [
+            0.29,
+            -0.028,
+            0.722,
+            0.816
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.29,
+          "raster": {
+            "bbox_px_baseline": [
+              42,
+              -118,
+              105,
+              4
+            ],
+            "width_em": 0.4375,
+            "height_em": 0.8472222222222222,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.027777777777777776,
+            "center_y_em": -0.3958333333333333,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.11496913580246913
+          }
+        },
+        {
+          "character": "ね",
+          "script": "hiragana",
+          "glyph_name": "uni306D",
+          "outline_bbox_font_units": [
+            87,
+            -22,
+            908,
+            812
+          ],
+          "outline_bbox_em": [
+            0.087,
+            -0.022,
+            0.908,
+            0.812
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.087,
+          "raster": {
+            "bbox_px_baseline": [
+              12,
+              -117,
+              131,
+              4
+            ],
+            "width_em": 0.8263888888888888,
+            "height_em": 0.8402777777777778,
+            "top_em": -0.8125,
+            "bottom_em": 0.027777777777777776,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.2295042438271605
+          }
+        },
+        {
+          "character": "の",
+          "script": "hiragana",
+          "glyph_name": "uni306E",
+          "outline_bbox_font_units": [
+            109,
+            -12,
+            891,
+            700
+          ],
+          "outline_bbox_em": [
+            0.109,
+            -0.012,
+            0.891,
+            0.7
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.109,
+          "raster": {
+            "bbox_px_baseline": [
+              15,
+              -101,
+              129,
+              2
+            ],
+            "width_em": 0.7916666666666666,
+            "height_em": 0.7152777777777778,
+            "top_em": -0.7013888888888888,
+            "bottom_em": 0.013888888888888888,
+            "center_y_em": -0.34375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.1765528549382716
+          }
+        },
+        {
+          "character": "ま",
+          "script": "hiragana",
+          "glyph_name": "uni307E",
+          "outline_bbox_font_units": [
+            220,
+            -34,
+            736,
+            813
+          ],
+          "outline_bbox_em": [
+            0.22,
+            -0.034,
+            0.736,
+            0.813
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.22,
+          "raster": {
+            "bbox_px_baseline": [
+              31,
+              -118,
+              106,
+              5
+            ],
+            "width_em": 0.5208333333333334,
+            "height_em": 0.8541666666666666,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.034722222222222224,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.16401427469135801
+          }
+        },
+        {
+          "character": "り",
+          "script": "hiragana",
+          "glyph_name": "uni308A",
+          "outline_bbox_font_units": [
+            295,
+            -57,
+            702,
+            820
+          ],
+          "outline_bbox_em": [
+            0.295,
+            -0.057,
+            0.702,
+            0.82
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.295,
+          "raster": {
+            "bbox_px_baseline": [
+              42,
+              -118,
+              102,
+              9
+            ],
+            "width_em": 0.4166666666666667,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.0625,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.1314139660493827
+          }
+        },
+        {
+          "character": "わ",
+          "script": "hiragana",
+          "glyph_name": "uni308F",
+          "outline_bbox_font_units": [
+            128,
+            -9,
+            866,
+            826
+          ],
+          "outline_bbox_em": [
+            0.128,
+            -0.009,
+            0.866,
+            0.826
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.128,
+          "raster": {
+            "bbox_px_baseline": [
+              18,
+              -120,
+              125,
+              2
+            ],
+            "width_em": 0.7430555555555556,
+            "height_em": 0.8472222222222222,
+            "top_em": -0.8333333333333334,
+            "bottom_em": 0.013888888888888888,
+            "center_y_em": -0.4097222222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.1779031635802469
+          }
+        },
+        {
+          "character": "会",
+          "script": "kanji",
+          "glyph_name": "uni4F1A",
+          "outline_bbox_font_units": [
+            49,
+            -85,
+            954,
+            851
+          ],
+          "outline_bbox_em": [
+            0.049,
+            -0.085,
+            0.954,
+            0.851
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.049,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -123,
+              138,
+              12
+            ],
+            "width_em": 0.9097222222222222,
+            "height_em": 0.9375,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.24411651234567902
+          }
+        },
+        {
+          "character": "再",
+          "script": "kanji",
+          "glyph_name": "uni518D",
+          "outline_bbox_font_units": [
+            40,
+            -85,
+            957,
+            829
+          ],
+          "outline_bbox_em": [
+            0.04,
+            -0.085,
+            0.957,
+            0.829
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.04,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -120,
+              138,
+              12
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.9166666666666666,
+            "top_em": -0.8333333333333334,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.2865547839506173
+          }
+        },
+        {
+          "character": "域",
+          "script": "kanji",
+          "glyph_name": "uni57DF",
+          "outline_bbox_font_units": [
+            41,
+            -82,
+            957,
+            831
+          ],
+          "outline_bbox_em": [
+            0.041,
+            -0.082,
+            0.957,
+            0.831
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.041,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -120,
+              138,
+              12
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.9166666666666666,
+            "top_em": -0.8333333333333334,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3473186728395062
+          }
+        },
+        {
+          "character": "壊",
+          "script": "kanji",
+          "glyph_name": "uni58CA",
+          "outline_bbox_font_units": [
+            42,
+            -87,
+            954,
+            848
+          ],
+          "outline_bbox_em": [
+            0.042,
+            -0.087,
+            0.954,
+            0.848
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.042,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -123,
+              138,
+              13
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.9444444444444444,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.37418016975308643
+          }
+        },
+        {
+          "character": "始",
+          "script": "kanji",
+          "glyph_name": "uni59CB",
+          "outline_bbox_font_units": [
+            41,
+            -83,
+            951,
+            851
+          ],
+          "outline_bbox_em": [
+            0.041,
+            -0.083,
+            0.951,
+            0.851
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.041,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -123,
+              137,
+              12
+            ],
+            "width_em": 0.9097222222222222,
+            "height_em": 0.9375,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.33217592592592593
+          }
+        },
+        {
+          "character": "崩",
+          "script": "kanji",
+          "glyph_name": "uni5D29",
+          "outline_bbox_font_units": [
+            45,
+            -87,
+            928,
+            849
+          ],
+          "outline_bbox_em": [
+            0.045,
+            -0.087,
+            0.928,
+            0.849
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.045,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -123,
+              134,
+              12
+            ],
+            "width_em": 0.8888888888888888,
+            "height_em": 0.9375,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3419174382716049
+          }
+        },
+        {
+          "character": "待",
+          "script": "kanji",
+          "glyph_name": "uni5F85",
+          "outline_bbox_font_units": [
+            47,
+            -86,
+            954,
+            857
+          ],
+          "outline_bbox_em": [
+            0.047,
+            -0.086,
+            0.954,
+            0.857
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.047,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -124,
+              138,
+              13
+            ],
+            "width_em": 0.9097222222222222,
+            "height_em": 0.9513888888888888,
+            "top_em": -0.8611111111111112,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.29446373456790126
+          }
+        },
+        {
+          "character": "終",
+          "script": "kanji",
+          "glyph_name": "uni7D42",
+          "outline_bbox_font_units": [
+            50,
+            -85,
+            963,
+            852
+          ],
+          "outline_bbox_em": [
+            0.05,
+            -0.085,
+            0.963,
+            0.852
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.05,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -123,
+              139,
+              12
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.9375,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3276909722222222
+          }
+        },
+        {
+          "character": "聖",
+          "script": "kanji",
+          "glyph_name": "uni8056",
+          "outline_bbox_font_units": [
+            48,
+            -73,
+            943,
+            836
+          ],
+          "outline_bbox_em": [
+            0.048,
+            -0.073,
+            0.943,
+            0.836
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.048,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -121,
+              136,
+              11
+            ],
+            "width_em": 0.8958333333333334,
+            "height_em": 0.9166666666666666,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.33251350308641975
+          }
+        },
+        {
+          "character": "、",
+          "script": "punctuation",
+          "glyph_name": "uni3001",
+          "outline_bbox_font_units": [
+            53,
+            -79,
+            300,
+            147
+          ],
+          "outline_bbox_em": [
+            0.053,
+            -0.079,
+            0.3,
+            0.147
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.053,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -22,
+              44,
+              12
+            ],
+            "width_em": 0.2569444444444444,
+            "height_em": 0.2361111111111111,
+            "top_em": -0.1527777777777778,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.034722222222222224,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.024112654320987654
+          }
+        }
+      ],
+      "script_summary": {
+        "kanji": {
+          "sample": "会再域壊始崩待終聖",
+          "count": 9,
+          "mean_width_em": 0.9089506172839505,
+          "mean_height_em": 0.9328703703703703,
+          "mean_ink_area_em2": 0.32010352366255146,
+          "mean_top_em": -0.8487654320987654,
+          "mean_bottom_em": 0.08410493827160494,
+          "mean_center_y_em": -0.38233024691358025,
+          "mean_advance_em": 1.0
+        },
+        "hiragana": {
+          "sample": "かたちとねのまりわ",
+          "count": 9,
+          "mean_width_em": 0.6682098765432098,
+          "mean_height_em": 0.8240740740740741,
+          "mean_ink_area_em2": 0.16488768861454045,
+          "mean_top_em": -0.7955246913580247,
+          "mean_bottom_em": 0.02854938271604938,
+          "mean_center_y_em": -0.38348765432098764,
+          "mean_advance_em": 1.0
+        },
+        "punctuation": {
+          "sample": "、",
+          "count": 1,
+          "mean_width_em": 0.2569444444444444,
+          "mean_height_em": 0.2361111111111111,
+          "mean_ink_area_em2": 0.024112654320987654,
+          "mean_top_em": -0.1527777777777778,
+          "mean_bottom_em": 0.08333333333333333,
+          "mean_center_y_em": -0.034722222222222224,
+          "mean_advance_em": 1.0
+        }
+      },
+      "kanji_hiragana_ratios": {
+        "width_em": 1.3602771362586605,
+        "height_em": 1.1320224719101124,
+        "ink_area_em2": 1.9413427791498767,
+        "kanji_minus_hiragana_center_y_em": 0.0011574074074073848
+      }
+    },
+    {
+      "id": "shippori-antique",
+      "label": "Shippori Antique / Regular (400)",
+      "vertical_metrics": {
+        "hhea_ascent_em": 1.16,
+        "hhea_descent_em": -0.288,
+        "hhea_line_gap_em": 0.0,
+        "typo_ascent_em": 0.88,
+        "typo_descent_em": -0.12,
+        "win_ascent_em": 1.16,
+        "win_descent_em": 0.288,
+        "pillow_ascent_px": 168,
+        "pillow_descent_px": 42
+      },
+      "glyphs": [
+        {
+          "character": "か",
+          "script": "hiragana",
+          "glyph_name": "uni304B",
+          "outline_bbox_font_units": [
+            101,
+            5,
+            970,
+            777
+          ],
+          "outline_bbox_em": [
+            0.101,
+            0.005,
+            0.97,
+            0.777
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.101,
+          "raster": {
+            "bbox_px_baseline": [
+              14,
+              -112,
+              140,
+              -1
+            ],
+            "width_em": 0.875,
+            "height_em": 0.7708333333333334,
+            "top_em": -0.7777777777777778,
+            "bottom_em": -0.006944444444444444,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.2068383487654321
+          }
+        },
+        {
+          "character": "た",
+          "script": "hiragana",
+          "glyph_name": "uni305F",
+          "outline_bbox_font_units": [
+            89,
+            -17,
+            880,
+            804
+          ],
+          "outline_bbox_em": [
+            0.089,
+            -0.017,
+            0.88,
+            0.804
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.089,
+          "raster": {
+            "bbox_px_baseline": [
+              13,
+              -116,
+              128,
+              3
+            ],
+            "width_em": 0.7986111111111112,
+            "height_em": 0.8263888888888888,
+            "top_em": -0.8055555555555556,
+            "bottom_em": 0.020833333333333332,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.1849922839506173
+          }
+        },
+        {
+          "character": "ち",
+          "script": "hiragana",
+          "glyph_name": "uni3061",
+          "outline_bbox_font_units": [
+            109,
+            -51,
+            839,
+            823
+          ],
+          "outline_bbox_em": [
+            0.109,
+            -0.051,
+            0.839,
+            0.823
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.109,
+          "raster": {
+            "bbox_px_baseline": [
+              15,
+              -119,
+              120,
+              8
+            ],
+            "width_em": 0.7291666666666666,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8263888888888888,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.18909143518518517
+          }
+        },
+        {
+          "character": "と",
+          "script": "hiragana",
+          "glyph_name": "uni3068",
+          "outline_bbox_font_units": [
+            245,
+            -40,
+            759,
+            818
+          ],
+          "outline_bbox_em": [
+            0.245,
+            -0.04,
+            0.759,
+            0.818
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.245,
+          "raster": {
+            "bbox_px_baseline": [
+              35,
+              -118,
+              110,
+              6
+            ],
+            "width_em": 0.5208333333333334,
+            "height_em": 0.8611111111111112,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.041666666666666664,
+            "center_y_em": -0.3888888888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.15171682098765432
+          }
+        },
+        {
+          "character": "ね",
+          "script": "hiragana",
+          "glyph_name": "uni306D",
+          "outline_bbox_font_units": [
+            91,
+            -49,
+            913,
+            842
+          ],
+          "outline_bbox_em": [
+            0.091,
+            -0.049,
+            0.913,
+            0.842
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.091,
+          "raster": {
+            "bbox_px_baseline": [
+              13,
+              -122,
+              132,
+              8
+            ],
+            "width_em": 0.8263888888888888,
+            "height_em": 0.9027777777777778,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3958333333333333,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.2894483024691358
+          }
+        },
+        {
+          "character": "の",
+          "script": "hiragana",
+          "glyph_name": "uni306E",
+          "outline_bbox_font_units": [
+            69,
+            -10,
+            926,
+            730
+          ],
+          "outline_bbox_em": [
+            0.069,
+            -0.01,
+            0.926,
+            0.73
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.069,
+          "raster": {
+            "bbox_px_baseline": [
+              10,
+              -106,
+              134,
+              2
+            ],
+            "width_em": 0.8611111111111112,
+            "height_em": 0.75,
+            "top_em": -0.7361111111111112,
+            "bottom_em": 0.013888888888888888,
+            "center_y_em": -0.3611111111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.22955246913580246
+          }
+        },
+        {
+          "character": "ま",
+          "script": "hiragana",
+          "glyph_name": "uni307E",
+          "outline_bbox_font_units": [
+            206,
+            -47,
+            757,
+            842
+          ],
+          "outline_bbox_em": [
+            0.206,
+            -0.047,
+            0.757,
+            0.842
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.206,
+          "raster": {
+            "bbox_px_baseline": [
+              30,
+              -122,
+              110,
+              7
+            ],
+            "width_em": 0.5555555555555556,
+            "height_em": 0.8958333333333334,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.04861111111111111,
+            "center_y_em": -0.3993055555555556,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.21373456790123457
+          }
+        },
+        {
+          "character": "り",
+          "script": "hiragana",
+          "glyph_name": "uni308A",
+          "outline_bbox_font_units": [
+            275,
+            -43,
+            744,
+            816
+          ],
+          "outline_bbox_em": [
+            0.275,
+            -0.043,
+            0.744,
+            0.816
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.275,
+          "raster": {
+            "bbox_px_baseline": [
+              39,
+              -118,
+              107,
+              7
+            ],
+            "width_em": 0.4722222222222222,
+            "height_em": 0.8680555555555556,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.04861111111111111,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.1632908950617284
+          }
+        },
+        {
+          "character": "わ",
+          "script": "hiragana",
+          "glyph_name": "uni308F",
+          "outline_bbox_font_units": [
+            89,
+            -26,
+            893,
+            812
+          ],
+          "outline_bbox_em": [
+            0.089,
+            -0.026,
+            0.893,
+            0.812
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.089,
+          "raster": {
+            "bbox_px_baseline": [
+              12,
+              -117,
+              128,
+              4
+            ],
+            "width_em": 0.8055555555555556,
+            "height_em": 0.8402777777777778,
+            "top_em": -0.8125,
+            "bottom_em": 0.027777777777777776,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.21040702160493827
+          }
+        },
+        {
+          "character": "会",
+          "script": "kanji",
+          "glyph_name": "uni4F1A",
+          "outline_bbox_font_units": [
+            45,
+            -81,
+            960,
+            838
+          ],
+          "outline_bbox_em": [
+            0.045,
+            -0.081,
+            0.96,
+            0.838
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.045,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -121,
+              139,
+              12
+            ],
+            "width_em": 0.9236111111111112,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.34616126543209874
+          }
+        },
+        {
+          "character": "再",
+          "script": "kanji",
+          "glyph_name": "uni518D",
+          "outline_bbox_font_units": [
+            47,
+            -85,
+            955,
+            791
+          ],
+          "outline_bbox_em": [
+            0.047,
+            -0.085,
+            0.955,
+            0.791
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.047,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -114,
+              138,
+              13
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.7916666666666666,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.3506944444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.40369405864197533
+          }
+        },
+        {
+          "character": "域",
+          "script": "kanji",
+          "glyph_name": "uni57DF",
+          "outline_bbox_font_units": [
+            46,
+            -79,
+            956,
+            837
+          ],
+          "outline_bbox_em": [
+            0.046,
+            -0.079,
+            0.956,
+            0.837
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.046,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -121,
+              138,
+              12
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4059124228395062
+          }
+        },
+        {
+          "character": "壊",
+          "script": "kanji",
+          "glyph_name": "uni58CA",
+          "outline_bbox_font_units": [
+            43,
+            -78,
+            963,
+            845
+          ],
+          "outline_bbox_em": [
+            0.043,
+            -0.078,
+            0.963,
+            0.845
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.043,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -122,
+              139,
+              12
+            ],
+            "width_em": 0.9236111111111112,
+            "height_em": 0.9305555555555556,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4473861882716049
+          }
+        },
+        {
+          "character": "始",
+          "script": "kanji",
+          "glyph_name": "uni59CB",
+          "outline_bbox_font_units": [
+            53,
+            -84,
+            966,
+            840
+          ],
+          "outline_bbox_em": [
+            0.053,
+            -0.084,
+            0.966,
+            0.84
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.053,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -121,
+              140,
+              12
+            ],
+            "width_em": 0.9236111111111112,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.39448302469135804
+          }
+        },
+        {
+          "character": "崩",
+          "script": "kanji",
+          "glyph_name": "uni5D29",
+          "outline_bbox_font_units": [
+            43,
+            -85,
+            915,
+            844
+          ],
+          "outline_bbox_em": [
+            0.043,
+            -0.085,
+            0.915,
+            0.844
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.043,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -122,
+              132,
+              12
+            ],
+            "width_em": 0.875,
+            "height_em": 0.9305555555555556,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.42038001543209874
+          }
+        },
+        {
+          "character": "待",
+          "script": "kanji",
+          "glyph_name": "uni5F85",
+          "outline_bbox_font_units": [
+            39,
+            -84,
+            954,
+            840
+          ],
+          "outline_bbox_em": [
+            0.039,
+            -0.084,
+            0.954,
+            0.84
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.039,
+          "raster": {
+            "bbox_px_baseline": [
+              5,
+              -121,
+              138,
+              13
+            ],
+            "width_em": 0.9236111111111112,
+            "height_em": 0.9305555555555556,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3675250771604938
+          }
+        },
+        {
+          "character": "終",
+          "script": "kanji",
+          "glyph_name": "uni7D42",
+          "outline_bbox_font_units": [
+            36,
+            -85,
+            965,
+            839
+          ],
+          "outline_bbox_em": [
+            0.036,
+            -0.085,
+            0.965,
+            0.839
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.036,
+          "raster": {
+            "bbox_px_baseline": [
+              5,
+              -121,
+              139,
+              13
+            ],
+            "width_em": 0.9305555555555556,
+            "height_em": 0.9305555555555556,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.37991898148148145
+          }
+        },
+        {
+          "character": "聖",
+          "script": "kanji",
+          "glyph_name": "uni8056",
+          "outline_bbox_font_units": [
+            57,
+            -73,
+            944,
+            808
+          ],
+          "outline_bbox_em": [
+            0.057,
+            -0.073,
+            0.944,
+            0.808
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.057,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -117,
+              136,
+              11
+            ],
+            "width_em": 0.8888888888888888,
+            "height_em": 0.8888888888888888,
+            "top_em": -0.8125,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3680555555555556,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4517264660493827
+          }
+        },
+        {
+          "character": "、",
+          "script": "punctuation",
+          "glyph_name": "uni3001",
+          "outline_bbox_font_units": [
+            60,
+            -65,
+            354,
+            184
+          ],
+          "outline_bbox_em": [
+            0.06,
+            -0.065,
+            0.354,
+            0.184
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.06,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -27,
+              51,
+              10
+            ],
+            "width_em": 0.2986111111111111,
+            "height_em": 0.2569444444444444,
+            "top_em": -0.1875,
+            "bottom_em": 0.06944444444444445,
+            "center_y_em": -0.059027777777777776,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.038676697530864196
+          }
+        }
+      ],
+      "script_summary": {
+        "kanji": {
+          "sample": "会再域壊始崩待終聖",
+          "count": 9,
+          "mean_width_em": 0.9135802469135803,
+          "mean_height_em": 0.9182098765432098,
+          "mean_ink_area_em2": 0.4019097222222222,
+          "mean_top_em": -0.8333333333333334,
+          "mean_bottom_em": 0.08487654320987655,
+          "mean_center_y_em": -0.3742283950617284,
+          "mean_advance_em": 1.0
+        },
+        "hiragana": {
+          "sample": "かたちとねのまりわ",
+          "count": 9,
+          "mean_width_em": 0.7160493827160493,
+          "mean_height_em": 0.8441358024691358,
+          "mean_ink_area_em2": 0.20434134945130314,
+          "mean_top_em": -0.8101851851851852,
+          "mean_bottom_em": 0.033950617283950615,
+          "mean_center_y_em": -0.3881172839506173,
+          "mean_advance_em": 1.0
+        },
+        "punctuation": {
+          "sample": "、",
+          "count": 1,
+          "mean_width_em": 0.2986111111111111,
+          "mean_height_em": 0.2569444444444444,
+          "mean_ink_area_em2": 0.038676697530864196,
+          "mean_top_em": -0.1875,
+          "mean_bottom_em": 0.06944444444444445,
+          "mean_center_y_em": -0.059027777777777776,
+          "mean_advance_em": 1.0
+        }
+      },
+      "kanji_hiragana_ratios": {
+        "width_em": 1.2758620689655173,
+        "height_em": 1.0877513711151736,
+        "ink_area_em2": 1.9668545955159304,
+        "kanji_minus_hiragana_center_y_em": 0.013888888888888895
+      }
+    },
+    {
+      "id": "shippori-antique-b1",
+      "label": "Shippori Antique B1 / Regular (400)",
+      "vertical_metrics": {
+        "hhea_ascent_em": 1.16,
+        "hhea_descent_em": -0.288,
+        "hhea_line_gap_em": 0.0,
+        "typo_ascent_em": 0.88,
+        "typo_descent_em": -0.12,
+        "win_ascent_em": 1.16,
+        "win_descent_em": 0.288,
+        "pillow_ascent_px": 168,
+        "pillow_descent_px": 42
+      },
+      "glyphs": [
+        {
+          "character": "か",
+          "script": "hiragana",
+          "glyph_name": "uni304B",
+          "outline_bbox_font_units": [
+            101,
+            5,
+            970,
+            777
+          ],
+          "outline_bbox_em": [
+            0.101,
+            0.005,
+            0.97,
+            0.777
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.101,
+          "raster": {
+            "bbox_px_baseline": [
+              14,
+              -112,
+              140,
+              -1
+            ],
+            "width_em": 0.875,
+            "height_em": 0.7708333333333334,
+            "top_em": -0.7777777777777778,
+            "bottom_em": -0.006944444444444444,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.20736882716049382
+          }
+        },
+        {
+          "character": "た",
+          "script": "hiragana",
+          "glyph_name": "uni305F",
+          "outline_bbox_font_units": [
+            89,
+            -17,
+            880,
+            804
+          ],
+          "outline_bbox_em": [
+            0.089,
+            -0.017,
+            0.88,
+            0.804
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.089,
+          "raster": {
+            "bbox_px_baseline": [
+              13,
+              -116,
+              128,
+              3
+            ],
+            "width_em": 0.7986111111111112,
+            "height_em": 0.8263888888888888,
+            "top_em": -0.8055555555555556,
+            "bottom_em": 0.020833333333333332,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.18489583333333334
+          }
+        },
+        {
+          "character": "ち",
+          "script": "hiragana",
+          "glyph_name": "uni3061",
+          "outline_bbox_font_units": [
+            109,
+            -51,
+            839,
+            823
+          ],
+          "outline_bbox_em": [
+            0.109,
+            -0.051,
+            0.839,
+            0.823
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.109,
+          "raster": {
+            "bbox_px_baseline": [
+              15,
+              -119,
+              120,
+              8
+            ],
+            "width_em": 0.7291666666666666,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8263888888888888,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.18909143518518517
+          }
+        },
+        {
+          "character": "と",
+          "script": "hiragana",
+          "glyph_name": "uni3068",
+          "outline_bbox_font_units": [
+            245,
+            -40,
+            759,
+            818
+          ],
+          "outline_bbox_em": [
+            0.245,
+            -0.04,
+            0.759,
+            0.818
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.245,
+          "raster": {
+            "bbox_px_baseline": [
+              35,
+              -118,
+              110,
+              6
+            ],
+            "width_em": 0.5208333333333334,
+            "height_em": 0.8611111111111112,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.041666666666666664,
+            "center_y_em": -0.3888888888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.1517650462962963
+          }
+        },
+        {
+          "character": "ね",
+          "script": "hiragana",
+          "glyph_name": "uni306D",
+          "outline_bbox_font_units": [
+            91,
+            -49,
+            913,
+            842
+          ],
+          "outline_bbox_em": [
+            0.091,
+            -0.049,
+            0.913,
+            0.842
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.091,
+          "raster": {
+            "bbox_px_baseline": [
+              13,
+              -121,
+              132,
+              8
+            ],
+            "width_em": 0.8263888888888888,
+            "height_em": 0.8958333333333334,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.28858024691358025
+          }
+        },
+        {
+          "character": "の",
+          "script": "hiragana",
+          "glyph_name": "uni306E",
+          "outline_bbox_font_units": [
+            69,
+            -10,
+            926,
+            730
+          ],
+          "outline_bbox_em": [
+            0.069,
+            -0.01,
+            0.926,
+            0.73
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.069,
+          "raster": {
+            "bbox_px_baseline": [
+              10,
+              -106,
+              134,
+              2
+            ],
+            "width_em": 0.8611111111111112,
+            "height_em": 0.75,
+            "top_em": -0.7361111111111112,
+            "bottom_em": 0.013888888888888888,
+            "center_y_em": -0.3611111111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.22979359567901234
+          }
+        },
+        {
+          "character": "ま",
+          "script": "hiragana",
+          "glyph_name": "uni307E",
+          "outline_bbox_font_units": [
+            206,
+            -47,
+            757,
+            842
+          ],
+          "outline_bbox_em": [
+            0.206,
+            -0.047,
+            0.757,
+            0.842
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.206,
+          "raster": {
+            "bbox_px_baseline": [
+              30,
+              -121,
+              110,
+              7
+            ],
+            "width_em": 0.5555555555555556,
+            "height_em": 0.8888888888888888,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.04861111111111111,
+            "center_y_em": -0.3958333333333333,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.21421682098765432
+          }
+        },
+        {
+          "character": "り",
+          "script": "hiragana",
+          "glyph_name": "uni308A",
+          "outline_bbox_font_units": [
+            275,
+            -43,
+            744,
+            816
+          ],
+          "outline_bbox_em": [
+            0.275,
+            -0.043,
+            0.744,
+            0.816
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.275,
+          "raster": {
+            "bbox_px_baseline": [
+              39,
+              -118,
+              107,
+              7
+            ],
+            "width_em": 0.4722222222222222,
+            "height_em": 0.8680555555555556,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.04861111111111111,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.16372492283950618
+          }
+        },
+        {
+          "character": "わ",
+          "script": "hiragana",
+          "glyph_name": "uni308F",
+          "outline_bbox_font_units": [
+            89,
+            -26,
+            893,
+            812
+          ],
+          "outline_bbox_em": [
+            0.089,
+            -0.026,
+            0.893,
+            0.812
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.089,
+          "raster": {
+            "bbox_px_baseline": [
+              12,
+              -117,
+              128,
+              4
+            ],
+            "width_em": 0.8055555555555556,
+            "height_em": 0.8402777777777778,
+            "top_em": -0.8125,
+            "bottom_em": 0.027777777777777776,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.2109375
+          }
+        },
+        {
+          "character": "会",
+          "script": "kanji",
+          "glyph_name": "uni4F1A",
+          "outline_bbox_font_units": [
+            55,
+            -74,
+            949,
+            838
+          ],
+          "outline_bbox_em": [
+            0.055,
+            -0.074,
+            0.949,
+            0.838
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.055,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -121,
+              137,
+              11
+            ],
+            "width_em": 0.8958333333333334,
+            "height_em": 0.9166666666666666,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3447145061728395
+          }
+        },
+        {
+          "character": "再",
+          "script": "kanji",
+          "glyph_name": "uni518D",
+          "outline_bbox_font_units": [
+            47,
+            -85,
+            955,
+            789.1818181818181
+          ],
+          "outline_bbox_em": [
+            0.047,
+            -0.085,
+            0.955,
+            0.789182
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.047,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -114,
+              138,
+              13
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.7916666666666666,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.3506944444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4046585648148148
+          }
+        },
+        {
+          "character": "域",
+          "script": "kanji",
+          "glyph_name": "uni57DF",
+          "outline_bbox_font_units": [
+            50,
+            -79,
+            954.0666666666667,
+            837
+          ],
+          "outline_bbox_em": [
+            0.05,
+            -0.079,
+            0.954067,
+            0.837
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.05,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -121,
+              137,
+              12
+            ],
+            "width_em": 0.9027777777777778,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.40596064814814814
+          }
+        },
+        {
+          "character": "壊",
+          "script": "kanji",
+          "glyph_name": "uni58CA",
+          "outline_bbox_font_units": [
+            48,
+            -75,
+            951,
+            845
+          ],
+          "outline_bbox_em": [
+            0.048,
+            -0.075,
+            0.951,
+            0.845
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.048,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -122,
+              138,
+              11
+            ],
+            "width_em": 0.9097222222222222,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.45211226851851855
+          }
+        },
+        {
+          "character": "始",
+          "script": "kanji",
+          "glyph_name": "uni59CB",
+          "outline_bbox_font_units": [
+            53,
+            -84,
+            961,
+            837.3913043478261
+          ],
+          "outline_bbox_em": [
+            0.053,
+            -0.084,
+            0.961,
+            0.837391
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.053,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -121,
+              139,
+              12
+            ],
+            "width_em": 0.9097222222222222,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.39289158950617287
+          }
+        },
+        {
+          "character": "崩",
+          "script": "kanji",
+          "glyph_name": "uni5D29",
+          "outline_bbox_font_units": [
+            50,
+            -75,
+            911,
+            844
+          ],
+          "outline_bbox_em": [
+            0.05,
+            -0.075,
+            0.911,
+            0.844
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.05,
+          "raster": {
+            "bbox_px_baseline": [
+              7,
+              -122,
+              131,
+              11
+            ],
+            "width_em": 0.8611111111111112,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4227430555555556
+          }
+        },
+        {
+          "character": "待",
+          "script": "kanji",
+          "glyph_name": "uni5F85",
+          "outline_bbox_font_units": [
+            46,
+            -84,
+            954,
+            840
+          ],
+          "outline_bbox_em": [
+            0.046,
+            -0.084,
+            0.954,
+            0.84
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.046,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -121,
+              138,
+              13
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.9305555555555556,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.36921296296296297
+          }
+        },
+        {
+          "character": "終",
+          "script": "kanji",
+          "glyph_name": "uni7D42",
+          "outline_bbox_font_units": [
+            43,
+            -85,
+            953,
+            835.7272727272727
+          ],
+          "outline_bbox_em": [
+            0.043,
+            -0.085,
+            0.953,
+            0.835727
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.043,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -121,
+              137,
+              12
+            ],
+            "width_em": 0.9097222222222222,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3754340277777778
+          }
+        },
+        {
+          "character": "聖",
+          "script": "kanji",
+          "glyph_name": "uni8056",
+          "outline_bbox_font_units": [
+            58,
+            -71.18181818181819,
+            944,
+            807
+          ],
+          "outline_bbox_em": [
+            0.058,
+            -0.071182,
+            0.944,
+            0.807
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.058,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -116,
+              137,
+              11
+            ],
+            "width_em": 0.8958333333333334,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8055555555555556,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3645833333333333,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.45558449074074076
+          }
+        },
+        {
+          "character": "、",
+          "script": "punctuation",
+          "glyph_name": "uni3001",
+          "outline_bbox_font_units": [
+            60,
+            -65,
+            354,
+            184
+          ],
+          "outline_bbox_em": [
+            0.06,
+            -0.065,
+            0.354,
+            0.184
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.06,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -27,
+              51,
+              10
+            ],
+            "width_em": 0.2986111111111111,
+            "height_em": 0.2569444444444444,
+            "top_em": -0.1875,
+            "bottom_em": 0.06944444444444445,
+            "center_y_em": -0.059027777777777776,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.038676697530864196
+          }
+        }
+      ],
+      "script_summary": {
+        "kanji": {
+          "sample": "会再域壊始崩待終聖",
+          "count": 9,
+          "mean_width_em": 0.9020061728395061,
+          "mean_height_em": 0.9143518518518519,
+          "mean_ink_area_em2": 0.4025902349108368,
+          "mean_top_em": -0.8325617283950617,
+          "mean_bottom_em": 0.08179012345679013,
+          "mean_center_y_em": -0.3753858024691358,
+          "mean_advance_em": 1.0
+        },
+        "hiragana": {
+          "sample": "かたちとねのまりわ",
+          "count": 9,
+          "mean_width_em": 0.7160493827160493,
+          "mean_height_em": 0.8425925925925926,
+          "mean_ink_area_em2": 0.20448602537722907,
+          "mean_top_em": -0.808641975308642,
+          "mean_bottom_em": 0.033950617283950615,
+          "mean_center_y_em": -0.3873456790123457,
+          "mean_advance_em": 1.0
+        },
+        "punctuation": {
+          "sample": "、",
+          "count": 1,
+          "mean_width_em": 0.2986111111111111,
+          "mean_height_em": 0.2569444444444444,
+          "mean_ink_area_em2": 0.038676697530864196,
+          "mean_top_em": -0.1875,
+          "mean_bottom_em": 0.06944444444444445,
+          "mean_center_y_em": -0.059027777777777776,
+          "mean_advance_em": 1.0
+        }
+      },
+      "kanji_hiragana_ratios": {
+        "width_em": 1.259698275862069,
+        "height_em": 1.0851648351648353,
+        "ink_area_em2": 1.9687909438708666,
+        "kanji_minus_hiragana_center_y_em": 0.011959876543209902
+      }
+    },
+    {
+      "id": "dela-gothic-one",
+      "label": "Dela Gothic One / Regular (400)",
+      "vertical_metrics": {
+        "hhea_ascent_em": 1.16,
+        "hhea_descent_em": -0.288,
+        "hhea_line_gap_em": 0.0,
+        "typo_ascent_em": 0.88,
+        "typo_descent_em": -0.12,
+        "win_ascent_em": 1.16,
+        "win_descent_em": 0.288,
+        "pillow_ascent_px": 168,
+        "pillow_descent_px": 42
+      },
+      "glyphs": [
+        {
+          "character": "か",
+          "script": "hiragana",
+          "glyph_name": "uni304B",
+          "outline_bbox_font_units": [
+            1,
+            -12,
+            995,
+            763
+          ],
+          "outline_bbox_em": [
+            0.001,
+            -0.012,
+            0.995,
+            0.763
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.001,
+          "raster": {
+            "bbox_px_baseline": [
+              0,
+              -110,
+              143,
+              2
+            ],
+            "width_em": 0.9930555555555556,
+            "height_em": 0.7777777777777778,
+            "top_em": -0.7638888888888888,
+            "bottom_em": 0.013888888888888888,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5295621141975309
+          }
+        },
+        {
+          "character": "た",
+          "script": "hiragana",
+          "glyph_name": "uni305F",
+          "outline_bbox_font_units": [
+            3,
+            -2,
+            957,
+            764
+          ],
+          "outline_bbox_em": [
+            0.003,
+            -0.002,
+            0.957,
+            0.764
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.003,
+          "raster": {
+            "bbox_px_baseline": [
+              0,
+              -110,
+              138,
+              1
+            ],
+            "width_em": 0.9583333333333334,
+            "height_em": 0.7708333333333334,
+            "top_em": -0.7638888888888888,
+            "bottom_em": 0.006944444444444444,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4603105709876543
+          }
+        },
+        {
+          "character": "ち",
+          "script": "hiragana",
+          "glyph_name": "uni3061",
+          "outline_bbox_font_units": [
+            59,
+            -2,
+            955,
+            774
+          ],
+          "outline_bbox_em": [
+            0.059,
+            -0.002,
+            0.955,
+            0.774
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.059,
+          "raster": {
+            "bbox_px_baseline": [
+              9,
+              -112,
+              138,
+              0
+            ],
+            "width_em": 0.8958333333333334,
+            "height_em": 0.7777777777777778,
+            "top_em": -0.7777777777777778,
+            "bottom_em": 0.0,
+            "center_y_em": -0.3888888888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5210744598765432
+          }
+        },
+        {
+          "character": "と",
+          "script": "hiragana",
+          "glyph_name": "uni3068",
+          "outline_bbox_font_units": [
+            80,
+            9,
+            945,
+            776
+          ],
+          "outline_bbox_em": [
+            0.08,
+            0.009,
+            0.945,
+            0.776
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.08,
+          "raster": {
+            "bbox_px_baseline": [
+              11,
+              -112,
+              137,
+              -1
+            ],
+            "width_em": 0.875,
+            "height_em": 0.7708333333333334,
+            "top_em": -0.7777777777777778,
+            "bottom_em": -0.006944444444444444,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.44849537037037035
+          }
+        },
+        {
+          "character": "ね",
+          "script": "hiragana",
+          "glyph_name": "uni306D",
+          "outline_bbox_font_units": [
+            -6,
+            -5,
+            985,
+            772
+          ],
+          "outline_bbox_em": [
+            -0.006,
+            -0.005,
+            0.985,
+            0.772
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": -0.006,
+          "raster": {
+            "bbox_px_baseline": [
+              -1,
+              -112,
+              143,
+              0
+            ],
+            "width_em": 1.0,
+            "height_em": 0.7777777777777778,
+            "top_em": -0.7777777777777778,
+            "bottom_em": 0.0,
+            "center_y_em": -0.3888888888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5786072530864198
+          }
+        },
+        {
+          "character": "の",
+          "script": "hiragana",
+          "glyph_name": "uni306E",
+          "outline_bbox_font_units": [
+            16,
+            -12,
+            966,
+            759
+          ],
+          "outline_bbox_em": [
+            0.016,
+            -0.012,
+            0.966,
+            0.759
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.016,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -110,
+              140,
+              2
+            ],
+            "width_em": 0.9583333333333334,
+            "height_em": 0.7777777777777778,
+            "top_em": -0.7638888888888888,
+            "bottom_em": 0.013888888888888888,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5230034722222222
+          }
+        },
+        {
+          "character": "ま",
+          "script": "hiragana",
+          "glyph_name": "uni307E",
+          "outline_bbox_font_units": [
+            68,
+            -7,
+            950,
+            768
+          ],
+          "outline_bbox_em": [
+            0.068,
+            -0.007,
+            0.95,
+            0.768
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.068,
+          "raster": {
+            "bbox_px_baseline": [
+              9,
+              -111,
+              137,
+              1
+            ],
+            "width_em": 0.8888888888888888,
+            "height_em": 0.7777777777777778,
+            "top_em": -0.7708333333333334,
+            "bottom_em": 0.006944444444444444,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5320216049382716
+          }
+        },
+        {
+          "character": "り",
+          "script": "hiragana",
+          "glyph_name": "uni308A",
+          "outline_bbox_font_units": [
+            58,
+            0,
+            934,
+            765
+          ],
+          "outline_bbox_em": [
+            0.058,
+            0.0,
+            0.934,
+            0.765
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.058,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -111,
+              135,
+              0
+            ],
+            "width_em": 0.8819444444444444,
+            "height_em": 0.7708333333333334,
+            "top_em": -0.7708333333333334,
+            "bottom_em": 0.0,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4428047839506173
+          }
+        },
+        {
+          "character": "わ",
+          "script": "hiragana",
+          "glyph_name": "uni308F",
+          "outline_bbox_font_units": [
+            -6,
+            -5,
+            985,
+            762
+          ],
+          "outline_bbox_em": [
+            -0.006,
+            -0.005,
+            0.985,
+            0.762
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": -0.006,
+          "raster": {
+            "bbox_px_baseline": [
+              -1,
+              -110,
+              143,
+              0
+            ],
+            "width_em": 1.0,
+            "height_em": 0.7638888888888888,
+            "top_em": -0.7638888888888888,
+            "bottom_em": 0.0,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5207851080246914
+          }
+        },
+        {
+          "character": "会",
+          "script": "kanji",
+          "glyph_name": "uni4F1A",
+          "outline_bbox_font_units": [
+            12,
+            -4,
+            993,
+            770
+          ],
+          "outline_bbox_em": [
+            0.012,
+            -0.004,
+            0.993,
+            0.77
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.012,
+          "raster": {
+            "bbox_px_baseline": [
+              1,
+              -112,
+              144,
+              1
+            ],
+            "width_em": 0.9930555555555556,
+            "height_em": 0.7847222222222222,
+            "top_em": -0.7777777777777778,
+            "bottom_em": 0.006944444444444444,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5760513117283951
+          }
+        },
+        {
+          "character": "再",
+          "script": "kanji",
+          "glyph_name": "uni518D",
+          "outline_bbox_font_units": [
+            14,
+            1,
+            986,
+            753
+          ],
+          "outline_bbox_em": [
+            0.014,
+            0.001,
+            0.986,
+            0.753
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.014,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -109,
+              142,
+              0
+            ],
+            "width_em": 0.9722222222222222,
+            "height_em": 0.7569444444444444,
+            "top_em": -0.7569444444444444,
+            "bottom_em": 0.0,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6048900462962963
+          }
+        },
+        {
+          "character": "域",
+          "script": "kanji",
+          "glyph_name": "uni57DF",
+          "outline_bbox_font_units": [
+            12,
+            -7,
+            979,
+            789
+          ],
+          "outline_bbox_em": [
+            0.012,
+            -0.007,
+            0.979,
+            0.789
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.012,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -114,
+              142,
+              1
+            ],
+            "width_em": 0.9722222222222222,
+            "height_em": 0.7986111111111112,
+            "top_em": -0.7916666666666666,
+            "bottom_em": 0.006944444444444444,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6325713734567902
+          }
+        },
+        {
+          "character": "壊",
+          "script": "kanji",
+          "glyph_name": "uni58CA",
+          "outline_bbox_font_units": [
+            12,
+            -8,
+            990,
+            766
+          ],
+          "outline_bbox_em": [
+            0.012,
+            -0.008,
+            0.99,
+            0.766
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.012,
+          "raster": {
+            "bbox_px_baseline": [
+              1,
+              -111,
+              143,
+              1
+            ],
+            "width_em": 0.9861111111111112,
+            "height_em": 0.7777777777777778,
+            "top_em": -0.7708333333333334,
+            "bottom_em": 0.006944444444444444,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6209972993827161
+          }
+        },
+        {
+          "character": "始",
+          "script": "kanji",
+          "glyph_name": "uni59CB",
+          "outline_bbox_font_units": [
+            2,
+            -16,
+            980,
+            771
+          ],
+          "outline_bbox_em": [
+            0.002,
+            -0.016,
+            0.98,
+            0.771
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.002,
+          "raster": {
+            "bbox_px_baseline": [
+              0,
+              -112,
+              142,
+              3
+            ],
+            "width_em": 0.9861111111111112,
+            "height_em": 0.7986111111111112,
+            "top_em": -0.7777777777777778,
+            "bottom_em": 0.020833333333333332,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6195023148148148
+          }
+        },
+        {
+          "character": "崩",
+          "script": "kanji",
+          "glyph_name": "uni5D29",
+          "outline_bbox_font_units": [
+            -11,
+            -23,
+            958,
+            765
+          ],
+          "outline_bbox_em": [
+            -0.011,
+            -0.023,
+            0.958,
+            0.765
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": -0.011,
+          "raster": {
+            "bbox_px_baseline": [
+              -2,
+              -111,
+              138,
+              3
+            ],
+            "width_em": 0.9722222222222222,
+            "height_em": 0.7916666666666666,
+            "top_em": -0.7708333333333334,
+            "bottom_em": 0.020833333333333332,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6392264660493827
+          }
+        },
+        {
+          "character": "待",
+          "script": "kanji",
+          "glyph_name": "uni5F85",
+          "outline_bbox_font_units": [
+            -5,
+            -1,
+            984,
+            780
+          ],
+          "outline_bbox_em": [
+            -0.005,
+            -0.001,
+            0.984,
+            0.78
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": -0.005,
+          "raster": {
+            "bbox_px_baseline": [
+              -1,
+              -112,
+              142,
+              0
+            ],
+            "width_em": 0.9930555555555556,
+            "height_em": 0.7777777777777778,
+            "top_em": -0.7777777777777778,
+            "bottom_em": 0.0,
+            "center_y_em": -0.3888888888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5986207561728395
+          }
+        },
+        {
+          "character": "終",
+          "script": "kanji",
+          "glyph_name": "uni7D42",
+          "outline_bbox_font_units": [
+            3,
+            -8,
+            1031,
+            785
+          ],
+          "outline_bbox_em": [
+            0.003,
+            -0.008,
+            1.031,
+            0.785
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.003,
+          "raster": {
+            "bbox_px_baseline": [
+              0,
+              -113,
+              149,
+              1
+            ],
+            "width_em": 1.0347222222222223,
+            "height_em": 0.7916666666666666,
+            "top_em": -0.7847222222222222,
+            "bottom_em": 0.006944444444444444,
+            "center_y_em": -0.3888888888888889,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6456404320987654
+          }
+        },
+        {
+          "character": "聖",
+          "script": "kanji",
+          "glyph_name": "uni8056",
+          "outline_bbox_font_units": [
+            27,
+            9,
+            973,
+            752
+          ],
+          "outline_bbox_em": [
+            0.027,
+            0.009,
+            0.973,
+            0.752
+          ],
+          "advance_em_outline": 1.001,
+          "left_bearing_em_outline": 0.027,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -109,
+              141,
+              -1
+            ],
+            "width_em": 0.9583333333333334,
+            "height_em": 0.75,
+            "top_em": -0.7569444444444444,
+            "bottom_em": -0.006944444444444444,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0009765625,
+            "ink_area_em2": 0.6271701388888888
+          }
+        },
+        {
+          "character": "、",
+          "script": "punctuation",
+          "glyph_name": "uni3001",
+          "outline_bbox_font_units": [
+            30,
+            -50,
+            384,
+            270
+          ],
+          "outline_bbox_em": [
+            0.03,
+            -0.05,
+            0.384,
+            0.27
+          ],
+          "advance_em_outline": 0.414,
+          "left_bearing_em_outline": 0.03,
+          "raster": {
+            "bbox_px_baseline": [
+              4,
+              -39,
+              56,
+              7
+            ],
+            "width_em": 0.3611111111111111,
+            "height_em": 0.3194444444444444,
+            "top_em": -0.2708333333333333,
+            "bottom_em": 0.04861111111111111,
+            "center_y_em": -0.1111111111111111,
+            "advance_em": 0.4139539930555556,
+            "ink_area_em2": 0.056712962962962965
+          }
+        }
+      ],
+      "script_summary": {
+        "kanji": {
+          "sample": "会再域壊始崩待終聖",
+          "count": 9,
+          "mean_width_em": 0.9853395061728395,
+          "mean_height_em": 0.7808641975308642,
+          "mean_ink_area_em2": 0.6182966820987654,
+          "mean_top_em": -0.7739197530864198,
+          "mean_bottom_em": 0.006944444444444444,
+          "mean_center_y_em": -0.38348765432098764,
+          "mean_advance_em": 1.0001085069444444
+        },
+        "hiragana": {
+          "sample": "かたちとねのまりわ",
+          "count": 9,
+          "mean_width_em": 0.9390432098765432,
+          "mean_height_em": 0.7739197530864198,
+          "mean_ink_area_em2": 0.5062960819615913,
+          "mean_top_em": -0.7700617283950617,
+          "mean_bottom_em": 0.0038580246913580245,
+          "mean_center_y_em": -0.38310185185185186,
+          "mean_advance_em": 1.0
+        },
+        "punctuation": {
+          "sample": "、",
+          "count": 1,
+          "mean_width_em": 0.3611111111111111,
+          "mean_height_em": 0.3194444444444444,
+          "mean_ink_area_em2": 0.056712962962962965,
+          "mean_top_em": -0.2708333333333333,
+          "mean_bottom_em": 0.04861111111111111,
+          "mean_center_y_em": -0.1111111111111111,
+          "mean_advance_em": 0.4139539930555556
+        }
+      },
+      "kanji_hiragana_ratios": {
+        "width_em": 1.0493015612161052,
+        "height_em": 1.0089730807577268,
+        "ink_area_em2": 1.22121561696318,
+        "kanji_minus_hiragana_center_y_em": -0.0003858024691357764
+      }
+    },
+    {
+      "id": "zen-kaku-gothic-new-black",
+      "label": "Zen Kaku Gothic New / Black (900)",
+      "vertical_metrics": {
+        "hhea_ascent_em": 1.16,
+        "hhea_descent_em": -0.288,
+        "hhea_line_gap_em": 0.0,
+        "typo_ascent_em": 0.88,
+        "typo_descent_em": -0.12,
+        "win_ascent_em": 1.16,
+        "win_descent_em": 0.288,
+        "pillow_ascent_px": 168,
+        "pillow_descent_px": 42
+      },
+      "glyphs": [
+        {
+          "character": "か",
+          "script": "hiragana",
+          "glyph_name": "kahira",
+          "outline_bbox_font_units": [
+            43,
+            -35,
+            999,
+            783
+          ],
+          "outline_bbox_em": [
+            0.043,
+            -0.035,
+            0.999,
+            0.783
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.043,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -113,
+              144,
+              5
+            ],
+            "width_em": 0.9583333333333334,
+            "height_em": 0.8194444444444444,
+            "top_em": -0.7847222222222222,
+            "bottom_em": 0.034722222222222224,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3093653549382716
+          }
+        },
+        {
+          "character": "た",
+          "script": "hiragana",
+          "glyph_name": "tahira",
+          "outline_bbox_font_units": [
+            69,
+            -57,
+            915,
+            820
+          ],
+          "outline_bbox_em": [
+            0.069,
+            -0.057,
+            0.915,
+            0.82
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.069,
+          "raster": {
+            "bbox_px_baseline": [
+              10,
+              -118,
+              132,
+              8
+            ],
+            "width_em": 0.8472222222222222,
+            "height_em": 0.875,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.05555555555555555,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3197820216049383
+          }
+        },
+        {
+          "character": "ち",
+          "script": "hiragana",
+          "glyph_name": "tihira",
+          "outline_bbox_font_units": [
+            96,
+            -67.78527607361963,
+            853,
+            836
+          ],
+          "outline_bbox_em": [
+            0.096,
+            -0.067785,
+            0.853,
+            0.836
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.096,
+          "raster": {
+            "bbox_px_baseline": [
+              14,
+              -121,
+              123,
+              10
+            ],
+            "width_em": 0.7569444444444444,
+            "height_em": 0.9097222222222222,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.06944444444444445,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.33193479938271603
+          }
+        },
+        {
+          "character": "と",
+          "script": "hiragana",
+          "glyph_name": "tohira",
+          "outline_bbox_font_units": [
+            177,
+            -45.785714285714285,
+            830,
+            827
+          ],
+          "outline_bbox_em": [
+            0.177,
+            -0.045786,
+            0.83,
+            0.827
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.177,
+          "raster": {
+            "bbox_px_baseline": [
+              25,
+              -120,
+              120,
+              7
+            ],
+            "width_em": 0.6597222222222222,
+            "height_em": 0.8819444444444444,
+            "top_em": -0.8333333333333334,
+            "bottom_em": 0.04861111111111111,
+            "center_y_em": -0.3923611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.2527006172839506
+          }
+        },
+        {
+          "character": "ね",
+          "script": "hiragana",
+          "glyph_name": "nehira",
+          "outline_bbox_font_units": [
+            39,
+            -67,
+            970,
+            823
+          ],
+          "outline_bbox_em": [
+            0.039,
+            -0.067,
+            0.97,
+            0.823
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.039,
+          "raster": {
+            "bbox_px_baseline": [
+              5,
+              -119,
+              140,
+              10
+            ],
+            "width_em": 0.9375,
+            "height_em": 0.8958333333333334,
+            "top_em": -0.8263888888888888,
+            "bottom_em": 0.06944444444444445,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4085648148148148
+          }
+        },
+        {
+          "character": "の",
+          "script": "hiragana",
+          "glyph_name": "nohira",
+          "outline_bbox_font_units": [
+            68.5609756097561,
+            -22,
+            930.7575757575758,
+            747.7462686567164
+          ],
+          "outline_bbox_em": [
+            0.068561,
+            -0.022,
+            0.930758,
+            0.747746
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.066,
+          "raster": {
+            "bbox_px_baseline": [
+              10,
+              -108,
+              135,
+              3
+            ],
+            "width_em": 0.8680555555555556,
+            "height_em": 0.7708333333333334,
+            "top_em": -0.75,
+            "bottom_em": 0.020833333333333332,
+            "center_y_em": -0.3645833333333333,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.36617476851851855
+          }
+        },
+        {
+          "character": "ま",
+          "script": "hiragana",
+          "glyph_name": "mahira",
+          "outline_bbox_font_units": [
+            163.98130841121497,
+            -66.33684210526316,
+            861,
+            829
+          ],
+          "outline_bbox_em": [
+            0.163981,
+            -0.066337,
+            0.861,
+            0.829
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.163,
+          "raster": {
+            "bbox_px_baseline": [
+              24,
+              -120,
+              125,
+              10
+            ],
+            "width_em": 0.7013888888888888,
+            "height_em": 0.9027777777777778,
+            "top_em": -0.8333333333333334,
+            "bottom_em": 0.06944444444444445,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3624131944444444
+          }
+        },
+        {
+          "character": "り",
+          "script": "hiragana",
+          "glyph_name": "rihira",
+          "outline_bbox_font_units": [
+            244.6,
+            -78,
+            763,
+            826
+          ],
+          "outline_bbox_em": [
+            0.2446,
+            -0.078,
+            0.763,
+            0.826
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.244,
+          "raster": {
+            "bbox_px_baseline": [
+              35,
+              -119,
+              110,
+              11
+            ],
+            "width_em": 0.5208333333333334,
+            "height_em": 0.9027777777777778,
+            "top_em": -0.8263888888888888,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.2462866512345679
+          }
+        },
+        {
+          "character": "わ",
+          "script": "hiragana",
+          "glyph_name": "wahira",
+          "outline_bbox_font_units": [
+            66,
+            -50,
+            933,
+            809
+          ],
+          "outline_bbox_em": [
+            0.066,
+            -0.05,
+            0.933,
+            0.809
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.066,
+          "raster": {
+            "bbox_px_baseline": [
+              9,
+              -117,
+              135,
+              7
+            ],
+            "width_em": 0.875,
+            "height_em": 0.8611111111111112,
+            "top_em": -0.8125,
+            "bottom_em": 0.04861111111111111,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.3324170524691358
+          }
+        },
+        {
+          "character": "会",
+          "script": "kanji",
+          "glyph_name": "uni4F1A",
+          "outline_bbox_font_units": [
+            3,
+            -88,
+            997,
+            854
+          ],
+          "outline_bbox_em": [
+            0.003,
+            -0.088,
+            0.997,
+            0.854
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.003,
+          "raster": {
+            "bbox_px_baseline": [
+              0,
+              -123,
+              144,
+              12
+            ],
+            "width_em": 1.0,
+            "height_em": 0.9375,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3854166666666667,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.4981674382716049
+          }
+        },
+        {
+          "character": "再",
+          "script": "kanji",
+          "glyph_name": "uni518D",
+          "outline_bbox_font_units": [
+            45,
+            -73,
+            957,
+            818
+          ],
+          "outline_bbox_em": [
+            0.045,
+            -0.073,
+            0.957,
+            0.818
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.045,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -118,
+              138,
+              11
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.8958333333333334,
+            "top_em": -0.8194444444444444,
+            "bottom_em": 0.0763888888888889,
+            "center_y_em": -0.3715277777777778,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5315875771604939
+          }
+        },
+        {
+          "character": "域",
+          "script": "kanji",
+          "glyph_name": "uni57DF",
+          "outline_bbox_font_units": [
+            28,
+            -94,
+            1001,
+            844
+          ],
+          "outline_bbox_em": [
+            0.028,
+            -0.094,
+            1.001,
+            0.844
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.028,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -122,
+              144,
+              14
+            ],
+            "width_em": 0.9791666666666666,
+            "height_em": 0.9444444444444444,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.09722222222222222,
+            "center_y_em": -0.375,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5470679012345679
+          }
+        },
+        {
+          "character": "壊",
+          "script": "kanji",
+          "glyph_name": "uni58CA",
+          "outline_bbox_font_units": [
+            17,
+            -86,
+            976,
+            845
+          ],
+          "outline_bbox_em": [
+            0.017,
+            -0.086,
+            0.976,
+            0.845
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.017,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -122,
+              140,
+              13
+            ],
+            "width_em": 0.9583333333333334,
+            "height_em": 0.9375,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.6162712191358025
+          }
+        },
+        {
+          "character": "始",
+          "script": "kanji",
+          "glyph_name": "uni59CB",
+          "outline_bbox_font_units": [
+            18,
+            -79,
+            976,
+            847
+          ],
+          "outline_bbox_em": [
+            0.018,
+            -0.079,
+            0.976,
+            0.847
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.018,
+          "raster": {
+            "bbox_px_baseline": [
+              3,
+              -122,
+              141,
+              12
+            ],
+            "width_em": 0.9583333333333334,
+            "height_em": 0.9305555555555556,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5233410493827161
+          }
+        },
+        {
+          "character": "崩",
+          "script": "kanji",
+          "glyph_name": "uni5D29",
+          "outline_bbox_font_units": [
+            15,
+            -81,
+            918,
+            837
+          ],
+          "outline_bbox_em": [
+            0.015,
+            -0.081,
+            0.918,
+            0.837
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.015,
+          "raster": {
+            "bbox_px_baseline": [
+              2,
+              -121,
+              132,
+              12
+            ],
+            "width_em": 0.9027777777777778,
+            "height_em": 0.9236111111111112,
+            "top_em": -0.8402777777777778,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3784722222222222,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5995370370370371
+          }
+        },
+        {
+          "character": "待",
+          "script": "kanji",
+          "glyph_name": "uni5F85",
+          "outline_bbox_font_units": [
+            5,
+            -77,
+            952,
+            846
+          ],
+          "outline_bbox_em": [
+            0.005,
+            -0.077,
+            0.952,
+            0.846
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.005,
+          "raster": {
+            "bbox_px_baseline": [
+              0,
+              -122,
+              137,
+              12
+            ],
+            "width_em": 0.9513888888888888,
+            "height_em": 0.9305555555555556,
+            "top_em": -0.8472222222222222,
+            "bottom_em": 0.08333333333333333,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5091145833333334
+          }
+        },
+        {
+          "character": "終",
+          "script": "kanji",
+          "glyph_name": "uni7D42",
+          "outline_bbox_font_units": [
+            11,
+            -90,
+            999,
+            850
+          ],
+          "outline_bbox_em": [
+            0.011,
+            -0.09,
+            0.999,
+            0.85
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.011,
+          "raster": {
+            "bbox_px_baseline": [
+              1,
+              -123,
+              144,
+              13
+            ],
+            "width_em": 0.9930555555555556,
+            "height_em": 0.9444444444444444,
+            "top_em": -0.8541666666666666,
+            "bottom_em": 0.09027777777777778,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5369405864197531
+          }
+        },
+        {
+          "character": "聖",
+          "script": "kanji",
+          "glyph_name": "uni8056",
+          "outline_bbox_font_units": [
+            43,
+            -62,
+            957,
+            825
+          ],
+          "outline_bbox_em": [
+            0.043,
+            -0.062,
+            0.957,
+            0.825
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.043,
+          "raster": {
+            "bbox_px_baseline": [
+              6,
+              -119,
+              138,
+              9
+            ],
+            "width_em": 0.9166666666666666,
+            "height_em": 0.8888888888888888,
+            "top_em": -0.8263888888888888,
+            "bottom_em": 0.0625,
+            "center_y_em": -0.3819444444444444,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.5825617283950617
+          }
+        },
+        {
+          "character": "、",
+          "script": "punctuation",
+          "glyph_name": "uni3001",
+          "outline_bbox_font_units": [
+            55,
+            -63,
+            346,
+            217
+          ],
+          "outline_bbox_em": [
+            0.055,
+            -0.063,
+            0.346,
+            0.217
+          ],
+          "advance_em_outline": 1.0,
+          "left_bearing_em_outline": 0.055,
+          "raster": {
+            "bbox_px_baseline": [
+              8,
+              -32,
+              50,
+              9
+            ],
+            "width_em": 0.2916666666666667,
+            "height_em": 0.2847222222222222,
+            "top_em": -0.2222222222222222,
+            "bottom_em": 0.0625,
+            "center_y_em": -0.0798611111111111,
+            "advance_em": 1.0,
+            "ink_area_em2": 0.038097993827160496
+          }
+        }
+      ],
+      "script_summary": {
+        "kanji": {
+          "sample": "会再域壊始崩待終聖",
+          "count": 9,
+          "mean_width_em": 0.9529320987654321,
+          "mean_height_em": 0.9259259259259259,
+          "mean_ink_area_em2": 0.5493987911522634,
+          "mean_top_em": -0.8425925925925926,
+          "mean_bottom_em": 0.08333333333333333,
+          "mean_center_y_em": -0.3796296296296296,
+          "mean_advance_em": 1.0
+        },
+        "hiragana": {
+          "sample": "かたちとねのまりわ",
+          "count": 9,
+          "mean_width_em": 0.7916666666666666,
+          "mean_height_em": 0.8688271604938271,
+          "mean_ink_area_em2": 0.32551547496570643,
+          "mean_top_em": -0.8140432098765432,
+          "mean_bottom_em": 0.05478395061728395,
+          "mean_center_y_em": -0.3796296296296296,
+          "mean_advance_em": 1.0
+        },
+        "punctuation": {
+          "sample": "、",
+          "count": 1,
+          "mean_width_em": 0.2916666666666667,
+          "mean_height_em": 0.2847222222222222,
+          "mean_ink_area_em2": 0.038097993827160496,
+          "mean_top_em": -0.2222222222222222,
+          "mean_bottom_em": 0.0625,
+          "mean_center_y_em": -0.0798611111111111,
+          "mean_advance_em": 1.0
+        }
+      },
+      "kanji_hiragana_ratios": {
+        "width_em": 1.2037037037037037,
+        "height_em": 1.0657193605683837,
+        "ink_area_em2": 1.6877808688208862,
+        "kanji_minus_hiragana_center_y_em": 0.0
+      }
+    }
+  ],
+  "mixed_font_controls": [
+    {
+      "primary": "mplus2-black",
+      "primary_label": "M PLUS 2 / Black (900)",
+      "kana": "shippori-mincho-semibold",
+      "kanji_hiragana_height_ratio": 1.142322097378277,
+      "kanji_hiragana_ink_area_ratio": 4.022000519953205,
+      "align_kana_center_to_kanji_offset_em": 0.024691358024691357
+    },
+    {
+      "primary": "noto-sans-jp-black",
+      "primary_label": "Noto Sans JP / Black (900)",
+      "kana": "shippori-mincho-semibold",
+      "kanji_hiragana_height_ratio": 1.150749063670412,
+      "kanji_hiragana_ink_area_ratio": 3.5128688418042384,
+      "align_kana_center_to_kanji_offset_em": 0.008873456790123468
+    },
+    {
+      "primary": "zen-kaku-gothic-new-black",
+      "primary_label": "Zen Kaku Gothic New / Black (900)",
+      "kana": "shippori-mincho-semibold",
+      "kanji_hiragana_height_ratio": 1.1235955056179776,
+      "kanji_hiragana_ink_area_ratio": 3.3319576238138575,
+      "align_kana_center_to_kanji_offset_em": 0.003858024691358042
+    }
+  ],
+  "limitations": [
+    "No identification of source fonts",
+    "No source glyph contour fitting",
+    "No title layout quality ranking",
+    "Metrics sampled on fixed corpus, not universal font metrics"
+  ]
+}

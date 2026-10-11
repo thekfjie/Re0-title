@@ -1,0 +1,92 @@
+[
+  {
+    "sample_id": "s002",
+    "median_kanji_ink_bbox_height_px": 389.0,
+    "max_min_ink_height_ratio_including_punctuation": 1.8439,
+    "max_min_ink_height_ratio_excluding_punctuation": 1.8439,
+    "kanji_kana_median_ink_height_ratio": {
+      "value": 1.2389,
+      "approx_bbox_error_range": [
+        1.1687,
+        1.3117
+      ],
+      "numerator_median_ink_height_px": 389.0,
+      "denominator_median_ink_height_px": 314.0
+    }
+  },
+  {
+    "sample_id": "s006",
+    "median_kanji_ink_bbox_height_px": 408.5,
+    "max_min_ink_height_ratio_including_punctuation": 2.0138,
+    "max_min_ink_height_ratio_excluding_punctuation": 2.0138,
+    "kanji_kana_median_ink_height_ratio": {
+      "value": 1.8825,
+      "approx_bbox_error_range": [
+        1.6328,
+        2.1943
+      ],
+      "numerator_median_ink_height_px": 408.5,
+      "denominator_median_ink_height_px": 217.0
+    }
+  },
+  {
+    "sample_id": "s014",
+    "median_kanji_ink_bbox_height_px": 443.0,
+    "max_min_ink_height_ratio_including_punctuation": 2.2624,
+    "max_min_ink_height_ratio_excluding_punctuation": 2.2624,
+    "kanji_kana_median_ink_height_ratio": {
+      "value": 1.6717,
+      "approx_bbox_error_range": [
+        1.6125,
+        1.7336
+      ],
+      "numerator_median_ink_height_px": 443.0,
+      "denominator_median_ink_height_px": 265.0
+    }
+  },
+  {
+    "sample_id": "s030",
+    "median_kanji_ink_bbox_height_px": 255.0,
+    "max_min_ink_height_ratio_including_punctuation": 1.3568,
+    "max_min_ink_height_ratio_excluding_punctuation": 1.3568,
+    "kanji_kana_median_ink_height_ratio": {
+      "value": 1.1972,
+      "approx_bbox_error_range": [
+        1.1166,
+        1.2857
+      ],
+      "numerator_median_ink_height_px": 255.0,
+      "denominator_median_ink_height_px": 213.0
+    }
+  },
+  {
+    "sample_id": "s035",
+    "median_kanji_ink_bbox_height_px": 281.0,
+    "max_min_ink_height_ratio_including_punctuation": 2.4601,
+    "max_min_ink_height_ratio_excluding_punctuation": 2.4601,
+    "kanji_kana_median_ink_height_ratio": {
+      "value": 1.7239,
+      "approx_bbox_error_range": [
+        1.5207,
+        1.9427
+      ],
+      "numerator_median_ink_height_px": 281.0,
+      "denominator_median_ink_height_px": 163.0
+    }
+  },
+  {
+    "sample_id": "s048",
+    "median_kanji_ink_bbox_height_px": 240.0,
+    "max_min_ink_height_ratio_including_punctuation": 6.1136,
+    "max_min_ink_height_ratio_excluding_punctuation": 2.2991,
+    "kanji_kana_median_ink_height_ratio": {
+      "value": 1.2632,
+      "approx_bbox_error_range": [
+        1.1939,
+        1.337
+      ],
+      "numerator_median_ink_height_px": 240.0,
+      "denominator_median_ink_height_px": 190.0
+    }
+  }
+]

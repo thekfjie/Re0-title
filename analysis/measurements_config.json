@@ -1,0 +1,2174 @@
+[
+  {
+    "clip": [
+      448,
+      170,
+      2752,
+      1165
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1090
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1150
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      170,
+      2752,
+      1135
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      970
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1040
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      170,
+      2752,
+      1140
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      170,
+      2752,
+      1160
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1060
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      990
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1090
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1050
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      170,
+      2752,
+      1110
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1050
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1060
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1080
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      145,
+      2752,
+      1310
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [
+      "Chinese translation sits left of the second title row; excluded by rectangle."
+    ],
+    "manual_visual_line_count": 2,
+    "exclude_rectangles": [
+      [
+        448,
+        890,
+        1030,
+        1210
+      ]
+    ]
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1090
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1070
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1110
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      170,
+      2752,
+      1300
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [
+      "Translation overlaps vertical range of first row; top-center rectangle excluded."
+    ],
+    "manual_visual_line_count": 2,
+    "exclude_rectangles": [
+      [
+        1080,
+        90,
+        1960,
+        213
+      ]
+    ]
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1100
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1030
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1210
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      540,
+      2752,
+      880
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "white",
+    "threshold": 20,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background"
+    ],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      480,
+      2752,
+      930
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "bright_black",
+    "threshold": 95,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "latin_title",
+      "glow"
+    ],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      950,
+      470,
+      2170,
+      940
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "decorative_snowflakes"
+    ],
+    "notes": [
+      "Central crop avoids most snowflakes; cannot prove every retained pixel is text."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      930
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      440,
+      2752,
+      885
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "white",
+    "threshold": 20,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background"
+    ],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      960
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      1050,
+      420,
+      2160,
+      980
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "dark_white",
+    "threshold": 110,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "medium",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background",
+      "petals"
+    ],
+    "notes": [
+      "Dark-text threshold suppresses pale pink petals and may lose pale glyph edges."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      950
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      980
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      965
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      990
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      140,
+      2752,
+      1290
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "neutral_black",
+    "threshold": 35,
+    "upper_limit": 195,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "translation_near_descender",
+      "dark_gradient_title"
+    ],
+    "notes": [
+      "Neutral gray title mask suppresses bright blue-edged translation; lower descender/translation boundary is uncertain."
+    ],
+    "manual_visual_line_count": 3
+  },
+  {
+    "clip": [
+      448,
+      565,
+      2752,
+      910
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1020
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1120
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      990
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      940
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": false,
+    "flags": [
+      "latin_title"
+    ],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      980
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      470,
+      2752,
+      940
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "neutral_black",
+    "threshold": 65,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "purple_gradient_background"
+    ],
+    "notes": [
+      "Neutral contrast filter estimates gray/white glyphs over colored gradient."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1035
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      990
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      375,
+      2752,
+      1110
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1070
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1215
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 4
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      990
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      420,
+      2752,
+      910
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "bright_black",
+    "threshold": 95,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "reflection"
+    ],
+    "notes": [
+      "Crop/threshold omit mirrored decoration; the mirror boundary is approximate."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1120
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      990
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      650,
+      550,
+      2520,
+      905
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "strong_color",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "yellow_gradient_background"
+    ],
+    "notes": [
+      "Strong-color/bright-neutral mask is an estimate, unsuitable for aggregate ink-area statistics."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      510,
+      2752,
+      960
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "neutral_black",
+    "threshold": 45,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "medium",
+    "eligible_primary_black": false,
+    "flags": [
+      "blood_splatter_background"
+    ],
+    "notes": [
+      "Neutral gray/white extraction suppresses red splatter; red is background, not title emphasis."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      985
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1090
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      955
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1060
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "dark_textured_glyphs"
+    ],
+    "notes": [
+      "Water/texture treatment makes mask area and core colors threshold dependent."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      960
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      330,
+      2752,
+      1030
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "white",
+    "threshold": 20,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background"
+    ],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      930
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      420,
+      2752,
+      1050
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "bright_neutral",
+    "threshold": 220,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "warped_multicolor_background"
+    ],
+    "notes": [
+      "Only near-white title cores measured; colored background and anti-aliased edges intentionally omitted."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      360,
+      2752,
+      1000
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      320,
+      2752,
+      1100
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "glow"
+    ],
+    "notes": [
+      "Soft glow contributes to mask area; cannot infer font outlines from the mask."
+    ],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      460,
+      2752,
+      880
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "white",
+    "threshold": 10,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "medium",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background",
+      "very_pale_title"
+    ],
+    "notes": [
+      "Very pale title requires lower contrast threshold; JPEG noise can affect small components."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      365,
+      2752,
+      1000
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      280,
+      2752,
+      1100
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      1125
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      340,
+      2752,
+      1120
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "white",
+    "threshold": 20,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "excluded",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background",
+      "censored_title"
+    ],
+    "notes": [
+      "Black censorship blocks cover the title. Measurements describe visible ink/blocks only; no hidden text inferred."
+    ],
+    "manual_visual_line_count": 2,
+    "exclude_rectangles": [
+      [
+        1720,
+        300,
+        2400,
+        375
+      ]
+    ]
+  },
+  {
+    "clip": [
+      448,
+      355,
+      2752,
+      1040
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "dark_white",
+    "threshold": 95,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "medium",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background",
+      "water_background"
+    ],
+    "notes": [
+      "Dark-text filter suppresses pale cyan water pattern."
+    ],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      180,
+      2752,
+      925
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      250,
+      2752,
+      1170
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 3
+  },
+  {
+    "clip": [
+      448,
+      280,
+      2752,
+      930
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      280,
+      2752,
+      970
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      190,
+      2752,
+      1320
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "glow",
+      "star_decoration"
+    ],
+    "notes": [
+      "Glow and attached stars are included in visible ink; keep out of primary font-area statistics."
+    ],
+    "manual_visual_line_count": 3
+  },
+  {
+    "clip": [
+      448,
+      280,
+      2752,
+      1160
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      335,
+      2752,
+      1020
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "white",
+    "threshold": 20,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background"
+    ],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      240,
+      2752,
+      1040
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      220,
+      2752,
+      1260
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": true,
+    "flags": [],
+    "notes": [],
+    "manual_visual_line_count": 2
+  },
+  {
+    "clip": [
+      448,
+      185,
+      2752,
+      1260
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "low",
+    "eligible_primary_black": false,
+    "flags": [
+      "translation_interleaved",
+      "textured_glyphs"
+    ],
+    "notes": [
+      "Chinese translation lies between Japanese characters; manual rectangle may remove a small portion of lower glyph edge."
+    ],
+    "manual_visual_line_count": 2,
+    "exclude_rectangles": [
+      [
+        620,
+        710,
+        1420,
+        1080
+      ]
+    ]
+  },
+  {
+    "clip": [
+      448,
+      340,
+      2752,
+      1130
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "black",
+    "mask_method": "black",
+    "threshold": 35,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "medium",
+    "eligible_primary_black": false,
+    "flags": [
+      "fractured_rotated_title"
+    ],
+    "notes": [
+      "Visible fractured red title is measured as ink; rotation/fragments prevent glyph metrics inference."
+    ],
+    "manual_visual_line_count": 1
+  },
+  {
+    "clip": [
+      448,
+      340,
+      2752,
+      985
+    ],
+    "canvas": [
+      448,
+      72,
+      2752,
+      1368
+    ],
+    "background": "white",
+    "mask_method": "white",
+    "threshold": 20,
+    "upper_limit": 256,
+    "neutral_chroma": 25,
+    "minimum_component_pixels": 20,
+    "confidence": "high",
+    "eligible_primary_black": false,
+    "flags": [
+      "white_background"
+    ],
+    "notes": [],
+    "manual_visual_line_count": 2
+  }
+]

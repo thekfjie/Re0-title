@@ -1,0 +1,1805 @@
+{
+  "claim_limit": "Internal scores do not establish aesthetic superiority. Four-text exploratory ablation, same fonts/seed.",
+  "runs": [
+    {
+      "id": "b03",
+      "heuristic": "balanced",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 435.96,
+      "best_score": 7.237001897092139,
+      "score_terms": [
+        {
+          "balance": 0.9727661577467074,
+          "semantic_emphasis": 0.9169537093229632,
+          "spacing_quality": 0.9436177789971292,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9920634920634921,
+          "rhythm": 0.985936680388326,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.0905246913580247,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5078773156040459,
+            0.4954881236504148
+          ],
+          "box_fill": 0.2
+        },
+        {
+          "balance": 0.9733780419493809,
+          "semantic_emphasis": 0.8694530567504382,
+          "spacing_quality": 0.9704812200233822,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9931043728651535,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06101851851851852,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4938817231495532,
+            0.4935723786507803
+          ],
+          "box_fill": 0.1262037037037037
+        },
+        {
+          "balance": 0.9789305154876966,
+          "semantic_emphasis": 0.8741144007944184,
+          "spacing_quality": 0.9542855174460363,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9953759131239531,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06425925925925927,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4954891130323407,
+            0.49461699932401176
+          ],
+          "box_fill": 0.13873456790123456
+        },
+        {
+          "balance": 0.9642410876519598,
+          "semantic_emphasis": 0.8778045065624227,
+          "spacing_quality": 0.9630041480033656,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9991846491615174,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.10014428843257672,
+          "ink_fill": 0.11061728395061729,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4996709914434524,
+            0.4880849041005291
+          ],
+          "box_fill": 0.3052469135802469
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "heuristic": "kanji_anchor",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 389.51,
+      "best_score": 7.262934628634183,
+      "score_terms": [
+        {
+          "balance": 0.9804474640297961,
+          "semantic_emphasis": 0.9209199551490589,
+          "spacing_quality": 0.947434348607433,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9865520282186949,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.08947530864197531,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5060552489364148,
+            0.4975892070062474
+          ],
+          "box_fill": 0.1988888888888889
+        },
+        {
+          "balance": 0.9846484754093837,
+          "semantic_emphasis": 0.8736867378343708,
+          "spacing_quality": 0.9525681326304032,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9953759131239531,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06429012345679012,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.498385741718675,
+            0.4951441119468004
+          ],
+          "box_fill": 0.13873456790123456
+        },
+        {
+          "balance": 0.9764705812908467,
+          "semantic_emphasis": 0.8655904546583244,
+          "spacing_quality": 0.975838332379766,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9931043728651535,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06175925925925926,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.49637264700982847,
+            0.49304606955781366
+          ],
+          "box_fill": 0.1262037037037037
+        },
+        {
+          "balance": 0.9580605086563385,
+          "semantic_emphasis": 0.8491730228738501,
+          "spacing_quality": 0.9741255945882917,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9994413456586447,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.10014428843257672,
+          "ink_fill": 0.15,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5012740054869684,
+            0.5139216582837982
+          ],
+          "box_fill": 0.42453703703703705
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "heuristic": "semantic_nouns",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 382.58,
+      "best_score": 7.278580827424528,
+      "score_terms": [
+        {
+          "balance": 0.9880690525646573,
+          "semantic_emphasis": 0.9166221272425177,
+          "spacing_quality": 0.9475234198742748,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9920634920634921,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.09188271604938271,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5020000559847722,
+            0.49656253499048264
+          ],
+          "box_fill": 0.2
+        },
+        {
+          "balance": 0.9571419570444379,
+          "semantic_emphasis": 0.928848021750537,
+          "spacing_quality": 0.9586080808114256,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9976956448975914,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06290123456790124,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.48592369970559374,
+            0.4975611529095337
+          ],
+          "box_fill": 0.13777777777777778
+        },
+        {
+          "balance": 0.9638760588004366,
+          "semantic_emphasis": 0.9186270370837473,
+          "spacing_quality": 0.9665433832675681,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9872229799834458,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.060709876543209876,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.48852313167259787,
+            0.4963565497373327
+          ],
+          "box_fill": 0.1287037037037037
+        },
+        {
+          "balance": 0.9923098978806846,
+          "semantic_emphasis": 0.9246489892140441,
+          "spacing_quality": 0.9732444177439283,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9990048969544609,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.1009826947455312,
+          "ink_fill": 0.1524074074074074,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4975529904144728,
+            0.4992364580051903
+          ],
+          "box_fill": 0.4247222222222222
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "heuristic": "balanced",
+      "optical": false,
+      "anneal": true,
+      "engine_latency_ms": 230.99,
+      "best_score": 7.283163356183355,
+      "score_terms": [
+        {
+          "balance": 0.9766333212058362,
+          "semantic_emphasis": 0.9169537093229629,
+          "spacing_quality": 0.9693955865784528,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9975749559082892,
+          "rhythm": 0.9859366803883259,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.0905246913580247,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5073403227639505,
+            0.4973949059867914
+          ],
+          "box_fill": 0.2011111111111111
+        },
+        {
+          "balance": 0.9793439144702774,
+          "semantic_emphasis": 0.8716849159810272,
+          "spacing_quality": 0.970888343827943,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9953759131239531,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06388888888888888,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4955615942028986,
+            0.49473608874575054
+          ],
+          "box_fill": 0.13873456790123456
+        },
+        {
+          "balance": 0.9713253881022499,
+          "semantic_emphasis": 0.8694530567504382,
+          "spacing_quality": 0.9640191078338411,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9931043728651535,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06089506172839506,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.49349974657881396,
+            0.4929924349082991
+          ],
+          "box_fill": 0.1262037037037037
+        },
+        {
+          "balance": 0.9600911737731278,
+          "semantic_emphasis": 0.883890601367706,
+          "spacing_quality": 0.9596092342788444,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9953597420361852,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.10014428843257672,
+          "ink_fill": 0.11317901234567901,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5015009999090991,
+            0.48678200971628843
+          ],
+          "box_fill": 0.30691358024691356
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "heuristic": "balanced",
+      "optical": true,
+      "anneal": false,
+      "engine_latency_ms": 218.48,
+      "best_score": 7.221392697899048,
+      "score_terms": [
+        {
+          "balance": 0.9691029555533115,
+          "semantic_emphasis": 0.9167314717731185,
+          "spacing_quality": 0.943565770391515,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9969135802469136,
+          "rhythm": 0.9632298220046019,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.09179012345679012,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5097567809908092,
+            0.49670228399212935
+          ],
+          "box_fill": 0.20222222222222222
+        },
+        {
+          "balance": 0.9733780419493809,
+          "semantic_emphasis": 0.8694530567504382,
+          "spacing_quality": 0.9704812200233822,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9931043728651535,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06101851851851852,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4938817231495532,
+            0.4935723786507803
+          ],
+          "box_fill": 0.1262037037037037
+        },
+        {
+          "balance": 0.975670299831103,
+          "semantic_emphasis": 0.8747703310323727,
+          "spacing_quality": 0.9538939246723184,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9884474711454977,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.0,
+          "ink_fill": 0.06364197530864198,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4940834141610087,
+            0.4944534252972662
+          ],
+          "box_fill": 0.13969135802469135
+        },
+        {
+          "balance": 0.9491042984760905,
+          "semantic_emphasis": 0.8845307208923618,
+          "spacing_quality": 0.9458741447743194,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9957496362119227,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.10014428843257672,
+          "ink_fill": 0.11203703703703703,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5011099632690542,
+            0.48307111519232737
+          ],
+          "box_fill": 0.30419753086419754
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "heuristic": "balanced",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 1384.59,
+      "best_score": 7.238465989542769,
+      "score_terms": [
+        {
+          "balance": 0.9897857685986603,
+          "semantic_emphasis": 0.934961442294817,
+          "spacing_quality": 0.9022995960767706,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9975749559082893,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.01765179037971764,
+          "ink_fill": 0.10333333333333333,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5019451911589008,
+            0.4972056285676357
+          ],
+          "box_fill": 0.279320987654321
+        },
+        {
+          "balance": 0.9860014975792926,
+          "semantic_emphasis": 0.9224771802439975,
+          "spacing_quality": 0.9094161123890905,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9934491804591831,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.01765179037971764,
+          "ink_fill": 0.053271604938271606,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5018515836230205,
+            0.4957169220205141
+          ],
+          "box_fill": 0.13719135802469135
+        },
+        {
+          "balance": 0.9671151361555684,
+          "semantic_emphasis": 0.9219304967562973,
+          "spacing_quality": 0.9168186231943558,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9985926954005095,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.024756242568370987,
+          "ink_fill": 0.12123456790123457,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4905295315682281,
+            0.4944802745719243
+          ],
+          "box_fill": 0.30592592592592593
+        },
+        {
+          "balance": 0.9672051819386482,
+          "semantic_emphasis": 0.9209017674712923,
+          "spacing_quality": 0.8995847444703,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9932222603261697,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04088669362967964,
+          "ink_fill": 0.0791358024691358,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.508871229849194,
+            0.49361241116311316
+          ],
+          "box_fill": 0.2609567901234568
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "heuristic": "kanji_anchor",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 1363.82,
+      "best_score": 7.247422729613308,
+      "score_terms": [
+        {
+          "balance": 0.9916317323844469,
+          "semantic_emphasis": 0.9210021606133205,
+          "spacing_quality": 0.9114147147434293,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9993988794340241,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.013688999999999998,
+          "ink_fill": 0.05117283950617284,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5007715118616808,
+            0.4973193941830854
+          ],
+          "box_fill": 0.138179012345679
+        },
+        {
+          "balance": 0.9858546305468723,
+          "semantic_emphasis": 0.945445557249734,
+          "spacing_quality": 0.897931854076585,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9975749559082893,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.013688999999999998,
+          "ink_fill": 0.10432098765432099,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5021277120315581,
+            0.4957922419460881
+          ],
+          "box_fill": 0.279320987654321
+        },
+        {
+          "balance": 0.9953949990927828,
+          "semantic_emphasis": 0.9186819716969132,
+          "spacing_quality": 0.9082213369629317,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9929208020181389,
+          "rhythm": 1,
+          "collision_penalty": 0.00030039050765995795,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.013688999999999998,
+          "ink_fill": 0.10274691358024692,
+          "collision": 0.00030039050765995795,
+          "overflow": 0.0,
+          "centroid": [
+            0.4996482927806148,
+            0.4985058353637507
+          ],
+          "box_fill": 0.30333333333333334
+        },
+        {
+          "balance": 0.9696225994613329,
+          "semantic_emphasis": 0.9221275402129099,
+          "spacing_quality": 0.9029415090563238,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9954656302392928,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04005200000000002,
+          "ink_fill": 0.08080246913580247,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5081662210338681,
+            0.4940129587188411
+          ],
+          "box_fill": 0.2580246913580247
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "heuristic": "semantic_nouns",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 1363.68,
+      "best_score": 7.256028114328267,
+      "score_terms": [
+        {
+          "balance": 0.9922096085552381,
+          "semantic_emphasis": 0.9484550500173152,
+          "spacing_quality": 0.9024256474079133,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9927799823633158,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.01765179037971764,
+          "ink_fill": 0.07820987654320988,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5005524861878453,
+            0.49746265602619194
+          ],
+          "box_fill": 0.20305555555555554
+        },
+        {
+          "balance": 0.9834005863975743,
+          "semantic_emphasis": 0.9335696840788987,
+          "spacing_quality": 0.9093301114053526,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9942584224822667,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.01765179037971764,
+          "ink_fill": 0.052222222222222225,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.503659377462569,
+            0.4958497504596795
+          ],
+          "box_fill": 0.1388888888888889
+        },
+        {
+          "balance": 0.9698146029079318,
+          "semantic_emphasis": 0.9339011070560008,
+          "spacing_quality": 0.9171054160803249,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9985926954005095,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.024756242568370987,
+          "ink_fill": 0.12067901234567902,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4908812872975277,
+            0.4957468977929336
+          ],
+          "box_fill": 0.30592592592592593
+        },
+        {
+          "balance": 0.9671804844209286,
+          "semantic_emphasis": 0.9310041431617746,
+          "spacing_quality": 0.8965185326773061,
+          "template_consistency": 1,
+          "whitespace_quality": 0.996180079256211,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04088669362967964,
+          "ink_fill": 0.08003086419753086,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5078159146419848,
+            0.49234548856608246
+          ],
+          "box_fill": 0.25820987654320987
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "heuristic": "balanced",
+      "optical": false,
+      "anneal": true,
+      "engine_latency_ms": 571.45,
+      "best_score": 7.317552219431397,
+      "score_terms": [
+        {
+          "balance": 0.996155478329199,
+          "semantic_emphasis": 0.9312640392072429,
+          "spacing_quality": 0.9721362479313356,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9904835390946503,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.01765179037971764,
+          "ink_fill": 0.07222222222222222,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5003436609686609,
+            0.4987654320987654
+          ],
+          "box_fill": 0.20351851851851852
+        },
+        {
+          "balance": 0.9895999688307443,
+          "semantic_emphasis": 0.9222990274456616,
+          "spacing_quality": 0.9623567655441517,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9909059505572075,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.01765179037971764,
+          "ink_fill": 0.05126543209876543,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5022752358017258,
+            0.49738444043079805
+          ],
+          "box_fill": 0.13935185185185187
+        },
+        {
+          "balance": 0.9656474655397418,
+          "semantic_emphasis": 0.9220105393682527,
+          "spacing_quality": 0.9703995617511015,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9968945282731291,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04088669362967964,
+          "ink_fill": 0.07814814814814815,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5083070036861507,
+            0.4921186589433034
+          ],
+          "box_fill": 0.25839506172839505
+        },
+        {
+          "balance": 0.9702648961721679,
+          "semantic_emphasis": 0.9209005141755489,
+          "spacing_quality": 0.9713356347516985,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9999928875025985,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04088669362967964,
+          "ink_fill": 0.08425925925925926,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5045253357753358,
+            0.4911816578483245
+          ],
+          "box_fill": 0.30549382716049384
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "heuristic": "balanced",
+      "optical": true,
+      "anneal": false,
+      "engine_latency_ms": 1026.87,
+      "best_score": 7.230772102495944,
+      "score_terms": [
+        {
+          "balance": 0.9892041940643045,
+          "semantic_emphasis": 0.9349890702520844,
+          "spacing_quality": 0.8975525699694193,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9969135802469136,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.01765179037971764,
+          "ink_fill": 0.10462962962962963,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5008345624385447,
+            0.4964995083579155
+          ],
+          "box_fill": 0.2808641975308642
+        },
+        {
+          "balance": 0.983561464858253,
+          "semantic_emphasis": 0.9215051924125253,
+          "spacing_quality": 0.909799549168583,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9934491804591831,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.01765179037971764,
+          "ink_fill": 0.05283950617283951,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5020005841121495,
+            0.494898753894081
+          ],
+          "box_fill": 0.13719135802469135
+        },
+        {
+          "balance": 0.9655199461992668,
+          "semantic_emphasis": 0.9211204658207258,
+          "spacing_quality": 0.9124994381495213,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9985926954005095,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.024756242568370987,
+          "ink_fill": 0.1187037037037037,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4903308632345294,
+            0.4937867144315402
+          ],
+          "box_fill": 0.30592592592592593
+        },
+        {
+          "balance": 0.9671829233331606,
+          "semantic_emphasis": 0.9189871254856952,
+          "spacing_quality": 0.894888309484312,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9932222603261697,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04088669362967964,
+          "ink_fill": 0.07929012345679012,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5082619696379914,
+            0.49283047157706555
+          ],
+          "box_fill": 0.2609567901234568
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "heuristic": "balanced",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 664.91,
+      "best_score": 7.141332680050039,
+      "score_terms": [
+        {
+          "balance": 0.9833043753805694,
+          "semantic_emphasis": 0.8418170509584268,
+          "spacing_quality": 0.9306680215560155,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9979156645823314,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.1751851851851852,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5031242659149636,
+            0.49539451361156783
+          ],
+          "box_fill": 0.37037037037037035
+        },
+        {
+          "balance": 0.9882100125519446,
+          "semantic_emphasis": 0.8203777737348377,
+          "spacing_quality": 0.9284335379199566,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9977682922926069,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.18601851851851853,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.501257535534539,
+            0.49627663170055736
+          ],
+          "box_fill": 0.4252469135802469
+        },
+        {
+          "balance": 0.9783877062586195,
+          "semantic_emphasis": 0.8333341765997482,
+          "spacing_quality": 0.912629719278741,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9979191430259288,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.0692283950617284,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5062639322336157,
+            0.4964416043328215
+          ],
+          "box_fill": 0.13780864197530865
+        },
+        {
+          "balance": 0.9843488063051681,
+          "semantic_emphasis": 0.8312967902800055,
+          "spacing_quality": 0.916504638286278,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9997713763145862,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.09793412224600834,
+          "ink_fill": 0.09388888888888888,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5051884724961648,
+            0.49945454988190024
+          ],
+          "box_fill": 0.25925925925925924
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "heuristic": "kanji_anchor",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 640.19,
+      "best_score": 7.151630219738643,
+      "score_terms": [
+        {
+          "balance": 0.9840119952176408,
+          "semantic_emphasis": 0.8582964675434267,
+          "spacing_quality": 0.9222039302643458,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9969135802469136,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.006465114039882744,
+          "ink_fill": 0.09895061728395062,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5050244333541277,
+            0.4982232388345926
+          ],
+          "box_fill": 0.20222222222222222
+        },
+        {
+          "balance": 0.9815162707094112,
+          "semantic_emphasis": 0.8327920261372868,
+          "spacing_quality": 0.9128147397988493,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9979191430259288,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.006465114039882744,
+          "ink_fill": 0.06824074074074074,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.505958842152872,
+            0.4984337571402248
+          ],
+          "box_fill": 0.13780864197530865
+        },
+        {
+          "balance": 0.9809654147414189,
+          "semantic_emphasis": 0.8275564585701914,
+          "spacing_quality": 0.9219900823408941,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9961679803772663,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.006465114039882744,
+          "ink_fill": 0.1402469135802469,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5051221390845071,
+            0.49625554251434534
+          ],
+          "box_fill": 0.30666666666666664
+        },
+        {
+          "balance": 0.9865126279202074,
+          "semantic_emphasis": 0.8309520393485353,
+          "spacing_quality": 0.9186472289814247,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9979852537722906,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.08758738324676817,
+          "ink_fill": 0.09515432098765432,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5040936858038707,
+            0.4981415408272366
+          ],
+          "box_fill": 0.25972222222222224
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "heuristic": "semantic_nouns",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 661.42,
+      "best_score": 7.113546989902867,
+      "score_terms": [
+        {
+          "balance": 0.9780120016635145,
+          "semantic_emphasis": 0.8364926052404027,
+          "spacing_quality": 0.9267227236111681,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9969135802469136,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.006465114039882744,
+          "ink_fill": 0.09660493827160493,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5066347177848776,
+            0.4968855756715182
+          ],
+          "box_fill": 0.20222222222222222
+        },
+        {
+          "balance": 0.9761675638597632,
+          "semantic_emphasis": 0.813984846459956,
+          "spacing_quality": 0.9306354160392392,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9968609639309093,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.006465114039882744,
+          "ink_fill": 0.14280864197530865,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5058452200850083,
+            0.49462014424192946
+          ],
+          "box_fill": 0.30453703703703705
+        },
+        {
+          "balance": 0.978234637705638,
+          "semantic_emphasis": 0.8145296482708816,
+          "spacing_quality": 0.9137034418945896,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9979191430259288,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.006465114039882744,
+          "ink_fill": 0.06888888888888889,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5063022700119474,
+            0.4964058144165671
+          ],
+          "box_fill": 0.13780864197530865
+        },
+        {
+          "balance": 0.9843882683906263,
+          "semantic_emphasis": 0.8119020290299576,
+          "spacing_quality": 0.9134018079900112,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9861968449931412,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.08758738324676817,
+          "ink_fill": 0.09679012345679013,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5037826849489796,
+            0.496426209372638
+          ],
+          "box_fill": 0.2627777777777778
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "heuristic": "balanced",
+      "optical": false,
+      "anneal": true,
+      "engine_latency_ms": 344.18,
+      "best_score": 7.1712637667596235,
+      "score_terms": [
+        {
+          "balance": 0.9759770443427799,
+          "semantic_emphasis": 0.8420903179470793,
+          "spacing_quality": 0.9662600066348709,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9979156645823314,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.1751851851851852,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5071668722104768,
+            0.49642810534283405
+          ],
+          "box_fill": 0.37037037037037035
+        },
+        {
+          "balance": 0.9867041892380045,
+          "semantic_emphasis": 0.8233810305372358,
+          "spacing_quality": 0.9678672496155715,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9977682922926069,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.18604938271604937,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5021759566467596,
+            0.49613900562805674
+          ],
+          "box_fill": 0.4252469135802469
+        },
+        {
+          "balance": 0.9754730282743508,
+          "semantic_emphasis": 0.8334351508435277,
+          "spacing_quality": 0.9667012751252104,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9915764449422195,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.06953703703703704,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5066781328598905,
+            0.49528365471552327
+          ],
+          "box_fill": 0.13925925925925925
+        },
+        {
+          "balance": 0.9865251778501948,
+          "semantic_emphasis": 0.8329673854103219,
+          "spacing_quality": 0.9537644688830107,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9997713763145862,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.09793412224600834,
+          "ink_fill": 0.09422839506172839,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.504479200786112,
+            0.49966638764542465
+          ],
+          "box_fill": 0.25925925925925924
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "heuristic": "balanced",
+      "optical": true,
+      "anneal": false,
+      "engine_latency_ms": 390.28,
+      "best_score": 7.134955426596264,
+      "score_terms": [
+        {
+          "balance": 0.9814511256245765,
+          "semantic_emphasis": 0.841479298129552,
+          "spacing_quality": 0.9285557093479521,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9979156645823314,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.1751851851851852,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.505046834625323,
+            0.49642810534283405
+          ],
+          "box_fill": 0.37037037037037035
+        },
+        {
+          "balance": 0.986722007749137,
+          "semantic_emphasis": 0.8209779362961422,
+          "spacing_quality": 0.9260435285827467,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9977682922926069,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.18651234567901234,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5012086987699267,
+            0.4957422423250654
+          ],
+          "box_fill": 0.4252469135802469
+        },
+        {
+          "balance": 0.9783877062586195,
+          "semantic_emphasis": 0.8333341765997482,
+          "spacing_quality": 0.912629719278741,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9979191430259288,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.003582782009529882,
+          "ink_fill": 0.0692283950617284,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5062639322336157,
+            0.4964416043328215
+          ],
+          "box_fill": 0.13780864197530865
+        },
+        {
+          "balance": 0.9843488063051681,
+          "semantic_emphasis": 0.8315674067800004,
+          "spacing_quality": 0.9155286567992706,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9997713763145862,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.09793412224600834,
+          "ink_fill": 0.09388888888888888,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5051884724961648,
+            0.49945454988190024
+          ],
+          "box_fill": 0.25925925925925924
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "heuristic": "balanced",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 988.33,
+      "best_score": 7.227395667084288,
+      "score_terms": [
+        {
+          "balance": 0.9807488125553789,
+          "semantic_emphasis": 0.9152415574871116,
+          "spacing_quality": 0.9375616371029164,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9994836299242896,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.05280864197530864,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5040083771673485,
+            0.5050111479100374
+          ],
+          "box_fill": 0.1380246913580247
+        },
+        {
+          "balance": 0.9785364174514832,
+          "semantic_emphasis": 0.9205162603050203,
+          "spacing_quality": 0.9236524137508723,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9968233926567259,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.13117283950617284,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4983852941176471,
+            0.5069699346405229
+          ],
+          "box_fill": 0.36842592592592593
+        },
+        {
+          "balance": 0.9769557411647988,
+          "semantic_emphasis": 0.9168741117397399,
+          "spacing_quality": 0.9326412299413503,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9977844570594284,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.10669753086419753,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5033916690772346,
+            0.5068920815521915
+          ],
+          "box_fill": 0.30617283950617286
+        },
+        {
+          "balance": 0.967720999965945,
+          "semantic_emphasis": 0.9183933087017906,
+          "spacing_quality": 0.9349893007577348,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9982043514708124,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04927649584024348,
+          "ink_fill": 0.07740740740740741,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5003571903242956,
+            0.5107537361923328
+          ],
+          "box_fill": 0.25873456790123456
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "heuristic": "kanji_anchor",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 967.22,
+      "best_score": 7.248849122121059,
+      "score_terms": [
+        {
+          "balance": 0.9825408087580798,
+          "semantic_emphasis": 0.9272921190682631,
+          "spacing_quality": 0.9376883200197348,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9994836299242896,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.052037037037037034,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5040826413602214,
+            0.504147445191336
+          ],
+          "box_fill": 0.1380246913580247
+        },
+        {
+          "balance": 0.9803416486088612,
+          "semantic_emphasis": 0.9344864525230177,
+          "spacing_quality": 0.9209147608524852,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9945753834642724,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.12987654320987654,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5007951124841571,
+            0.5065043655823124
+          ],
+          "box_fill": 0.37160493827160496
+        },
+        {
+          "balance": 0.969745975527419,
+          "semantic_emphasis": 0.9287345766994997,
+          "spacing_quality": 0.9345907885904972,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9977844570594284,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.10685185185185185,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5039584536876565,
+            0.5092753065023429
+          ],
+          "box_fill": 0.30617283950617286
+        },
+        {
+          "balance": 0.9828200287286114,
+          "semantic_emphasis": 0.9177283470349278,
+          "spacing_quality": 0.930731549007277,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9984567901234567,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04927649584024348,
+          "ink_fill": 0.10626543209876543,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4994505760480201,
+            0.5057002398855434
+          ],
+          "box_fill": 0.3605555555555556
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "heuristic": "semantic_nouns",
+      "optical": true,
+      "anneal": true,
+      "engine_latency_ms": 973.75,
+      "best_score": 7.26566206341612,
+      "score_terms": [
+        {
+          "balance": 0.9870422843067623,
+          "semantic_emphasis": 0.9392535467222778,
+          "spacing_quality": 0.9310030831005455,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9986772486772485,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.1025,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5019384221619994,
+            0.503859836952279
+          ],
+          "box_fill": 0.2796296296296296
+        },
+        {
+          "balance": 0.9804465663901681,
+          "semantic_emphasis": 0.9340175576627384,
+          "spacing_quality": 0.9388003403452418,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9994836299242896,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.052376543209876544,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5041494794735809,
+            0.5050262991335472
+          ],
+          "box_fill": 0.1380246913580247
+        },
+        {
+          "balance": 0.969745975527419,
+          "semantic_emphasis": 0.9341112303038781,
+          "spacing_quality": 0.9345907885904972,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9977844570594284,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.10685185185185185,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5039584536876565,
+            0.5092753065023429
+          ],
+          "box_fill": 0.30617283950617286
+        },
+        {
+          "balance": 0.9828200287286114,
+          "semantic_emphasis": 0.9241769856039528,
+          "spacing_quality": 0.930731549007277,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9984567901234567,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04927649584024348,
+          "ink_fill": 0.10626543209876543,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4994505760480201,
+            0.5057002398855434
+          ],
+          "box_fill": 0.3605555555555556
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "heuristic": "balanced",
+      "optical": false,
+      "anneal": true,
+      "engine_latency_ms": 448.8,
+      "best_score": 7.26355283683491,
+      "score_terms": [
+        {
+          "balance": 0.9780831383740872,
+          "semantic_emphasis": 0.9205603368854803,
+          "spacing_quality": 0.9676289083061621,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9974146224146224,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.13117283950617284,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.49959019607843136,
+            0.5072941176470588
+          ],
+          "box_fill": 0.3705555555555556
+        },
+        {
+          "balance": 0.981048217130335,
+          "semantic_emphasis": 0.9160917713156387,
+          "spacing_quality": 0.9656009741504089,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9994836299242896,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.05280864197530864,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5042835573738554,
+            0.5046431586466653
+          ],
+          "box_fill": 0.1380246913580247
+        },
+        {
+          "balance": 0.9761894490580653,
+          "semantic_emphasis": 0.9169539571519068,
+          "spacing_quality": 0.965967000273431,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9977844570594284,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.10675925925925926,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5029777392309916,
+            0.5073570824365852
+          ],
+          "box_fill": 0.30617283950617286
+        },
+        {
+          "balance": 0.9788500948059436,
+          "semantic_emphasis": 0.9044729252508181,
+          "spacing_quality": 0.963954601847585,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9984567901234567,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04927649584024348,
+          "ink_fill": 0.10608024691358024,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.49928959363786246,
+            0.5070140842034936
+          ],
+          "box_fill": 0.3605555555555556
+        }
+      ]
+    },
+    {
+      "id": "b16",
+      "heuristic": "balanced",
+      "optical": true,
+      "anneal": false,
+      "engine_latency_ms": 715.65,
+      "best_score": 7.226861201580632,
+      "score_terms": [
+        {
+          "balance": 0.9823778497238359,
+          "semantic_emphasis": 0.9155800946659227,
+          "spacing_quality": 0.9342495219570032,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9994836299242896,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.052376543209876544,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5035823021017481,
+            0.5046552740129641
+          ],
+          "box_fill": 0.1380246913580247
+        },
+        {
+          "balance": 0.9781032103025143,
+          "semantic_emphasis": 0.9205162603050203,
+          "spacing_quality": 0.9236524137508723,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9968233926567259,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.13117283950617284,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.4983852941176471,
+            0.507118082788671
+          ],
+          "box_fill": 0.36842592592592593
+        },
+        {
+          "balance": 0.9715660469007102,
+          "semantic_emphasis": 0.9172516078252823,
+          "spacing_quality": 0.9344673641687906,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9977844570594284,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.025081386539997166,
+          "ink_fill": 0.10719135802469136,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5044462040502927,
+            0.5083703916989261
+          ],
+          "box_fill": 0.30617283950617286
+        },
+        {
+          "balance": 0.9653369779698775,
+          "semantic_emphasis": 0.9176010529101994,
+          "spacing_quality": 0.9315948153281013,
+          "template_consistency": 1,
+          "whitespace_quality": 0.9997713763145862,
+          "rhythm": 1,
+          "collision_penalty": 0.0,
+          "overflow_penalty": 0.0,
+          "kinsoku_penalty": 0,
+          "awkward_break_penalty": 0.04927649584024348,
+          "ink_fill": 0.07740740740740741,
+          "collision": 0.0,
+          "overflow": 0.0,
+          "centroid": [
+            0.5009436469962786,
+            0.5115157422174965
+          ],
+          "box_fill": 0.25925925925925924
+        }
+      ]
+    }
+  ]
+}

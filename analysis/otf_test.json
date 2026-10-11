@@ -1,0 +1,9 @@
+{
+  "font_source": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/SubsetOTF/JP/SourceHanSansJP-Heavy.otf",
+  "sha256": "f875de9c62ace2082b90ab1da940f3e8ceffa933f500e49d205cb74e6e5d03bb",
+  "font_format": "OTTO/CFF",
+  "font_family": "Source Han Sans JP Heavy",
+  "candidates": 4,
+  "missing": [],
+  "status": "passed"
+}

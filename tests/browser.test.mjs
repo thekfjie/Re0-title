@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {script,legalBreak,lineSearch,rng,planTokens} from '../web/client/core.js';
+test('script and kinsoku boundary handling',()=>{assert.equal(script('聖'),'kanji');assert.equal(script('の'),'hiragana');assert.equal(script('ロ'),'katakana');assert.equal(legalBreak('最後','、'),false);assert.equal(legalBreak('「','最後'),false);assert.equal(legalBreak('約束','終わり'),true);});
+test('particle and punctuation stay with prior clause in beam search',()=>{let ts=[{text:'聖域',role:'noun',importance:.9},{text:'の',role:'particle',importance:.1},{text:'終わり',role:'noun',importance:.8},{text:'、',role:'punctuation',importance:.02},{text:'崩壊',role:'noun',importance:.9}];const rules={style:{particle_size:.6,punctuation_size:.4,kana_size:.7,primary_size:1.3,secondary_size:1},search:{beam_width:32,per_family:4}};let searched=lineSearch(ts,2,rules);assert.ok(searched.length);assert.ok(searched.every(s=>s.lines.every(l=>!['particle','punctuation'].includes(l[0].role))));});
+test('semantic plan cannot rewrite text',()=>{assert.throws(()=>planTokens('聖域',{tokens:[{text:'世界',importance:.9}]}));});
+test('random source is reproducible',()=>{const a=rng(77),b=rng(77);assert.deepEqual(Array.from({length:10},a),Array.from({length:10},b));});

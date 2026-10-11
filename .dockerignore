@@ -1,0 +1,10 @@
+.git
+.venv
+.research-fonts
+.runtime
+.env
+node_modules
+references/originals
+*.ttf
+*.otf
+*.woff*

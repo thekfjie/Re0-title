@@ -1,0 +1,15 @@
+fastapi==0.143.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+pillow==12.3.0
+numpy==2.5.4
+scipy==1.18.1
+fonttools==4.66.1
+uharfbuzz==0.56.3
+freetype-py==2.5.1
+sudachipy==0.7.0
+sudachidict_core==20260723.1
+cairosvg==2.9.1
+pyyaml==6.0.3
+httpx==0.28.1
+pytest==9.1.1

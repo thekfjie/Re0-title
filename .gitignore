@@ -1,0 +1,15 @@
+.venv/
+.research-fonts/
+__pycache__/
+.pytest_cache/
+node_modules/
+dist/
+.runtime/
+.env
+*.ttf
+*.otf
+*.woff*
+*.tar.gz
+references/originals/
+analysis/contact-sheets/
+.openai/local.json

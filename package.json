@@ -1,0 +1,16 @@
+{
+  "name": "jp-title-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-web.mjs",
+    "test": "node --test tests/browser.test.mjs"
+  },
+  "dependencies": {
+    "harfbuzzjs": "0.10.3",
+    "kuromoji": "0.1.2"
+  },
+  "devDependencies": {
+    "playwright": "1.64.0"
+  }
+}

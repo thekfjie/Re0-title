@@ -1,0 +1,13 @@
+{
+  "base": "http://127.0.0.1:8765",
+  "checks": [
+    "font_upload",
+    "six_candidates",
+    "png_download",
+    "svg_download",
+    "mobile_no_overflow",
+    "clear_fonts",
+    "no_page_errors"
+  ],
+  "status": "passed"
+}

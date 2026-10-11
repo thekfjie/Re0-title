@@ -1,0 +1,6 @@
+default: night
+palettes:
+  night: {background: '#000000', foreground: '#f6f5f3', accents: ['#78b8e2', '#e9a8cd'], muted: '#8e899b'}
+  violet: {background: '#000000', foreground: '#f6f5f3', accents: ['#b3a3e3', '#f0d27a'], muted: '#85818c'}
+  crimson: {background: '#000000', foreground: '#f6f5f3', accents: ['#c7343c', '#75737e'], muted: '#77747a'}
+  monochrome: {background: '#000000', foreground: '#f6f5f3', accents: ['#a2a0ad', '#f6f5f3'], muted: '#77747a'}

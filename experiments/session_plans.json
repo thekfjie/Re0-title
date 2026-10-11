@@ -1,0 +1,812 @@
+{
+  "provenance": "Produced by the coding assistant in this session, frozen before comparison; not a live API result. Model identity/usage/cost/latency not measured.",
+  "plans": {
+    "b01": {
+      "tokens": [
+        {
+          "text": "鎖",
+          "semantic_role": "keyword",
+          "importance": 0.96,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "音",
+          "semantic_role": "concept",
+          "importance": 0.78,
+          "visual_role": "secondary"
+        }
+      ],
+      "suggested_layout_family": "compact_anchor",
+      "emphasis_relation": [
+        "鎖"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b02": {
+      "tokens": [
+        {
+          "text": "レム",
+          "semantic_role": "keyword",
+          "importance": 1.0,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "compact_anchor",
+      "emphasis_relation": [
+        "ム"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b03": {
+      "tokens": [
+        {
+          "text": "待",
+          "semantic_role": "keyword",
+          "importance": 0.9,
+          "visual_role": "primary"
+        },
+        {
+          "text": "ちかねた",
+          "semantic_role": "modifier",
+          "importance": 0.3,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "再会",
+          "semantic_role": "concept",
+          "importance": 1.0,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "interwoven",
+      "emphasis_relation": [
+        "待",
+        "再"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b04": {
+      "tokens": [
+        {
+          "text": "絶望",
+          "semantic_role": "concept",
+          "importance": 0.84,
+          "visual_role": "primary"
+        },
+        {
+          "text": "という",
+          "semantic_role": "connector",
+          "importance": 0.22,
+          "visual_role": "connector"
+        },
+        {
+          "text": "病",
+          "semantic_role": "keyword",
+          "importance": 1.0,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "interwoven",
+      "emphasis_relation": [
+        "病"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b05": {
+      "tokens": [
+        {
+          "text": "白鯨",
+          "semantic_role": "keyword",
+          "importance": 0.94,
+          "visual_role": "primary"
+        },
+        {
+          "text": "攻略戦",
+          "semantic_role": "noun",
+          "importance": 0.78,
+          "visual_role": "secondary"
+        }
+      ],
+      "suggested_layout_family": "wide_block",
+      "emphasis_relation": [
+        "白"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b06": {
+      "tokens": [
+        {
+          "text": "命",
+          "semantic_role": "keyword",
+          "importance": 0.94,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.13,
+          "visual_role": "connector"
+        },
+        {
+          "text": "価値",
+          "semantic_role": "concept",
+          "importance": 0.86,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "interwoven",
+      "emphasis_relation": [
+        "の"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b07": {
+      "tokens": [
+        {
+          "text": "ナツキ",
+          "semantic_role": "noun",
+          "importance": 0.8,
+          "visual_role": "primary"
+        },
+        {
+          "text": "・",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "スバル",
+          "semantic_role": "noun",
+          "importance": 0.86,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.09,
+          "visual_role": "connector"
+        },
+        {
+          "text": "リスタート",
+          "semantic_role": "concept",
+          "importance": 1.0,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "リ"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b08": {
+      "tokens": [
+        {
+          "text": "ヴィルヘルム",
+          "semantic_role": "noun",
+          "importance": 0.83,
+          "visual_role": "primary"
+        },
+        {
+          "text": "・",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "ヴァン",
+          "semantic_role": "noun",
+          "importance": 0.88,
+          "visual_role": "primary"
+        },
+        {
+          "text": "・",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "アストレア",
+          "semantic_role": "noun",
+          "importance": 0.78,
+          "visual_role": "secondary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "ヴァン"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b09": {
+      "tokens": [
+        {
+          "text": "聖域",
+          "semantic_role": "keyword",
+          "importance": 0.95,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "始まり",
+          "semantic_role": "concept",
+          "importance": 0.7,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "と",
+          "semantic_role": "connector",
+          "importance": 0.13,
+          "visual_role": "connector"
+        },
+        {
+          "text": "、",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "崩壊",
+          "semantic_role": "keyword",
+          "importance": 1.0,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "始まり",
+          "semantic_role": "concept",
+          "importance": 0.7,
+          "visual_role": "secondary"
+        }
+      ],
+      "suggested_layout_family": "alternating_steps",
+      "emphasis_relation": [
+        "聖",
+        "壊"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b10": {
+      "tokens": [
+        {
+          "text": "氷",
+          "semantic_role": "keyword",
+          "importance": 0.98,
+          "visual_role": "primary"
+        },
+        {
+          "text": "炎",
+          "semantic_role": "keyword",
+          "importance": 0.98,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "結末",
+          "semantic_role": "concept",
+          "importance": 0.85,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "interwoven",
+      "emphasis_relation": [
+        "氷",
+        "の"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b11": {
+      "tokens": [
+        {
+          "text": "最も",
+          "semantic_role": "modifier",
+          "importance": 0.35,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "新しい",
+          "semantic_role": "modifier",
+          "importance": 0.82,
+          "visual_role": "primary"
+        },
+        {
+          "text": "英雄",
+          "semantic_role": "keyword",
+          "importance": 0.96,
+          "visual_role": "primary"
+        },
+        {
+          "text": "と",
+          "semantic_role": "connector",
+          "importance": 0.13,
+          "visual_role": "connector"
+        },
+        {
+          "text": "最も",
+          "semantic_role": "modifier",
+          "importance": 0.35,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "古い",
+          "semantic_role": "modifier",
+          "importance": 0.82,
+          "visual_role": "primary"
+        },
+        {
+          "text": "英雄",
+          "semantic_role": "keyword",
+          "importance": 0.96,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "新",
+        "古"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b12": {
+      "tokens": [
+        {
+          "text": "コンビニ",
+          "semantic_role": "noun",
+          "importance": 0.83,
+          "visual_role": "primary"
+        },
+        {
+          "text": "を",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "出る",
+          "semantic_role": "verb",
+          "importance": 0.59,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "と",
+          "semantic_role": "connector",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "、",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "そこ",
+          "semantic_role": "other",
+          "importance": 0.35,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "は",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "不思議",
+          "semantic_role": "concept",
+          "importance": 0.85,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "世界",
+          "semantic_role": "keyword",
+          "importance": 0.99,
+          "visual_role": "primary"
+        },
+        {
+          "text": "でした",
+          "semantic_role": "other",
+          "importance": 0.22,
+          "visual_role": "secondary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "コンビニ",
+        "世界"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b13": {
+      "tokens": [
+        {
+          "text": "オマエハ",
+          "semantic_role": "other",
+          "importance": 0.68,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "ダレダ",
+          "semantic_role": "concept",
+          "importance": 1.0,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "ダレダ"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b14": {
+      "tokens": [
+        {
+          "text": "聖域",
+          "semantic_role": "keyword",
+          "importance": 0.92,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "終わり",
+          "semantic_role": "concept",
+          "importance": 0.82,
+          "visual_role": "primary"
+        },
+        {
+          "text": "と",
+          "semantic_role": "connector",
+          "importance": 0.13,
+          "visual_role": "connector"
+        },
+        {
+          "text": "、",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "崩壊",
+          "semantic_role": "keyword",
+          "importance": 1.0,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "始まり",
+          "semantic_role": "concept",
+          "importance": 0.82,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "終",
+        "始"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b15": {
+      "tokens": [
+        {
+          "text": "記憶",
+          "semantic_role": "concept",
+          "importance": 0.83,
+          "visual_role": "primary"
+        },
+        {
+          "text": "を",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "失った",
+          "semantic_role": "verb",
+          "importance": 0.58,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "星",
+          "semantic_role": "keyword",
+          "importance": 0.97,
+          "visual_role": "primary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "旅人",
+          "semantic_role": "noun",
+          "importance": 0.88,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "interwoven",
+      "emphasis_relation": [
+        "星"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b16": {
+      "tokens": [
+        {
+          "text": "「",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "最後",
+          "semantic_role": "modifier",
+          "importance": 0.68,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "約束",
+          "semantic_role": "keyword",
+          "importance": 1.0,
+          "visual_role": "primary"
+        },
+        {
+          "text": "」",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "は",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "、",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "まだ",
+          "semantic_role": "modifier",
+          "importance": 0.38,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "終わらない",
+          "semantic_role": "verb",
+          "importance": 0.88,
+          "visual_role": "primary"
+        },
+        {
+          "text": "。",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "約",
+        "終"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b17": {
+      "tokens": [
+        {
+          "text": "第7章",
+          "semantic_role": "noun",
+          "importance": 0.57,
+          "visual_role": "secondary"
+        },
+        {
+          "text": " ",
+          "semantic_role": "other",
+          "importance": 0.05,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "ZERO",
+          "semantic_role": "keyword",
+          "importance": 0.86,
+          "visual_role": "primary"
+        },
+        {
+          "text": "から",
+          "semantic_role": "connector",
+          "importance": 0.19,
+          "visual_role": "connector"
+        },
+        {
+          "text": "の",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "再出発",
+          "semantic_role": "concept",
+          "importance": 1.0,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "interwoven",
+      "emphasis_relation": [
+        "再"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b18": {
+      "tokens": [
+        {
+          "text": "いつか",
+          "semantic_role": "modifier",
+          "importance": 0.62,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "、",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "また",
+          "semantic_role": "modifier",
+          "importance": 0.5,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "ここ",
+          "semantic_role": "concept",
+          "importance": 0.85,
+          "visual_role": "primary"
+        },
+        {
+          "text": "で",
+          "semantic_role": "particle",
+          "importance": 0.1,
+          "visual_role": "connector"
+        }
+      ],
+      "suggested_layout_family": "interwoven",
+      "emphasis_relation": [
+        "ここ"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b19": {
+      "tokens": [
+        {
+          "text": "夜明け",
+          "semantic_role": "concept",
+          "importance": 0.88,
+          "visual_role": "primary"
+        },
+        {
+          "text": "と",
+          "semantic_role": "connector",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "黄昏",
+          "semantic_role": "concept",
+          "importance": 0.88,
+          "visual_role": "primary"
+        },
+        {
+          "text": "、",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "出会い",
+          "semantic_role": "concept",
+          "importance": 0.88,
+          "visual_role": "primary"
+        },
+        {
+          "text": "と",
+          "semantic_role": "connector",
+          "importance": 0.1,
+          "visual_role": "connector"
+        },
+        {
+          "text": "別れ",
+          "semantic_role": "concept",
+          "importance": 0.88,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "夜",
+        "黄"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    },
+    "b20": {
+      "tokens": [
+        {
+          "text": "超電脳都市",
+          "semantic_role": "noun",
+          "importance": 0.89,
+          "visual_role": "primary"
+        },
+        {
+          "text": "ネオ",
+          "semantic_role": "modifier",
+          "importance": 0.59,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "・",
+          "semantic_role": "punctuation",
+          "importance": 0.02,
+          "visual_role": "secondary"
+        },
+        {
+          "text": "トーキョー",
+          "semantic_role": "keyword",
+          "importance": 1.0,
+          "visual_role": "primary"
+        }
+      ],
+      "suggested_layout_family": "offset_stack",
+      "emphasis_relation": [
+        "電",
+        "トー"
+      ],
+      "provenance": "session_assistant_frozen_semantics_v1"
+    }
+  }
+}

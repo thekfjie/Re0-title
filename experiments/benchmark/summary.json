@@ -1,0 +1,36 @@
+{
+  "cases": 20,
+  "errors": 0,
+  "candidate_count": 240,
+  "live_llm": false,
+  "modes": {
+    "A": {
+      "engine_latency_median_ms": 1107.3899999999999,
+      "score_mean": 6.781156578468572,
+      "collision_max": 0.0004317789291882556,
+      "overflow_max": 0.0,
+      "kinsoku_max": 0,
+      "families": [
+        "alternating_steps",
+        "compact_anchor",
+        "interwoven",
+        "offset_stack",
+        "wide_block"
+      ]
+    },
+    "B": {
+      "engine_latency_median_ms": 997.1,
+      "score_mean": 6.797645981568727,
+      "collision_max": 0.0,
+      "overflow_max": 0.0,
+      "kinsoku_max": 0,
+      "families": [
+        "alternating_steps",
+        "compact_anchor",
+        "interwoven",
+        "offset_stack",
+        "wide_block"
+      ]
+    }
+  }
+}

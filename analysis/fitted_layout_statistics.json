@@ -1,0 +1,93 @@
+{
+  "held_out_reference_ids": [
+    "s006",
+    "s007",
+    "s011",
+    "s014",
+    "s019",
+    "s020",
+    "s030",
+    "s035",
+    "s048",
+    "s055",
+    "s060",
+    "s078",
+    "s079"
+  ],
+  "training_ids": [
+    "s001",
+    "s002",
+    "s003",
+    "s004",
+    "s005",
+    "s008",
+    "s009",
+    "s010",
+    "s012",
+    "s013",
+    "s015",
+    "s016",
+    "s017",
+    "s018",
+    "s021",
+    "s022",
+    "s023",
+    "s024",
+    "s028",
+    "s032",
+    "s033",
+    "s034",
+    "s037",
+    "s038",
+    "s039",
+    "s040",
+    "s042",
+    "s044",
+    "s045",
+    "s046",
+    "s047",
+    "s049",
+    "s051",
+    "s052",
+    "s056",
+    "s057",
+    "s059",
+    "s061",
+    "s063",
+    "s066",
+    "s067",
+    "s068",
+    "s071",
+    "s072",
+    "s073",
+    "s074",
+    "s076"
+  ],
+  "families": {
+    "offset_stack": {
+      "count": 17,
+      "box_fill_median": 0.424313,
+      "width_fraction_median": 0.709201,
+      "height_fraction_median": 0.570216
+    },
+    "interwoven": {
+      "count": 22,
+      "box_fill_median": 0.191765,
+      "width_fraction_median": 0.7065975,
+      "height_fraction_median": 0.2839505
+    },
+    "compact_anchor": {
+      "count": 5,
+      "box_fill_median": 0.176491,
+      "width_fraction_median": 0.532118,
+      "height_fraction_median": 0.385802
+    },
+    "wide_block": {
+      "count": 3,
+      "box_fill_median": 0.22606,
+      "width_fraction_median": 0.802951,
+      "height_fraction_median": 0.326389
+    }
+  },
+  "claim_limit": "Only occupancy is fitted. No token font-size or kerning measurement is inferred from connected components."
+}
