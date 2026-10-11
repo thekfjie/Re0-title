@@ -32,6 +32,9 @@ class PlacedGlyph:
     rotation:float=0
     mask:object=field(default=None,repr=False)
     color_reason:str='base_foreground'
+    source_start:int=0
+    source_end:int=0
+    color_salience:float=0
 
     def record(self):
         return {k:v for k,v in self.__dict__.items() if k not in ('mask','path')}
@@ -63,7 +66,7 @@ class Renderer:
             sx=g.size*g.scale_x/g.upem;sy=g.size*g.scale_y/g.upem
             tx=g.x-x0*sx;ty=g.y+y1*sy
             rotate=f'rotate({g.rotation:.5f} {g.x+g.width/2:.5f} {g.y+g.height/2:.5f}) ' if g.rotation else ''
-            out.append(f'<path d="{g.path}" fill="{g.color}" transform="{rotate}matrix({sx:.7f} 0 0 {-sy:.7f} {tx:.5f} {ty:.5f})"/>')
+            out.append(f'<path data-start="{g.source_start}" data-end="{g.source_end}" d="{g.path}" fill="{g.color}" transform="{rotate}matrix({sx:.7f} 0 0 {-sy:.7f} {tx:.5f} {ty:.5f})"/>')
         out.append('</svg>');return ''.join(out)
 
     def png(self,layout,transparent=False):return cairosvg.svg2png(bytestring=self.svg(layout,transparent).encode(),output_width=layout.width,output_height=layout.height)

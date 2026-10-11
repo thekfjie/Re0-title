@@ -35,20 +35,27 @@ def contrast(a,b):
     high,low=sorted([luminance(a),luminance(b)],reverse=True)
     return (high+.05)/(low+.05)
 
-def resolve_palette(colors,palette,canvas_theme='night'):
+def resolve_palette(colors,palette,canvas_theme='night',custom_colors=None):
     if canvas_theme not in ('night','day'):raise ValueError('未知画布背景')
-    return dict(colors['day_palettes' if canvas_theme=='day' else 'palettes'][palette])
+    resolved=dict(colors['day_palettes' if canvas_theme=='day' else 'palettes'][palette])
+    if custom_colors:resolved.update(custom_colors)
+    return resolved
 
 def check_glyph_colors(layout,rules):
     cfg=rules['color_policy'];palette=layout.metadata['resolved_palette'];decisions=[]
     for g in layout.glyphs:
         minimum=cfg['small_text_min_contrast'] if g.size<cfg['small_text_size'] else cfg['min_contrast']
         ratio=contrast(g.color,layout.background)
-        if ratio<minimum:
-            g.color=palette['foreground'];g.color_reason='contrast_fallback';ratio=contrast(g.color,layout.background)
-        if g.color!=palette['foreground'] or g.color_reason=='contrast_fallback':
-            decisions.append({'text':g.text,'token':g.token,'role':g.role,'importance':g.importance,'color':g.color,'contrast':round(ratio,4),'reason':g.color_reason})
+        if ratio<minimum and g.color_reason!='manual_override':
+            alternatives=[c for c in palette.get('accents',[]) if c!=palette['foreground'] and contrast(c,layout.background)>=minimum]
+            if g.color!=palette['foreground'] and alternatives:g.color=alternatives[0];g.color_reason='palette_contrast_substitution'
+            else:g.color=palette['foreground'];g.color_reason='contrast_fallback'
+            ratio=contrast(g.color,layout.background)
+        if g.color!=palette['foreground'] or g.color_reason in ('contrast_fallback','manual_override'):
+            decisions.append({'text':g.text,'token':g.token,'start':g.source_start,'end':g.source_end,'role':g.role,'importance':g.importance,'visual_salience':g.color_salience,'color':g.color,'contrast':round(ratio,4),'reason':g.color_reason})
     layout.metadata['color_decisions']=decisions
+    layout.metadata['color_warnings']=[{'text':g.text,'start':g.source_start,'color':g.color,'contrast':round(contrast(g.color,layout.background),4)} for g in layout.glyphs if contrast(g.color,layout.background)<(cfg['small_text_min_contrast'] if g.size<cfg['small_text_size'] else cfg['min_contrast'])]
+    layout.metadata['no_accent_reason']='user_none' if layout.metadata.get('color_mode')=='none' else 'no_eligible_anchor_or_readable_accent' if not any(g.color!=palette['foreground'] for g in layout.glyphs) else None
 
 def color_metrics(layout,rules):
     cfg=rules['color_policy'];foreground=layout.metadata['resolved_palette']['foreground'];colored=[g for g in layout.glyphs if g.color!=foreground]
@@ -56,7 +63,7 @@ def color_metrics(layout,rules):
     ratio=sum(g.width*g.height for g in colored)/area
     minimum=min(contrast(g.color,layout.background) for g in layout.glyphs)
     low=sum(contrast(g.color,layout.background)<(cfg['small_text_min_contrast'] if g.size<cfg['small_text_size'] else cfg['min_contrast']) for g in layout.glyphs)
-    count=len({g.color for g in colored});semantic=sum(g.importance*g.width*g.height for g in colored)/max(sum(g.width*g.height for g in colored),1) if colored else 1
+    count=len({g.color for g in colored});semantic=sum(max(g.importance,g.color_salience)*g.width*g.height for g in colored)/max(sum(g.width*g.height for g in colored),1) if colored else 1
     maximum=cfg['short_title_max_colored_area'] if len(layout.text)<=2 else cfg['max_colored_area']
     restraint=max(0,1-max(0,ratio-maximum)/max(1-maximum,.01))
     prior=cfg['reference_count_prior'][min(count,2)] if layout.metadata.get('color_mode','auto')=='auto' else 1

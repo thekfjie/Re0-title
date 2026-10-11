@@ -1,4 +1,4 @@
-version: 3
+version: 4
 hard_constraints:
   max_ink_overlap: 0.003
 canvas:
@@ -39,7 +39,7 @@ style:
   baseline_pattern: [0.0, 0.14, -0.05, 0.18]
   connector_baseline_pattern: [0.04, 0.12, -0.06, 0.08]
   variant_kana_scale: [1.0, 1.08, 0.94]
-  accent_strategies: [semantic_anchor, connector_accent, distributed]
+  accent_strategies: [content_head, content_tail_or_short_bridge, content_contrast]
   profile_strength: 0.75
   primary_threshold: 0.62
   diversity_min_distance: 0.075
@@ -56,12 +56,20 @@ color_policy:
   min_contrast: 3.0
   small_text_min_contrast: 4.5
   small_text_size: 24
-  auto_color_counts: [0, 1, 2]
-  auto_color_probabilities: [0.32, 0.63, 0.05]
+  auto_color_counts: [1, 2]
+  auto_color_probabilities: [0.92, 0.08]
   max_colored_area: 0.58
   short_title_max_colored_area: 0.85
   reference_count_prior: [0.51, 1.0, 0.08]
   quality_mix: {contrast: 0.35, semantic: 0.25, restraint: 0.20, reference: 0.20}
+accent_selection:
+  functional_words: ['の', 'を', 'は', 'が', 'に', 'へ', 'と', 'も', 'で', 'や', 'から', 'まで', '的', '之', '与', '和']
+  protected_characters: ['的', '之']
+  bridge_max_chars: 6
+  bridge_visual_score: 0.70
+  min_anchor_distance: 2
+  contrast_concepts: ['終', '始', '崩壊', '絶望', '希望', '再会', '記憶', '命', '死', '約束', '誓', '病', '魔', '英雄']
+  weights: {importance: 0.45, content_role: 0.12, display_script: 0.10, planner: 0.45, contrast_concept: 0.12, edge: 0.06}
 heuristics:
   pos:
     noun: 0.44

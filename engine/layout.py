@@ -8,6 +8,7 @@ from engine.text import script, break_penalty, NO_START, NO_END, Token
 from engine.fonts import FontFace
 from engine.renderer import Layout,PlacedGlyph,optical_x,raster_metrics,minimum_ink_gap
 from engine.design import variation_profile,accent_limit,resolve_palette,check_glyph_colors,color_metrics
+from engine.accent import select_accents,validate_color_settings
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -80,51 +81,12 @@ class LayoutEngine:
         return value
 
     def accent_positions(self,tokens,variant):
-        style=self.rules['style'];chars=[]
-        for i,t in enumerate(tokens):
-            for j,c in enumerate(t.text):chars.append((i,j,c,t))
-        limit=accent_limit(self.input_seed,variant,self.color_mode,self.rules)
-        if not limit:return {}
-        explicit=self.active_plan.get('emphasis_relation',[])[:limit]
-        if explicit:
-            wanted={};whole=''.join(t.text for t in tokens)
-            for rank,word in enumerate(explicit):
-                start=whole.find(word)
-                while start>=0:
-                    for offset in range(start,start+len(word)):wanted[offset]=rank
-                    start=whole.find(word,start+len(word))
-            return {(i,j):wanted[k] for k,(i,j,c,t) in enumerate(chars) if k in wanted}
-        anchors=sorted(range(len(tokens)),key=lambda i:(-tokens[i].importance,i))
-        candidates=[]
-        strategy=style['accent_strategies'][variant]
-        if strategy=='connector_accent':
-            candidates=[(i,j) for i,j,c,t in chars if script(c)=='hiragana' and t.role in ('particle','connector')]
-            if not candidates:candidates=[(i,j) for i,j,c,t in chars if script(c)=='hiragana']
-            # An accent connector can be the sole accent, as in 命の価値.
-            if candidates:
-                connector=candidates[len(candidates)//2]
-                if limit==1:return {connector:0}
-                extra=next(((i,j) for i in anchors for ci,j,c,t in chars if ci==i and script(c) in ('kanji','katakana','latin')),None)
-                return {connector:0,**({extra:1} if extra else {})}
-        if strategy=='distributed':
-            for i in anchors:
-                part=[(ci,j) for ci,j,c,t in chars if ci==i and script(c) in ('kanji','katakana','latin')]
-                if part:candidates.append(part[-1])
-            kana=[(i,j) for i,j,c,t in chars if script(c)=='hiragana' and t.role not in ('particle','connector')]
-            if kana:candidates=candidates[:1]+[kana[-1]]
-        else:
-            for i in anchors:
-                part=[(ci,j) for ci,j,c,t in chars if ci==i and tokens[i].importance>.42]
-                if part:candidates.append(part[0])
-        return {key:i for i,key in enumerate(candidates[:limit])}
+        return select_accents(tokens,variant,accent_limit(self.input_seed,variant,self.color_mode,self.rules),self.rules,self.active_plan)
 
     def make_layout(self,text,tokens,lines,family,seed,variant,width,height,palette):
         rng=random.Random(seed);style=self.rules['style'];base=style['font_size_base'];fcfg=self.rules['families'][family];profile=self.design_profile
         color_positions=self.accent_positions(tokens,variant)
         token_indices={id(t):i for i,t in enumerate(tokens)}
-        # When the semantic plan names single-character anchors, honor them.
-        explicit=self.active_plan.get('emphasis_relation',[]) if hasattr(self,'active_plan') else []
-        explicit_chars={c for word in explicit for c in word}
         glyphs=[];line_texts=[];y=0.
         for row,line in enumerate(lines):
             rowglyphs=[];x=0.;previous=None
@@ -143,7 +105,6 @@ class LayoutEngine:
                         factor=style['particle_size'] if t.role in ('particle','connector') else style['punctuation_size'] if kind=='punctuation' else style['kana_size'] if kind=='hiragana' else style['secondary_size']
                         is_anchor=shaped.text[0]==anchor_char and t.importance>=.62
                         if is_anchor:factor=style['primary_size']*(.90+t.importance*.17)
-                        if shaped.text in explicit_chars and kind!='hiragana':factor=max(factor,style['primary_size']*1.03)
                         local=sum(len(r) for fk,r in groups[:group_index])+shaped.cluster
                         if family!='wide_block':
                             pattern=style['kana_size_pattern'] if kind=='hiragana' else style['content_size_pattern']
@@ -168,9 +129,13 @@ class LayoutEngine:
                         gy-=shaped.y_offset*size/face.upem
                         color=palette['foreground']
                         accents=[color for color in dict.fromkeys(palette['accents']) if color!=palette['foreground']]
-                        if (idx,local) in color_positions and accents:color=accents[(color_positions[(idx,local)]+profile['accent_rotation'])%len(accents)]
+                        decision=color_positions.get((idx,local))
+                        if decision and accents:color=accents[(decision['rank']+profile['accent_rotation'])%len(accents)]
                         g=PlacedGlyph(shaped.text,idx,t.role,t.importance,face_key,shaped.gid,shaped.path,shaped.bounds,face.upem,x,gy,gw,gh,size,sx,sy,color,row,shaped.advance,shaped.bearing,face.metrics['ascender'],face.metrics['descender'],mask=shaped.mask)
-                        if color!=palette['foreground']:g.color_reason='llm_emphasis' if explicit else 'reference_connector' if style['accent_strategies'][variant]=='connector_accent' and kind=='hiragana' else 'importance_anchor'
+                        g.source_start=t.start+local;g.source_end=g.source_start+len(shaped.text)
+                        if decision:g.color_reason=decision['reason'];g.color_salience=decision['salience']
+                        for override in self.color_overrides:
+                            if g.source_start<override['end'] and g.source_end>override['start']:g.color=override['color'];g.color_reason='manual_override';g.color_salience=1
                         # Latin within a shaped run keeps HarfBuzz advances and offsets.
                         if previous is not None:
                             if kind=='latin' and previous.text[-1:].isascii() and previous.face==g.face:
@@ -190,7 +155,7 @@ class LayoutEngine:
             y=rowbottom+base*fcfg.get('row_gap',style['row_gap'])
         if not glyphs:raise ValueError('没有可渲染字形')
         layout=Layout(text,family,glyphs,width,height,palette['background'],seed,lines=line_texts)
-        layout.metadata.update({'fill_multiplier':self.rules['scale_regimes'][variant]*profile['fill'],'style_variant':variant,'accent_strategy':style['accent_strategies'][variant],'variation_profile':profile,'resolved_palette':palette,'canvas_theme':self.canvas_theme,'color_mode':self.color_mode})
+        layout.metadata.update({'fill_multiplier':self.rules['scale_regimes'][variant]*profile['fill'],'style_variant':variant,'accent_strategy':style['accent_strategies'][variant],'variation_profile':profile,'resolved_palette':palette,'canvas_theme':self.canvas_theme,'color_mode':self.color_mode,'custom_colors':self.custom_colors,'color_overrides':self.color_overrides})
         return self.fit(layout)
 
     def fit(self,layout):
@@ -258,11 +223,12 @@ class LayoutEngine:
             temp*=self.rules['search']['cooling']
         return best
 
-    def generate(self,text,tokens,seed=42,count=6,width=1200,height=675,palette='night',plan=None,anneal=True,canvas_theme='night',color_mode='auto'):
+    def generate(self,text,tokens,seed=42,count=6,width=1200,height=675,palette='night',plan=None,anneal=True,canvas_theme='night',color_mode='auto',custom_colors=None,color_overrides=None):
         if not (256<=width<=2400 and 256<=height<=2400 and width*height<=4000000):raise ValueError('画布须为 256–2400 像素，总像素不超过 400 万')
         if not 4<=count<=8:raise ValueError('候选数须为 4–8')
         if ''.join(t.text for t in tokens)!=text:raise ValueError('计划未保留原文')
-        self.active_plan=plan or {};self.palette=resolve_palette(self.config['colors'],palette,canvas_theme);tokens=self.chunks(tokens)
+        self.custom_colors,self.color_overrides=validate_color_settings(text,custom_colors,color_overrides)
+        self.active_plan=plan or {};self.palette=resolve_palette(self.config['colors'],palette,canvas_theme,self.custom_colors);tokens=self.chunks(tokens)
         self.input_seed=seed;self.design_profile=variation_profile(seed,self.rules);self.color_mode=color_mode;self.canvas_theme=canvas_theme
         candidates=[];families=self.eligible_families(text,tokens)
         suggested=self.active_plan.get('suggested_layout_family')

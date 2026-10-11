@@ -13,6 +13,7 @@ from engine.fonts import UploadFontProvider,PrivateFontProvider,BundledFontProvi
 from engine.layout import load_config
 from engine.text import JapaneseAnalyzer
 from engine.conversion import convert_kanji
+from engine.accent import validate_color_settings
 from llm.planner import SemanticPlanner
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -160,6 +161,15 @@ def delete_fonts(request:Request):
     uploads.delete_owner(request.state.owner);shutil.rmtree(jobs/sha256(request.state.owner.encode()).hexdigest(),ignore_errors=True)
     return {'deleted':True}
 
+class ColorOverride(BaseModel):
+    start:int=Field(ge=0)
+    end:int=Field(ge=1)
+    color:str=Field(pattern=r'^#[0-9a-fA-F]{6}$')
+
+class CustomColors(BaseModel):
+    foreground:str|None=Field(default=None,pattern=r'^#[0-9a-fA-F]{6}$')
+    accents:list[str]|None=Field(default=None,min_length=1,max_length=8)
+
 class RenderInput(BaseModel):
     text:str=Field(min_length=1,max_length=80)
     font_id:str|None=None
@@ -171,6 +181,8 @@ class RenderInput(BaseModel):
     height:int=Field(default=675,ge=256,le=2400)
     palette:Literal['night','violet','crimson','monochrome']='night'
     transparent:bool=False
+    custom_colors:CustomColors|None=None
+    color_overrides:list[ColorOverride]=Field(default_factory=list,max_length=80)
     heuristic:Literal['balanced','kanji_anchor','semantic_nouns']='balanced'
     input_mode:Literal['original','kanji','translate']='kanji'
     canvas_theme:Literal['night','day']='night'
@@ -191,8 +203,10 @@ async def render(args:RenderInput,request:Request):
         jid=secrets.token_urlsafe(20);job=ownerdir/jid;job.mkdir(mode=0o700)
         try:
             input=args.model_dump();font_paths={}
+            if args.custom_colors:input['custom_colors']=args.custom_colors.model_dump(exclude_none=True)
             preprocessing=convert_kanji(args.text) if args.input_mode=='kanji' else await asyncio.to_thread(SemanticPlanner().translate,args.text) if args.input_mode=='translate' else {'source_text':args.text,'text':args.text,'changed':False,'method':'original'}
             input['text']=preprocessing['text'];input['preprocessing']=preprocessing
+            input['custom_colors'],input['color_overrides']=validate_color_settings(input['text'],input['custom_colors'],input['color_overrides'])
             for role,path in paths.items():
                 name='font-'+role+path.suffix;shutil.copyfile(path,job/name);os.chmod(job/name,0o600);font_paths[role]=name
             input['font_paths']=font_paths
@@ -225,5 +239,11 @@ def result_file(job_id:str,name:str,request:Request):
     path=job/name
     if not path.is_file() or path.is_symlink() or time.time()-job.stat().st_mtime>=TTL:raise HTTPException(404,'结果不存在或已过期')
     return FileResponse(path,media_type='image/svg+xml' if path.suffix=='.svg' else 'image/png',filename=name)
+
+@app.get('/',include_in_schema=False)
+def home():
+    # Hosted Worker builds serve HTML dynamically and omit dist/client/index.html.
+    # The Python deployment uses the same source HTML with its compiled assets.
+    return FileResponse(ROOT/'web/client/index.html',media_type='text/html')
 
 app.mount('/',StaticFiles(directory=ROOT/'dist/client' if (ROOT/'dist/client').is_dir() else ROOT/'dist' if (ROOT/'dist').is_dir() else ROOT/'web/client',html=True),name='ui')

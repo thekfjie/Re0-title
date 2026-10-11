@@ -15,7 +15,7 @@ def main():
     fonts={k:FontFace(job/p) for k,p in args['font_paths'].items()};config=load_config()
     plan=args.get('plan')
     tokens=validate_plan(args['text'],plan) if plan else JapaneseAnalyzer(config['rules']).analyze(args['text'],args.get('heuristic'))
-    layouts=LayoutEngine(fonts,config).generate(args['text'],tokens,args['seed'],args['count'],args['width'],args['height'],args['palette'],plan,anneal=args.get('anneal',True),canvas_theme=args.get('canvas_theme','night'),color_mode=args.get('color_mode','auto'))
+    layouts=LayoutEngine(fonts,config).generate(args['text'],tokens,args['seed'],args['count'],args['width'],args['height'],args['palette'],plan,anneal=args.get('anneal',True),canvas_theme=args.get('canvas_theme','night'),color_mode=args.get('color_mode','auto'),custom_colors=args.get('custom_colors'),color_overrides=args.get('color_overrides'))
     renderer=Renderer();results=[]
     for i,l in enumerate(layouts):
         l.metadata['preprocessing']=args.get('preprocessing')

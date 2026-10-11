@@ -1,0 +1,17 @@
+{
+  "auto_content_anchor": true,
+  "same_spelling_separate_occurrences": true,
+  "edits_apply_to_all_candidates_without_relayout": true,
+  "manual_low_contrast_preserved_with_warning": true,
+  "transparent_svg_and_png_without_generation": true,
+  "png_ink_pixels": 79847,
+  "reset_restores_auto_colors": true,
+  "custom_palette_more_than_two_hues": true,
+  "preset_exits_custom_palette": true,
+  "chinese_repeated_de_not_auto_colored": true,
+  "B_frozen_plan_same_color_constraints": true,
+  "mobile_no_overflow": true,
+  "page_errors": [],
+  "model_calls": 0,
+  "server_render_calls": 0
+}

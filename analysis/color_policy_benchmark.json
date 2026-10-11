@@ -1,0 +1,24 @@
+{
+  "plan_source": "replayed_live",
+  "model_calls": 0,
+  "modes": {
+    "A": {
+      "count": 120,
+      "accent_counts": {
+        "1": 120
+      },
+      "bridge_candidates": 2,
+      "repeated_particle_violations": 0,
+      "low_contrast": 0
+    },
+    "B": {
+      "count": 120,
+      "accent_counts": {
+        "1": 120
+      },
+      "bridge_candidates": 2,
+      "repeated_particle_violations": 0,
+      "low_contrast": 0
+    }
+  }
+}

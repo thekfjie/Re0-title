@@ -5,6 +5,11 @@ from web.app import app
 
 FONT=Path(__file__).resolve().parents[1]/'assets/open-fonts/noto-sans-jp-black.ttf'
 
+def test_python_home_serves_generator_even_when_worker_build_has_no_static_index():
+    with TestClient(app) as client:
+        response=client.get('/')
+        assert response.status_code==200 and 'id="character-colors"' in response.text
+
 def test_upload_mime_and_header():
     with TestClient(app) as client:
         assert client.post('/fonts',files={'file':('bad.ttf',b'not-a-font','font/ttf')}).status_code==422

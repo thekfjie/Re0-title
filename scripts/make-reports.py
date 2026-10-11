@@ -42,7 +42,7 @@ B 的可见贡献在「待ちかねた再会」的单字锚点、「氷/炎」�
 接入实际 API 后，以相同字体/seed/文本重跑 `--live-llm`，固定模型版本并记录 usage；再做多次调用稳定性、外部评审的随机化配对与语义强调消融。与初版冻结计划的结果区分存放，不覆盖本轮 provenance。
 '''
     if not (ROOT/'experiments/live-benchmark/summary.json').exists():(ROOT/'docs/comparison.md').write_text(comparison)
-    docs=['reference_analysis','typography_rules','algorithm_baseline','llm_pipeline','comparison','input_seed_color','font_security','deployment','requirements_audit']
+    docs=['reference_analysis','typography_rules','algorithm_baseline','llm_pipeline','comparison','color_rules_revision','input_seed_color','font_security','deployment','requirements_audit']
     page=['<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Title Lab · 研究与实现</title><style>body{max-width:1000px;margin:40px auto;background:#09090b;color:#fafafa;font:14px system-ui;line-height:1.9;padding:0 24px}a{color:#d4d4d8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px system-ui;border-top:1px solid #27272a;padding-top:28px;margin-top:50px}h1{font-weight:500}nav{display:flex;flex-wrap:wrap;gap:15px}img{width:100%;border:1px solid #27272a;border-radius:8px}</style><a href="/">← 返回生成器</a><h1>研究与实现</h1><p>82 个参考样本 · 7 个字体方向 · 20 条测试文本 · 240 个候选。几何规律与字体身份假设分别记录。</p><nav>']
     for name in docs:page.append(f'<a href="#{name}">{name}</a>')
     page.append('</nav>')

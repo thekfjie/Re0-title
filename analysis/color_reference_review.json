@@ -1,0 +1,1817 @@
+{
+  "version": 1,
+  "summary": {
+    "sample_count": 82,
+    "unit_count": 96,
+    "role_counts": {
+      "repeated_contrast": 8,
+      "content_anchor": 19,
+      "word_internal": 26,
+      "katakana_fragment": 13,
+      "kana_fragment": 4,
+      "word_group": 11,
+      "paired_anchor": 6,
+      "grammatical_bridge": 5,
+      "latin_fragment": 2,
+      "uniform": 2
+    },
+    "grammatical_bridge_samples": [
+      "s033",
+      "s035",
+      "s038",
+      "s039",
+      "s055"
+    ],
+    "no_local_color_samples": [
+      "s026",
+      "s062",
+      "s065",
+      "s070",
+      "s073",
+      "s075"
+    ],
+    "method": "manual visual review of all seven contact sheets; occurrence correction; no OCR/VLM in the generation path",
+    "not_inferred": [
+      "designer intent",
+      "hue from word meaning",
+      "exact original RGB",
+      "font identity"
+    ]
+  },
+  "samples": [
+    {
+      "id": "s001",
+      "text": "始まりの終わりと終わりの始まり",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s002",
+      "text": "再会の魔女",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s003",
+      "text": "ゼロから始まる異世界生活",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "異",
+          "start": 7,
+          "end": 8,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s004",
+      "text": "ロズワール邸の団欒",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "団",
+          "start": 7,
+          "end": 8,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s005",
+      "text": "約束した朝は遠く",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s006",
+      "text": "鎖の音",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "鎖",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s007",
+      "text": "ナツキ・スバルのリスタート",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "リ",
+          "start": 8,
+          "end": 9,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s008",
+      "text": "泣いて泣き喚いて泣き止んだから",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "泣",
+          "start": 8,
+          "end": 9,
+          "occurrence": 2,
+          "observed_color_label": "grey-violet",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s009",
+      "text": "勇気の意味",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "意",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s010",
+      "text": "鬼がかったやり方",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "や",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "kana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s011",
+      "text": "レム",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ム",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s012",
+      "text": "再来の王都",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s013",
+      "text": "自称騎士ナツキ・スバル",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ス",
+          "start": 8,
+          "end": 9,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s014",
+      "text": "絶望という病",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s015",
+      "text": "狂気の外側",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "狂",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "green",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s016",
+      "text": "豚の欲望",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "欲",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s017",
+      "text": "醜態の果てに",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "醜",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s018",
+      "text": "ゼロから",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ロ",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s019",
+      "text": "白鯨攻略戦",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "白",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "green",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s020",
+      "text": "ヴィルヘルム・ヴァン・アストレア",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ヴ",
+          "start": 7,
+          "end": 8,
+          "occurrence": 1,
+          "observed_color_label": "grey",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s021",
+      "text": "絶望に抗う賭け",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "賭",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s022",
+      "text": "怠惰一閃",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "閃",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s023",
+      "text": "悪辣なる怠惰",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "怠",
+          "start": 4,
+          "end": 5,
+          "occurrence": 0,
+          "observed_color_label": "beige",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s024",
+      "text": "自称騎士と最優の騎士",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "騎",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "騎",
+          "start": 8,
+          "end": 9,
+          "occurrence": 1,
+          "observed_color_label": "violet",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s025",
+      "text": "ただそれだけの物語",
+      "background": "white",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "物語",
+          "start": 7,
+          "end": 9,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s026",
+      "text": "Memory Snow",
+      "background": "glow",
+      "reviewed": true,
+      "accent_units": [],
+      "no_local_color_observed": true,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s027",
+      "text": "氷結の絆",
+      "background": "decorated",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "結",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s028",
+      "text": "それぞれの誓い",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "誓",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s029",
+      "text": "次なる場所",
+      "background": "white",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "次",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "light-grey",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s030",
+      "text": "待ちかねた再会",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s031",
+      "text": "親子",
+      "background": "decorated_white",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "子",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "brown",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s032",
+      "text": "踏み出した一歩",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "出",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s033",
+      "text": "少女の福音",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s034",
+      "text": "ユージン",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ユ",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s035",
+      "text": "命の価値",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s036",
+      "text": "らぶらぶらぶらぶらぶらぶゆー",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "らぶらぶ",
+          "start": 0,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "らぶらぶ",
+          "start": 2,
+          "end": 6,
+          "occurrence": 1,
+          "observed_color_label": "grey",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "らぶらぶゆー",
+          "start": 8,
+          "end": 14,
+          "occurrence": 0,
+          "observed_color_label": "light-violet-grey",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s037",
+      "text": "地獄なら知っている",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "獄",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "知",
+          "start": 4,
+          "end": 5,
+          "occurrence": 0,
+          "observed_color_label": "orange",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s038",
+      "text": "死の味",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s039",
+      "text": "魔女たちの茶会",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "green",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "た",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "kana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "の",
+          "start": 4,
+          "end": 5,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "茶",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s040",
+      "text": "泣きたくなる音",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "音",
+          "start": 6,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "grey-gradient",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s041",
+      "text": "STRAIGHT BET",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "B",
+          "start": 9,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "latin_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s042",
+      "text": "オットー・スーウェン",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "オ",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s043",
+      "text": "信じる理由",
+      "background": "gradient",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "理",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s044",
+      "text": "クウェインの石は一人じゃ上がらない",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "一人",
+          "start": 8,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s045",
+      "text": "記憶の旅路",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "記",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s046",
+      "text": "平家星の笑った日",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "星",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "green",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s047",
+      "text": "エリオール大森林の永久凍土",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "永久凍土",
+          "start": 9,
+          "end": 13,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s048",
+      "text": "聖域の始まりと、崩壊の始まり",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "聖",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "り",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "kana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "壊",
+          "start": 9,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "ま",
+          "start": 12,
+          "end": 13,
+          "occurrence": 1,
+          "observed_color_label": "pink",
+          "visual_role": "kana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s049",
+      "text": "咆哮の再会",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "哮",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s050",
+      "text": "水面に映る幸せ",
+      "background": "reflection",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "幸",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s051",
+      "text": "血と臓物まで愛して",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "血",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "臓物",
+          "start": 2,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s052",
+      "text": "俺を選べ",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "選",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s053",
+      "text": "月下出鱈目なステップ",
+      "background": "gradient",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "月",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "鱈",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "ス",
+          "start": 6,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "orange",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s054",
+      "text": "劇場型悪意",
+      "background": "decorated",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "劇場型",
+          "start": 0,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s055",
+      "text": "氷炎の結末",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "氷",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s056",
+      "text": "ゴージャス・タイガー",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ガー",
+          "start": 8,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s057",
+      "text": "都市庁舎奪還作戦",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "奪還",
+          "start": 4,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s058",
+      "text": "濁流",
+      "background": "texture",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "濁流",
+          "start": 0,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "grey-blue-texture",
+          "visual_role": "uniform",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s059",
+      "text": "騎士の条件",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "騎",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s060",
+      "text": "最も新しい英雄と最も古い英雄",
+      "background": "white",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "新",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "英",
+          "start": 12,
+          "end": 13,
+          "occurrence": 1,
+          "observed_color_label": "red",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s061",
+      "text": "いつか好きになる人",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "好",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s062",
+      "text": "混戦都市",
+      "background": "decorated",
+      "reviewed": true,
+      "accent_units": [],
+      "no_local_color_observed": true,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s063",
+      "text": "強欲攻略戦",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "攻略",
+          "start": 2,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s064",
+      "text": "リリアナ・マスカレード",
+      "background": "glow",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "リ",
+          "start": 1,
+          "end": 2,
+          "occurrence": 1,
+          "observed_color_label": "orange",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s065",
+      "text": "レグルス・コルニアス",
+      "background": "white",
+      "reviewed": true,
+      "accent_units": [],
+      "no_local_color_observed": true,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s066",
+      "text": "戦士の称賛",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "戦",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s067",
+      "text": "テレシアヴァン・アストレア",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ヴァン",
+          "start": 4,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s068",
+      "text": "醜悪なる晩餐会",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "餐",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s069",
+      "text": "■■なる晩餐会",
+      "background": "white_masked",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "餐",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s070",
+      "text": "プリステラ攻防戦リザルト",
+      "background": "decorated_white",
+      "reviewed": true,
+      "accent_units": [],
+      "no_local_color_observed": true,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s071",
+      "text": "君を連れ出す理由",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "君",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s072",
+      "text": "ゴージャス・タイガー・リローデッド",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ガー",
+          "start": 8,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s073",
+      "text": "砂時間を越えろ",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [],
+      "no_local_color_observed": true,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s074",
+      "text": "監視塔の番人",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "番",
+          "start": 4,
+          "end": 5,
+          "occurrence": 0,
+          "observed_color_label": "orange",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s075",
+      "text": "白い星空のアステリズム",
+      "background": "glow",
+      "reviewed": true,
+      "accent_units": [],
+      "no_local_color_observed": true,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s076",
+      "text": "棒振り",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "棒",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s077",
+      "text": "ユリウス・ユークリウス",
+      "background": "white",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "ウ",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s078",
+      "text": "コンビニを出ると、そこは不思議の世界でした",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "コンビニ",
+          "start": 0,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s079",
+      "text": "オマエハダレダ",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "オマエハ",
+          "start": 0,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "ダレダ",
+          "start": 4,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s080",
+      "text": "殺人は癖になる",
+      "background": "black",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "殺",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        },
+        {
+          "text": "癖",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s081",
+      "text": "残骸",
+      "background": "texture",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "残骸",
+          "start": 0,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "red-texture",
+          "visual_role": "uniform",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    },
+    {
+      "id": "s082",
+      "text": "Re:ゼロから始まる異世界生活",
+      "background": "white",
+      "reviewed": true,
+      "accent_units": [
+        {
+          "text": "Re:",
+          "start": 0,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "latin_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate"
+        }
+      ],
+      "no_local_color_observed": false,
+      "limitations": "Video frame/JPEG, grey versus chromatic is not an exact pixel label; decorations and Chinese subtitles excluded."
+    }
+  ]
+}
