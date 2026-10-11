@@ -6,7 +6,7 @@ used only after generation. New texts have no reconstruction target.
 from pathlib import Path
 from copy import deepcopy
 from io import BytesIO
-import argparse, json, statistics, time
+import argparse, hashlib, json, statistics, time
 from PIL import Image, ImageDraw, ImageFont
 from engine.fonts import FontFace
 from engine.layout import LayoutEngine, load_config
@@ -25,7 +25,8 @@ def run():
     config=load_config();fonts={k:FontFace(ROOT/'assets/open-fonts'/f) for k,f in [('kanji','noto-sans-jp-black.ttf'),('kana','shippori-mincho-semibold.ttf')]}
     analyzer=JapaneseAnalyzer(config['rules']);renderer=Renderer()
     samples=json.loads((ROOT/'references/dataset.json').read_text())['samples']
-    colors={s['id']:s for s in json.loads((ROOT/'analysis/color_reference_review.json').read_text())['samples']}
+    # Use the revised 98-unit review, including corrected repeated spans.
+    colors={s['id']:{'accent_units':s['units']} for s in json.loads((ROOT/'analysis/color_position_study.json').read_text())['cases']}
     fine={s['sample_id']:s for s in json.loads((ROOT/'analysis/fine_annotations.json').read_text())['samples']}
     rows=[s for s in samples if args.all or s['id'] in DEFAULT_IDS]+[{'id':f'u{i+1:02}', 'text':text} for i,text in enumerate(UNSEEN)]
     cases=[]
@@ -61,6 +62,8 @@ def run():
                 'latency_median_ms':statistics.median(c['arms'][name]['latency_ms'] for c in cases)}
     result={'seed':42,'target_annotations_passed_to_engine':False,'story_context_passed_to_engine':False,'sample_set':'development references plus unscored new texts',
             'fonts':{k:f.metadata['sha256'] for k,f in fonts.items()},'config':config,'arm_parameters':{'previous':{'composition.enabled':False},'composition':{'composition.enabled':True}},'summary':{name:metrics(name) for name in ['previous','composition']},'cases':cases}
+    review_path=ROOT/'analysis/color_position_study.json'
+    result['color_annotation']={'path':'analysis/color_position_study.json','sha256':hashlib.sha256(review_path.read_bytes()).hexdigest(),'unit_count':98}
     (out/'results.json').write_text(json.dumps(result,ensure_ascii=False,indent=2));(out/'summary.json').write_text(json.dumps(result['summary'],indent=2))
     # Browser index retains all candidates without megabytes of glyph paths.
     compact={k:v for k,v in result.items() if k not in ('config','cases')}

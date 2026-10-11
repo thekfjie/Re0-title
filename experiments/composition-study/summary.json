@@ -2,7 +2,7 @@
   "previous": {
     "exact_breaks": 56,
     "count_match": 57,
-    "mean_accent_jaccard": 0.31452087007642565,
+    "mean_accent_jaccard": 0.32671957671957674,
     "median_aspect_log_error": 0.2173718775063267,
     "mean_fine_ink_height_log_error": 0.19834959051484577,
     "max_collision": 0.0029717682020802376,
@@ -14,7 +14,7 @@
   "composition": {
     "exact_breaks": 58,
     "count_match": 59,
-    "mean_accent_jaccard": 0.24559082892416226,
+    "mean_accent_jaccard": 0.2516166960611405,
     "median_aspect_log_error": 0.1905048081722567,
     "mean_fine_ink_height_log_error": 0.19417241529582366,
     "max_collision": 0.0029374737725556023,

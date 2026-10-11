@@ -437,7 +437,7 @@
     "previous": {
       "exact_breaks": 56,
       "count_match": 57,
-      "mean_accent_jaccard": 0.31452087007642565,
+      "mean_accent_jaccard": 0.32671957671957674,
       "median_aspect_log_error": 0.2173718775063267,
       "mean_fine_ink_height_log_error": 0.19834959051484577,
       "max_collision": 0.0029717682020802376,
@@ -449,7 +449,7 @@
     "composition": {
       "exact_breaks": 58,
       "count_match": 59,
-      "mean_accent_jaccard": 0.24559082892416226,
+      "mean_accent_jaccard": 0.2516166960611405,
       "median_aspect_log_error": 0.1905048081722567,
       "mean_fine_ink_height_log_error": 0.19417241529582366,
       "max_collision": 0.0029374737725556023,
@@ -155362,11 +155362,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -155568,11 +155569,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": true,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -155774,11 +155776,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -155980,11 +155983,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 1.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   1
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -156186,11 +156190,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": true,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -156392,11 +156397,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -156614,11 +156620,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": true,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -156831,11 +156838,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -157048,11 +157056,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -157265,11 +157274,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 1.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   1
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -157482,11 +157492,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": true,
-                "accent_position_jaccard": 1.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   1
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -157699,11 +157710,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": true,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": null,
@@ -170414,11 +170426,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -170712,11 +170725,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": true,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -171010,11 +171024,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -171309,11 +171324,12 @@
                 "line_count_error": 1,
                 "exact_break_match": false,
                 "family_match": true,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -171607,11 +171623,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": true,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -171905,11 +171922,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -172224,6 +172242,7 @@
                   2
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -172528,11 +172547,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 1.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   1
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -172837,11 +172857,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": false,
-                "accent_position_jaccard": 1.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   1
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -173149,11 +173170,12 @@
                 "line_count_error": 1,
                 "exact_break_match": false,
                 "family_match": true,
-                "accent_position_jaccard": 0.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   0
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -173458,11 +173480,12 @@
                 "line_count_error": 0,
                 "exact_break_match": true,
                 "family_match": true,
-                "accent_position_jaccard": 1.0,
+                "accent_position_jaccard": 0.5,
                 "generated_accent_positions": [
                   1
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -173772,6 +173795,7 @@
                   2
                 ],
                 "reference_accent_positions": [
+                  0,
                   1
                 ],
                 "geometry": {
@@ -174442,7 +174466,7 @@
                 "line_count_error": 1,
                 "exact_break_match": false,
                 "family_match": true,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   13
                 ],
@@ -174453,6 +174477,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -175107,7 +175133,7 @@
                 "line_count_error": 2,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   13
                 ],
@@ -175118,6 +175144,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -175774,7 +175802,7 @@
                 "line_count_error": 0,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   13
                 ],
@@ -175785,6 +175813,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -176440,7 +176470,7 @@
                 "line_count_error": 1,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   13
                 ],
@@ -176451,6 +176481,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -177108,7 +177140,7 @@
                 "line_count_error": 1,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   13
                 ],
@@ -177119,6 +177151,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -177777,7 +177811,7 @@
                 "line_count_error": 2,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   13
                 ],
@@ -177788,6 +177822,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -178456,7 +178492,7 @@
                 "line_count_error": 2,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   1
                 ],
@@ -178467,6 +178503,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -179132,7 +179170,7 @@
                 "line_count_error": 1,
                 "exact_break_match": false,
                 "family_match": true,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   1
                 ],
@@ -179143,6 +179181,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -179810,7 +179850,7 @@
                 "line_count_error": 0,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   10
                 ],
@@ -179821,6 +179861,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -180486,7 +180528,7 @@
                 "line_count_error": 1,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   0
                 ],
@@ -180497,6 +180539,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -181166,7 +181210,7 @@
                 "line_count_error": 1,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   10
                 ],
@@ -181177,6 +181221,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -181848,7 +181894,7 @@
                 "line_count_error": 2,
                 "exact_break_match": false,
                 "family_match": false,
-                "accent_position_jaccard": 0.08333333333333333,
+                "accent_position_jaccard": 0.07142857142857142,
                 "generated_accent_positions": [
                   1
                 ],
@@ -181859,6 +181905,8 @@
                   3,
                   4,
                   5,
+                  6,
+                  7,
                   8,
                   9,
                   10,
@@ -463000,5 +463048,10 @@
     "composition": {
       "composition.enabled": true
     }
+  },
+  "color_annotation": {
+    "path": "analysis/color_position_study.json",
+    "sha256": "62cec4e9df1f1ef80150c0a248455a33635526a3125777086f696ba8bf11bb75",
+    "unit_count": 98
   }
 }
