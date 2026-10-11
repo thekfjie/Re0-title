@@ -4,3 +4,8 @@ palettes:
   violet: {background: '#000000', foreground: '#f6f5f3', accents: ['#b3a3e3', '#f0d27a'], muted: '#85818c'}
   crimson: {background: '#000000', foreground: '#f6f5f3', accents: ['#c7343c', '#75737e'], muted: '#77747a'}
   monochrome: {background: '#000000', foreground: '#f6f5f3', accents: ['#a2a0ad', '#f6f5f3'], muted: '#77747a'}
+day_palettes:
+  night: {background: '#fafafa', foreground: '#18181b', accents: ['#1d4ed8', '#be185d'], muted: '#52525b'}
+  violet: {background: '#fafafa', foreground: '#18181b', accents: ['#6d28d9', '#8a5a00'], muted: '#52525b'}
+  crimson: {background: '#fafafa', foreground: '#18181b', accents: ['#b91c1c', '#52525b'], muted: '#52525b'}
+  monochrome: {background: '#fafafa', foreground: '#18181b', accents: ['#52525b', '#18181b'], muted: '#52525b'}

@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Title Lab · 研究与实现</title><style>body{max-width:1000px;margin:40px auto;background:#09090b;color:#fafafa;font:14px system-ui;line-height:1.9;padding:0 24px}a{color:#d4d4d8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px system-ui;border-top:1px solid #27272a;padding-top:28px;margin-top:50px}h1{font-weight:500}nav{display:flex;flex-wrap:wrap;gap:15px}img{width:100%;border:1px solid #27272a;border-radius:8px}</style><a href="/">← 返回生成器</a><h1>研究与实现</h1><p>82 个参考样本 · 7 个字体方向 · 20 条测试文本 · 240 个候选。几何规律与字体身份假设分别记录。</p><nav><a href="#reference_analysis">reference_analysis</a><a href="#typography_rules">typography_rules</a><a href="#algorithm_baseline">algorithm_baseline</a><a href="#llm_pipeline">llm_pipeline</a><a href="#comparison">comparison</a><a href="#font_security">font_security</a><a href="#deployment">deployment</a><a href="#requirements_audit">requirements_audit</a></nav><pre id="reference_analysis"># 82 个参考样本：证据与假设
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Title Lab · 研究与实现</title><link rel="stylesheet" href="/style.css"><script>try{document.documentElement.dataset.theme=localStorage.getItem('title-ui-theme')||'day'}catch{}</script><body class="research"><header class="header"><a class="brand" href="/">日文标题排版</a><nav><a href="/">生成器</a><a href="/benchmark/">A / B 对照</a><div class="ui-theme-switch" role="group" aria-label="界面明暗"><button type="button" data-ui-theme="day">Day</button><button type="button" data-ui-theme="night">Night</button></div></nav></header><main><h1>研究与实现</h1><nav class="doc-nav"><a href="#reference_analysis">reference_analysis</a><a href="#typography_rules">typography_rules</a><a href="#algorithm_baseline">algorithm_baseline</a><a href="#llm_pipeline">llm_pipeline</a><a href="#comparison">comparison</a><a href="#input_seed_color">input_seed_color</a><a href="#font_security">font_security</a><a href="#deployment">deployment</a><a href="#requirements_audit">requirements_audit</a></nav><pre id="reference_analysis"># 82 个参考样本：证据与假设
 
 来源是用户提供的 ZIP，包含 82 张 3200×1440 手机视频截图，未提供字体文件、矢量源文件或设计稿。全部已查看，编号按文件时间排序。`references/dataset.json` 保存逐样本文字、观察到的断行、脚本计数、形态素和布局类别；`analysis/measurements.json` 保存独立图像测量。原图只用于本地研究，不随公开站点传播。
 
@@ -49,7 +49,7 @@
 
 断行使用 token 边界束搜索，同时考虑语义切口、行宽不均、模板预期行数。每个家族产生多种字号与偏移组合。阶梯家族按语义块横向交替，并非逐字符竖排；偏移以占用区域归一化。
 
-颜色提供白色主体加少量强调，默认最多两个锚点、两个强调色。灰色属于可见层级。颜色选择可用于重复关系，不能只按 POS 决定。参考白底/纹理/倒影变体不自动推广为黑底生成规则。
+黑底使用白色主体，白底使用深色主体，配少量强调；默认自动选择无彩色、单色或双色，最多两个颜色角色。灰色属于可见层级。颜色选择可用于重复关系，不能只按 POS 决定。参考白底/纹理/倒影变体不自动推广为黑底生成规则。
 
 间距使用字形 mask 的共同扫描行计算最小轮廓距离，允许 em 方框互相覆盖，但不能发生实际笔画严重碰撞。异字号、异字体配对每次测量，禁止固定全局 letter-spacing。标点缩小并下移，句尾允许小幅悬挂但仍必须在画布安全边界内。
 
@@ -59,11 +59,15 @@
 
 ## 本轮规则修正
 
-`template_rules.yaml` v2 增加明确的字符尺寸序列、基线序列、假名尺度变体、强调位置策略和错位行序列。连续汉字不再只有首字大、其余固定小；假名根据自身 ink 高度与角色变化，连接词仍通常较小。颜色可以落在高重要度词首、词末或假名/助词上，不把“词首汉字染色”当唯一规律。
+`template_rules.yaml` v3 增加明确的字符尺寸序列、基线序列、假名尺度变体、强调位置策略和错位行序列。连续汉字不再只有首字大、其余固定小；假名根据自身 ink 高度与角色变化，连接词仍通常较小。颜色可以落在高重要度词首、词末或假名/助词上，不把“词首汉字染色”当唯一规律。
 
 短标题排除不适合的三至五行家族；包含成对「…の…と、…の…」结构时保留四行候选。仍搜索多个断行和多种家族，不将成对结构强制成一种唯一成品。禁则是硬约束，连接用法「と / いう」的断开另行禁止。
 
 退火不再随机修改颜色：现有目标函数没有独立颜色关系评价，随机换色只会破坏已经确定的强调关系。颜色变化由可复现的 style variant 控制；退火优化位置与字形尺度。
+
+## Seed 与颜色判断修正
+
+Seed 现在先选整体变化参数：留白、锚点/假名比例、基线相位、错位方向和幅度，再产生局部优化。完整变化参数随 JSON 保存。着色增加对比度、强调面积、重要度和参考颜色数量先验；双色不再是默认固定答案。白底使用独立深色配色。细则与实测见 `input_seed_color.md`。
 </pre><pre id="algorithm_baseline"># A：无大模型基线
 
 生产生成路径不调用 LLM、VLM、CLIP、OCR 或视觉 embedding。参考分析只使用人工查看、阈值图像处理及统计。
@@ -78,7 +82,7 @@
 
 形态素可以包含多个脚本。字体按 kanji/kana 角色分 run，每个 run 由 HarfBuzz shaping；拉丁 ligature 与 kerning 保留 advance/offset。日文字形通过 mask 共同扫描行测安全最小距离，可以让字面方框嵌入但保持笔画间距。FreeType 提供真实 mask，fontTools 提供相同字体实例的 SVG path 与 outline bounds。最终 SVG 包含 path，不引用字体 URL。
 
-布局变量是字形 ink x/y、size、scaleX/scaleY、color 与行 offset。默认 scaleY=1、rotation=0；没有证据支持常规标题普遍旋转。本版退火开放上下偏移、行平移、字号、横向缩放、已有锚点色，最多 32 步。字体名和文本不可被 mutation 改动。禁则、溢出与显著笔画碰撞是候选淘汰条件。
+布局变量是字形 ink x/y、size、scaleX/scaleY、color 与行 offset。默认 scaleY=1、rotation=0；没有证据支持常规标题普遍旋转。本版退火开放上下偏移、行平移、字号、横向缩放、水平位置，最多 32 步。字体名和文本不可被 mutation 改动。禁则、溢出与显著笔画碰撞是候选淘汰条件。
 
 ## Score 定义
 
@@ -95,7 +99,7 @@
 | KinsokuPenalty | 非法行首/行尾数 | 不涵盖出版级 JLREQ 全部规则 |
 | AwkwardBreakPenalty | 束搜索断行代价/行数 | 包含行宽分布和语义代理，不是纯语义分 |
 
-权重全部在 `layout_weights.yaml`。正项加权、罚项减权。合格候选允许极少量栅格重叠误差（0.2% 上限），Benchmark 记录实测最大值。分数用来比较实现中的候选，不能与人类审美评分互换。
+权重全部在 `layout_weights.yaml`。正项加权、罚项减权。合格候选允许极少量栅格重叠误差（0.3% 上限），Benchmark 记录实测最大值。分数用来比较实现中的候选，不能与人类审美评分互换。
 
 ## 参考统计与泛化
 
@@ -104,6 +108,8 @@
 seed、字体 SHA256、token 角色、布局家族、完整配置 hash、候选池数量、score 各项与所有字形位置均记录。随机源固定到每候选，重跑同一 Python 环境得到同一 SVG；跨渲染库版本或 Python/浏览器端不保证 bitwise 一致。
 
 探索性消融共 20 次（四文本×五设置）：没有一种 importance 启发式在全部标题上占优，固定间距也在两条标题上获得更高内部 score。因而保留可配置启发式与光学字距，不把内部打分当审美结论。
+
+颜色质量现在加入 Score：对比度通过率、着色区域的重要度、强调面积克制程度、参考颜色数量先验。单色/双色/统一前景色为显式选择时不使用自动数量先验。小字低于 4.5:1、大字低于 3:1 的配色在输出前改为主体前景色。该工程可读性门槛不是风格相似度或审美证明。
 </pre><pre id="llm_pipeline"># B：语义规划与共用布局
 
 `llm/planner.py` 使用 OpenAI Responses 的严格 JSON schema。LLM 输入原文、Sudachi 分词与参考家族统计，输出分词修正、semantic_role、importance、visual_role、家族建议与强调关系。没有绝对坐标，没有模型生成 PNG。
@@ -144,14 +150,14 @@ Sites Worker 的 `/api/plan` 只返回验证后的语义计划及模型/usage/�
 | 项目 | A 传统规则 | B 实时语义计划 |
 |---|---|---|
 | 成功标题 | 20/20 | 20/20 |
-| 排版引擎中位时间 | 1088 ms | 1026 ms |
+| 排版引擎中位时间 | 1193 ms | 1096 ms |
 | 单次语义 API 中位时间 | 无调用 | 6050 ms |
 | 总 token usage | 无模型 token | 15411 |
 | API 费用 | 无模型调用费；仍有运行成本 | 单价未提供，不估算金额 |
 | 最大溢出罚项 | 0.0 | 0.0 |
 | 最大禁则违规数 | 0 | 0 |
-| 最大低分辨率 ink 重叠率 | 0.002565 | 0.002911 |
-| 内部平均 Score | 6.385 | 6.399 |
+| 最大低分辨率 ink 重叠率 | 0.002674 | 0.002849 |
+| 内部平均 Score | 7.099 | 7.145 |
 
 API 时间与排版时间分别记录；本轮最后一次渲染复用了真实调用得到的计划，以相同的新配置重放，未重复计费 20 次。原始请求 ID、usage、调用延迟、语义计划、配置 hash、字体 hash 和全部候选见 `experiments/live-benchmark/results.json`。旧固定计划实验保留在 `experiments/benchmark`。
 
@@ -162,6 +168,68 @@ API 时间与排版时间分别记录；本轮最后一次渲染复用了真实�
 Vision Critic 在三条标题上做了匿名 ID 排名实验：两条返回完整排名，分别首选 B 与 A 的候选；一条超时。成功调用约 35–36 秒，没有独立审美证据证明其收益，故保持关闭。详见 `experiments/vision_probe.json`。
 
 界面将计划暂存在当前页面内存。字体、颜色、seed 和候选数改变时复用同一语义计划，避免重复请求；「重新规划」显式触发模型。A 无模型依赖；B 作为可选方案保留。没有预设 B 更好。
+
+2026-10-11 追加复测：加入可复现的整体变化和颜色质量项后，复用同一 20 条真实语义计划重渲染，240 张继续通过原文、禁则与边界检查。新增 Score 项使分数尺度改变，禁止与上一版均值直接比较。完整 Seed/颜色审计见 `input_seed_color.md`。
+</pre><pre id="input_seed_color"># 中文输入、Day/Night、Seed 与颜色审计
+
+2026-10-11。结论：旧 Seed 有作用，但影响偏细小；旧颜色规则过于固定，且缺少可读性评价。新版扩大整体变化，收敛默认着色，并保留人工控制。
+
+## 中文输入
+
+三个入口共用排版引擎：
+
+- 自动转为日文汉字：本地词典按最长词组将简体/繁体转换为日本新字体，保留假名、标点、数字、拉丁字母。不会把中文语法翻成日语。
+- 中文标题 → 日语：服务端严格 JSON 翻译，再把日语交给 A 或 B。A 的布局仍无模型，选择这项会明确显示“中文翻译 + A”。
+- 保留原文：跳过转换，用上传字体覆盖能力决定是否可画。
+
+例：字形模式将“圣域的终结与崩坏的开始”转换为“聖域的終結与崩壊的開始”，保留“的”，不声称这是自然日语。真实服务翻译实测为“聖域の終焉と崩壊の始まり”。两者目的不同。
+
+原输入不被覆盖。排版文本可编辑、重新转换。模型翻译允许意译与信息偏差，必须查看译文；一条实测不能证明任意中文的翻译质量。字体缺字会明确报错，不偷偷删字。简繁一对多通过词组减少歧义，不能保证人名、专有词和所有异体的唯一正确转换。
+
+词典固定 OpenCC commit `8cf737a4e193db27d675b2ce9867d84aace33745`，保留 Apache-2.0 许可、源文本和 SHA256。实现是 Compatibility → ST 最长词组/字符 → 日本新字体逆映射的衍生转换器，不冒充完整 OpenCC runtime。源数据与生成过程见 `assets/conversion` 和 `scripts/build-kanji-dictionary.py`。
+
+## 明暗
+
+右上 Day/Night 只改变界面，并将偏好保存在本机。生成器、对照页、研究页共用偏好。
+
+“画布与复现”的 Night/Day 改变导出背景与对应字体颜色。白底单独使用深蓝/深粉等配色，不直接沿用夜间浅粉。透明导出不包含背景；颜色按选中的预期画布检查，换背景展示时仍需重新评估。双色表示最多两个不同强调色，短标题、单锚点计划或灰白调色板可能只出现一个；不为凑数把无关字染色。
+
+## Seed 是否有用
+
+旧路径只改变小幅 scaleX、baseline 抖动与退火随机数；断行/家族/三个尺度都被穷举，优化会让不同 Seed 回到相近结果。用户观察成立。
+
+新版 Seed 先决定字号关系、假名比例、基线相位、错位方向和幅度、留白、强调方案，再进行局部优化。“换一组”产生新 Seed；数值收进复现设置。它不控制翻译、分词、模型采样，不保证每个数字都获得另一种完全不同的布局家族，也不保证换一组更好。
+
+四条标题 × Seed 42/43/77 × 六候选，用相同字体比较同家族、同断行的匹配候选：
+
+| 指标 | 旧版 | 新版 |
+|---|---:|---:|
+| 可匹配候选对 | 46 | 47 |
+| 位置变化 RMS 中位（画布归一化） | 0.0170 | 0.0293 |
+| ink 覆盖比例相对变化中位 | 3.1% | 13.7% |
+| 着色模式改变的候选对 | 11 | 42 |
+
+该比较排除断行变化，匹配数量不完全相同；衡量的是可见变化而非审美提升。输入文本、同一模型 plan、字体字节、配置、软件版本和 Seed 一起固定才可复现。导出 JSON 保存完整 plan、变化参数和色彩决策。
+
+## 字体颜色判断是否合理
+
+旧版先按 token importance 排序，选词首/词末/连接字，再依次涂两个强调色。LLM 指定锚点时覆盖规则，但颜色没有评分项。它能表达层级，却不能说明某个词天然应该是蓝或粉，也没有依据让每个标题都用双色。
+
+59 个主黑底样本的近似色簇数：19 个无彩色、37 个一种彩色、2 个两种、1 个四种。JPEG 阈值与着色区域会影响计数；这是数量倾向，不是精确设计用色真值。新配置自动数量概率约 32% / 63% / 5%，不是词义到色相的模型。最终候选还经过评分与家族/断行多样性选择，实际比例不会完全等于抽样概率。
+
+新版保持两种职责：importance/明确语义锚点决定着色位置；palette、参考数量先验、Seed 和候选策略决定色相与数量。参考中的助词强调保留为一种候选，不伪称助词的语义重要度高。LLM 锚点按完整子串覆盖，重复项使用相同色彩角色。
+
+新增颜色质量由对比度通过率、着色部分 importance、着色面积克制程度、颜色数量先验组成。面积使用 glyph bbox，非精确彩色 ink；它是可解释代理分，不是人类审美。显式“单色/双色/统一前景色”覆盖数量先验。
+
+可读性门槛：主体字 3:1，小于 24px 的字 4.5:1；不足则恢复前景色并记录原因。是工程阈值，不宣称自动满足全部无障碍或参考风格。“着色依据”逐项显示文字、原因、重要度、色值和对比度。
+
+本轮四文本 × 三 Seed × 六候选的实际彩色数分布：0 色 25 张，1 色 40 张，2 色 7 张。夜/昼 × 四配色 × 四候选共 32 次检查通过最低对比度、禁则、边界与现有碰撞阈值。详细逐字理由在 `analysis/seed_color_audit.json`。
+
+## 验证与限制
+
+浏览器实测：无模型汉字转换、真实翻译、可改译文、B 接收日语、界面与画布独立、透明 PNG、移动端、主题保存，以及换字体/画布/Seed 不重复调用模型。测试见 `experiments/chinese_theme_seed_color_qa.mjs`。
+
+A/B 复用同一 20 条真实 plan 重渲染 240 张，原文/禁则/边界均通过。新增颜色评分使内部 Score 尺度改变，不能直接和上一版均值比较。尚无独立审美评审；改进了行为和可解释性，不代表已证明最接近参考或 B 普遍更好。
 </pre><pre id="font_security"># 字体与任务生命周期
 
 没有商业字体。按用户对尚未开放的研究版的追加授权，`assets/open-fonts` 显式收录 8 组 SIL OFL 1.1 字体及完整许可证、来源与 SHA256；它们可进入 Git、Docker 和浏览器资产。此例外仅适用于该开放字体清单。商业字体、上传字体和管理员私有字体仍不入库、不进入静态产物。
@@ -238,4 +306,6 @@ Docker 环境 `/runtime` 用 tmpfs，容器停止后消失。单进程有两个�
 本轮通过六张细标重新校正假名 ink 高度、连续汉字比例、错位基线、局部压缩、助词强调和成对短句的四行结构。参考强调位置只启发规则，不用图片身份去检索一张现成成品。字体改变不能替代布局验证。
 
 这六张细标已用于规则修正，因此属于开发样本。原先排除 Benchmark ID 的面积拟合仍可复现，但本轮风格迭代不再把这些样本称为严格未见测试。七条新增输入仅检验生成与约束；尚未证明未知文本的审美泛化。
-</pre></html>
+
+追加：中文字形转换（不调用模型）与整句翻译（显式模型预处理）均已接入；界面 Day/Night 与导出画布独立；Seed/颜色修正及客观审计见 `input_seed_color.md`。中文原文不冒充日文语法，译文与完整 plan 在导出参数中记录。
+</pre></main><script type="module">import {initTheme} from "/theme.js";initTheme();</script></body></html>

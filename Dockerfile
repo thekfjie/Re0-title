@@ -7,6 +7,7 @@ COPY web/client web/client
 COPY scripts/build-web.mjs scripts/build-web.mjs
 COPY config config
 COPY assets/open-fonts assets/open-fonts
+COPY assets/conversion assets/conversion
 COPY experiments/benchmark_cases.json experiments/session_plans.json experiments/
 COPY experiments/benchmark experiments/benchmark
 COPY experiments/live-benchmark experiments/live-benchmark
@@ -24,6 +25,7 @@ COPY llm llm
 COPY web/*.py web/
 COPY config config
 COPY --from=assets /app/dist/open-fonts assets/open-fonts
+COPY --from=assets /app/dist/conversion assets/conversion
 COPY analysis/family_summary.json analysis/
 COPY --from=assets /app/dist dist
 RUN useradd --create-home --uid 10001 app && mkdir /runtime && chown app:app /runtime

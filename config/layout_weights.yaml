@@ -4,6 +4,8 @@ spacing_quality: 1.2
 template_consistency: 0.8
 whitespace_quality: 1.5
 rhythm: 0.7
+color_quality: 0.8
+low_contrast_penalty: 12.0
 collision_penalty: 7.0
 overflow_penalty: 12.0
 kinsoku_penalty: 20.0

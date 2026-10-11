@@ -7,6 +7,7 @@ import yaml
 from engine.text import script, break_penalty, NO_START, NO_END, Token
 from engine.fonts import FontFace
 from engine.renderer import Layout,PlacedGlyph,optical_x,raster_metrics,minimum_ink_gap
+from engine.design import variation_profile,accent_limit,resolve_palette,check_glyph_colors,color_metrics
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -82,13 +83,16 @@ class LayoutEngine:
         style=self.rules['style'];chars=[]
         for i,t in enumerate(tokens):
             for j,c in enumerate(t.text):chars.append((i,j,c,t))
-        explicit=self.active_plan.get('emphasis_relation',[])
+        limit=accent_limit(self.input_seed,variant,self.color_mode,self.rules)
+        if not limit:return {}
+        explicit=self.active_plan.get('emphasis_relation',[])[:limit]
         if explicit:
             wanted={};whole=''.join(t.text for t in tokens)
             for rank,word in enumerate(explicit):
                 start=whole.find(word)
                 while start>=0:
-                    wanted[start]=rank;start=whole.find(word,start+len(word))
+                    for offset in range(start,start+len(word)):wanted[offset]=rank
+                    start=whole.find(word,start+len(word))
             return {(i,j):wanted[k] for k,(i,j,c,t) in enumerate(chars) if k in wanted}
         anchors=sorted(range(len(tokens)),key=lambda i:(-tokens[i].importance,i))
         candidates=[]
@@ -97,7 +101,11 @@ class LayoutEngine:
             candidates=[(i,j) for i,j,c,t in chars if script(c)=='hiragana' and t.role in ('particle','connector')]
             if not candidates:candidates=[(i,j) for i,j,c,t in chars if script(c)=='hiragana']
             # An accent connector can be the sole accent, as in 命の価値.
-            if candidates:return {candidates[len(candidates)//2]:0}
+            if candidates:
+                connector=candidates[len(candidates)//2]
+                if limit==1:return {connector:0}
+                extra=next(((i,j) for i in anchors for ci,j,c,t in chars if ci==i and script(c) in ('kanji','katakana','latin')),None)
+                return {connector:0,**({extra:1} if extra else {})}
         if strategy=='distributed':
             for i in anchors:
                 part=[(ci,j) for ci,j,c,t in chars if ci==i and script(c) in ('kanji','katakana','latin')]
@@ -108,10 +116,10 @@ class LayoutEngine:
             for i in anchors:
                 part=[(ci,j) for ci,j,c,t in chars if ci==i and tokens[i].importance>.42]
                 if part:candidates.append(part[0])
-        return {key:i for i,key in enumerate(candidates[:style['accent_budget']])}
+        return {key:i for i,key in enumerate(candidates[:limit])}
 
     def make_layout(self,text,tokens,lines,family,seed,variant,width,height,palette):
-        rng=random.Random(seed);style=self.rules['style'];base=style['font_size_base'];fcfg=self.rules['families'][family]
+        rng=random.Random(seed);style=self.rules['style'];base=style['font_size_base'];fcfg=self.rules['families'][family];profile=self.design_profile
         color_positions=self.accent_positions(tokens,variant)
         token_indices={id(t):i for i,t in enumerate(tokens)}
         # When the semantic plan names single-character anchors, honor them.
@@ -143,6 +151,8 @@ class LayoutEngine:
                             if kind=='hiragana':factor*=style['variant_kana_scale'][variant]
                         if family=='wide_block' and kind not in ('punctuation','hiragana'):factor=.98+.23*t.importance
                         if is_anchor:factor*=1+(variant-1)*.06
+                        if is_anchor:factor*=profile['anchor_scale']
+                        if kind=='hiragana':factor*=profile['kana_scale']
                         size=base*factor
                         sx=rng.uniform(.94,1.02) if family!='wide_block' else 1.
                         sy=1.
@@ -153,12 +163,14 @@ class LayoutEngine:
                         if kind=='punctuation':gy=y+base*style['row_band']-gh
                         else:
                             pattern=style['connector_baseline_pattern'] if kind=='hiragana' else style['baseline_pattern']
-                            stagger=pattern[(len(rowglyphs)+variant)%len(pattern)]*style['profile_strength'] if family!='wide_block' else 0
+                            stagger=pattern[(len(rowglyphs)+variant+profile['baseline_phase'])%len(pattern)]*style['profile_strength']*profile['baseline_scale'] if family!='wide_block' else 0
                             gy=y+base*style['row_band']-gh+base*stagger+base*fcfg['baseline_shift']*(rng.random()-.5)*.15
                         gy-=shaped.y_offset*size/face.upem
                         color=palette['foreground']
-                        if (idx,local) in color_positions:color=palette['accents'][color_positions[(idx,local)]%len(palette['accents'])]
+                        accents=[color for color in dict.fromkeys(palette['accents']) if color!=palette['foreground']]
+                        if (idx,local) in color_positions and accents:color=accents[(color_positions[(idx,local)]+profile['accent_rotation'])%len(accents)]
                         g=PlacedGlyph(shaped.text,idx,t.role,t.importance,face_key,shaped.gid,shaped.path,shaped.bounds,face.upem,x,gy,gw,gh,size,sx,sy,color,row,shaped.advance,shaped.bearing,face.metrics['ascender'],face.metrics['descender'],mask=shaped.mask)
+                        if color!=palette['foreground']:g.color_reason='llm_emphasis' if explicit else 'reference_connector' if style['accent_strategies'][variant]=='connector_accent' and kind=='hiragana' else 'importance_anchor'
                         # Latin within a shaped run keeps HarfBuzz advances and offsets.
                         if previous is not None:
                             if kind=='latin' and previous.text[-1:].isascii() and previous.face==g.face:
@@ -170,7 +182,7 @@ class LayoutEngine:
             minx=min(g.x for g in rowglyphs);maxx=max(g.x+g.width for g in rowglyphs)
             if family in ('offset_stack','alternating_steps'):
                 pattern=fcfg['row_offset_pattern']
-                offset=pattern[row%len(pattern)]*base*fcfg['offset']*3.5
+                offset=pattern[row%len(pattern)]*base*fcfg['offset']*3.5*profile['row_offset_scale']*profile['row_direction']
             else:offset=0
             for g in rowglyphs:g.x+=offset-(maxx+minx)/2
             glyphs.extend(rowglyphs);line_texts.append(''.join(t.text for t in line))
@@ -178,7 +190,7 @@ class LayoutEngine:
             y=rowbottom+base*fcfg.get('row_gap',style['row_gap'])
         if not glyphs:raise ValueError('没有可渲染字形')
         layout=Layout(text,family,glyphs,width,height,palette['background'],seed,lines=line_texts)
-        layout.metadata.update({'fill_multiplier':self.rules['scale_regimes'][variant],'style_variant':variant,'accent_strategy':style['accent_strategies'][variant]})
+        layout.metadata.update({'fill_multiplier':self.rules['scale_regimes'][variant]*profile['fill'],'style_variant':variant,'accent_strategy':style['accent_strategies'][variant],'variation_profile':profile,'resolved_palette':palette,'canvas_theme':self.canvas_theme,'color_mode':self.color_mode})
         return self.fit(layout)
 
     def fit(self,layout):
@@ -199,6 +211,7 @@ class LayoutEngine:
 
     def score(self,layout,awkward=None):
         if awkward is None:awkward=layout.metadata.get('break_cost',0)
+        check_glyph_colors(layout,self.rules)
         metrics=raster_metrics(layout);gs=layout.glyphs
         center=metrics['centroid'];balance=max(0,1-math.hypot(center[0]-.5,center[1]-.5)*3)
         imp=np.array([g.importance for g in gs]);areas=np.array([g.width*g.height for g in gs])
@@ -216,7 +229,8 @@ class LayoutEngine:
         kinsoku=sum(bool(s and (s[0] in NO_START or s[-1] in NO_END)) for s in layout.lines)
         overflow_area=sum(max(0,-g.x)+max(0,-g.y)+max(0,g.x+g.width-layout.width)+max(0,g.y+g.height-layout.height) for g in gs)
         terms={'balance':balance,'semantic_emphasis':semantic,'spacing_quality':spacing,'template_consistency':consistency,'whitespace_quality':whitespace,'rhythm':rhythm,'collision_penalty':metrics['collision'],'overflow_penalty':metrics['overflow']+overflow_area/100,'kinsoku_penalty':kinsoku,'awkward_break_penalty':awkward/max(len(layout.lines),1)}
-        weights=self.config['weights'];layout.terms={**terms,**metrics}
+        color=color_metrics(layout,self.rules);terms.update({k:color[k] for k in ('color_quality','low_contrast_penalty')})
+        weights=self.config['weights'];layout.terms={**terms,**metrics,**color}
         layout.score=sum((-1 if k.endswith('penalty') else 1)*weights[k]*v for k,v in terms.items())
         return layout.score
 
@@ -244,11 +258,12 @@ class LayoutEngine:
             temp*=self.rules['search']['cooling']
         return best
 
-    def generate(self,text,tokens,seed=42,count=6,width=1200,height=675,palette='night',plan=None,anneal=True):
+    def generate(self,text,tokens,seed=42,count=6,width=1200,height=675,palette='night',plan=None,anneal=True,canvas_theme='night',color_mode='auto'):
         if not (256<=width<=2400 and 256<=height<=2400 and width*height<=4000000):raise ValueError('画布须为 256–2400 像素，总像素不超过 400 万')
         if not 4<=count<=8:raise ValueError('候选数须为 4–8')
         if ''.join(t.text for t in tokens)!=text:raise ValueError('计划未保留原文')
-        self.active_plan=plan or {};self.palette=self.config['colors']['palettes'][palette];tokens=self.chunks(tokens)
+        self.active_plan=plan or {};self.palette=resolve_palette(self.config['colors'],palette,canvas_theme);tokens=self.chunks(tokens)
+        self.input_seed=seed;self.design_profile=variation_profile(seed,self.rules);self.color_mode=color_mode;self.canvas_theme=canvas_theme
         candidates=[];families=self.eligible_families(text,tokens)
         suggested=self.active_plan.get('suggested_layout_family')
         if suggested in families:families=[suggested]+[f for f in families if f!=suggested]
@@ -283,5 +298,5 @@ class LayoutEngine:
             if all(l is not other for other in selected):selected.append(l)
         if anneal:selected=[self.anneal(l,random.Random(seed+i+90000)) for i,l in enumerate(selected)]
         for l in selected:
-            l.metadata.update({'algorithm':('llm_semantic+beam' if plan else 'classic+beam')+('+anneal' if anneal else ''),'input_seed':seed,'fonts':{k:{'family':f.metadata['family'],'sha256':f.metadata['sha256'],'weight':f.metadata['weight']} for k,f in self.fonts.items()},'config_sha256':hashlib.sha256(json.dumps(self.config,sort_keys=True).encode()).hexdigest(),'tokens':[t.dict() for t in tokens],'candidate_pool':len(candidates),'planner':self.active_plan.get('provenance','none')})
+            l.metadata.update({'algorithm':('llm_semantic+beam' if plan else 'classic+beam')+('+anneal' if anneal else ''),'input_seed':seed,'fonts':{k:{'family':f.metadata['family'],'sha256':f.metadata['sha256'],'weight':f.metadata['weight']} for k,f in self.fonts.items()},'config_sha256':hashlib.sha256(json.dumps(self.config,sort_keys=True).encode()).hexdigest(),'tokens':[t.dict() for t in tokens],'candidate_pool':len(candidates),'planner':self.active_plan.get('provenance','none'),'semantic_plan':plan})
         return selected

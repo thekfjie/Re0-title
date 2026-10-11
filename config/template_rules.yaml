@@ -1,4 +1,4 @@
-version: 2
+version: 3
 hard_constraints:
   max_ink_overlap: 0.003
 canvas:
@@ -43,6 +43,25 @@ style:
   profile_strength: 0.75
   primary_threshold: 0.62
   diversity_min_distance: 0.075
+variation:
+  version: 2
+  seed_salt: 15485863
+  fill_range: [0.78, 1.22]
+  anchor_scale_range: [0.90, 1.16]
+  kana_scale_range: [0.88, 1.10]
+  baseline_scale_range: [0.65, 1.35]
+  row_offset_scale_range: [0.78, 1.24]
+color_policy:
+  default: auto
+  min_contrast: 3.0
+  small_text_min_contrast: 4.5
+  small_text_size: 24
+  auto_color_counts: [0, 1, 2]
+  auto_color_probabilities: [0.32, 0.63, 0.05]
+  max_colored_area: 0.58
+  short_title_max_colored_area: 0.85
+  reference_count_prior: [0.51, 1.0, 0.08]
+  quality_mix: {contrast: 0.35, semantic: 0.25, restraint: 0.20, reference: 0.20}
 heuristics:
   pos:
     noun: 0.44

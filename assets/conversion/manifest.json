@@ -1,0 +1,31 @@
+{
+  "source_commit": "8cf737a4e193db27d675b2ce9867d84aace33745",
+  "sources": [
+    {
+      "file": "STCharacters.txt",
+      "source": "https://raw.githubusercontent.com/BYVoid/OpenCC/8cf737a4e193db27d675b2ce9867d84aace33745/data/dictionary/STCharacters.txt",
+      "sha256": "a0ca1601c70648cf48b33c3c6210ccbecc5c7eead4b4c3daf76587ba2c03582b"
+    },
+    {
+      "file": "STPhrases.txt",
+      "source": "https://raw.githubusercontent.com/BYVoid/OpenCC/8cf737a4e193db27d675b2ce9867d84aace33745/data/dictionary/STPhrases.txt",
+      "sha256": "f6eab5e5c6dd7640597878d3dfc6599ee1279d2bc91561eadd8e114194e2925a"
+    },
+    {
+      "file": "JPShinjitaiCharacters.txt",
+      "source": "https://raw.githubusercontent.com/BYVoid/OpenCC/8cf737a4e193db27d675b2ce9867d84aace33745/data/dictionary/JPShinjitaiCharacters.txt",
+      "sha256": "12cec7250b873ef52b36d8f92218d4f92c0aaf5d8cd7c58fe42d9785bdcdc43a"
+    },
+    {
+      "file": "CJK_Compatibility_Ideographs.txt",
+      "source": "https://raw.githubusercontent.com/BYVoid/OpenCC/8cf737a4e193db27d675b2ce9867d84aace33745/data/dictionary/CJK_Compatibility_Ideographs.txt",
+      "sha256": "e9623acec48d384f99d37d2760bd14a00b6d0cddad7707290dbb0b8c97a2904a"
+    },
+    {
+      "file": "LICENSE",
+      "source": "https://raw.githubusercontent.com/BYVoid/OpenCC/8cf737a4e193db27d675b2ce9867d84aace33745/LICENSE",
+      "sha256": "b534e465949558eec2597b04f5092b5e161236a68dfbfd04d547592ac3964308"
+    }
+  ],
+  "pipeline": "Compatibility normalization → longest phrase / STCharacters → reverse JPShinjitaiCharacters. Not sentence translation or full OpenCC runtime."
+}

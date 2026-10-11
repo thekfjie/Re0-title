@@ -1,0 +1,15 @@
+{
+  "ui_theme_does_not_change_artwork": true,
+  "classic_kanji_conversion_without_model": true,
+  "translation": "聖域の終焉と崩壊の始まり",
+  "day_canvas_uses_readable_accents": true,
+  "seed_changes_design_without_translation_recall": true,
+  "transparent_day_png": true,
+  "B_receives_Japanese_and_reuses_plan": true,
+  "editable_translation": true,
+  "mobile_no_overflow": true,
+  "ui_theme_persists": true,
+  "page_errors": [],
+  "translate_calls": 1,
+  "semantic_calls": 2
+}

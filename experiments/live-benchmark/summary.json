@@ -7,9 +7,9 @@
   "plan_source": "replayed_live",
   "modes": {
     "A": {
-      "engine_latency_median_ms": 1088.1399999999999,
-      "score_mean": 6.3854322540512065,
-      "collision_max": 0.002565418163160595,
+      "engine_latency_median_ms": 1193.225,
+      "score_mean": 7.099431282372749,
+      "collision_max": 0.00267379679144385,
       "overflow_max": 0.0,
       "kinsoku_max": 0,
       "families": [
@@ -21,9 +21,9 @@
       ]
     },
     "B": {
-      "engine_latency_median_ms": 1026.1799999999998,
-      "score_mean": 6.398919721485824,
-      "collision_max": 0.0029106029106029108,
+      "engine_latency_median_ms": 1096.095,
+      "score_mean": 7.145290625325042,
+      "collision_max": 0.002849002849002849,
       "overflow_max": 0.0,
       "kinsoku_max": 0,
       "families": [

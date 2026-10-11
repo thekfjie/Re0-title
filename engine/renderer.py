@@ -31,6 +31,7 @@ class PlacedGlyph:
     descender:float=0
     rotation:float=0
     mask:object=field(default=None,repr=False)
+    color_reason:str='base_foreground'
 
     def record(self):
         return {k:v for k,v in self.__dict__.items() if k not in ('mask','path')}

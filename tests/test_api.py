@@ -30,3 +30,24 @@ def test_unconfigured_llm_is_explicit():
     import os
     if os.getenv('OPENAI_API_KEY'):pytest.skip('LLM configured')
     with TestClient(app) as client:assert client.get('/api/status').json()['llm_available'] is False
+
+def test_chinese_conversion_and_day_canvas_use_same_render_path():
+    with TestClient(app) as client:
+        converted=client.post('/api/convert',json={'text':'圣域的终结与崩坏的开始'})
+        assert converted.status_code==200
+        assert converted.json()['text']=='聖域的終結与崩壊的開始'
+        result=client.post('/render',json={'text':'圣域の终わりと、崩坏の始まり','fonts':{'kanji':'builtin_noto-sans-jp-black','kana':'builtin_shippori-mincho-semibold'},'count':4,'canvas_theme':'day','color_mode':'single'})
+        assert result.status_code==200,result.text
+        for candidate in result.json()['candidates']:
+            assert candidate['text']=='聖域の終わりと、崩壊の始まり'
+            assert candidate['background']=='#fafafa'
+            assert candidate['metadata']['preprocessing']['source_text']=='圣域の终わりと、崩坏の始まり'
+            assert candidate['score_terms']['low_contrast_penalty']==0
+            assert candidate['metadata']['color_mode']=='single'
+        client.delete('/fonts')
+
+def test_translation_is_explicit_when_model_is_missing(monkeypatch):
+    monkeypatch.delenv('OPENAI_API_KEY',raising=False);monkeypatch.delenv('LLM_API_KEY',raising=False)
+    with TestClient(app) as client:
+        assert client.post('/api/translate',json={'text':'未完的约定'}).status_code==503
+        assert client.post('/api/translate',json={'text':'x'},headers={'Content-Length':'99999'}).status_code==413

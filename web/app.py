@@ -12,6 +12,7 @@ from pydantic import BaseModel,Field
 from engine.fonts import UploadFontProvider,PrivateFontProvider,BundledFontProvider,inspect_font,MAX_FONT_BYTES
 from engine.layout import load_config
 from engine.text import JapaneseAnalyzer
+from engine.conversion import convert_kanji
 from llm.planner import SemanticPlanner
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -51,7 +52,7 @@ class BodyLimitMiddleware:
     """Reject chunked or declared oversized bodies before multipart spooling."""
     def __init__(self,app):self.app=app
     async def __call__(self,scope,receive,send):
-        if scope['type']!='http' or scope.get('method')!='POST' or scope.get('path') not in ('/fonts','/render'):
+        if scope['type']!='http' or scope.get('method')!='POST' or scope.get('path') not in ('/fonts','/render','/api/convert','/api/translate'):
             return await self.app(scope,receive,send)
         limit=MAX_FONT_BYTES+128*1024 if scope['path']=='/fonts' else 32*1024
         headers=dict(scope.get('headers',[]))
@@ -113,6 +114,20 @@ def status():return {'service':'python-harfbuzz','llm_available':bool(os.getenv(
 @app.get('/fonts/catalog')
 def font_catalog():return bundled.list()
 
+class TextInput(BaseModel):
+    text:str=Field(min_length=1,max_length=80)
+
+@app.post('/api/convert')
+def convert_text(args:TextInput):return convert_kanji(args.text)
+
+@app.post('/api/translate')
+async def translate_text(args:TextInput,request:Request):
+    rate(request)
+    if not (os.getenv('LLM_API_KEY') or os.getenv('OPENAI_API_KEY')):raise HTTPException(503,'中文整句翻译需要服务端模型配置；汉字字形转换可独立使用')
+    try:
+        async with SLOTS:return {'translation':await asyncio.to_thread(SemanticPlanner().translate,args.text)}
+    except ValueError as e:raise HTTPException(422,str(e))
+
 @app.post('/fonts')
 async def upload_font(request:Request,file:UploadFile=File(...)):
     rate(request)
@@ -157,6 +172,9 @@ class RenderInput(BaseModel):
     palette:Literal['night','violet','crimson','monochrome']='night'
     transparent:bool=False
     heuristic:Literal['balanced','kanji_anchor','semantic_nouns']='balanced'
+    input_mode:Literal['original','kanji','translate']='kanji'
+    canvas_theme:Literal['night','day']='night'
+    color_mode:Literal['auto','single','dual','none']='auto'
 
 @app.post('/render')
 async def render(args:RenderInput,request:Request):
@@ -167,19 +185,21 @@ async def render(args:RenderInput,request:Request):
     fids.setdefault('kana',fids['kanji'])
     try:paths={k:font_path(v,request) for k,v in fids.items()}
     except ValueError as e:raise HTTPException(404,str(e))
-    if args.mode=='llm' and not (os.getenv('LLM_API_KEY') or os.getenv('OPENAI_API_KEY')):raise HTTPException(503,'服务未配置 LLM_API_KEY 或 OPENAI_API_KEY；A 可独立使用')
+    if (args.mode=='llm' or args.input_mode=='translate') and not (os.getenv('LLM_API_KEY') or os.getenv('OPENAI_API_KEY')):raise HTTPException(503,'服务未配置 LLM_API_KEY 或 OPENAI_API_KEY；A 与汉字字形转换可独立使用')
     async with SLOTS:
         ownerdir=jobs/sha256(request.state.owner.encode()).hexdigest();ownerdir.mkdir(mode=0o700,exist_ok=True)
         jid=secrets.token_urlsafe(20);job=ownerdir/jid;job.mkdir(mode=0o700)
         try:
             input=args.model_dump();font_paths={}
+            preprocessing=convert_kanji(args.text) if args.input_mode=='kanji' else await asyncio.to_thread(SemanticPlanner().translate,args.text) if args.input_mode=='translate' else {'source_text':args.text,'text':args.text,'changed':False,'method':'original'}
+            input['text']=preprocessing['text'];input['preprocessing']=preprocessing
             for role,path in paths.items():
                 name='font-'+role+path.suffix;shutil.copyfile(path,job/name);os.chmod(job/name,0o600);font_paths[role]=name
             input['font_paths']=font_paths
             if args.mode=='llm':
-                config=load_config();tokens=JapaneseAnalyzer(config['rules']).analyze(args.text)
+                config=load_config();tokens=JapaneseAnalyzer(config['rules']).analyze(input['text'])
                 summary=json.loads((ROOT/'analysis/family_summary.json').read_text())
-                input['plan']=await asyncio.to_thread(SemanticPlanner().plan,args.text,tokens,summary)
+                input['plan']=await asyncio.to_thread(SemanticPlanner().plan,input['text'],tokens,summary)
             (job/'input.json').write_text(json.dumps(input,ensure_ascii=False))
             process=await asyncio.create_subprocess_exec(sys.executable,'-m','web.render_worker',str(job),cwd=ROOT,stdout=asyncio.subprocess.PIPE,stderr=asyncio.subprocess.PIPE,env={**os.environ,'OPENBLAS_NUM_THREADS':'1','OMP_NUM_THREADS':'1'})
             try:stdout,stderr=await asyncio.wait_for(process.communicate(),50)

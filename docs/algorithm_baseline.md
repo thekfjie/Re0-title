@@ -12,7 +12,7 @@
 
 形态素可以包含多个脚本。字体按 kanji/kana 角色分 run，每个 run 由 HarfBuzz shaping；拉丁 ligature 与 kerning 保留 advance/offset。日文字形通过 mask 共同扫描行测安全最小距离，可以让字面方框嵌入但保持笔画间距。FreeType 提供真实 mask，fontTools 提供相同字体实例的 SVG path 与 outline bounds。最终 SVG 包含 path，不引用字体 URL。
 
-布局变量是字形 ink x/y、size、scaleX/scaleY、color 与行 offset。默认 scaleY=1、rotation=0；没有证据支持常规标题普遍旋转。本版退火开放上下偏移、行平移、字号、横向缩放、已有锚点色，最多 32 步。字体名和文本不可被 mutation 改动。禁则、溢出与显著笔画碰撞是候选淘汰条件。
+布局变量是字形 ink x/y、size、scaleX/scaleY、color 与行 offset。默认 scaleY=1、rotation=0；没有证据支持常规标题普遍旋转。本版退火开放上下偏移、行平移、字号、横向缩放、水平位置，最多 32 步。字体名和文本不可被 mutation 改动。禁则、溢出与显著笔画碰撞是候选淘汰条件。
 
 ## Score 定义
 
@@ -29,7 +29,7 @@
 | KinsokuPenalty | 非法行首/行尾数 | 不涵盖出版级 JLREQ 全部规则 |
 | AwkwardBreakPenalty | 束搜索断行代价/行数 | 包含行宽分布和语义代理，不是纯语义分 |
 
-权重全部在 `layout_weights.yaml`。正项加权、罚项减权。合格候选允许极少量栅格重叠误差（0.2% 上限），Benchmark 记录实测最大值。分数用来比较实现中的候选，不能与人类审美评分互换。
+权重全部在 `layout_weights.yaml`。正项加权、罚项减权。合格候选允许极少量栅格重叠误差（0.3% 上限），Benchmark 记录实测最大值。分数用来比较实现中的候选，不能与人类审美评分互换。
 
 ## 参考统计与泛化
 
@@ -38,3 +38,5 @@
 seed、字体 SHA256、token 角色、布局家族、完整配置 hash、候选池数量、score 各项与所有字形位置均记录。随机源固定到每候选，重跑同一 Python 环境得到同一 SVG；跨渲染库版本或 Python/浏览器端不保证 bitwise 一致。
 
 探索性消融共 20 次（四文本×五设置）：没有一种 importance 启发式在全部标题上占优，固定间距也在两条标题上获得更高内部 score。因而保留可配置启发式与光学字距，不把内部打分当审美结论。
+
+颜色质量现在加入 Score：对比度通过率、着色区域的重要度、强调面积克制程度、参考颜色数量先验。单色/双色/统一前景色为显式选择时不使用自动数量先验。小字低于 4.5:1、大字低于 3:1 的配色在输出前改为主体前景色。该工程可读性门槛不是风格相似度或审美证明。

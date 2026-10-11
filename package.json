@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-hosted.mjs",
-    "test": "node --test tests/browser.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "build:browser": "node scripts/build-web.mjs"
   },
   "dependencies": {

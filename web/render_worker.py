@@ -15,9 +15,10 @@ def main():
     fonts={k:FontFace(job/p) for k,p in args['font_paths'].items()};config=load_config()
     plan=args.get('plan')
     tokens=validate_plan(args['text'],plan) if plan else JapaneseAnalyzer(config['rules']).analyze(args['text'],args.get('heuristic'))
-    layouts=LayoutEngine(fonts,config).generate(args['text'],tokens,args['seed'],args['count'],args['width'],args['height'],args['palette'],plan,anneal=args.get('anneal',True))
+    layouts=LayoutEngine(fonts,config).generate(args['text'],tokens,args['seed'],args['count'],args['width'],args['height'],args['palette'],plan,anneal=args.get('anneal',True),canvas_theme=args.get('canvas_theme','night'),color_mode=args.get('color_mode','auto'))
     renderer=Renderer();results=[]
     for i,l in enumerate(layouts):
+        l.metadata['preprocessing']=args.get('preprocessing')
         stem=f'candidate-{i+1}';(job/(stem+'.svg')).write_text(renderer.svg(l,args.get('transparent',False)))
         (job/(stem+'.png')).write_bytes(renderer.png(l,args.get('transparent',False)))
         record=l.record();record['id']=stem;results.append(record)

@@ -64,36 +64,36 @@
       ],
       "A": [
         {
-          "ink_height_log_error": 0.1473,
+          "ink_height_log_error": 0.1458,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
           "family": "compact_anchor",
           "lines": [
             "鎖の音"
           ]
         },
         {
-          "ink_height_log_error": 0.1476,
+          "ink_height_log_error": 0.143,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
           "family": "interwoven",
           "lines": [
             "鎖の音"
           ]
         },
         {
-          "ink_height_log_error": 0.0576,
+          "ink_height_log_error": 0.0555,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
           "family": "wide_block",
           "lines": [
             "鎖の音"
           ]
         },
         {
-          "ink_height_log_error": 0.1103,
+          "ink_height_log_error": 0.1419,
           "line_count_error": 1,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
           "family": "interwoven",
           "lines": [
             "鎖の",
@@ -101,18 +101,18 @@
           ]
         },
         {
-          "ink_height_log_error": 0.0982,
+          "ink_height_log_error": 0.0888,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 0.0,
           "family": "compact_anchor",
           "lines": [
             "鎖の音"
           ]
         },
         {
-          "ink_height_log_error": 0.0903,
+          "ink_height_log_error": 0.0621,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 0.0,
           "family": "interwoven",
           "lines": [
             "鎖の音"
@@ -121,36 +121,36 @@
       ],
       "B": [
         {
-          "ink_height_log_error": 0.1549,
+          "ink_height_log_error": 0.1403,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
-          "family": "compact_anchor",
-          "lines": [
-            "鎖の音"
-          ]
-        },
-        {
-          "ink_height_log_error": 0.1635,
-          "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
           "family": "interwoven",
           "lines": [
             "鎖の音"
           ]
         },
         {
-          "ink_height_log_error": 0.047,
+          "ink_height_log_error": 0.161,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
+          "family": "compact_anchor",
+          "lines": [
+            "鎖の音"
+          ]
+        },
+        {
+          "ink_height_log_error": 0.0542,
+          "line_count_error": 0,
+          "accent_position_jaccard": 1.0,
           "family": "wide_block",
           "lines": [
             "鎖の音"
           ]
         },
         {
-          "ink_height_log_error": 0.1696,
+          "ink_height_log_error": 0.1691,
           "line_count_error": 1,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
           "family": "interwoven",
           "lines": [
             "鎖の",
@@ -158,18 +158,18 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1124,
+          "ink_height_log_error": 0.0957,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
           "family": "interwoven",
           "lines": [
             "鎖の音"
           ]
         },
         {
-          "ink_height_log_error": 0.0983,
+          "ink_height_log_error": 0.0899,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 1.0,
           "family": "compact_anchor",
           "lines": [
             "鎖の音"
@@ -241,7 +241,7 @@
       ],
       "A": [
         {
-          "ink_height_log_error": 0.1027,
+          "ink_height_log_error": 0.1186,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -250,7 +250,7 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1107,
+          "ink_height_log_error": 0.1265,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "compact_anchor",
@@ -259,16 +259,16 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1119,
+          "ink_height_log_error": 0.0975,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.0,
           "family": "wide_block",
           "lines": [
             "待ちかねた再会"
           ]
         },
         {
-          "ink_height_log_error": 0.0819,
+          "ink_height_log_error": 0.1443,
           "line_count_error": 1,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -278,18 +278,18 @@
           ]
         },
         {
-          "ink_height_log_error": 0.0647,
+          "ink_height_log_error": 0.0941,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.0,
           "family": "interwoven",
           "lines": [
             "待ちかねた再会"
           ]
         },
         {
-          "ink_height_log_error": 0.0755,
+          "ink_height_log_error": 0.0865,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.0,
           "family": "compact_anchor",
           "lines": [
             "待ちかねた再会"
@@ -298,36 +298,36 @@
       ],
       "B": [
         {
-          "ink_height_log_error": 0.0454,
+          "ink_height_log_error": 0.0615,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.3333,
           "family": "interwoven",
           "lines": [
             "待ちかねた再会"
           ]
         },
         {
-          "ink_height_log_error": 0.068,
+          "ink_height_log_error": 0.0693,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.3333,
           "family": "compact_anchor",
           "lines": [
             "待ちかねた再会"
           ]
         },
         {
-          "ink_height_log_error": 0.1119,
+          "ink_height_log_error": 0.096,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.0,
           "family": "wide_block",
           "lines": [
             "待ちかねた再会"
           ]
         },
         {
-          "ink_height_log_error": 0.0503,
+          "ink_height_log_error": 0.1009,
           "line_count_error": 1,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.3333,
           "family": "interwoven",
           "lines": [
             "待ちかねた",
@@ -335,18 +335,18 @@
           ]
         },
         {
-          "ink_height_log_error": 0.0783,
+          "ink_height_log_error": 0.0576,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
-          "family": "interwoven",
+          "accent_position_jaccard": 0.3333,
+          "family": "compact_anchor",
           "lines": [
             "待ちかねた再会"
           ]
         },
         {
-          "ink_height_log_error": 0.0545,
+          "ink_height_log_error": 0.0431,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.0,
           "family": "compact_anchor",
           "lines": [
             "待ちかねた再会"
@@ -419,16 +419,7 @@
       ],
       "A": [
         {
-          "ink_height_log_error": 0.1976,
-          "line_count_error": 0,
-          "accent_position_jaccard": 0.0,
-          "family": "compact_anchor",
-          "lines": [
-            "絶望という病"
-          ]
-        },
-        {
-          "ink_height_log_error": 0.1991,
+          "ink_height_log_error": 0.2033,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -437,16 +428,25 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1383,
+          "ink_height_log_error": 0.1942,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 0.0,
+          "family": "compact_anchor",
+          "lines": [
+            "絶望という病"
+          ]
+        },
+        {
+          "ink_height_log_error": 0.1479,
+          "line_count_error": 0,
+          "accent_position_jaccard": 0.0,
           "family": "wide_block",
           "lines": [
             "絶望という病"
           ]
         },
         {
-          "ink_height_log_error": 0.2069,
+          "ink_height_log_error": 0.1857,
           "line_count_error": 1,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -456,19 +456,19 @@
           ]
         },
         {
-          "ink_height_log_error": 0.0832,
+          "ink_height_log_error": 0.0823,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
-          "family": "compact_anchor",
+          "accent_position_jaccard": 0.0,
+          "family": "interwoven",
           "lines": [
             "絶望という病"
           ]
         },
         {
-          "ink_height_log_error": 0.0899,
+          "ink_height_log_error": 0.0901,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
-          "family": "interwoven",
+          "accent_position_jaccard": 0.0,
+          "family": "compact_anchor",
           "lines": [
             "絶望という病"
           ]
@@ -476,36 +476,36 @@
       ],
       "B": [
         {
-          "ink_height_log_error": 0.2194,
+          "ink_height_log_error": 0.2073,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
-          "family": "interwoven",
-          "lines": [
-            "絶望という病"
-          ]
-        },
-        {
-          "ink_height_log_error": 0.2176,
-          "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 0.0,
           "family": "compact_anchor",
           "lines": [
             "絶望という病"
           ]
         },
         {
-          "ink_height_log_error": 0.1084,
+          "ink_height_log_error": 0.2024,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 0.0,
+          "family": "interwoven",
+          "lines": [
+            "絶望という病"
+          ]
+        },
+        {
+          "ink_height_log_error": 0.1048,
+          "line_count_error": 0,
+          "accent_position_jaccard": 0.0,
           "family": "wide_block",
           "lines": [
             "絶望という病"
           ]
         },
         {
-          "ink_height_log_error": 0.1971,
+          "ink_height_log_error": 0.1213,
           "line_count_error": 1,
-          "accent_position_jaccard": 0.5,
+          "accent_position_jaccard": 0.0,
           "family": "interwoven",
           "lines": [
             "絶望",
@@ -513,19 +513,19 @@
           ]
         },
         {
-          "ink_height_log_error": 0.124,
+          "ink_height_log_error": 0.0902,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
-          "family": "interwoven",
+          "accent_position_jaccard": 0.0,
+          "family": "compact_anchor",
           "lines": [
             "絶望という病"
           ]
         },
         {
-          "ink_height_log_error": 0.1333,
+          "ink_height_log_error": 0.0959,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.5,
-          "family": "compact_anchor",
+          "accent_position_jaccard": 0.0,
+          "family": "interwoven",
           "lines": [
             "絶望という病"
           ]
@@ -594,7 +594,7 @@
       ],
       "A": [
         {
-          "ink_height_log_error": 0.2783,
+          "ink_height_log_error": 0.2824,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "compact_anchor",
@@ -603,7 +603,7 @@
           ]
         },
         {
-          "ink_height_log_error": 0.2695,
+          "ink_height_log_error": 0.2724,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -612,16 +612,16 @@
           ]
         },
         {
-          "ink_height_log_error": 0.112,
+          "ink_height_log_error": 0.1145,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.0,
           "family": "wide_block",
           "lines": [
             "命の価値"
           ]
         },
         {
-          "ink_height_log_error": 0.1964,
+          "ink_height_log_error": 0.2827,
           "line_count_error": 1,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -631,7 +631,7 @@
           ]
         },
         {
-          "ink_height_log_error": 0.2204,
+          "ink_height_log_error": 0.223,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -640,9 +640,9 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1959,
+          "ink_height_log_error": 0.1899,
           "line_count_error": 0,
-          "accent_position_jaccard": 1.0,
+          "accent_position_jaccard": 0.0,
           "family": "compact_anchor",
           "lines": [
             "命の価値"
@@ -651,7 +651,7 @@
       ],
       "B": [
         {
-          "ink_height_log_error": 0.2261,
+          "ink_height_log_error": 0.226,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "compact_anchor",
@@ -660,7 +660,7 @@
           ]
         },
         {
-          "ink_height_log_error": 0.2221,
+          "ink_height_log_error": 0.2358,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -669,7 +669,7 @@
           ]
         },
         {
-          "ink_height_log_error": 0.112,
+          "ink_height_log_error": 0.0946,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
           "family": "wide_block",
@@ -678,7 +678,7 @@
           ]
         },
         {
-          "ink_height_log_error": 0.2445,
+          "ink_height_log_error": 0.25,
           "line_count_error": 1,
           "accent_position_jaccard": 0.0,
           "family": "interwoven",
@@ -688,19 +688,19 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1645,
+          "ink_height_log_error": 0.1906,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
-          "family": "compact_anchor",
+          "family": "interwoven",
           "lines": [
             "命の価値"
           ]
         },
         {
-          "ink_height_log_error": 0.1439,
+          "ink_height_log_error": 0.1169,
           "line_count_error": 0,
           "accent_position_jaccard": 0.0,
-          "family": "interwoven",
+          "family": "compact_anchor",
           "lines": [
             "命の価値"
           ]
@@ -775,19 +775,9 @@
       ],
       "A": [
         {
-          "ink_height_log_error": 0.1726,
-          "line_count_error": 2,
-          "accent_position_jaccard": 0.2,
-          "family": "interwoven",
-          "lines": [
-            "聖域の始まりと、",
-            "崩壊の始まり"
-          ]
-        },
-        {
-          "ink_height_log_error": 0.1704,
+          "ink_height_log_error": 0.1761,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.2,
+          "accent_position_jaccard": 0.0,
           "family": "alternating_steps",
           "lines": [
             "聖域の",
@@ -797,7 +787,17 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1095,
+          "ink_height_log_error": 0.2878,
+          "line_count_error": 2,
+          "accent_position_jaccard": 0.0,
+          "family": "interwoven",
+          "lines": [
+            "聖域の始まりと、",
+            "崩壊の始まり"
+          ]
+        },
+        {
+          "ink_height_log_error": 0.134,
           "line_count_error": 2,
           "accent_position_jaccard": 0.0,
           "family": "wide_block",
@@ -807,9 +807,9 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1743,
+          "ink_height_log_error": 0.1778,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.2,
+          "accent_position_jaccard": 0.0,
           "family": "offset_stack",
           "lines": [
             "聖域の",
@@ -819,51 +819,31 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1685,
-          "line_count_error": 3,
-          "accent_position_jaccard": 0.2,
-          "family": "interwoven",
-          "lines": [
-            "聖域の始まりと、崩壊の始まり"
-          ]
-        },
-        {
-          "ink_height_log_error": 0.1719,
+          "ink_height_log_error": 0.1784,
           "line_count_error": 1,
-          "accent_position_jaccard": 0.2,
+          "accent_position_jaccard": 0.0,
           "family": "offset_stack",
           "lines": [
             "聖域の",
             "始まりと、",
             "崩壊の始まり"
           ]
+        },
+        {
+          "ink_height_log_error": 0.1759,
+          "line_count_error": 3,
+          "accent_position_jaccard": 0.0,
+          "family": "interwoven",
+          "lines": [
+            "聖域の始まりと、崩壊の始まり"
+          ]
         }
       ],
       "B": [
         {
-          "ink_height_log_error": 0.1474,
-          "line_count_error": 2,
-          "accent_position_jaccard": 0.1429,
-          "family": "interwoven",
-          "lines": [
-            "聖域の始まりと、",
-            "崩壊の始まり"
-          ]
-        },
-        {
-          "ink_height_log_error": 0.1043,
-          "line_count_error": 2,
-          "accent_position_jaccard": 0.1429,
-          "family": "wide_block",
-          "lines": [
-            "聖域の始まりと、",
-            "崩壊の始まり"
-          ]
-        },
-        {
-          "ink_height_log_error": 0.1528,
+          "ink_height_log_error": 0.1512,
           "line_count_error": 0,
-          "accent_position_jaccard": 0.1429,
+          "accent_position_jaccard": 0.0,
           "family": "alternating_steps",
           "lines": [
             "聖域の",
@@ -873,9 +853,41 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1443,
+          "ink_height_log_error": 0.1602,
+          "line_count_error": 2,
+          "accent_position_jaccard": 0.2,
+          "family": "interwoven",
+          "lines": [
+            "聖域の始まりと、",
+            "崩壊の始まり"
+          ]
+        },
+        {
+          "ink_height_log_error": 0.1072,
+          "line_count_error": 2,
+          "accent_position_jaccard": 0.2,
+          "family": "wide_block",
+          "lines": [
+            "聖域の始まりと、",
+            "崩壊の始まり"
+          ]
+        },
+        {
+          "ink_height_log_error": 0.1517,
+          "line_count_error": 0,
+          "accent_position_jaccard": 0.0,
+          "family": "offset_stack",
+          "lines": [
+            "聖域の",
+            "始まりと、",
+            "崩壊の",
+            "始まり"
+          ]
+        },
+        {
+          "ink_height_log_error": 0.1533,
           "line_count_error": 1,
-          "accent_position_jaccard": 0.1429,
+          "accent_position_jaccard": 0.0,
           "family": "offset_stack",
           "lines": [
             "聖域の",
@@ -884,22 +896,12 @@
           ]
         },
         {
-          "ink_height_log_error": 0.1454,
+          "ink_height_log_error": 0.1486,
           "line_count_error": 3,
-          "accent_position_jaccard": 0.1429,
+          "accent_position_jaccard": 0.0,
           "family": "interwoven",
           "lines": [
             "聖域の始まりと、崩壊の始まり"
-          ]
-        },
-        {
-          "ink_height_log_error": 0.2722,
-          "line_count_error": 2,
-          "accent_position_jaccard": 0.1429,
-          "family": "interwoven",
-          "lines": [
-            "聖域の始まりと、",
-            "崩壊の始まり"
           ]
         }
       ]

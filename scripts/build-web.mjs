@@ -12,6 +12,8 @@ for(const font of fonts){
  await fs.writeFile(path.join(fontOutput,font.file),bytes);await fs.copyFile(path.join(fontRoot,font.license_file),path.join(fontOutput,font.license_file));
 }
 await fs.copyFile(path.join(fontRoot,'catalog.json'),path.join(fontOutput,'catalog.json'));
+const conversionRoot=path.join(root,'assets/conversion');await fs.mkdir(path.join(dist,'conversion'),{recursive:true});
+for(const file of ['kanji.json','LICENSE','manifest.json'])await fs.copyFile(path.join(conversionRoot,file),path.join(dist,'conversion',file));
 await fs.mkdir(path.join(dist,'api'),{recursive:true});await fs.writeFile(path.join(dist,'api/status'),JSON.stringify({service:'browser-harfbuzz',llm_available:false}));
 for(const file of ['hb.js','hbjs.js','hb.wasm'])await fs.copyFile(path.join(root,'node_modules/harfbuzzjs',file),path.join(dist,'vendor',file));
 await fs.copyFile(path.join(root,'node_modules/kuromoji/build/kuromoji.js'),path.join(dist,'vendor/kuromoji.js'));await fs.cp(path.join(root,'node_modules/kuromoji/dict'),path.join(dist,'dict'),{recursive:true});
