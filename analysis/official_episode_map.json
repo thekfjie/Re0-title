@@ -1,0 +1,1423 @@
+{
+  "version": 1,
+  "fetched_at_utc": "2026-10-11T12:40:00.707465+00:00",
+  "pages": [
+    {
+      "url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+      "sha256": "71aea192a6db6cf8af2c558763fa4ba0cd0367cb7afbad77a9a84468e3af0259"
+    },
+    {
+      "url": "https://re-zero-anime.jp/tv/story/tv2.html",
+      "sha256": "3e547875901c0d6df0592aea835f413a9d2d8d58e5f01d282eeba8b1002b182f"
+    },
+    {
+      "url": "https://re-zero-anime.jp/tv/story/tv3.html",
+      "sha256": "99a0fde7ee305f3d3475fffe035498fdef0e0cca51f5705e04440ac425824216"
+    },
+    {
+      "url": "https://re-zero-anime.jp/tv/story/",
+      "sha256": "ce5b0b6dd8c30598818bcaf74a82d14cb0047d416255c6d1fa962709f949abc2"
+    }
+  ],
+  "scope": "Episode title lookup only; no claim that synopsis supplies every plot pivot or that author selected typography.",
+  "cases": [
+    {
+      "id": "s001",
+      "visible_reference_text": "始まりの終わりと終わりの始まり",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "1",
+          "title": "始まりの終わりと終わりの始まり",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP1",
+          "synopsis_available": true,
+          "displayed_combined_title": "始まりの終わりと終わりの始まり"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s002",
+      "visible_reference_text": "再会の魔女",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "2",
+          "title": "再会の魔女",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP2",
+          "synopsis_available": true,
+          "displayed_combined_title": "再会の魔女"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s003",
+      "visible_reference_text": "ゼロから始まる異世界生活",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "3",
+          "title": "ゼロから始まる異世界生活",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP3",
+          "synopsis_available": true,
+          "displayed_combined_title": "ゼロから始まる異世界生活"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s004",
+      "visible_reference_text": "ロズワール邸の団欒",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "4",
+          "title": "ロズワール邸の団欒",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP4",
+          "synopsis_available": true,
+          "displayed_combined_title": "ロズワール邸の団欒"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s005",
+      "visible_reference_text": "約束した朝は遠く",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "5",
+          "title": "約束した朝は遠く",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP5",
+          "synopsis_available": true,
+          "displayed_combined_title": "約束した朝は遠く"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s006",
+      "visible_reference_text": "鎖の音",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "6",
+          "title": "鎖の音",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP6",
+          "synopsis_available": true,
+          "displayed_combined_title": "鎖の音"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s007",
+      "visible_reference_text": "ナツキ・スバルのリスタート",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "7",
+          "title": "ナツキ・スバルのリスタート",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP7",
+          "synopsis_available": true,
+          "displayed_combined_title": "ナツキ・スバルのリスタート"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s008",
+      "visible_reference_text": "泣いて泣き喚いて泣き止んだから",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "8",
+          "title": "泣いて泣き喚いて泣き止んだから",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP8",
+          "synopsis_available": true,
+          "displayed_combined_title": "泣いて泣き喚いて泣き止んだから"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s009",
+      "visible_reference_text": "勇気の意味",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "9",
+          "title": "勇気の意味",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP9",
+          "synopsis_available": true,
+          "displayed_combined_title": "勇気の意味"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s010",
+      "visible_reference_text": "鬼がかったやり方",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "10",
+          "title": "鬼がかったやり方",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP10",
+          "synopsis_available": true,
+          "displayed_combined_title": "鬼がかったやり方"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s011",
+      "visible_reference_text": "レム",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "11",
+          "title": "レム",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP11",
+          "synopsis_available": true,
+          "displayed_combined_title": "レム"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s012",
+      "visible_reference_text": "再来の王都",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "12",
+          "title": "再来の王都",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP13",
+          "synopsis_available": true,
+          "displayed_combined_title": "再来の王都"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s013",
+      "visible_reference_text": "自称騎士ナツキ・スバル",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "13",
+          "title": "自称騎士ナツキ・スバル",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP14",
+          "synopsis_available": true,
+          "displayed_combined_title": "自称騎士ナツキ・スバル"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s014",
+      "visible_reference_text": "絶望という病",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "14",
+          "title": "絶望という病",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP15",
+          "synopsis_available": true,
+          "displayed_combined_title": "絶望という病"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s015",
+      "visible_reference_text": "狂気の外側",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "15",
+          "title": "狂気の外側",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP16",
+          "synopsis_available": true,
+          "displayed_combined_title": "狂気の外側"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s016",
+      "visible_reference_text": "豚の欲望",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "16",
+          "title": "豚の欲望",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP17",
+          "synopsis_available": true,
+          "displayed_combined_title": "豚の欲望"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s017",
+      "visible_reference_text": "醜態の果てに",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "17",
+          "title": "醜態の果てに",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP18",
+          "synopsis_available": true,
+          "displayed_combined_title": "醜態の果てに"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s018",
+      "visible_reference_text": "ゼロから",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "18",
+          "title": "ゼロから",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP19",
+          "synopsis_available": true,
+          "displayed_combined_title": "ゼロから"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s019",
+      "visible_reference_text": "白鯨攻略戦",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "19",
+          "title": "白鯨攻略戦",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP20",
+          "synopsis_available": true,
+          "displayed_combined_title": "白鯨攻略戦"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s020",
+      "visible_reference_text": "ヴィルヘルム・ヴァン・アストレア",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "20",
+          "title": "ヴィルヘルム・ヴァン・アストレア",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP21",
+          "synopsis_available": true,
+          "displayed_combined_title": "ヴィルヘルム・ヴァン・アストレア"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s021",
+      "visible_reference_text": "絶望に抗う賭け",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "21",
+          "title": "絶望に抗う賭け",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP22",
+          "synopsis_available": true,
+          "displayed_combined_title": "絶望に抗う賭け"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s022",
+      "visible_reference_text": "怠惰一閃",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "22",
+          "title": "怠惰一閃",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP23",
+          "synopsis_available": true,
+          "displayed_combined_title": "怠惰一閃"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s023",
+      "visible_reference_text": "悪辣なる怠惰",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "23",
+          "title": "悪辣なる怠惰",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP24",
+          "synopsis_available": true,
+          "displayed_combined_title": "悪辣なる怠惰"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s024",
+      "visible_reference_text": "自称騎士と最優の騎士",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "24",
+          "title": "自称騎士と最優の騎士",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP25",
+          "synopsis_available": true,
+          "displayed_combined_title": "自称騎士と最優の騎士"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s025",
+      "visible_reference_text": "ただそれだけの物語",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "25",
+          "title": "ただそれだけの物語",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP26",
+          "synopsis_available": true,
+          "displayed_combined_title": "ただそれだけの物語"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s026",
+      "visible_reference_text": "Memory Snow",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "11.5",
+          "title": "Memory Snow",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv1r.html",
+          "source_anchor": "EP12",
+          "synopsis_available": true,
+          "displayed_combined_title": "Memory Snow"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s027",
+      "visible_reference_text": "氷結の絆",
+      "match_basis": "official_ova_title",
+      "matches": [
+        {
+          "episode": "OVA",
+          "title": "氷結の絆",
+          "source_url": "https://re-zero-anime.jp/hyoketsu/",
+          "source_anchor": null
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s028",
+      "visible_reference_text": "それぞれの誓い",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "26",
+          "title": "それぞれの誓い",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP1",
+          "synopsis_available": true,
+          "displayed_combined_title": "それぞれの誓い"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s029",
+      "visible_reference_text": "次なる場所",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "27",
+          "title": "次なる場所",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP2",
+          "synopsis_available": true,
+          "displayed_combined_title": "次なる場所"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s030",
+      "visible_reference_text": "待ちかねた再会",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "28",
+          "title": "待ちかねた再会",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP3",
+          "synopsis_available": true,
+          "displayed_combined_title": "待ちかねた再会"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s031",
+      "visible_reference_text": "親子",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "29",
+          "title": "親子",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP4",
+          "synopsis_available": true,
+          "displayed_combined_title": "親子"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s032",
+      "visible_reference_text": "踏み出した一歩",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "30",
+          "title": "踏み出した一歩",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP5",
+          "synopsis_available": true,
+          "displayed_combined_title": "踏み出した一歩"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s033",
+      "visible_reference_text": "少女の福音",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "31",
+          "title": "少女の福音",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP6",
+          "synopsis_available": true,
+          "displayed_combined_title": "少女の福音"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s034",
+      "visible_reference_text": "ユージン",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "32",
+          "title": "ユージン",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP7",
+          "synopsis_available": true,
+          "displayed_combined_title": "ユージン"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s035",
+      "visible_reference_text": "命の価値",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "33",
+          "title": "命の価値",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP8",
+          "synopsis_available": true,
+          "displayed_combined_title": "命の価値"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s036",
+      "visible_reference_text": "らぶらぶらぶらぶらぶらぶゆー",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "34",
+          "title": "らぶらぶらぶらぶらぶらぶゆー",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP9",
+          "synopsis_available": true,
+          "displayed_combined_title": "らぶらぶらぶらぶらぶらぶゆー"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s037",
+      "visible_reference_text": "地獄なら知っている",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "35",
+          "title": "地獄なら知っている",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP10",
+          "synopsis_available": true,
+          "displayed_combined_title": "地獄なら知っている"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s038",
+      "visible_reference_text": "死の味",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "36",
+          "title": "死の味",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP11",
+          "synopsis_available": true,
+          "displayed_combined_title": "死の味"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s039",
+      "visible_reference_text": "魔女たちの茶会",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "37",
+          "title": "魔女たちの茶会",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP12",
+          "synopsis_available": true,
+          "displayed_combined_title": "魔女たちの茶会"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s040",
+      "visible_reference_text": "泣きたくなる音",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "38",
+          "title": "泣きたくなる音",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP13",
+          "synopsis_available": true,
+          "displayed_combined_title": "泣きたくなる音"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s041",
+      "visible_reference_text": "STRAIGHT BET",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "39",
+          "title": "STRAIGHT BET",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP14",
+          "synopsis_available": true,
+          "displayed_combined_title": "STRAIGHT BET"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s042",
+      "visible_reference_text": "オットー・スーウェン",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "40",
+          "title": "オットー・スーウェン",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP15",
+          "synopsis_available": true,
+          "displayed_combined_title": "オットー・スーウェン信じる理由"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s043",
+      "visible_reference_text": "信じる理由",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "40",
+          "title": "信じる理由",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP15",
+          "synopsis_available": true,
+          "displayed_combined_title": "オットー・スーウェン信じる理由"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s044",
+      "visible_reference_text": "クウェインの石は一人じゃ上がらない",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "41",
+          "title": "クウェインの石は一人じゃ上がらない",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP16",
+          "synopsis_available": true,
+          "displayed_combined_title": "クウェインの石は一人じゃ上がらない"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s045",
+      "visible_reference_text": "記憶の旅路",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "42",
+          "title": "記憶の旅路",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP17",
+          "synopsis_available": true,
+          "displayed_combined_title": "記憶の旅路"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s046",
+      "visible_reference_text": "平家星の笑った日",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "43",
+          "title": "平家星の笑った日",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP18",
+          "synopsis_available": true,
+          "displayed_combined_title": "平家星の笑った日"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s047",
+      "visible_reference_text": "エリオール大森林の永久凍土",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "44",
+          "title": "エリオール大森林の永久凍土",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP19",
+          "synopsis_available": true,
+          "displayed_combined_title": "エリオール大森林の永久凍土"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s048",
+      "visible_reference_text": "聖域の始まりと、崩壊の始まり",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "45",
+          "title": "聖域の始まりと、崩壊の始まり",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP20",
+          "synopsis_available": true,
+          "displayed_combined_title": "聖域の始まりと、崩壊の始まり"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s049",
+      "visible_reference_text": "咆哮の再会",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "46",
+          "title": "咆哮の再会",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP21",
+          "synopsis_available": true,
+          "displayed_combined_title": "咆哮の再会"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s050",
+      "visible_reference_text": "水面に映る幸せ",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "47",
+          "title": "水面に映る幸せ",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP22",
+          "synopsis_available": true,
+          "displayed_combined_title": "水面に映る幸せ"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s051",
+      "visible_reference_text": "血と臓物まで愛して",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "48",
+          "title": "血と臓物まで愛して",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP23",
+          "synopsis_available": true,
+          "displayed_combined_title": "血と臓物まで愛して"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s052",
+      "visible_reference_text": "俺を選べ",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "49",
+          "title": "俺を選べ",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP24",
+          "synopsis_available": true,
+          "displayed_combined_title": "俺を選べ"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s053",
+      "visible_reference_text": "月下出鱈目なステップ",
+      "match_basis": "punctuation_normalized",
+      "matches": [
+        {
+          "episode": "50",
+          "title": "月下、出鱈目なステップ",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv2.html",
+          "source_anchor": "EP25",
+          "synopsis_available": true,
+          "displayed_combined_title": "月下、出鱈目なステップ"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s054",
+      "visible_reference_text": "劇場型悪意",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "51",
+          "title": "劇場型悪意",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP1",
+          "synopsis_available": true,
+          "displayed_combined_title": "劇場型悪意"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s055",
+      "visible_reference_text": "氷炎の結末",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "52",
+          "title": "氷炎の結末",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP2",
+          "synopsis_available": true,
+          "displayed_combined_title": "氷炎の結末"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s056",
+      "visible_reference_text": "ゴージャス・タイガー",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "53",
+          "title": "ゴージャス・タイガー",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP3",
+          "synopsis_available": true,
+          "displayed_combined_title": "ゴージャス・タイガー"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s057",
+      "visible_reference_text": "都市庁舎奪還作戦",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "54",
+          "title": "都市庁舎奪還作戦",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP4",
+          "synopsis_available": true,
+          "displayed_combined_title": "都市庁舎奪還作戦"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s058",
+      "visible_reference_text": "濁流",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "55",
+          "title": "濁流",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP5",
+          "synopsis_available": true,
+          "displayed_combined_title": "濁流"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s059",
+      "visible_reference_text": "騎士の条件",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "56",
+          "title": "騎士の条件",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP6",
+          "synopsis_available": true,
+          "displayed_combined_title": "騎士の条件"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s060",
+      "visible_reference_text": "最も新しい英雄と最も古い英雄",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "57",
+          "title": "最も新しい英雄と最も古い英雄",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP7",
+          "synopsis_available": true,
+          "displayed_combined_title": "最も新しい英雄と最も古い英雄"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s061",
+      "visible_reference_text": "いつか好きになる人",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "58",
+          "title": "いつか好きになる人",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP8",
+          "synopsis_available": true,
+          "displayed_combined_title": "いつか好きになる人"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s062",
+      "visible_reference_text": "混戦都市",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "59",
+          "title": "混戦都市",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP9",
+          "synopsis_available": true,
+          "displayed_combined_title": "混戦都市"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s063",
+      "visible_reference_text": "強欲攻略戦",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "60",
+          "title": "強欲攻略戦",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP10",
+          "synopsis_available": true,
+          "displayed_combined_title": "強欲攻略戦"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s064",
+      "visible_reference_text": "リリアナ・マスカレード",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "61",
+          "title": "リリアナ・マスカレード",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP11",
+          "synopsis_available": true,
+          "displayed_combined_title": "リリアナ・マスカレード"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s065",
+      "visible_reference_text": "レグルス・コルニアス",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "62",
+          "title": "レグルス・コルニアス",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP12",
+          "synopsis_available": true,
+          "displayed_combined_title": "レグルス・コルニアス"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s066",
+      "visible_reference_text": "戦士の称賛",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "63",
+          "title": "戦士の称賛",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP13",
+          "synopsis_available": true,
+          "displayed_combined_title": "戦士の称賛"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s067",
+      "visible_reference_text": "テレシアヴァン・アストレア",
+      "match_basis": "punctuation_normalized",
+      "matches": [
+        {
+          "episode": "64",
+          "title": "テレシア・ヴァン・アストレア",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP14",
+          "synopsis_available": true,
+          "displayed_combined_title": "テレシア・ヴァン・アストレア"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s068",
+      "visible_reference_text": "醜悪なる晩餐会",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "65",
+          "title": "醜悪なる晩餐会",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP15",
+          "synopsis_available": true,
+          "displayed_combined_title": "醜悪なる晩餐会"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s069",
+      "visible_reference_text": "■■なる晩餐会",
+      "match_basis": "context_link_to_title_alteration",
+      "matches": [
+        {
+          "episode": "65",
+          "title": "醜悪なる晩餐会",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP15",
+          "synopsis_available": true,
+          "displayed_combined_title": "醜悪なる晩餐会"
+        }
+      ],
+      "notes": [
+        {
+          "source_url": "https://ln-news.com/articles/122598",
+          "evidence": "Official event report names Beatrice changing the episode 65 subtitle. The image has two painted blocks and changed background/colour.",
+          "limit": "Visible input stays ■■なる晩餐会. This is not an exact text match; no reconstruction is fed to the engine."
+        }
+      ],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s070",
+      "visible_reference_text": "プリステラ攻防戦リザルト",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "66",
+          "title": "プリステラ攻防戦リザルト",
+          "source_url": "https://re-zero-anime.jp/tv/story/tv3.html",
+          "source_anchor": "EP16",
+          "synopsis_available": true,
+          "displayed_combined_title": "プリステラ攻防戦リザルト"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s071",
+      "visible_reference_text": "君を連れ出す理由",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "67",
+          "title": "君を連れ出す理由",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP1",
+          "synopsis_available": true,
+          "displayed_combined_title": "君を連れ出す理由／ゴージャス・タイガー・リローデッド"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s072",
+      "visible_reference_text": "ゴージャス・タイガー・リローデッド",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "67",
+          "title": "ゴージャス・タイガー・リローデッド",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP1",
+          "synopsis_available": true,
+          "displayed_combined_title": "君を連れ出す理由／ゴージャス・タイガー・リローデッド"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s073",
+      "visible_reference_text": "砂時間を越えろ",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "68",
+          "title": "砂時間を越えろ",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP2",
+          "synopsis_available": true,
+          "displayed_combined_title": "砂時間を越えろ"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s074",
+      "visible_reference_text": "監視塔の番人",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "69",
+          "title": "監視塔の番人",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP3",
+          "synopsis_available": true,
+          "displayed_combined_title": "監視塔の番人"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s075",
+      "visible_reference_text": "白い星空のアステリズム",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "70",
+          "title": "白い星空のアステリズム",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP4",
+          "synopsis_available": true,
+          "displayed_combined_title": "白い星空のアステリズム"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s076",
+      "visible_reference_text": "棒振り",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "71",
+          "title": "棒振り",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP5",
+          "synopsis_available": true,
+          "displayed_combined_title": "棒振り"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s077",
+      "visible_reference_text": "ユリウス・ユークリウス",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "72",
+          "title": "ユリウス・ユークリウス",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP6",
+          "synopsis_available": true,
+          "displayed_combined_title": "ユリウス・ユークリウス"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s078",
+      "visible_reference_text": "コンビニを出ると、そこは不思議の世界でした",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "73",
+          "title": "コンビニを出ると、そこは不思議の世界でした",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP7",
+          "synopsis_available": true,
+          "displayed_combined_title": "コンビニを出ると、そこは不思議の世界でした"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s079",
+      "visible_reference_text": "オマエハダレダ",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "74",
+          "title": "オマエハダレダ",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP8",
+          "synopsis_available": true,
+          "displayed_combined_title": "オマエハダレダ"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s080",
+      "visible_reference_text": "殺人は癖になる",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "76",
+          "title": "殺人は癖になる",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP10",
+          "synopsis_available": true,
+          "displayed_combined_title": "殺人は癖になる"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s081",
+      "visible_reference_text": "残骸",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "75",
+          "title": "残骸",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP9",
+          "synopsis_available": true,
+          "displayed_combined_title": "残骸"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    },
+    {
+      "id": "s082",
+      "visible_reference_text": "Re:ゼロから始まる異世界生活",
+      "match_basis": "exact_title",
+      "matches": [
+        {
+          "episode": "77",
+          "title": "Re:ゼロから始まる異世界生活",
+          "source_url": "https://re-zero-anime.jp/tv/story/",
+          "source_anchor": "EP11",
+          "synopsis_available": true,
+          "displayed_combined_title": "Re:ゼロから始まる異世界生活"
+        }
+      ],
+      "notes": [],
+      "do_not_equate_reference_index_with_episode": true
+    }
+  ]
+}

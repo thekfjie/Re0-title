@@ -106,3 +106,5 @@ npm test
 下载区勾选“透明背景”后，PNG 导出 alpha 通道，SVG 不含背景。局部颜色和透明设置立即生效，不重新调用模型或搜索布局。自动强调优先内容字，重复「的／の」不再批量着色；纯色标题可选“统一前景色”。
 
 82 张颜色复查、规则修改与验证见 [color_rules_revision.md](docs/color_rules_revision.md)。
+
+着色位置与原作叙事的专项研究见 [color_position_narrative.md](docs/color_position_narrative.md)，含 82 条具体位置、官方集数映射、词内选字诊断与灰色角色复查。它区分创作语境与设计意图推测，本轮研究没有修改生成规则。

@@ -1,0 +1,5203 @@
+{
+  "version": 1,
+  "source_review_sha256": "086bfccdaa7cb9134036ec506faa83ef297db920056e825d49ed8d07a6a2a65c",
+  "method": "Original appearance reviewed across all 82 references; morphology and occurrence statistics follow observation.",
+  "appearance_warning": "Approximate visual-label buckets, not measured saturation; muted tints are not necessarily achromatic or unimportant.",
+  "coverage_warning": "Recorded salient differences, not an exhaustive per-glyph colour segmentation. Baseline ink colour may itself be grey or tinted.",
+  "token_warning": "Sudachi B boundaries can differ from designer semantic blocks; morphology is not ground truth.",
+  "intent_warning": "Structural facts do not establish designer intent, story causality, or optimal aesthetic choices.",
+  "scope": "Research only; no engine rule, live UI, or frozen benchmark changes.",
+  "annotation_corrections": [
+    {
+      "sample_id": "s036",
+      "unit_text": "らぶらぶ",
+      "old_span": [
+        2,
+        6
+      ],
+      "corrected_span": [
+        4,
+        8
+      ],
+      "basis": "second observed line, visually verified; non-overlapping repeat",
+      "frozen_benchmark_changed": false
+    },
+    {
+      "sample_id": "s031",
+      "added_span": [
+        0,
+        1
+      ],
+      "text": "親",
+      "basis": "white-background original visibly separates grey 親 from brown 子",
+      "frozen_benchmark_changed": false
+    },
+    {
+      "sample_id": "s035",
+      "added_span": [
+        0,
+        1
+      ],
+      "text": "命",
+      "basis": "original image and existing six-sample fine annotation both record light-grey 命",
+      "frozen_benchmark_changed": false
+    }
+  ],
+  "summary": {
+    "samples": 82,
+    "visually_recorded_units": 98,
+    "unit_length_counts": {
+      "1": 79,
+      "2": 9,
+      "3": 4,
+      "4": 5,
+      "6": 1
+    },
+    "units_per_sample": {
+      "0": 6,
+      "1": 61,
+      "2": 11,
+      "3": 2,
+      "4": 1,
+      "5": 1
+    },
+    "marked_characters_per_sample": {
+      "0": 6,
+      "1": 48,
+      "2": 17,
+      "3": 5,
+      "4": 3,
+      "5": 1,
+      "7": 1,
+      "14": 1
+    },
+    "structural_modes": {
+      "one_character_difference": 48,
+      "multiple_occurrence_differences": 12,
+      "one_span_difference": 11,
+      "no_local_difference_recorded": 6,
+      "whole_title_tone_or_effect": 5
+    },
+    "appearance_unit_counts": {
+      "muted_or_tinted_tone": 38,
+      "local_chromatic": 58,
+      "whole_effect": 2
+    },
+    "appearance_sample_counts": {
+      "local_chromatic": 49,
+      "muted_or_tinted_tone": 33,
+      "whole_effect": 2
+    },
+    "token_position_counts": {
+      "token_prefix": 44,
+      "token_suffix": 16,
+      "whole_token": 25,
+      "token_internal": 7,
+      "multiple_tokens": 6
+    },
+    "marked_character_scripts": {
+      "kanji": 80,
+      "katakana": 29,
+      "hiragana": 22,
+      "latin": 3,
+      "punctuation": 1
+    },
+    "observed_no_occurrences": 32,
+    "marked_no_occurrences": 5,
+    "one_character_evaluable_samples": 47,
+    "one_character_default_character_overlap": 20,
+    "one_character_default_word_overlap": 27,
+    "one_character_word_correct_character_wrong_ids": [
+      "s005",
+      "s018",
+      "s027",
+      "s042",
+      "s064",
+      "s068",
+      "s077"
+    ],
+    "one_character_mark_at_line_start_count": 20,
+    "one_character_mark_at_title_start_count": 14,
+    "one_character_mark_at_title_end_count": 4,
+    "one_chromatic_character_evaluable_samples": 40,
+    "one_chromatic_character_default_character_overlap": 15,
+    "one_chromatic_character_default_word_overlap": 23,
+    "one_chromatic_character_word_correct_character_wrong_ids": [
+      "s005",
+      "s018",
+      "s027",
+      "s031",
+      "s060",
+      "s064",
+      "s068",
+      "s077"
+    ]
+  },
+  "cases": [
+    {
+      "id": "s001",
+      "text": "始まりの終わりと終わりの始まり",
+      "observed_lines": [
+        "始まりの終わりと",
+        "終わりの始まり"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "始まり",
+              "start": 0,
+              "end": 3,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0,
+            12
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [
+        {
+          "text": "始",
+          "all_positions": [
+            0,
+            12
+          ],
+          "marked_positions": [
+            0
+          ]
+        }
+      ],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s002",
+      "text": "再会の魔女",
+      "observed_lines": [
+        "再会の魔女"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "魔女",
+              "start": 3,
+              "end": 5,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            3
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s003",
+      "text": "ゼロから始まる異世界生活",
+      "observed_lines": [
+        "ゼロから始まる",
+        "異世界生活"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "異",
+          "start": 7,
+          "end": 8,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "異世界",
+              "start": 7,
+              "end": 10,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            7
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s004",
+      "text": "ロズワール邸の団欒",
+      "observed_lines": [
+        "ロズワール邸の",
+        "団欒"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "団",
+          "start": 7,
+          "end": 8,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "団欒",
+              "start": 7,
+              "end": 9,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            7
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s005",
+      "text": "約束した朝は遠く",
+      "observed_lines": [
+        "約束した朝は遠く"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "約束",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            1
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s006",
+      "text": "鎖の音",
+      "observed_lines": [
+        "鎖の音"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "鎖",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "鎖",
+              "start": 0,
+              "end": 1,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s007",
+      "text": "ナツキ・スバルのリスタート",
+      "observed_lines": [
+        "ナツキ・スバルの",
+        "リスタート"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "リ",
+          "start": 8,
+          "end": 9,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "リスタート",
+              "start": 8,
+              "end": 13,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            8
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s008",
+      "text": "泣いて泣き喚いて泣き止んだから",
+      "observed_lines": [
+        "泣いて泣き喚いて",
+        "泣き止んだから"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "泣",
+          "start": 8,
+          "end": 9,
+          "occurrence": 2,
+          "observed_color_label": "grey-violet",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "泣き止ん",
+              "start": 8,
+              "end": 12,
+              "pos": "動詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0,
+            3,
+            8
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [
+        {
+          "text": "泣",
+          "all_positions": [
+            0,
+            3,
+            8
+          ],
+          "marked_positions": [
+            8
+          ]
+        }
+      ],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s009",
+      "text": "勇気の意味",
+      "observed_lines": [
+        "勇気の意味"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "意",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "意味",
+              "start": 3,
+              "end": 5,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            3
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s010",
+      "text": "鬼がかったやり方",
+      "observed_lines": [
+        "鬼がかったやり方"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "や",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "kana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "やり方",
+              "start": 5,
+              "end": 8,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s011",
+      "text": "レム",
+      "observed_lines": [
+        "レム"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "ム",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "レム",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            1
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s012",
+      "text": "再来の王都",
+      "observed_lines": [
+        "再来の王都"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "再来",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s013",
+      "text": "自称騎士ナツキ・スバル",
+      "observed_lines": [
+        "自称騎士",
+        "ナツキ・スバル"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "ス",
+          "start": 8,
+          "end": 9,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "スバル",
+              "start": 8,
+              "end": 11,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            8
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s014",
+      "text": "絶望という病",
+      "observed_lines": [
+        "絶望という病"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            5
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s015",
+      "text": "狂気の外側",
+      "observed_lines": [
+        "狂気の外側"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "狂",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "green",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "狂気",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s016",
+      "text": "豚の欲望",
+      "observed_lines": [
+        "豚の欲望"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "欲",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "欲望",
+              "start": 2,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s017",
+      "text": "醜態の果てに",
+      "observed_lines": [
+        "醜態の",
+        "果てに"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "醜",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "醜態",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s018",
+      "text": "ゼロから",
+      "observed_lines": [
+        "ゼロから"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "ロ",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "ゼロ",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            1
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s019",
+      "text": "白鯨攻略戦",
+      "observed_lines": [
+        "白鯨攻略戦"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "白",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "green",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "白鯨",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s020",
+      "text": "ヴィルヘルム・ヴァン・アストレア",
+      "observed_lines": [
+        "ヴィルヘルム・",
+        "ヴァン・アストレア"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "ヴ",
+          "start": 7,
+          "end": 8,
+          "occurrence": 1,
+          "observed_color_label": "grey",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "ヴァン",
+              "start": 7,
+              "end": 10,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0,
+            7
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [
+        {
+          "text": "ヴ",
+          "all_positions": [
+            0,
+            7
+          ],
+          "marked_positions": [
+            7
+          ]
+        }
+      ],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s021",
+      "text": "絶望に抗う賭け",
+      "observed_lines": [
+        "絶望に抗う",
+        "賭け"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "賭",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "賭け",
+              "start": 5,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s022",
+      "text": "怠惰一閃",
+      "observed_lines": [
+        "怠惰一閃"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "閃",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "一閃",
+              "start": 2,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            3
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s023",
+      "text": "悪辣なる怠惰",
+      "observed_lines": [
+        "悪辣なる怠惰"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "怠",
+          "start": 4,
+          "end": 5,
+          "occurrence": 0,
+          "observed_color_label": "beige",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "怠惰",
+              "start": 4,
+              "end": 6,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            4
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s024",
+      "text": "自称騎士と最優の騎士",
+      "observed_lines": [
+        "自称騎士と",
+        "最優の騎士"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "騎",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "騎士",
+              "start": 2,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2,
+            8
+          ]
+        },
+        {
+          "text": "騎",
+          "start": 8,
+          "end": 9,
+          "occurrence": 1,
+          "observed_color_label": "violet",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "騎士",
+              "start": 8,
+              "end": 10,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2,
+            8
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [
+        {
+          "text": "騎",
+          "all_positions": [
+            2,
+            8
+          ],
+          "marked_positions": [
+            2,
+            8
+          ]
+        }
+      ],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s025",
+      "text": "ただそれだけの物語",
+      "observed_lines": [
+        "ただそれだけの物語"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "物語",
+          "start": 7,
+          "end": 9,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "物語",
+              "start": 7,
+              "end": 9,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 2
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            7
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s026",
+      "text": "Memory Snow",
+      "observed_lines": [
+        "Memory Snow"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "no_local_difference_recorded",
+      "units": [],
+      "marked_character_count": 0,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s027",
+      "text": "氷結の絆",
+      "observed_lines": [
+        "氷結の絆"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "結",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "氷結",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            1
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s028",
+      "text": "それぞれの誓い",
+      "observed_lines": [
+        "それぞれの誓い"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "誓",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "誓い",
+              "start": 5,
+              "end": 7,
+              "pos": "動詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s029",
+      "text": "次なる場所",
+      "observed_lines": [
+        "次なる場所"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "次",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "light-grey",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "次",
+              "start": 0,
+              "end": 1,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s030",
+      "text": "待ちかねた再会",
+      "observed_lines": [
+        "待ちかねた再会"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "待ち",
+              "start": 0,
+              "end": 2,
+              "pos": "動詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "再会",
+              "start": 5,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 2,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s031",
+      "text": "親子",
+      "observed_lines": [
+        "親子"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "whole_title_tone_or_effect",
+      "units": [
+        {
+          "text": "親",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "tone_hierarchy",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "親子",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "子",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "brown",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "親子",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            1
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s032",
+      "text": "踏み出した一歩",
+      "observed_lines": [
+        "踏み出した一歩"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "出",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_internal",
+          "token_spans": [
+            {
+              "text": "踏み出し",
+              "start": 0,
+              "end": 4,
+              "pos": "動詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s033",
+      "text": "少女の福音",
+      "observed_lines": [
+        "少女の福音"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "pos": "助詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s034",
+      "text": "ユージン",
+      "observed_lines": [
+        "ユージン"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "ユ",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "ユージン",
+              "start": 0,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s035",
+      "text": "命の価値",
+      "observed_lines": [
+        "命の価値"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "命",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "light-grey",
+          "visual_role": "tone_hierarchy",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "命",
+              "start": 0,
+              "end": 1,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "pos": "助詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            1
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s036",
+      "text": "らぶらぶらぶらぶらぶらぶゆー",
+      "observed_lines": [
+        "らぶらぶ",
+        "らぶらぶ",
+        "らぶらぶゆー"
+      ],
+      "transcription_confidence": "medium",
+      "structural_mode": "whole_title_tone_or_effect",
+      "units": [
+        {
+          "text": "らぶらぶ",
+          "start": 0,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "multiple_tokens",
+          "token_spans": [
+            {
+              "text": "らぶ",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            },
+            {
+              "text": "ら",
+              "start": 2,
+              "end": 3,
+              "pos": "接尾辞"
+            },
+            {
+              "text": "ぶらぶら",
+              "start": 3,
+              "end": 7,
+              "pos": "副詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 4
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": true,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "text": "らぶらぶ",
+          "start": 4,
+          "end": 8,
+          "occurrence": 1,
+          "observed_color_label": "grey",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "multiple_tokens",
+          "token_spans": [
+            {
+              "text": "ぶらぶら",
+              "start": 3,
+              "end": 7,
+              "pos": "副詞"
+            },
+            {
+              "text": "ぶらぶら",
+              "start": 7,
+              "end": 11,
+              "pos": "副詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 4
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0,
+            2,
+            4,
+            6,
+            8
+          ]
+        },
+        {
+          "text": "らぶらぶゆー",
+          "start": 8,
+          "end": 14,
+          "occurrence": 0,
+          "observed_color_label": "light-violet-grey",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "multiple_tokens",
+          "token_spans": [
+            {
+              "text": "ぶらぶら",
+              "start": 7,
+              "end": 11,
+              "pos": "副詞"
+            },
+            {
+              "text": "ぶ",
+              "start": 11,
+              "end": 12,
+              "pos": "接頭辞"
+            },
+            {
+              "text": "ゆー",
+              "start": 12,
+              "end": 14,
+              "pos": "動詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 5,
+            "katakana": 1
+          },
+          "line_indexes": [
+            2
+          ],
+          "line_initial": true,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            8
+          ]
+        }
+      ],
+      "marked_character_count": 14,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [
+        {
+          "text": "ら",
+          "all_positions": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ],
+          "marked_positions": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10
+          ]
+        },
+        {
+          "text": "ぶ",
+          "all_positions": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "marked_positions": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ]
+        }
+      ],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s037",
+      "text": "地獄なら知っている",
+      "observed_lines": [
+        "地獄なら知っている"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "獄",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "地獄",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            1
+          ]
+        },
+        {
+          "text": "知",
+          "start": 4,
+          "end": 5,
+          "occurrence": 0,
+          "observed_color_label": "orange",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "知っ",
+              "start": 4,
+              "end": 6,
+              "pos": "動詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            4
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s038",
+      "text": "死の味",
+      "observed_lines": [
+        "死の味"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "pos": "助詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            1
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s039",
+      "text": "魔女たちの茶会",
+      "observed_lines": [
+        "魔女たちの",
+        "茶会"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "green",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "魔女",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            1
+          ]
+        },
+        {
+          "text": "た",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "kana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "たち",
+              "start": 2,
+              "end": 4,
+              "pos": "接尾辞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        },
+        {
+          "text": "の",
+          "start": 4,
+          "end": 5,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "の",
+              "start": 4,
+              "end": 5,
+              "pos": "助詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            4
+          ]
+        },
+        {
+          "text": "茶",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "茶会",
+              "start": 5,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "茶会",
+              "start": 5,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            6
+          ]
+        }
+      ],
+      "marked_character_count": 5,
+      "chromatic_character_count": 4,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s040",
+      "text": "泣きたくなる音",
+      "observed_lines": [
+        "泣きたくなる音"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "音",
+          "start": 6,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "grey-gradient",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "音",
+              "start": 6,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            6
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s041",
+      "text": "STRAIGHT BET",
+      "observed_lines": [
+        "STRAIGHT BET"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "B",
+          "start": 9,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "latin_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "BET",
+              "start": 9,
+              "end": 12,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "latin": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            9
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s042",
+      "text": "オットー・スーウェン",
+      "observed_lines": [
+        "オットー・スーウェン"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "オ",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "オットー",
+              "start": 0,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s043",
+      "text": "信じる理由",
+      "observed_lines": [
+        "信じる理由"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "理",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "理由",
+              "start": 3,
+              "end": 5,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            3
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s044",
+      "text": "クウェインの石は一人じゃ上がらない",
+      "observed_lines": [
+        "クウェインの石は",
+        "一人じゃ上がらない"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "一人",
+          "start": 8,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "一人",
+              "start": 8,
+              "end": 10,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 2
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            8
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 2,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s045",
+      "text": "記憶の旅路",
+      "observed_lines": [
+        "記憶の旅路"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "記",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "記憶",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s046",
+      "text": "平家星の笑った日",
+      "observed_lines": [
+        "平家星の",
+        "笑った日"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "星",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "green",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "星",
+              "start": 2,
+              "end": 3,
+              "pos": "接尾辞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s047",
+      "text": "エリオール大森林の永久凍土",
+      "observed_lines": [
+        "エリオール大森林の",
+        "永久凍土"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "永久凍土",
+          "start": 9,
+          "end": 13,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "multiple_tokens",
+          "token_spans": [
+            {
+              "text": "永久",
+              "start": 9,
+              "end": 11,
+              "pos": "名詞"
+            },
+            {
+              "text": "凍土",
+              "start": 11,
+              "end": 13,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 4
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            9
+          ]
+        }
+      ],
+      "marked_character_count": 4,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s048",
+      "text": "聖域の始まりと、崩壊の始まり",
+      "observed_lines": [
+        "聖域の",
+        "始まりと、",
+        "崩壊の",
+        "始まり"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "聖",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "聖域",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "り",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "kana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "始まり",
+              "start": 3,
+              "end": 6,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5,
+            13
+          ]
+        },
+        {
+          "text": "壊",
+          "start": 9,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "pink",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "崩壊",
+              "start": 8,
+              "end": 10,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            2
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            9
+          ]
+        },
+        {
+          "text": "ま",
+          "start": 12,
+          "end": 13,
+          "occurrence": 1,
+          "observed_color_label": "pink",
+          "visual_role": "kana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_internal",
+          "token_spans": [
+            {
+              "text": "始まり",
+              "start": 11,
+              "end": 14,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            3
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            4,
+            12
+          ]
+        }
+      ],
+      "marked_character_count": 4,
+      "chromatic_character_count": 4,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [
+        {
+          "text": "ま",
+          "all_positions": [
+            4,
+            12
+          ],
+          "marked_positions": [
+            12
+          ]
+        },
+        {
+          "text": "り",
+          "all_positions": [
+            5,
+            13
+          ],
+          "marked_positions": [
+            5
+          ]
+        }
+      ],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s049",
+      "text": "咆哮の再会",
+      "observed_lines": [
+        "咆哮の再会"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "哮",
+          "start": 1,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "咆哮",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            1
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s050",
+      "text": "水面に映る幸せ",
+      "observed_lines": [
+        "水面に映る幸せ"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "幸",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "幸せ",
+              "start": 5,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s051",
+      "text": "血と臓物まで愛して",
+      "observed_lines": [
+        "血と臓物まで",
+        "愛して"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "血",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "血",
+              "start": 0,
+              "end": 1,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "臓物",
+          "start": 2,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "臓物",
+              "start": 2,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 2
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 3,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s052",
+      "text": "俺を選べ",
+      "observed_lines": [
+        "俺を選べ"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "選",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "選べ",
+              "start": 2,
+              "end": 4,
+              "pos": "動詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s053",
+      "text": "月下出鱈目なステップ",
+      "observed_lines": [
+        "月下出鱈目なステップ"
+      ],
+      "transcription_confidence": "medium",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "月",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "月下",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "鱈",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_internal",
+          "token_spans": [
+            {
+              "text": "出鱈目",
+              "start": 2,
+              "end": 5,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            3
+          ]
+        },
+        {
+          "text": "ス",
+          "start": 6,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "orange",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "ステップ",
+              "start": 6,
+              "end": 10,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            6
+          ]
+        }
+      ],
+      "marked_character_count": 3,
+      "chromatic_character_count": 3,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s054",
+      "text": "劇場型悪意",
+      "observed_lines": [
+        "劇場型悪意"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "劇場型",
+          "start": 0,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "multiple_tokens",
+          "token_spans": [
+            {
+              "text": "劇場",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            },
+            {
+              "text": "型",
+              "start": 2,
+              "end": 3,
+              "pos": "接尾辞"
+            }
+          ],
+          "scripts": {
+            "kanji": 3
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 3,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s055",
+      "text": "氷炎の結末",
+      "observed_lines": [
+        "氷炎の結末"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "氷",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "氷",
+              "start": 0,
+              "end": 1,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "grammatical_bridge",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "pos": "助詞"
+            }
+          ],
+          "scripts": {
+            "hiragana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s056",
+      "text": "ゴージャス・タイガー",
+      "observed_lines": [
+        "ゴージャス・",
+        "タイガー"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "ガー",
+          "start": 8,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "タイガー",
+              "start": 6,
+              "end": 10,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 2
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            8
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 2,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [
+        {
+          "text": "ー",
+          "all_positions": [
+            1,
+            9
+          ],
+          "marked_positions": [
+            9
+          ]
+        }
+      ],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s057",
+      "text": "都市庁舎奪還作戦",
+      "observed_lines": [
+        "都市庁舎奪還作戦"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "奪還",
+          "start": 4,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "奪還",
+              "start": 4,
+              "end": 6,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 2
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            4
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s058",
+      "text": "濁流",
+      "observed_lines": [
+        "濁流"
+      ],
+      "transcription_confidence": "medium",
+      "structural_mode": "whole_title_tone_or_effect",
+      "units": [
+        {
+          "text": "濁流",
+          "start": 0,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "grey-blue-texture",
+          "visual_role": "uniform",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "whole_effect",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "濁流",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 2
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": true,
+          "title_initial": true,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s059",
+      "text": "騎士の条件",
+      "observed_lines": [
+        "騎士の条件"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "騎",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "騎士",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s060",
+      "text": "最も新しい英雄と最も古い英雄",
+      "observed_lines": [
+        "最も新しい英雄と",
+        "最も古い英雄"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "新",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "新しい",
+              "start": 2,
+              "end": 5,
+              "pos": "形容詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        },
+        {
+          "text": "英",
+          "start": 12,
+          "end": 13,
+          "occurrence": 1,
+          "observed_color_label": "red",
+          "visual_role": "repeated_contrast",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "英雄",
+              "start": 12,
+              "end": 14,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5,
+            12
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [
+        {
+          "text": "英",
+          "all_positions": [
+            5,
+            12
+          ],
+          "marked_positions": [
+            12
+          ]
+        }
+      ],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s061",
+      "text": "いつか好きになる人",
+      "observed_lines": [
+        "いつか好きになる人"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "好",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "好き",
+              "start": 3,
+              "end": 5,
+              "pos": "形状詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            3
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s062",
+      "text": "混戦都市",
+      "observed_lines": [
+        "混戦都市"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "no_local_difference_recorded",
+      "units": [],
+      "marked_character_count": 0,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s063",
+      "text": "強欲攻略戦",
+      "observed_lines": [
+        "強欲攻略戦"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "攻略",
+          "start": 2,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "攻略",
+              "start": 2,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 2
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s064",
+      "text": "リリアナ・マスカレード",
+      "observed_lines": [
+        "リリアナ・",
+        "マスカレード"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "リ",
+          "start": 1,
+          "end": 2,
+          "occurrence": 1,
+          "observed_color_label": "orange",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_internal",
+          "token_spans": [
+            {
+              "text": "リリアナ",
+              "start": 0,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0,
+            1
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [
+        {
+          "text": "リ",
+          "all_positions": [
+            0,
+            1
+          ],
+          "marked_positions": [
+            1
+          ]
+        }
+      ],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s065",
+      "text": "レグルス・コルニアス",
+      "observed_lines": [
+        "レグルス・コルニアス"
+      ],
+      "transcription_confidence": "medium",
+      "structural_mode": "no_local_difference_recorded",
+      "units": [],
+      "marked_character_count": 0,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s066",
+      "text": "戦士の称賛",
+      "observed_lines": [
+        "戦士の称賛"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "戦",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "戦士",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s067",
+      "text": "テレシアヴァン・アストレア",
+      "observed_lines": [
+        "テレシア",
+        "ヴァン・アストレア"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "ヴァン",
+          "start": 4,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "テレシアヴァン",
+              "start": 0,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 3
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            4
+          ]
+        }
+      ],
+      "marked_character_count": 3,
+      "chromatic_character_count": 3,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s068",
+      "text": "醜悪なる晩餐会",
+      "observed_lines": [
+        "醜悪なる",
+        "晩餐会"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "餐",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_internal",
+          "token_spans": [
+            {
+              "text": "晩餐会",
+              "start": 4,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s069",
+      "text": "■■なる晩餐会",
+      "observed_lines": [
+        "■■なる",
+        "晩餐会"
+      ],
+      "transcription_confidence": "low",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "餐",
+          "start": 5,
+          "end": 6,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_internal",
+          "token_spans": [
+            {
+              "text": "晩餐会",
+              "start": 4,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            5
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s070",
+      "text": "プリステラ攻防戦リザルト",
+      "observed_lines": [
+        "プリステラ攻防戦",
+        "リザルト"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "no_local_difference_recorded",
+      "units": [],
+      "marked_character_count": 0,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s071",
+      "text": "君を連れ出す理由",
+      "observed_lines": [
+        "君を連れ出す理由"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "君",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "blue",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "君",
+              "start": 0,
+              "end": 1,
+              "pos": "代名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s072",
+      "text": "ゴージャス・タイガー・リローデッド",
+      "observed_lines": [
+        "ゴージャス・",
+        "タイガー・",
+        "リローデッド"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "ガー",
+          "start": 8,
+          "end": 10,
+          "occurrence": 0,
+          "observed_color_label": "yellow",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "タイガー",
+              "start": 6,
+              "end": 10,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 2
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            8
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 2,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [
+        {
+          "text": "ー",
+          "all_positions": [
+            1,
+            9,
+            13
+          ],
+          "marked_positions": [
+            9
+          ]
+        }
+      ],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s073",
+      "text": "砂時間を越えろ",
+      "observed_lines": [
+        "砂時間を越えろ"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "no_local_difference_recorded",
+      "units": [],
+      "marked_character_count": 0,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s074",
+      "text": "監視塔の番人",
+      "observed_lines": [
+        "監視塔の番人"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "番",
+          "start": 4,
+          "end": 5,
+          "occurrence": 0,
+          "observed_color_label": "orange",
+          "visual_role": "word_internal",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "番人",
+              "start": 4,
+              "end": 6,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            4
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s075",
+      "text": "白い星空のアステリズム",
+      "observed_lines": [
+        "白い",
+        "星空の",
+        "アステリズム"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "no_local_difference_recorded",
+      "units": [],
+      "marked_character_count": 0,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s076",
+      "text": "棒振り",
+      "observed_lines": [
+        "棒振り"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "棒",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "red",
+          "visual_role": "content_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "棒",
+              "start": 0,
+              "end": 1,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": true,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s077",
+      "text": "ユリウス・ユークリウス",
+      "observed_lines": [
+        "ユリウス・",
+        "ユークリウス"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_character_difference",
+      "units": [
+        {
+          "text": "ウ",
+          "start": 2,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "violet",
+          "visual_role": "katakana_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "local_chromatic",
+          "token_position": "token_internal",
+          "token_spans": [
+            {
+              "text": "ユリウス",
+              "start": 0,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": false,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            2,
+            9
+          ]
+        }
+      ],
+      "marked_character_count": 1,
+      "chromatic_character_count": 1,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": true,
+      "repeated_glyphs": [
+        {
+          "text": "ウ",
+          "all_positions": [
+            2,
+            9
+          ],
+          "marked_positions": [
+            2
+          ]
+        }
+      ],
+      "default_character_overlap": false,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": true
+    },
+    {
+      "id": "s078",
+      "text": "コンビニを出ると、そこは不思議の世界でした",
+      "observed_lines": [
+        "コンビニを出ると、",
+        "そこは不思議の世界でした"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "コンビニ",
+          "start": 0,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "コンビニ",
+              "start": 0,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 4
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 4,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s079",
+      "text": "オマエハダレダ",
+      "observed_lines": [
+        "オマエハ",
+        "ダレダ"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "whole_title_tone_or_effect",
+      "units": [
+        {
+          "text": "オマエハ",
+          "start": 0,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "オマエハダレダ",
+              "start": 0,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 4
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": true,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "ダレダ",
+          "start": 4,
+          "end": 7,
+          "occurrence": 0,
+          "observed_color_label": "dark-grey",
+          "visual_role": "word_group",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_suffix",
+          "token_spans": [
+            {
+              "text": "オマエハダレダ",
+              "start": 0,
+              "end": 7,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "katakana": 3
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": true,
+          "title_initial": false,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            4
+          ]
+        }
+      ],
+      "marked_character_count": 7,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [
+        {
+          "text": "ダ",
+          "all_positions": [
+            4,
+            6
+          ],
+          "marked_positions": [
+            4,
+            6
+          ]
+        }
+      ],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s080",
+      "text": "殺人は癖になる",
+      "observed_lines": [
+        "殺人は",
+        "癖になる"
+      ],
+      "transcription_confidence": "medium",
+      "structural_mode": "multiple_occurrence_differences",
+      "units": [
+        {
+          "text": "殺",
+          "start": 0,
+          "end": 1,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "token_prefix",
+          "token_spans": [
+            {
+              "text": "殺人",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        },
+        {
+          "text": "癖",
+          "start": 3,
+          "end": 4,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "paired_anchor",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "癖",
+              "start": 3,
+              "end": 4,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 1
+          },
+          "line_indexes": [
+            1
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": false,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            3
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s081",
+      "text": "残骸",
+      "observed_lines": [
+        "残骸"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "whole_title_tone_or_effect",
+      "units": [
+        {
+          "text": "残骸",
+          "start": 0,
+          "end": 2,
+          "occurrence": 0,
+          "observed_color_label": "red-texture",
+          "visual_role": "uniform",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "whole_effect",
+          "token_position": "whole_token",
+          "token_spans": [
+            {
+              "text": "残骸",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            }
+          ],
+          "scripts": {
+            "kanji": 2
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": true,
+          "title_initial": true,
+          "title_final": true,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 2,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": true,
+      "default_word_overlap": true,
+      "default_word_correct_but_character_disjoint": false
+    },
+    {
+      "id": "s082",
+      "text": "Re:ゼロから始まる異世界生活",
+      "observed_lines": [
+        "Re:ゼロから始まる",
+        "異世界生活"
+      ],
+      "transcription_confidence": "high",
+      "structural_mode": "one_span_difference",
+      "units": [
+        {
+          "text": "Re:",
+          "start": 0,
+          "end": 3,
+          "occurrence": 0,
+          "observed_color_label": "grey-violet",
+          "visual_role": "latin_fragment",
+          "exact_rgb": null,
+          "confidence": "visual_approximate",
+          "appearance_class": "muted_or_tinted_tone",
+          "token_position": "multiple_tokens",
+          "token_spans": [
+            {
+              "text": "Re",
+              "start": 0,
+              "end": 2,
+              "pos": "名詞"
+            },
+            {
+              "text": ":",
+              "start": 2,
+              "end": 3,
+              "pos": "補助記号"
+            }
+          ],
+          "scripts": {
+            "latin": 2,
+            "punctuation": 1
+          },
+          "line_indexes": [
+            0
+          ],
+          "line_initial": true,
+          "line_final": false,
+          "title_initial": true,
+          "title_final": false,
+          "repeated_spelling_positions": [
+            0
+          ]
+        }
+      ],
+      "marked_character_count": 3,
+      "chromatic_character_count": 0,
+      "default_chromatic_character_overlap": false,
+      "default_chromatic_word_overlap": false,
+      "repeated_glyphs": [],
+      "default_character_overlap": false,
+      "default_word_overlap": false,
+      "default_word_correct_but_character_disjoint": false
+    }
+  ]
+}
