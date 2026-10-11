@@ -8,7 +8,7 @@ NO_END = set('([{｛〔〈《「『【〘〖〝‘“')
 PUNCT = set('、。，．・：；？！!?…‥「」『』（）()[]【】—')
 
 def script(c):
-    if '\u4e00' <= c <= '\u9fff' or c in '々〆': return 'kanji'
+    if unicodedata.name(c,'').startswith(('CJK UNIFIED IDEOGRAPH','CJK COMPATIBILITY IDEOGRAPH')) or c in '々〆': return 'kanji'
     if '\u3040' <= c <= '\u309f': return 'hiragana'
     if '\u30a0' <= c <= '\u30ff' or c == 'ー': return 'katakana'
     if c.isdigit(): return 'number'
@@ -64,6 +64,8 @@ def break_penalty(tokens, index):
     if not legal_break(left.text,right.text):return float('inf')
     # Affix/particle must remain attached; punctuation after a clause favors a break.
     if right.role in ('particle','punctuation'):return float('inf')
+    if left.text=='と' and right.text.startswith(('いう','言う')):return float('inf')
+    if left.role=='verb' and right.role=='verb':return 1.5
     if left.text[-1] in '、。？！!?':return 0.
     if left.role in ('connector','particle'):return .1
     return .5

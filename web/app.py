@@ -9,7 +9,7 @@ from fastapi import FastAPI,UploadFile,File,Request,HTTPException,Response
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel,Field
-from engine.fonts import UploadFontProvider,PrivateFontProvider,inspect_font,MAX_FONT_BYTES
+from engine.fonts import UploadFontProvider,PrivateFontProvider,BundledFontProvider,inspect_font,MAX_FONT_BYTES
 from engine.layout import load_config
 from engine.text import JapaneseAnalyzer
 from llm.planner import SemanticPlanner
@@ -19,6 +19,7 @@ RUNTIME=Path(os.getenv('RUNTIME_DIR',str(ROOT/'.runtime')))
 TTL=int(os.getenv('FONT_TTL_SECONDS','3600'))
 uploads=UploadFontProvider(RUNTIME/'fonts',TTL);jobs=RUNTIME/'jobs';jobs.mkdir(parents=True,exist_ok=True,mode=0o700)
 private=PrivateFontProvider(os.getenv('PRIVATE_FONT_DIR','/private-fonts'),os.getenv('PRIVATE_MODE')=='1')
+bundled=BundledFontProvider(ROOT/'assets/open-fonts')
 RATE=defaultdict(deque);SLOTS=asyncio.Semaphore(2)
 MIMES={'application/octet-stream','font/ttf','font/otf','application/x-font-ttf','application/x-font-opentype','application/vnd.ms-opentype','application/font-sfnt','font/sfnt'}
 
@@ -96,6 +97,7 @@ def auth_private(request):
     if not private.enabled or not expected or not secrets.compare_digest(supplied,expected):raise HTTPException(403,'管理员私有字体需要配置 PRIVATE_MODE=1 与 ADMIN_TOKEN')
 
 def font_path(fid,request):
+    if fid.startswith('builtin_'):return bundled.resolve(fid,request.state.owner)
     if fid.startswith('private_'):auth_private(request);return private.resolve(fid,request.state.owner)
     return uploads.resolve(fid,request.state.owner)
 
@@ -106,7 +108,10 @@ def rate(request):
     events.append(now)
 
 @app.get('/api/status')
-def status():return {'service':'python-harfbuzz','llm_available':bool(os.getenv('OPENAI_API_KEY')),'font_ttl_seconds':TTL,'max_font_bytes':MAX_FONT_BYTES,'private_fonts':private.enabled}
+def status():return {'service':'python-harfbuzz','llm_available':bool(os.getenv('LLM_API_KEY') or os.getenv('OPENAI_API_KEY')),'font_ttl_seconds':TTL,'max_font_bytes':MAX_FONT_BYTES,'private_fonts':private.enabled}
+
+@app.get('/fonts/catalog')
+def font_catalog():return bundled.list()
 
 @app.post('/fonts')
 async def upload_font(request:Request,file:UploadFile=File(...)):
@@ -162,7 +167,7 @@ async def render(args:RenderInput,request:Request):
     fids.setdefault('kana',fids['kanji'])
     try:paths={k:font_path(v,request) for k,v in fids.items()}
     except ValueError as e:raise HTTPException(404,str(e))
-    if args.mode=='llm' and not os.getenv('OPENAI_API_KEY'):raise HTTPException(503,'服务未配置 OPENAI_API_KEY；A 可独立使用')
+    if args.mode=='llm' and not (os.getenv('LLM_API_KEY') or os.getenv('OPENAI_API_KEY')):raise HTTPException(503,'服务未配置 LLM_API_KEY 或 OPENAI_API_KEY；A 可独立使用')
     async with SLOTS:
         ownerdir=jobs/sha256(request.state.owner.encode()).hexdigest();ownerdir.mkdir(mode=0o700,exist_ok=True)
         jid=secrets.token_urlsafe(20);job=ownerdir/jid;job.mkdir(mode=0o700)
@@ -201,4 +206,4 @@ def result_file(job_id:str,name:str,request:Request):
     if not path.is_file() or path.is_symlink() or time.time()-job.stat().st_mtime>=TTL:raise HTTPException(404,'结果不存在或已过期')
     return FileResponse(path,media_type='image/svg+xml' if path.suffix=='.svg' else 'image/png',filename=name)
 
-app.mount('/',StaticFiles(directory=ROOT/'dist' if (ROOT/'dist').is_dir() else ROOT/'web/client',html=True),name='ui')
+app.mount('/',StaticFiles(directory=ROOT/'dist/client' if (ROOT/'dist/client').is_dir() else ROOT/'dist' if (ROOT/'dist').is_dir() else ROOT/'web/client',html=True),name='ui')

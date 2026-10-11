@@ -1,0 +1,78 @@
+{
+  "schema": {
+    "type": "object",
+    "properties": {
+      "tokens": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 80,
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "semantic_role": {
+              "type": "string",
+              "enum": [
+                "keyword",
+                "noun",
+                "verb",
+                "modifier",
+                "particle",
+                "connector",
+                "punctuation",
+                "concept",
+                "other"
+              ]
+            },
+            "importance": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "visual_role": {
+              "type": "string",
+              "enum": [
+                "primary",
+                "secondary",
+                "connector"
+              ]
+            }
+          },
+          "required": [
+            "text",
+            "semantic_role",
+            "importance",
+            "visual_role"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "suggested_layout_family": {
+        "type": "string",
+        "enum": [
+          "compact_anchor",
+          "interwoven",
+          "wide_block",
+          "offset_stack",
+          "alternating_steps"
+        ]
+      },
+      "emphasis_relation": {
+        "type": "array",
+        "maxItems": 4,
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": [
+      "tokens",
+      "suggested_layout_family",
+      "emphasis_relation"
+    ],
+    "additionalProperties": false
+  },
+  "system": "你是日文标题的语义规划器。保留输入原文、标点和字符顺序。分析 Sudachi 分词，按需纠正；选择语义锚点、助词与连接部分。输出严格符合 schema 的 JSON。不得输出绝对坐标、字体文件、SVG 或图片。主词不必都高重要度，平假名可因语义成为强调点。emphasis_relation 仅包含输入中实际出现的短子串，最多四项。优先数据中有限家族，不新增家族。"
+}

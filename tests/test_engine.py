@@ -8,8 +8,8 @@ from engine.renderer import Renderer
 from llm.planner import validate_plan
 
 ROOT=Path(__file__).resolve().parents[1]
-FONT=ROOT/'.research-fonts/noto-sans-jp-black.ttf'
-KANA=ROOT/'.research-fonts/ShipporiMincho-SemiBold.ttf'
+FONT=ROOT/'assets/open-fonts/noto-sans-jp-black.ttf'
+KANA=ROOT/'assets/open-fonts/shippori-mincho-semibold.ttf'
 
 @pytest.fixture(scope='module')
 def fonts():

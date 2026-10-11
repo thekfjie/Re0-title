@@ -1,0 +1,18 @@
+{
+  "default_fonts": 8,
+  "default_candidates": 6,
+  "selected": "候选 03 · 交替阶梯",
+  "png_filename": "title-A-3-seed42.png",
+  "svg_filename": "title-A-3-seed42.svg",
+  "live_B": "B · 实时 LLM",
+  "semantic_tokens": 6,
+  "font_switch": "mplus2-black",
+  "bad_font_error": "字体文件头无效",
+  "font_recovered": "mplus2-black",
+  "uploaded_font": "uploaded-kanji",
+  "clear_restores_default": "noto-sans-jp-black",
+  "cancel": true,
+  "after_cancel_candidates": 6,
+  "mobile_no_overflow": true,
+  "errors": []
+}

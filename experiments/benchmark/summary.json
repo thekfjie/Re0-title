@@ -5,9 +5,9 @@
   "live_llm": false,
   "modes": {
     "A": {
-      "engine_latency_median_ms": 1107.3899999999999,
-      "score_mean": 6.781156578468572,
-      "collision_max": 0.0004317789291882556,
+      "engine_latency_median_ms": 1191.455,
+      "score_mean": 6.480424252888335,
+      "collision_max": 0.001845585973546601,
       "overflow_max": 0.0,
       "kinsoku_max": 0,
       "families": [
@@ -19,9 +19,9 @@
       ]
     },
     "B": {
-      "engine_latency_median_ms": 997.1,
-      "score_mean": 6.797645981568727,
-      "collision_max": 0.0,
+      "engine_latency_median_ms": 1032.84,
+      "score_mean": 6.534144332690341,
+      "collision_max": 0.001834189288334556,
       "overflow_max": 0.0,
       "kinsoku_max": 0,
       "families": [

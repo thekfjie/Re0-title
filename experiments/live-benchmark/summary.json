@@ -1,0 +1,38 @@
+{
+  "cases": 20,
+  "errors": 0,
+  "candidate_count": 240,
+  "live_llm": true,
+  "live_api_calls_this_run": 0,
+  "plan_source": "replayed_live",
+  "modes": {
+    "A": {
+      "engine_latency_median_ms": 1088.1399999999999,
+      "score_mean": 6.3854322540512065,
+      "collision_max": 0.002565418163160595,
+      "overflow_max": 0.0,
+      "kinsoku_max": 0,
+      "families": [
+        "alternating_steps",
+        "compact_anchor",
+        "interwoven",
+        "offset_stack",
+        "wide_block"
+      ]
+    },
+    "B": {
+      "engine_latency_median_ms": 1026.1799999999998,
+      "score_mean": 6.398919721485824,
+      "collision_max": 0.0029106029106029108,
+      "overflow_max": 0.0,
+      "kinsoku_max": 0,
+      "families": [
+        "alternating_steps",
+        "compact_anchor",
+        "interwoven",
+        "offset_stack",
+        "wide_block"
+      ]
+    }
+  }
+}

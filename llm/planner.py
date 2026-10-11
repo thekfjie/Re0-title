@@ -31,19 +31,33 @@ def validate_plan(text,plan):
 
 class SemanticPlanner:
     def __init__(self,key=None,model=None):
-        self.key=key or os.getenv('OPENAI_API_KEY');self.model=model or os.getenv('LLM_MODEL','gpt-4.1-mini')
-        if not self.key:raise ValueError('服务未配置 OPENAI_API_KEY，B 模式不可用')
+        self.key=key or os.getenv('LLM_API_KEY') or os.getenv('OPENAI_API_KEY');self.model=model or os.getenv('LLM_MODEL','gpt-4.1-mini')
+        self.base_url=os.getenv('LLM_BASE_URL','https://api.openai.com/v1').rstrip('/')
+        self.api_style=os.getenv('LLM_API_STYLE','chat_completions' if os.getenv('LLM_BASE_URL') else 'responses')
+        self.json_mode=os.getenv('LLM_JSON_MODE','json_schema')
+        if not self.key:raise ValueError('服务未配置 LLM_API_KEY 或 OPENAI_API_KEY，B 模式不可用')
+        if self.api_style not in ('responses','chat_completions') or self.json_mode not in ('json_schema','json_object'):raise ValueError('无效 LLM 接口配置')
+        from urllib.parse import urlparse
+        endpoint=urlparse(self.base_url)
+        if endpoint.scheme not in ('https','http') or not endpoint.netloc or endpoint.username or endpoint.password:raise ValueError('无效 LLM_BASE_URL')
+        if endpoint.scheme=='http' and endpoint.hostname not in ('localhost','127.0.0.1','::1'):raise ValueError('远程 LLM 接口必须使用 HTTPS')
 
     def plan(self,text,sudachi_tokens,dataset_summary):
         start=time.perf_counter()
         body={'model':self.model,'input':[{'role':'system','content':SYSTEM},{'role':'user','content':json.dumps({'text':text,'sudachi':[t.dict() for t in sudachi_tokens],'reference_families':dataset_summary},ensure_ascii=False)}],
               'text':{'format':{'type':'json_schema','name':'japanese_title_plan','strict':True,'schema':SCHEMA}},'max_output_tokens':4096,'store':False}
-        response=httpx.post('https://api.openai.com/v1/responses',headers={'Authorization':'Bearer '+self.key},json=body,timeout=35)
+        if self.api_style=='chat_completions':
+            body={'model':self.model,'messages':body['input'],'max_tokens':4096,'response_format':{'type':'json_schema','json_schema':{'name':'japanese_title_plan','strict':True,'schema':SCHEMA}} if self.json_mode=='json_schema' else {'type':'json_object'}}
+            if self.model.startswith(('gpt-5','gpt-6')):
+                body['max_completion_tokens']=body.pop('max_tokens');body['reasoning_effort']=os.getenv('LLM_REASONING_EFFORT','low')
+        elif self.json_mode=='json_object':body['text']['format']={'type':'json_object'}
+        if self.api_style=='responses' and self.model.startswith(('gpt-5','gpt-6')):body['reasoning']={'effort':os.getenv('LLM_REASONING_EFFORT','low')}
+        response=httpx.post(self.base_url+('/chat/completions' if self.api_style=='chat_completions' else '/responses'),headers={'Authorization':'Bearer '+self.key},json=body,timeout=35)
         if response.status_code>=400:raise ValueError(f'LLM 接口返回 {response.status_code}，检查模型权限/配额')
         payload=response.json()
-        output=''.join(c.get('text','') for item in payload.get('output',[]) for c in item.get('content',[]) if c.get('type')=='output_text')
+        output=payload.get('choices',[{}])[0].get('message',{}).get('content','') if self.api_style=='chat_completions' else ''.join(c.get('text','') for item in payload.get('output',[]) for c in item.get('content',[]) if c.get('type')=='output_text')
         try:plan=json.loads(output)
         except (ValueError,TypeError):raise ValueError('LLM 未返回完整 JSON')
         validate_plan(text,plan)
-        plan.update({'provenance':'live_openai_responses','model':self.model,'request_id':payload.get('id'),'usage':payload.get('usage'),'api_latency_ms':round((time.perf_counter()-start)*1000,2)})
+        plan.update({'provenance':'live_'+self.api_style,'model':self.model,'request_id':payload.get('id'),'usage':payload.get('usage'),'api_latency_ms':round((time.perf_counter()-start)*1000,2)})
         return plan

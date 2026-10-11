@@ -1,0 +1,23 @@
+{
+  "name": "jp-title-lab-hosting",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/run-framework.mjs build",
+    "dev": "node scripts/run-framework.mjs dev"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "next": "16.3.8"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.63.1",
+    "vite": "8.3.4",
+    "vinext": "1.1.0",
+    "wrangler": "4.149.0",
+    "typescript": "5.9.3",
+    "@vitejs/plugin-rsc": "0.5.36",
+    "react-server-dom-webpack": "19.2.8"
+  }
+}

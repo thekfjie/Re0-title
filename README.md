@@ -2,7 +2,7 @@
 
 根据 82 张参考截图研究并实现的第一版：字形级字号与混排、光学字距、禁则断行、多家族搜索、可解释评分和 4–8 候选。输入日文与用户自己的 TTF/OTF，输出可下载 PNG、轮廓 SVG 和可复现参数 JSON。
 
-A 不依赖任何大模型。B 用语义 JSON 调用完全相同的布局/字体/渲染引擎。完整 Benchmark 有 20 条标题 × 2 方案 × 6 候选。B 当前为会话模型的冻结计划，在线 API 尚未实测，不能声称比 A 好。
+A 不依赖任何大模型。B 用语义 JSON 调用完全相同的布局/字体/渲染引擎。完整 Benchmark 有 20 条标题 × 2 方案 × 6 候选。B 已接入兼容服务并完成 20 条真实调用；仍不能声称比 A 好。
 
 ## 本机启动
 
@@ -12,17 +12,17 @@ A 不依赖任何大模型。B 用语义 JSON 调用完全相同的布局/字体
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 npm ci
-npm run build
+npm run build:browser
 OPENBLAS_NUM_THREADS=1 .venv/bin/uvicorn web.app:app --host 0.0.0.0 --port 8000 --workers 1
 ```
 
-打开 `http://localhost:8000`，上传自己的字体，生成并下载。字体未上传前只显示研究示例；不使用服务器系统字体替代用户字体。
+打开 `http://localhost:8000` 即会使用预置字体生成 6 张。可在 8 组开放字体中分别选择汉字/假名字体，也可上传自己的 TTF/OTF。
 
 ```bash
 docker compose up --build
 ```
 
-生产 HTTPS 请设 `SECURE_COOKIES=1`。复制 `.env.example` 为不入库的 `.env` 后配置服务端 `OPENAI_API_KEY` 可启用 live B；本机 uvicorn 使用环境变量或 `--env-file`（需安装 python-dotenv）。不把 Key 放入网页。
+生产 HTTPS 请设 `SECURE_COOKIES=1`。复制 `.env.example` 为不入库的 `.env` 后配置服务端 `LLM_API_KEY`、`LLM_BASE_URL` 和 `LLM_MODEL` 可启用兼容服务的 live B；本机 uvicorn 使用环境变量或 `--env-file`（需安装 python-dotenv）。不把 Key 放入网页。
 
 ## 目录
 
@@ -40,7 +40,7 @@ docker compose up --build
 
 ## 研究复现
 
-没有在仓库提供任何字体。字体实验脚本按官方来源下载 OFL 研究字体到不入库的 `.research-fonts`，商业字体绝不下载或提交。
+研究版按追加授权预置 8 组 OFL 字体，完整来源/许可证见 `assets/open-fonts/catalog.json`。商业字体绝不下载、提交或打包。原始研究脚本仍可将实验字体下载到不入库的 `.research-fonts`。
 
 ```bash
 .venv/bin/python analysis/run_font_experiments.py
@@ -57,7 +57,7 @@ PYTHONPATH=. OPENBLAS_NUM_THREADS=1 .venv/bin/python experiments/ablations.py
 在线 B 实测：
 
 ```bash
-OPENAI_API_KEY=... PYTHONPATH=. OPENBLAS_NUM_THREADS=1 .venv/bin/python experiments/benchmark.py --live-llm --out experiments/live-benchmark
+LLM_API_KEY=... LLM_BASE_URL=https://your-provider/v1 LLM_MODEL=your-model LLM_API_STYLE=chat_completions PYTHONPATH=. OPENBLAS_NUM_THREADS=1 .venv/bin/python experiments/benchmark.py --live-llm --out experiments/live-benchmark
 ```
 
 可用 `--kanji /path/a.ttf --kana /path/b.otf --seed 42` 使用自己的字体。不要将商业字体文件放入仓库或 image。
@@ -69,10 +69,14 @@ PYTHONPATH=. OPENBLAS_NUM_THREADS=1 .venv/bin/python -m pytest -q
 npm test
 ```
 
-渲染集成测试需要本地实验字体，缺失时明确 skip；文本/严格计划测试不依赖商业字体。实际浏览器 QA 包含字体上传、实时候选、PNG/SVG 下载、离线 B、移动布局与错误输入。配置、字体 hash 与随机 seed 写入每个结果。
+渲染集成测试使用仓库内的 OFL 基准字体；文本/严格计划测试不依赖商业字体。实际浏览器 QA 包含字体上传、实时候选、PNG/SVG 下载、离线 B、移动布局与错误输入。配置、字体 hash 与随机 seed 写入每个结果。
 
 ## 交付边界
 
-已部署浏览器版，完整 Python 服务可直接部署。初版未验证实时 LLM/VLM 的质量、成本和 API 延迟；未完成全部 82 张逐字字号拟合；不支持自动复刻发光、倒影与破损纹理。细字 annotation 用 ink bbox 而不是字体身份或字号真值。规则能捕捉粗粒度设计体系，尚不能证明任意标题与参考等价。
+已部署浏览器版，完整 Python 服务可直接部署。实时 LLM 已验证调用、usage 与 API 延迟，但尚无独立审美结论；VLM 三条实验有一次超时，默认关闭，API 金额因缺少单价未测；未完成全部 82 张逐字字号拟合；不支持自动复刻发光、倒影与破损纹理。细字 annotation 用 ink bbox 而不是字体身份或字号真值。规则能捕捉粗粒度设计体系，尚不能证明任意标题与参考等价。
 
 详见 `docs/reference_analysis.md`、`typography_rules.md`、`algorithm_baseline.md`、`llm_pipeline.md`、`comparison.md`。
+
+完整要求与未完成项见 [requirements_audit.md](docs/requirements_audit.md)。
+
+私有 Sites 版通过 `hosting/` 的服务端语义网关启用兼容 LLM；模型看不到用户字体，语义计划由浏览器共用引擎布局。构建前在 `hosting` 运行 `npm ci`，根目录 `npm run build`。密钥仅配置到服务端。

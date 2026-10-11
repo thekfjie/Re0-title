@@ -11,10 +11,11 @@ self.onmessage=async event=>{
  try{
   await ready;
   if(type==='font')postMessage({id,type:'font',metadata:await fonts.register(args.role,args.data,args.name)});
+  else if(type==='analyze')postMessage({id,type:'tokens',tokens:core.analyze(args.text,tokenizer,config.rules)});
   else if(type==='clear'){fonts.clear();postMessage({id,type:'cleared'});}
   else if(type==='render'){
    const start=performance.now(),text=args.options.text;
-   let plan=args.options.mode==='llm'?plans.find(p=>p.text===text)?.plan:null;
+   let plan=args.options.mode==='llm'?(args.plan||plans.find(p=>p.text===text)?.plan):null;
    if(args.options.mode==='llm'&&!plan)throw new Error('在线版 B 尚未配置 API；离线计划只支持 Benchmark 固定文本');
    const tokens=plan?core.planTokens(text,plan):core.analyze(text,tokenizer,config.rules);
    const results=core.generate(text,tokens,fonts,config,args.options,plan);

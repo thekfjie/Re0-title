@@ -3,7 +3,7 @@ import pytest
 from fastapi.testclient import TestClient
 from web.app import app
 
-FONT=Path(__file__).resolve().parents[1]/'.research-fonts/noto-sans-jp-black.ttf'
+FONT=Path(__file__).resolve().parents[1]/'assets/open-fonts/noto-sans-jp-black.ttf'
 
 def test_upload_mime_and_header():
     with TestClient(app) as client:

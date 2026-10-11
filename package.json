@@ -3,8 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-web.mjs",
-    "test": "node --test tests/browser.test.mjs"
+    "build": "node scripts/build-hosted.mjs",
+    "test": "node --test tests/browser.test.mjs",
+    "build:browser": "node scripts/build-web.mjs"
   },
   "dependencies": {
     "harfbuzzjs": "0.10.3",

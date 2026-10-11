@@ -59,18 +59,64 @@ class LayoutEngine:
     def eligible_families(self,text,tokens):
         families=[]
         for name,cfg in self.rules['families'].items():
-            if len(text)<=cfg['max_chars'] and (name!='alternating_steps' or len(tokens)>=4):families.append(name)
+            if cfg.get('min_chars',1)<=len(text)<=cfg['max_chars'] and (name!='alternating_steps' or len(tokens)>=4):families.append(name)
         return families or ['offset_stack']
+
+    def family_prior(self,family,text,line_count):
+        cfg=self.rules['family_prior'];length=len(text)
+        kana=sum(script(c)=='hiragana' for c in text)/max(length,1)
+        katakana=sum(script(c)=='katakana' for c in text)/max(length,1)
+        if family=='compact_anchor':value=1.0 if length<=cfg['compact_max_chars'] else .5
+        elif family=='interwoven':value=1.0 if length<=cfg['interwoven_max_chars'] else .85
+        elif family=='offset_stack':value=1.0 if length>=cfg['stack_min_chars'] else .7
+        elif family=='alternating_steps':value=.86 if length>=cfg['stack_min_chars'] else .6
+        else:value=1.0 if katakana>=cfg['katakana_wide_ratio'] or kana==0 else 1-cfg['mixed_wide_penalty']
+        paired=text.count('の')>=2 and ('と' in text or '、' in text)
+        if paired and family=='interwoven':value-=cfg['paired_interwoven_penalty']
+        desired=cfg['paired_lines'] if paired and family in ('offset_stack','alternating_steps') else 2 if paired else 1 if family in ('compact_anchor','interwoven','wide_block') else 2 if length<18 else 3
+        value*=max(.25,1-cfg['line_mismatch_penalty']*abs(line_count-desired))
+        if self.active_plan.get('suggested_layout_family')==family:value=min(1,value+cfg['suggested_bonus'])
+        return value
+
+    def accent_positions(self,tokens,variant):
+        style=self.rules['style'];chars=[]
+        for i,t in enumerate(tokens):
+            for j,c in enumerate(t.text):chars.append((i,j,c,t))
+        explicit=self.active_plan.get('emphasis_relation',[])
+        if explicit:
+            wanted={};whole=''.join(t.text for t in tokens)
+            for rank,word in enumerate(explicit):
+                start=whole.find(word)
+                while start>=0:
+                    wanted[start]=rank;start=whole.find(word,start+len(word))
+            return {(i,j):wanted[k] for k,(i,j,c,t) in enumerate(chars) if k in wanted}
+        anchors=sorted(range(len(tokens)),key=lambda i:(-tokens[i].importance,i))
+        candidates=[]
+        strategy=style['accent_strategies'][variant]
+        if strategy=='connector_accent':
+            candidates=[(i,j) for i,j,c,t in chars if script(c)=='hiragana' and t.role in ('particle','connector')]
+            if not candidates:candidates=[(i,j) for i,j,c,t in chars if script(c)=='hiragana']
+            # An accent connector can be the sole accent, as in 命の価値.
+            if candidates:return {candidates[len(candidates)//2]:0}
+        if strategy=='distributed':
+            for i in anchors:
+                part=[(ci,j) for ci,j,c,t in chars if ci==i and script(c) in ('kanji','katakana','latin')]
+                if part:candidates.append(part[-1])
+            kana=[(i,j) for i,j,c,t in chars if script(c)=='hiragana' and t.role not in ('particle','connector')]
+            if kana:candidates=candidates[:1]+[kana[-1]]
+        else:
+            for i in anchors:
+                part=[(ci,j) for ci,j,c,t in chars if ci==i and tokens[i].importance>.42]
+                if part:candidates.append(part[0])
+        return {key:i for i,key in enumerate(candidates[:style['accent_budget']])}
 
     def make_layout(self,text,tokens,lines,family,seed,variant,width,height,palette):
         rng=random.Random(seed);style=self.rules['style'];base=style['font_size_base'];fcfg=self.rules['families'][family]
-        max_imp=max(t.importance for t in tokens)
-        anchors=sorted(range(len(tokens)),key=lambda i:(-tokens[i].importance,i))[:style['accent_budget']]
-        color_anchor={i:palette['accents'][j%len(palette['accents'])] for j,i in enumerate(anchors) if tokens[i].importance>.42}
+        color_positions=self.accent_positions(tokens,variant)
         token_indices={id(t):i for i,t in enumerate(tokens)}
         # When the semantic plan names single-character anchors, honor them.
         explicit=self.active_plan.get('emphasis_relation',[]) if hasattr(self,'active_plan') else []
-        explicit=[next((c for c in word if script(c) in ('kanji','katakana','latin')),word[0]) for word in explicit]
+        explicit_chars={c for word in explicit for c in word}
         glyphs=[];line_texts=[];y=0.
         for row,line in enumerate(lines):
             rowglyphs=[];x=0.;previous=None
@@ -81,7 +127,7 @@ class LayoutEngine:
                     if groups and groups[-1][0]==face_key:groups[-1]=(face_key,groups[-1][1]+c)
                     else:groups.append((face_key,c))
                 anchor_char=next((c for c in t.text if script(c) in ('kanji','katakana','latin')),t.text[0])
-                for face_key,run in groups:
+                for group_index,(face_key,run) in enumerate(groups):
                     face=self.fonts.get(face_key,self.fonts['kanji'])
                     if face.missing(run):raise ValueError(f'{face_key} 字体缺字：'+''.join(face.missing(run)))
                     for shaped in face.shape(run):
@@ -89,7 +135,12 @@ class LayoutEngine:
                         factor=style['particle_size'] if t.role in ('particle','connector') else style['punctuation_size'] if kind=='punctuation' else style['kana_size'] if kind=='hiragana' else style['secondary_size']
                         is_anchor=shaped.text[0]==anchor_char and t.importance>=.62
                         if is_anchor:factor=style['primary_size']*(.90+t.importance*.17)
-                        if shaped.text in explicit:factor=max(factor,style['primary_size']*1.08)
+                        if shaped.text in explicit_chars and kind!='hiragana':factor=max(factor,style['primary_size']*1.03)
+                        local=sum(len(r) for fk,r in groups[:group_index])+shaped.cluster
+                        if family!='wide_block':
+                            pattern=style['kana_size_pattern'] if kind=='hiragana' else style['content_size_pattern']
+                            factor*=pattern[local%len(pattern)]
+                            if kind=='hiragana':factor*=style['variant_kana_scale'][variant]
                         if family=='wide_block' and kind not in ('punctuation','hiragana'):factor=.98+.23*t.importance
                         if is_anchor:factor*=1+(variant-1)*.06
                         size=base*factor
@@ -99,11 +150,14 @@ class LayoutEngine:
                         if gw<=0 or gh<=0:
                             x+=shaped.advance*size/face.upem;continue
                         # Small glyphs float within the row; punctuation sits near baseline.
-                        gy=y+(base*1.4-gh)*(.68 if kind=='punctuation' else .50+fcfg['baseline_shift']*(rng.random()-.5))
+                        if kind=='punctuation':gy=y+base*style['row_band']-gh
+                        else:
+                            pattern=style['connector_baseline_pattern'] if kind=='hiragana' else style['baseline_pattern']
+                            stagger=pattern[(len(rowglyphs)+variant)%len(pattern)]*style['profile_strength'] if family!='wide_block' else 0
+                            gy=y+base*style['row_band']-gh+base*stagger+base*fcfg['baseline_shift']*(rng.random()-.5)*.15
                         gy-=shaped.y_offset*size/face.upem
                         color=palette['foreground']
-                        if idx in color_anchor and shaped.text[0]==anchor_char:color=color_anchor[idx]
-                        if shaped.text in explicit:color=palette['accents'][explicit.index(shaped.text)%len(palette['accents'])]
+                        if (idx,local) in color_positions:color=palette['accents'][color_positions[(idx,local)]%len(palette['accents'])]
                         g=PlacedGlyph(shaped.text,idx,t.role,t.importance,face_key,shaped.gid,shaped.path,shaped.bounds,face.upem,x,gy,gw,gh,size,sx,sy,color,row,shaped.advance,shaped.bearing,face.metrics['ascender'],face.metrics['descender'],mask=shaped.mask)
                         # Latin within a shaped run keeps HarfBuzz advances and offsets.
                         if previous is not None:
@@ -115,16 +169,16 @@ class LayoutEngine:
             if not rowglyphs:continue
             minx=min(g.x for g in rowglyphs);maxx=max(g.x+g.width for g in rowglyphs)
             if family in ('offset_stack','alternating_steps'):
-                offset=(row%2-.5)*base*fcfg['offset']*4
-                if family=='offset_stack':offset=(row-(len(lines)-1)/2)*base*fcfg['offset']*2.5
+                pattern=fcfg['row_offset_pattern']
+                offset=pattern[row%len(pattern)]*base*fcfg['offset']*3.5
             else:offset=0
             for g in rowglyphs:g.x+=offset-(maxx+minx)/2
             glyphs.extend(rowglyphs);line_texts.append(''.join(t.text for t in line))
             rowbottom=max(g.y+g.height for g in rowglyphs)
-            y=rowbottom+base*style['row_gap']
+            y=rowbottom+base*fcfg.get('row_gap',style['row_gap'])
         if not glyphs:raise ValueError('没有可渲染字形')
         layout=Layout(text,family,glyphs,width,height,palette['background'],seed,lines=line_texts)
-        layout.metadata['fill_multiplier']=self.rules['scale_regimes'][variant]
+        layout.metadata.update({'fill_multiplier':self.rules['scale_regimes'][variant],'style_variant':variant,'accent_strategy':style['accent_strategies'][variant]})
         return self.fit(layout)
 
     def fit(self,layout):
@@ -155,7 +209,7 @@ class LayoutEngine:
             if a.row==b.row:gaps.append(minimum_ink_gap(a,b)/max(a.size,b.size))
         target_gap=self.rules['style'].get('optical_target_gap',.06)
         spacing=float(np.mean([math.exp(-abs(gap-target_gap)/.12) for gap in gaps])) if gaps else 1
-        template=self.rules['families'][layout.family];consistency=1 if len(layout.lines) in template['lines'] else .3
+        template=self.rules['families'][layout.family];consistency=self.family_prior(layout.family,layout.text,len(layout.lines)) if len(layout.lines) in template['lines'] else .3
         target_fill=template['fill']*layout.metadata.get('fill_multiplier',1)
         whitespace=max(0,1-abs(metrics['box_fill']-target_fill)/target_fill)
         rhythm=min(1,float(np.std([g.size for g in gs])/max(np.mean([g.size for g in gs]),1))/.25)
@@ -181,9 +235,9 @@ class LayoutEngine:
             elif mutation==3:
                 factor=rng.uniform(.97,1.03);new=g.scale_x*factor
                 if self.rules['style']['min_scale_x']<=new<=self.rules['style']['max_scale_x']:g.scale_x=new;g.width*=factor
-            else:g.color=rng.choice(self.palette['accents']) if g.color!=self.palette['foreground'] else g.color
+            else:g.x+=rng.uniform(-.025,.025)*g.size
             self.fit(c);self.score(c)
-            if c.terms['collision']>.002 or c.terms['overflow_penalty'] or c.terms['kinsoku_penalty']:temp*=self.rules['search']['cooling'];continue
+            if c.terms['collision']>self.rules['hard_constraints']['max_ink_overlap'] or c.terms['overflow_penalty'] or c.terms['kinsoku_penalty']:temp*=self.rules['search']['cooling'];continue
             diff=c.score-current.score
             if diff>0 or rng.random()<math.exp(max(-100,diff/max(temp,.001))):current=c
             if c.score>best.score:best=deepcopy(c)
@@ -208,13 +262,22 @@ class LayoutEngine:
                         layout=self.make_layout(text,tokens,lines,family,local_seed,variant,width,height,self.palette)
                         layout.metadata['break_cost']=cost
                         self.score(layout,cost)
-                        if layout.terms['collision']<=.002 and layout.terms['kinsoku_penalty']==0 and layout.terms['overflow_penalty']==0:candidates.append(layout)
+                        if layout.terms['collision']<=self.rules['hard_constraints']['max_ink_overlap'] and layout.terms['kinsoku_penalty']==0 and layout.terms['overflow_penalty']==0:candidates.append(layout)
         if not candidates:raise ValueError('当前文本和字体没有满足禁则/碰撞约束的候选，请缩短文本或换字体')
         candidates.sort(key=lambda l:(-l.score,l.seed));selected=[];seen=set()
         # Family diversity first, then score; never duplicate an identical preview.
         for l in candidates:
             if l.family not in seen:selected.append(l);seen.add(l.family)
             if len(selected)==count:break
+        seen_lines={len(l.lines) for l in selected}
+        for l in candidates:
+            if len(selected)>=count:break
+            if len(l.lines) not in seen_lines:selected.append(l);seen_lines.add(len(l.lines))
+        for l in candidates:
+            if len(selected)>=count:break
+            signature=(l.family,tuple(l.lines),l.metadata['style_variant'])
+            if all(signature!=(other.family,tuple(other.lines),other.metadata['style_variant']) for other in selected):selected.append(l)
+        # If strict diversity exhausts a very short title, fill remaining legal variants.
         for l in candidates:
             if len(selected)>=count:break
             if all(l is not other for other in selected):selected.append(l)

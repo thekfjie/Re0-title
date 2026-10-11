@@ -52,6 +52,8 @@ class FontFace:
             if axes:
                 self.tt=instantiateVariableFont(self.tt,axes,inplace=False)
                 b=BytesIO();self.tt.save(b);data=b.getvalue()
+                self.metadata['applied_variations']=axes
+                self.metadata['weight']=axes.get('wght',self.metadata['weight'])
         self.upem=self.tt['head'].unitsPerEm;self.order=self.tt.getGlyphOrder();self.glyph_set=self.tt.getGlyphSet();self.cmap=self.tt.getBestCmap()
         self.hb=hb.Font(hb.Face(data));self.hb.scale=(self.upem,self.upem);hb.ot_font_set_funcs(self.hb)
         self.ft=freetype.Face(BytesIO(data));self.ft.set_pixel_sizes(0,100)
@@ -88,6 +90,23 @@ class FontFace:
 
 class FontProvider(Protocol):
     def resolve(self,font_id:str,owner:str)->Path: ...
+
+class BundledFontProvider:
+    """Explicit OFL allowlist. Uploaded and administrator fonts never enter it."""
+    def __init__(self,directory):
+        self.directory=Path(directory)
+        import json
+        self.catalog=json.loads((self.directory/'catalog.json').read_text()) if (self.directory/'catalog.json').exists() else []
+        self.index={e['id']:e for e in self.catalog}
+
+    def list(self):return [{**e,'font_id':'builtin_'+e['id']} for e in self.catalog]
+
+    def resolve(self,font_id,owner):
+        entry=self.index.get(font_id.removeprefix('builtin_'))
+        if not entry:raise ValueError('未知预置字体')
+        path=self.directory/entry['file']
+        if not path.is_file() or path.is_symlink():raise ValueError('预置字体不可用')
+        return path
 
 class UploadFontProvider:
     def __init__(self,root,ttl=3600):

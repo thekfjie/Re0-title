@@ -9,7 +9,14 @@ dist/
 *.ttf
 *.otf
 *.woff*
+!assets/open-fonts/*.ttf
+!assets/open-fonts/*.otf
 *.tar.gz
 references/originals/
 analysis/contact-sheets/
 .openai/local.json
+hosting/public/
+hosting/.wrangler/
+hosting/.vite/
+hosting/.env*
+hosting/.openai/state/

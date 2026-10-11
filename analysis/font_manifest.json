@@ -18,7 +18,7 @@
     },
     "units_per_em": 1000,
     "weight_class": 900,
-    "policy": "Offline research only; excluded from Git and Docker, never a public font URL."
+    "policy": "OFL experiment; matching allowlisted font may be bundled by the user-authorized private research build. Commercial fonts remain excluded."
   },
   {
     "id": "noto-sans-jp-black",
@@ -39,7 +39,7 @@
     },
     "units_per_em": 1000,
     "weight_class": 900,
-    "policy": "Offline research only; excluded from Git and Docker, never a public font URL."
+    "policy": "OFL experiment; matching allowlisted font may be bundled by the user-authorized private research build. Commercial fonts remain excluded."
   },
   {
     "id": "shippori-mincho-semibold",
@@ -58,7 +58,7 @@
     "instantiation": null,
     "units_per_em": 1000,
     "weight_class": 600,
-    "policy": "Offline research only; excluded from Git and Docker, never a public font URL."
+    "policy": "OFL experiment; matching allowlisted font may be bundled by the user-authorized private research build. Commercial fonts remain excluded."
   },
   {
     "id": "shippori-antique",
@@ -77,7 +77,7 @@
     "instantiation": null,
     "units_per_em": 1000,
     "weight_class": 400,
-    "policy": "Offline research only; excluded from Git and Docker, never a public font URL."
+    "policy": "OFL experiment; matching allowlisted font may be bundled by the user-authorized private research build. Commercial fonts remain excluded."
   },
   {
     "id": "shippori-antique-b1",
@@ -96,7 +96,7 @@
     "instantiation": null,
     "units_per_em": 1000,
     "weight_class": 400,
-    "policy": "Offline research only; excluded from Git and Docker, never a public font URL."
+    "policy": "OFL experiment; matching allowlisted font may be bundled by the user-authorized private research build. Commercial fonts remain excluded."
   },
   {
     "id": "dela-gothic-one",
@@ -115,7 +115,7 @@
     "instantiation": null,
     "units_per_em": 1000,
     "weight_class": 400,
-    "policy": "Offline research only; excluded from Git and Docker, never a public font URL."
+    "policy": "OFL experiment; matching allowlisted font may be bundled by the user-authorized private research build. Commercial fonts remain excluded."
   },
   {
     "id": "zen-kaku-gothic-new-black",
@@ -134,6 +134,6 @@
     "instantiation": null,
     "units_per_em": 1000,
     "weight_class": 900,
-    "policy": "Offline research only; excluded from Git and Docker, never a public font URL."
+    "policy": "OFL experiment; matching allowlisted font may be bundled by the user-authorized private research build. Commercial fonts remain excluded."
   }
 ]

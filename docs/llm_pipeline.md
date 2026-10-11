@@ -21,3 +21,13 @@ Key 只放服务端环境变量，不进入 JavaScript、仓库、模型输入�
 在线浏览器版可以演示 20 条固定文本的冻结 B 计划；任意新文本的在线 B 需要 Python 后端实际配置 API Key。两者在 UI 中分别标明，不能作为生产实时推理的等价证据。
 
 官方技术来源：OpenAI Structured Outputs / Responses 文档、HarfBuzz shaping 文档。接口结构经文档检索后实现；当前无在线调用凭据，仍需真实 provider 集成验证。
+
+## 兼容服务与在线网关
+
+按用户选择增加 OpenAI 兼容服务。`LLM_BASE_URL`、`LLM_MODEL`、`LLM_API_KEY`、`LLM_API_STYLE=chat_completions|responses` 由服务器管理员配置；`LLM_JSON_MODE=json_schema|json_object` 适配提供商能力。返回仍必须通过同样的严格计划验证。JSON-object 模式也不允许多字段、丢字或坐标。
+
+Sites Worker 的 `/api/plan` 只返回验证后的语义计划及模型/usage/延迟，浏览器随后将计划交给同一个 HarfBuzz 排版 Worker。模型看不到用户字体文件。`/api/status` 只暴露是否配置密钥，不返回密钥或上游地址。Python 服务同样支持兼容路径。
+
+已有接口协议测试使用 stub，证明请求封装与边界验证，不代表真实服务可用或模型质量已测。没有配置时保持明确的固定计划实验，不把它标成 live B。
+
+实际兼容服务报告 `gpt-6.1-sol`，Chat Completions + strict JSON schema 已验证。使用低 reasoning effort 与 max_completion_tokens；完整 20 条真实输出已保存。页面内复用语义计划不代表再次调用上游；重规划按钮会发起新请求。

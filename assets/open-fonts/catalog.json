@@ -1,0 +1,90 @@
+[
+  {
+    "id": "mplus2-black",
+    "label": "M PLUS 2 / Black (900)",
+    "file": "mplus2-black.ttf",
+    "license": "SIL OFL 1.1",
+    "license_file": "mplus2-black.OFL.txt",
+    "sha256": "6fba4d60042375c3188b079dc6ae0edf4cfcb60582f8ff818cba73713b85659e",
+    "weight": 900,
+    "source_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/mplus2/MPLUS2%5Bwght%5D.ttf"
+  },
+  {
+    "id": "noto-sans-jp-black",
+    "label": "Noto Sans JP / Black (900)",
+    "file": "noto-sans-jp-black.ttf",
+    "license": "SIL OFL 1.1",
+    "license_file": "noto-sans-jp-black.OFL.txt",
+    "sha256": "f75e58a835846ad1639666ab52a709e39d0bdccaa474b828cd441face9ab178e",
+    "weight": 900,
+    "source_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf"
+  },
+  {
+    "id": "shippori-mincho-semibold",
+    "label": "Shippori Mincho / SemiBold (600)",
+    "file": "shippori-mincho-semibold.ttf",
+    "license": "SIL OFL 1.1",
+    "license_file": "shippori-mincho-semibold.OFL.txt",
+    "sha256": "bc7925544894a91466449adb73c6d943f50c3e53eb1c74d0673fe2dbafcd4d2d",
+    "weight": 600,
+    "source_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/shipporimincho/ShipporiMincho-SemiBold.ttf"
+  },
+  {
+    "id": "shippori-antique",
+    "label": "Shippori Antique / Regular (400)",
+    "file": "shippori-antique.ttf",
+    "license": "SIL OFL 1.1",
+    "license_file": "shippori-antique.OFL.txt",
+    "sha256": "b88fd5138c77c1359406051786d45c88ab34e2040c6dfa385f00a4e17edaab52",
+    "weight": 400,
+    "source_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/shipporiantique/ShipporiAntique-Regular.ttf"
+  },
+  {
+    "id": "shippori-antique-b1",
+    "label": "Shippori Antique B1 / Regular (400)",
+    "file": "shippori-antique-b1.ttf",
+    "license": "SIL OFL 1.1",
+    "license_file": "shippori-antique-b1.OFL.txt",
+    "sha256": "0b55142100b58f6bd221b2229132cc2e344d1d3c803adafeb376624c6e3819c4",
+    "weight": 400,
+    "source_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/shipporiantiqueb1/ShipporiAntiqueB1-Regular.ttf"
+  },
+  {
+    "id": "dela-gothic-one",
+    "label": "Dela Gothic One / Regular (400)",
+    "file": "dela-gothic-one.ttf",
+    "license": "SIL OFL 1.1",
+    "license_file": "dela-gothic-one.OFL.txt",
+    "sha256": "4ff87a0965f1b0505e5a2c58424bc6ad3cff27e56a82f21c2fc9d6b0e3857ee2",
+    "weight": 400,
+    "source_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/delagothicone/DelaGothicOne-Regular.ttf"
+  },
+  {
+    "id": "zen-kaku-gothic-new-black",
+    "label": "Zen Kaku Gothic New / Black (900)",
+    "file": "zen-kaku-gothic-new-black.ttf",
+    "license": "SIL OFL 1.1",
+    "license_file": "zen-kaku-gothic-new-black.OFL.txt",
+    "sha256": "795819a979184981842994d8f4eb9e14ce443d687bd5e731d6ca67ded8f92261",
+    "weight": 900,
+    "source_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+    "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/zenkakugothicnew/ZenKakuGothicNew-Black.ttf"
+  },
+  {
+    "id": "source-han-sans-jp-heavy",
+    "label": "Source Han Sans JP / Heavy (900)",
+    "file": "source-han-sans-jp-heavy.otf",
+    "license": "SIL OFL 1.1",
+    "license_file": "source-han-sans-jp-heavy.OFL.txt",
+    "sha256": "f875de9c62ace2082b90ab1da940f3e8ceffa933f500e49d205cb74e6e5d03bb",
+    "weight": 900,
+    "source_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/SubsetOTF/JP/SourceHanSansJP-Heavy.otf",
+    "source_license_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/release/LICENSE.txt"
+  }
+]

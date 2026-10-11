@@ -4,7 +4,10 @@
 .runtime
 .env
 node_modules
+hosting
 references/originals
 *.ttf
 *.otf
 *.woff*
+!assets/open-fonts/*.ttf
+!assets/open-fonts/*.otf

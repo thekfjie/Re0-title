@@ -1,0 +1,9 @@
+// Local browser QA and development. Runtime secrets are read only from process environment.
+import http from 'node:http';import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';import {handlePlanner} from '../hosting/semantic-gateway.js';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),dist=path.join(root,'dist/client'),port=Number(process.env.PREVIEW_PORT||8767),types={'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.json':'application/json','.wasm':'application/wasm','.png':'image/png','.jpg':'image/jpeg','.svg':'image/svg+xml','.ttf':'font/ttf','.gz':'application/octet-stream'};
+const server=http.createServer(async(req,res)=>{try{const address='http://127.0.0.1:'+port,url=new URL(req.url,address);let response;
+ if(url.pathname==='/api/status')response=Response.json({service:'browser-harfbuzz',llm_available:!!(process.env.LLM_API_KEY||process.env.OPENAI_API_KEY)});
+ else if(url.pathname==='/api/plan')response=await handlePlanner(new Request(url,{method:req.method,headers:req.headers,body:['GET','HEAD'].includes(req.method)?undefined:req,duplex:'half'}),process.env);
+ else{let name=decodeURIComponent(url.pathname),file=name==='/'?path.join(root,'web/client/index.html'):path.resolve(dist,'.'+name);if(!file.startsWith(dist+path.sep)&&name!=='/')throw new Error('Forbidden');if(name!=='/'&&name.endsWith('/'))file=path.join(file,'index.html');const bytes=await fs.readFile(file);response=new Response(bytes,{headers:{'Content-Type':types[path.extname(file)]||'application/octet-stream'}});}
+ res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));
+ }catch{res.writeHead(404);res.end('Not found');}});server.listen(port,'127.0.0.1',()=>console.log('Local preview: http://127.0.0.1:'+port));

@@ -1,0 +1,306 @@
+{
+  "seed": 42,
+  "purpose": "exploratory critic selection; not independent human quality evidence",
+  "auto_enabled": false,
+  "records": [
+    {
+      "case": "b03",
+      "mapping": {
+        "0": {
+          "mode": "B",
+          "index": 2,
+          "image": "b03/B-2.png",
+          "family": "compact_anchor"
+        },
+        "1": {
+          "mode": "A",
+          "index": 6,
+          "image": "b03/A-6.png",
+          "family": "compact_anchor"
+        },
+        "2": {
+          "mode": "A",
+          "index": 3,
+          "image": "b03/A-3.png",
+          "family": "wide_block"
+        },
+        "3": {
+          "mode": "B",
+          "index": 3,
+          "image": "b03/B-3.png",
+          "family": "wide_block"
+        },
+        "4": {
+          "mode": "B",
+          "index": 4,
+          "image": "b03/B-4.png",
+          "family": "interwoven"
+        },
+        "5": {
+          "mode": "B",
+          "index": 1,
+          "image": "b03/B-1.png",
+          "family": "interwoven"
+        },
+        "6": {
+          "mode": "B",
+          "index": 6,
+          "image": "b03/B-6.png",
+          "family": "interwoven"
+        },
+        "7": {
+          "mode": "A",
+          "index": 4,
+          "image": "b03/A-4.png",
+          "family": "interwoven"
+        },
+        "8": {
+          "mode": "A",
+          "index": 5,
+          "image": "b03/A-5.png",
+          "family": "compact_anchor"
+        },
+        "9": {
+          "mode": "A",
+          "index": 1,
+          "image": "b03/A-1.png",
+          "family": "interwoven"
+        },
+        "10": {
+          "mode": "A",
+          "index": 2,
+          "image": "b03/A-2.png",
+          "family": "compact_anchor"
+        },
+        "11": {
+          "mode": "B",
+          "index": 5,
+          "image": "b03/B-5.png",
+          "family": "compact_anchor"
+        }
+      },
+      "ranking": [
+        {
+          "candidate_id": "5",
+          "reason": "“待”“再”形成两处醒目的粗重支点，假名低位嵌入其间，末字略收，大小与高低变化鲜明。横向展开充分，粉、蓝分置两端，黑底留白虽多，字组仍有较强张力。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "2",
+          "reason": "假名字号较大，连绵曲线充分撑开中段，与粗重汉字衔接紧密；末尾“会”上扬，形成有变化的轮廓。粉、蓝两块与白色中段分工清楚，整体舒展，但汉字之间的大小对比稍弱。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "3",
+          "reason": "假名在两个色块之间连续铺开，笔画疏密变化清晰，整体横向重心稳定。“再”与前方假名贴合更紧，节奏紧凑，但交接处略显拥挤。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "0",
+          "reason": "左侧大“待”与右侧大“再”构成明确层级，假名压低嵌入，末字保持白色收尾。字组具有起伏，但中间假名相对偏小且局部交叠，右端也较紧，呼吸感不及前几项。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "6",
+          "reason": "“再”明显抬高，“会”降低，假名串联出较鲜明的高低节奏；粉色起点与蓝色后段清楚分区。整体重心稳定，但字组偏小，外围黑色留白削弱了视觉冲击。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "10",
+          "reason": "大“待”“再”与低位假名形成明确层级，横向布局紧凑而稳定。粉色“た”成为中段亮点，蓝色“会”收尾，但两块最大的白色汉字较抢眼，色彩未能承担主要结构支点。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "9",
+          "reason": "左端“待”高大，中央假名压低，“再”再次抬升，轮廓变化明显。粉色假名与蓝色末字提供局部节拍，但右侧重量集中，蓝色“会”与白色“再”的衔接略急。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "4",
+          "reason": "粉色“待”、低位白色假名、蓝色“再”构成清楚的阅读顺序，末字略抬高，整体较稳。字组尺度偏小，假名曲线的表现空间有限，四周留白显得过于宽松。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "11",
+          "reason": "假名与两侧汉字衔接自然，粉、蓝、白的区块关系清晰，末尾轮廓有轻微上扬。整体较小且汉字高度接近，大小层级和节奏变化不够突出。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "7",
+          "reason": "左侧粉色字与右侧蓝色字形成双支点，假名嵌入顺畅，字组居中稳定。但整体收缩较多，外围留白占比高，末端几个字的高度变化较弱。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "8",
+          "reason": "字组紧凑，假名连续，蓝色“再”保持明确强调。末字明显缩小，收尾稍显局促；整体尺度也偏小，宽阔黑底使文字的力量感减弱。",
+          "score": 0.0
+        },
+        {
+          "candidate_id": "1",
+          "reason": "“再”抬高、末字降低，具备一定轮廓起伏；蓝色“ね”提供单点强调。但其余大字均为白色，视觉重量主要聚在汉字，局部蓝色较孤立，中段假名也偏小，整体色彩节奏较单薄。",
+          "score": 0.0
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "latency_ms": 36329.2,
+      "usage": {
+        "prompt_tokens": 3822,
+        "completion_tokens": 1029,
+        "total_tokens": 4851,
+        "completion_tokens_details": {
+          "reasoning_tokens": 69
+        }
+      }
+    },
+    {
+      "case": "b06",
+      "mapping": {
+        "0": {
+          "mode": "B",
+          "index": 2,
+          "image": "b06/B-2.png",
+          "family": "interwoven"
+        },
+        "1": {
+          "mode": "A",
+          "index": 6,
+          "image": "b06/A-6.png",
+          "family": "interwoven"
+        },
+        "2": {
+          "mode": "A",
+          "index": 3,
+          "image": "b06/A-3.png",
+          "family": "wide_block"
+        },
+        "3": {
+          "mode": "B",
+          "index": 3,
+          "image": "b06/B-3.png",
+          "family": "wide_block"
+        },
+        "4": {
+          "mode": "B",
+          "index": 4,
+          "image": "b06/B-4.png",
+          "family": "compact_anchor"
+        },
+        "5": {
+          "mode": "B",
+          "index": 1,
+          "image": "b06/B-1.png",
+          "family": "compact_anchor"
+        },
+        "6": {
+          "mode": "B",
+          "index": 6,
+          "image": "b06/B-6.png",
+          "family": "compact_anchor"
+        },
+        "7": {
+          "mode": "A",
+          "index": 4,
+          "image": "b06/A-4.png",
+          "family": "interwoven"
+        },
+        "8": {
+          "mode": "A",
+          "index": 5,
+          "image": "b06/A-5.png",
+          "family": "compact_anchor"
+        },
+        "9": {
+          "mode": "A",
+          "index": 1,
+          "image": "b06/A-1.png",
+          "family": "compact_anchor"
+        },
+        "10": {
+          "mode": "A",
+          "index": 2,
+          "image": "b06/A-2.png",
+          "family": "interwoven"
+        },
+        "11": {
+          "mode": "B",
+          "index": 5,
+          "image": "b06/B-5.png",
+          "family": "interwoven"
+        }
+      },
+      "ranking": [
+        {
+          "candidate_id": "2",
+          "reason": "字组横向展开充分，三个白色汉字形成厚重连续的主体；蓝色假名嵌在左中下部，以曲线和局部着色打断方块节奏。上下留白均衡，整体紧实，但右侧两字接近等大，字号起伏较少。",
+          "score": 0.92
+        },
+        {
+          "candidate_id": "1",
+          "reason": "白色汉字与单独着色的蓝色假名主次清楚，假名紧贴两侧字形，曲直对照明确；“命”“価”较大、“値”略收，形成自然节奏。字组居中稳定，但外围黑色留白偏多，视觉力度较温和。",
+          "score": 0.87
+        },
+        {
+          "candidate_id": "8",
+          "reason": "着色集中在假名，白色主体保持完整；假名处在两大字之间的下半部，嵌入关系自然。“値”收小带来收尾节奏，但右侧分量较轻，整体尺寸也偏保守。",
+          "score": 0.84
+        },
+        {
+          "candidate_id": "3",
+          "reason": "字组较大，横向密度和上下边界整齐，假名在两块厚重字形之间衔接流畅；右侧白字保证了清晰收尾。蓝、粉分别覆盖大字，使色彩成为两个大面积重心，弱化了假名的强调作用。",
+          "score": 0.77
+        },
+        {
+          "candidate_id": "5",
+          "reason": "“命”“価”构成两处高大支点，较小的假名低位嵌入，“値”稍降形成起伏；整体占幅适中。蓝粉大块着色分散注意力，假名与“価”的连接略紧。",
+          "score": 0.73
+        },
+        {
+          "candidate_id": "0",
+          "reason": "左中两字高大，假名压低，右字下沉，形成清楚的高低节奏；字组有足够体量。蓝粉白三块分区较强，中心粉字尤其抢眼，假名更像低位连接符而非强调点。",
+          "score": 0.71
+        },
+        {
+          "candidate_id": "6",
+          "reason": "字组居中，字距紧凑，假名位于中部偏下，左右衔接顺畅；右侧字高与主体接近，整体较平稳。蓝粉大字各自争夺重心，外围留白较宽，厚重感有所减弱。",
+          "score": 0.67
+        },
+        {
+          "candidate_id": "10",
+          "reason": "字组体量充足，“命”“価”形成强烈的高位双峰，白色中间字突出。蓝色“値”明显缩小下沉，假名也压在低位，使右半部出现较大的高度落差；着色落在两端，视觉焦点较分散。",
+          "score": 0.63
+        },
+        {
+          "candidate_id": "9",
+          "reason": "粉色左字与白色中间字构成主要体块，假名在低处填补间隙；右侧蓝字偏小且下沉，收尾分量不足。中间白字较亮、较高，整体重心向中部集中，节奏断差偏明显。",
+          "score": 0.61
+        },
+        {
+          "candidate_id": "11",
+          "reason": "字组紧凑居中，假名低位衔接两侧，大小层级容易辨认；但整体偏小，黑色留白占比高。蓝粉大字与白色尾字各成一块，局部强调不够集中。",
+          "score": 0.57
+        },
+        {
+          "candidate_id": "4",
+          "reason": "左中大字、低位假名和较小尾字构成清楚层级，但字组整体较小，四周留白过宽，削弱了厚重压迫感。颜色分布在两个主字上，假名的曲线虽清晰，却缺少强调。",
+          "score": 0.53
+        },
+        {
+          "candidate_id": "7",
+          "reason": "粉色“命”和蓝色“価”形成分开的色块，白色假名低位连接；“値”明显偏小并下沉，右侧显得零碎。整体占幅较小，留白宽，字号落差和三色分区使节奏较散。",
+          "score": 0.48
+        }
+      ],
+      "model": "gpt-6.1-sol",
+      "latency_ms": 35534.71,
+      "usage": {
+        "prompt_tokens": 3918,
+        "completion_tokens": 971,
+        "total_tokens": 4889
+      }
+    },
+    {
+      "case": "b09",
+      "error": "The read operation timed out"
+    }
+  ]
+}
