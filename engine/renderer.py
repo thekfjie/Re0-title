@@ -35,6 +35,7 @@ class PlacedGlyph:
     source_start:int=0
     source_end:int=0
     color_salience:float=0
+    composition_role:str='body'
 
     def record(self):
         return {k:v for k,v in self.__dict__.items() if k not in ('mask','path')}

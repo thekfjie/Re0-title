@@ -1,0 +1,14 @@
+{
+  "samples": 86,
+  "candidates": 1032,
+  "candidate_switch": "pass",
+  "independent_arm_selection": "pass",
+  "svg_download": "pass",
+  "zoom": "pass",
+  "unseen_filter": "pass",
+  "deep_link": "pass",
+  "mobile_overflow": false,
+  "page_errors": [],
+  "failed_requests": [],
+  "model_calls": 0
+}

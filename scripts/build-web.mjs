@@ -21,6 +21,9 @@ const {spawnSync}=await import('node:child_process');const result=spawnSync(proc
 await fs.copyFile(path.join(root,'experiments/benchmark/b14/A-2.png'),path.join(dist,'demo.png'));
 await fs.copyFile(path.join(root,'references/catalog.json'),path.join(dist,'references.json'));
 await fs.cp(path.join(root,'experiments/reference-benchmark'),path.join(dist,'reference-benchmark'),{recursive:true});
+const compositionOutput=path.join(dist,'composition-study');await fs.mkdir(compositionOutput,{recursive:true});
+await fs.copyFile(path.join(root,'experiments/composition-study/index.json'),path.join(compositionOutput,'index.json'));
+for(const entry of await fs.readdir(path.join(root,'experiments/composition-study'),{withFileTypes:true}))if(entry.isDirectory())await fs.cp(path.join(root,'experiments/composition-study',entry.name),path.join(compositionOutput,entry.name),{recursive:true});
 const liveFolder=path.join(root,'experiments/live-benchmark');let benchmarkFolder=path.join(root,'experiments/benchmark');
 try{const live=JSON.parse(await fs.readFile(path.join(liveFolder,'summary.json'),'utf8'));if(live.live_llm&&live.errors===0)benchmarkFolder=liveFolder;}catch{}
 await fs.cp(benchmarkFolder,path.join(dist,'benchmark'),{recursive:true});

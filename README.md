@@ -83,6 +83,8 @@ npm test
 
 ## 交付边界
 
+构图研究增加了 [视觉语法修订](docs/visual_grammar_revision.md) 与 `/composition-study.html` 对照页：82 张参考和 4 条新文本，两版共 1,032 个候选。实验无需剧情或角色输入；本轮色位重合退步，未替换正式默认引擎。运行 `.venv/bin/python -m experiments.composition_study --all` 可复现。
+
 已部署浏览器版，完整 Python 服务可直接部署。实时 LLM 已验证调用、usage 与 API 延迟，但尚无独立审美结论；VLM 三条实验有一次超时，默认关闭，API 金额因缺少单价未测；未完成全部 82 张逐字字号拟合；不支持自动复刻发光、倒影与破损纹理。细字 annotation 用 ink bbox 而不是字体身份或字号真值。规则能捕捉粗粒度设计体系，尚不能证明任意标题与参考等价。
 
 详见 `docs/reference_analysis.md`、`typography_rules.md`、`algorithm_baseline.md`、`llm_pipeline.md`、`comparison.md`。

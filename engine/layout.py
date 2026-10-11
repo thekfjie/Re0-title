@@ -9,6 +9,7 @@ from engine.fonts import FontFace
 from engine.renderer import Layout,PlacedGlyph,optical_x,raster_metrics,minimum_ink_gap
 from engine.design import variation_profile,accent_limit,resolve_palette,check_glyph_colors,color_metrics
 from engine.accent import select_accents,validate_color_settings
+from engine.composition import compose
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -154,8 +155,10 @@ class LayoutEngine:
             rowbottom=max(g.y+g.height for g in rowglyphs)
             y=rowbottom+base*fcfg.get('row_gap',style['row_gap'])
         if not glyphs:raise ValueError('没有可渲染字形')
+        composition=compose(glyphs,tokens,family,variant,self.rules,profile,palette,self.color_mode,accent_limit(self.input_seed,variant,self.color_mode,self.rules),self.color_overrides,self.active_plan)
         layout=Layout(text,family,glyphs,width,height,palette['background'],seed,lines=line_texts)
         layout.metadata.update({'fill_multiplier':self.rules['scale_regimes'][variant]*profile['fill'],'style_variant':variant,'accent_strategy':style['accent_strategies'][variant],'variation_profile':profile,'resolved_palette':palette,'canvas_theme':self.canvas_theme,'color_mode':self.color_mode,'custom_colors':self.custom_colors,'color_overrides':self.color_overrides})
+        if composition:layout.metadata['composition']=composition
         return self.fit(layout)
 
     def fit(self,layout):

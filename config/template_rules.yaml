@@ -1,4 +1,31 @@
 version: 4
+composition:
+  enabled: false
+  strategies: [white_peak_color_counterpoint, closing_peak_small_bridge, paired_anchors]
+  peak_ink_height: 148
+  secondary_peak_ratio: 0.84
+  paired_min_content: 3
+  body_ink_height: 105
+  elongated_aspect_threshold: 2.4
+  elongated_width_ratio: 0.90
+  elongated_center: 0.64
+  body_height_pattern: [1.0, 0.94, 1.02]
+  kana_ink_heights: [66, 77, 60]
+  particle_ink_height: 64
+  punctuation_ink_height: 22
+  punctuation_baseline_ratio: 0.75
+  kana_centers: [0.70, 0.80, 0.60]
+  block_bottom_offsets: [0.0, -0.06, 0.035]
+  pair_gap: 1.6
+  pair_min_distance: 2.5
+  row_gap: 4
+  row_min_distance: 3
+  max_row_tuck: 0.16
+  tuck_steps: 8
+  counterpoint_height_ratio: 0.68
+  color_importance_weight: 0.12
+  color_edge_weight: 0.10
+  planner_color_weight: 0.15
 hard_constraints:
   max_ink_overlap: 0.003
 canvas:
