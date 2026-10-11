@@ -4,6 +4,8 @@
 
 A 不依赖任何大模型。B 用语义 JSON 调用完全相同的布局/字体/渲染引擎。完整 Benchmark 有 20 条标题 × 2 方案 × 6 候选。B 已接入兼容服务并完成 20 条真实调用；仍不能声称比 A 好。
 
+“参考标题 · 82”提供全部参考原文；“参考对照”逐条展示原图与 A 的六张生成图，可搜索、筛选偏差、切换原截图并下载。全参考共 492 张，默认断行匹配 56/81，六候选覆盖 74/81，默认色位平均重合 31.5%。这些是开发样本诊断，不是审美胜率；详细偏差见 [full_reference_comparison.md](docs/full_reference_comparison.md)。
+
 ## 本机启动
 
 需要 Python 3.12、Node 24、系统 Cairo/FreeType。Ubuntu 可安装 `libcairo2 libfreetype6`。
@@ -33,7 +35,7 @@ docker compose up --build
 | engine | Sudachi、FontProvider、HarfBuzz/FreeType、约束、SVG |
 | baseline | 无模型生成入口、三种启发式 |
 | llm | 严格语义规划、可选 Vision Critic 实验适配器 |
-| experiments | 固定测试集、冻结计划、240 张结果、消融脚本 |
+| experiments | A/B 240 张、全参考 A 492 张、计划、对照与消融脚本 |
 | web | FastAPI、隔离任务进程与浏览器端 |
 | config | 家族/字号/颜色/权重/搜索参数 |
 | docs | 研究、规则、算法、B、对比、字体安全与部署 |
@@ -53,6 +55,14 @@ PYTHONPATH=. OPENBLAS_NUM_THREADS=1 .venv/bin/python experiments/ablations.py
 ```
 
 原截图在 `references/originals`，因上传原图权限不明确未推入远端代码库；用户提供 ZIP 解包至该目录即可。首次启动不需要截图，因为分析与 Benchmark 已保存。计划 JSON 已冻结，`create_session_plans.py` 只复写同一计划，并不调用在线模型。
+
+全部参考与 A 的对照已保存标题裁剪、完整画布截图裁剪和六个 PNG/SVG，无需本地原图即可查看。重新生成裁剪与全参考诊断需原 JPG：
+
+```bash
+PYTHONPATH=. OPENBLAS_NUM_THREADS=1 .venv/bin/python -m experiments.reference_comparison
+```
+
+参数在 `config/reference_evaluation.yaml`；结果保存字体 hash、配置 hash、默认顺序及逐指标比较。“按参考筛选候选”是事后读取标注的诊断工具，不是默认排名。Python 对照用 Sudachi，在线重生成用 Kuromoji，两端不承诺逐像素一致。
 
 在线 B 实测：
 

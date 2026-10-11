@@ -1,0 +1,17 @@
+{
+  "all_82_selectable_search_and_family_filter": true,
+  "reference_background_applied": true,
+  "generator_deep_link_preserves_original": true,
+  "picker_mobile_no_overflow": true,
+  "comparison_all_82_and_492_candidates": true,
+  "metric_filters_and_page_reset": true,
+  "default_and_answer_assisted_selection_labelled": true,
+  "selected_candidate_png_svg_download": true,
+  "original_screenshot_and_zoom": true,
+  "censored_text_excluded_and_visible": true,
+  "comparison_mobile_and_theme_persistence": true,
+  "comparison_to_generator_link": true,
+  "page_errors": [],
+  "failed_assets": [],
+  "model_calls": 0
+}

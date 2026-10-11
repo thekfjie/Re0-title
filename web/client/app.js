@@ -2,12 +2,14 @@ import {initTheme} from './theme.js';
 import {KanjiConverter} from './convert.js';
 import {resolvePalette,checkGlyphColors,colorMetrics} from './design.js';
 import {paintSVG,applyOverrides} from './color-edit.js';
+import {initReferencePicker} from './reference-picker.js';
 const $=s=>document.querySelector(s),text=$('#text'),status=$('#status'),gallery=$('#gallery');
 const families={compact_anchor:'紧凑锚点',interwoven:'大小交织',wide_block:'横向字块',offset_stack:'错位堆叠',alternating_steps:'交替阶梯'};
 const roles={keyword:'关键词',noun:'名词',verb:'动词',modifier:'修饰',particle:'助词',connector:'连接',punctuation:'标点',concept:'概念',other:'其他'};
 let mode='classic',palette='night',worker,ready=false,busy=false,backend=false,llmAvailable=false,sequence=0,operation=0,selected=0,results=[],resultMode='classic',snapshot=null,knownPlans=[],catalog=[],fontIds={},nativeFiles={},fontLoaded={},pending=new Map(),urls=[],cache=new Map(),semanticCache=new Map(),controller;
-let converter,designConfig,override=null,translations=new Map(),currentConversion=null;
+let converter,designConfig,override=null,translations=new Map(),currentConversion=null,referencePicker;
 let localColors=new Map(),colorText='',colorSelection=new Set(),selectionAnchor=0,customAccents=['#2e65b0','#ffb2d6'];
+function chooseReference(sample,render=true){text.value=sample.text;$('#input-mode').value='original';$('#canvas-theme').value=sample.canvas_theme;text.oninput();updateSwatches();if(render)generate(true);}
 function message(value,error=false){status.textContent=value;status.classList.toggle('error',error);}
 function effectiveText(){if(override!==null)return override;if($('#input-mode').value==='kanji')return converter?converter.convert(text.value).text:text.value;if($('#input-mode').value==='translate')return translations.get(text.value)?.text||text.value;return text.value;}
 function options(){return {text:effectiveText(),source_text:text.value,input_mode:$('#input-mode').value,mode,palette,seed:Number($('#seed').value),count:Number($('#count').value),width:Number($('#width').value),height:Number($('#height').value),transparent:$('#transparent').checked,canvas_theme:$('#canvas-theme').value,color_mode:$('#color-mode').value,custom_colors:$('#custom-palette-enabled').checked?{foreground:$('#foreground-color').value,accents:customAccents}:null,color_overrides:colorSpans()};}
@@ -143,7 +145,7 @@ document.addEventListener('keydown',e=>{if(!['INPUT','TEXTAREA','SELECT'].includ
 for(let i=0;i<6;i++){const skeleton=document.createElement('div');skeleton.className='candidate skeleton';gallery.append(skeleton);}
 initTheme();initColorControls();
 try{
- const [info,plans,fonts,conversionData,config]=await Promise.all([fetch('/api/status').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('/session-plans.json').then(r=>r.json()),fetch('/open-fonts/catalog.json').then(r=>r.json()),fetch('/conversion/kanji.json').then(r=>r.json()),fetch('/config.json').then(r=>r.json())]);backend=info.service==='python-harfbuzz';llmAvailable=!!info.llm_available;knownPlans=plans;catalog=fonts;converter=new KanjiConverter(conversionData);designConfig=config;fillSelectors();showConversion();updateSwatches();drawCustomColors();modeNote();
+ const [info,plans,fonts,conversionData,config,references]=await Promise.all([fetch('/api/status').then(r=>r.ok?r.json():{}).catch(()=>({})),fetch('/session-plans.json').then(r=>r.json()),fetch('/open-fonts/catalog.json').then(r=>r.json()),fetch('/conversion/kanji.json').then(r=>r.json()),fetch('/config.json').then(r=>r.json()),fetch('/references.json').then(r=>{if(!r.ok)throw new Error('参考标题加载失败');return r.json();})]);backend=info.service==='python-harfbuzz';llmAvailable=!!info.llm_available;knownPlans=plans;catalog=fonts;converter=new KanjiConverter(conversionData);designConfig=config;fillSelectors();referencePicker=initReferencePicker(references,s=>chooseReference(s));const requested=referencePicker.find(new URLSearchParams(location.search).get('reference'));if(requested)chooseReference(requested,false);showConversion();updateSwatches();drawCustomColors();modeNote();
  if(backend){ready=true;$('#privacy-note').textContent='上传字体仅限当前会话，'+Math.round(info.font_ttl_seconds/60)+' 分钟后删除。请确认拥有使用权。';}else{await initWorker();$('#privacy-note').textContent='上传字体仅在本机处理。请确认拥有使用权。';}
  loading(true,'加载默认字体');await loadSelection();loading(false);message('');await generate();
 }catch(e){loading(false);message(e.message,true);}

@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "s001",
+    "text": "始まりの終わりと終わりの始まり",
+    "observed_lines": [
+      "始まりの終わりと",
+      "終わりの始まり"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s001/reference.jpg",
+    "source_image": "s001/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s002",
+    "text": "再会の魔女",
+    "observed_lines": [
+      "再会の魔女"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s002/reference.jpg",
+    "source_image": "s002/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s003",
+    "text": "ゼロから始まる異世界生活",
+    "observed_lines": [
+      "ゼロから始まる",
+      "異世界生活"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s003/reference.jpg",
+    "source_image": "s003/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s004",
+    "text": "ロズワール邸の団欒",
+    "observed_lines": [
+      "ロズワール邸の",
+      "団欒"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s004/reference.jpg",
+    "source_image": "s004/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s005",
+    "text": "約束した朝は遠く",
+    "observed_lines": [
+      "約束した朝は遠く"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s005/reference.jpg",
+    "source_image": "s005/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s006",
+    "text": "鎖の音",
+    "observed_lines": [
+      "鎖の音"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s006/reference.jpg",
+    "source_image": "s006/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s007",
+    "text": "ナツキ・スバルのリスタート",
+    "observed_lines": [
+      "ナツキ・スバルの",
+      "リスタート"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s007/reference.jpg",
+    "source_image": "s007/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s008",
+    "text": "泣いて泣き喚いて泣き止んだから",
+    "observed_lines": [
+      "泣いて泣き喚いて",
+      "泣き止んだから"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s008/reference.jpg",
+    "source_image": "s008/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s009",
+    "text": "勇気の意味",
+    "observed_lines": [
+      "勇気の意味"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s009/reference.jpg",
+    "source_image": "s009/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s010",
+    "text": "鬼がかったやり方",
+    "observed_lines": [
+      "鬼がかったやり方"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s010/reference.jpg",
+    "source_image": "s010/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s011",
+    "text": "レム",
+    "observed_lines": [
+      "レム"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s011/reference.jpg",
+    "source_image": "s011/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s012",
+    "text": "再来の王都",
+    "observed_lines": [
+      "再来の王都"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s012/reference.jpg",
+    "source_image": "s012/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s013",
+    "text": "自称騎士ナツキ・スバル",
+    "observed_lines": [
+      "自称騎士",
+      "ナツキ・スバル"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s013/reference.jpg",
+    "source_image": "s013/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s014",
+    "text": "絶望という病",
+    "observed_lines": [
+      "絶望という病"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s014/reference.jpg",
+    "source_image": "s014/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s015",
+    "text": "狂気の外側",
+    "observed_lines": [
+      "狂気の外側"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s015/reference.jpg",
+    "source_image": "s015/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s016",
+    "text": "豚の欲望",
+    "observed_lines": [
+      "豚の欲望"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s016/reference.jpg",
+    "source_image": "s016/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s017",
+    "text": "醜態の果てに",
+    "observed_lines": [
+      "醜態の",
+      "果てに"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s017/reference.jpg",
+    "source_image": "s017/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s018",
+    "text": "ゼロから",
+    "observed_lines": [
+      "ゼロから"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s018/reference.jpg",
+    "source_image": "s018/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s019",
+    "text": "白鯨攻略戦",
+    "observed_lines": [
+      "白鯨攻略戦"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s019/reference.jpg",
+    "source_image": "s019/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s020",
+    "text": "ヴィルヘルム・ヴァン・アストレア",
+    "observed_lines": [
+      "ヴィルヘルム・",
+      "ヴァン・アストレア"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s020/reference.jpg",
+    "source_image": "s020/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s021",
+    "text": "絶望に抗う賭け",
+    "observed_lines": [
+      "絶望に抗う",
+      "賭け"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s021/reference.jpg",
+    "source_image": "s021/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s022",
+    "text": "怠惰一閃",
+    "observed_lines": [
+      "怠惰一閃"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s022/reference.jpg",
+    "source_image": "s022/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s023",
+    "text": "悪辣なる怠惰",
+    "observed_lines": [
+      "悪辣なる怠惰"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s023/reference.jpg",
+    "source_image": "s023/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s024",
+    "text": "自称騎士と最優の騎士",
+    "observed_lines": [
+      "自称騎士と",
+      "最優の騎士"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s024/reference.jpg",
+    "source_image": "s024/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s025",
+    "text": "ただそれだけの物語",
+    "observed_lines": [
+      "ただそれだけの物語"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "day",
+    "transcription_confidence": "high",
+    "flags": [
+      "white_background"
+    ],
+    "reference_image": "s025/reference.jpg",
+    "source_image": "s025/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s026",
+    "text": "Memory Snow",
+    "observed_lines": [
+      "Memory Snow"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "latin_title",
+      "glow"
+    ],
+    "reference_image": "s026/reference.jpg",
+    "source_image": "s026/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s027",
+    "text": "氷結の絆",
+    "observed_lines": [
+      "氷結の絆"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "decorative_snowflakes"
+    ],
+    "reference_image": "s027/reference.jpg",
+    "source_image": "s027/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s028",
+    "text": "それぞれの誓い",
+    "observed_lines": [
+      "それぞれの誓い"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s028/reference.jpg",
+    "source_image": "s028/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s029",
+    "text": "次なる場所",
+    "observed_lines": [
+      "次なる場所"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "day",
+    "transcription_confidence": "high",
+    "flags": [
+      "white_background"
+    ],
+    "reference_image": "s029/reference.jpg",
+    "source_image": "s029/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s030",
+    "text": "待ちかねた再会",
+    "observed_lines": [
+      "待ちかねた再会"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s030/reference.jpg",
+    "source_image": "s030/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s031",
+    "text": "親子",
+    "observed_lines": [
+      "親子"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "day",
+    "transcription_confidence": "high",
+    "flags": [
+      "white_background",
+      "petals"
+    ],
+    "reference_image": "s031/reference.jpg",
+    "source_image": "s031/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s032",
+    "text": "踏み出した一歩",
+    "observed_lines": [
+      "踏み出した一歩"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s032/reference.jpg",
+    "source_image": "s032/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s033",
+    "text": "少女の福音",
+    "observed_lines": [
+      "少女の福音"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s033/reference.jpg",
+    "source_image": "s033/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s034",
+    "text": "ユージン",
+    "observed_lines": [
+      "ユージン"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s034/reference.jpg",
+    "source_image": "s034/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s035",
+    "text": "命の価値",
+    "observed_lines": [
+      "命の価値"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s035/reference.jpg",
+    "source_image": "s035/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s036",
+    "text": "らぶらぶらぶらぶらぶらぶゆー",
+    "observed_lines": [
+      "らぶらぶ",
+      "らぶらぶ",
+      "らぶらぶゆー"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "medium",
+    "flags": [
+      "translation_near_descender",
+      "dark_gradient_title"
+    ],
+    "reference_image": "s036/reference.jpg",
+    "source_image": "s036/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s037",
+    "text": "地獄なら知っている",
+    "observed_lines": [
+      "地獄なら知っている"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s037/reference.jpg",
+    "source_image": "s037/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s038",
+    "text": "死の味",
+    "observed_lines": [
+      "死の味"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s038/reference.jpg",
+    "source_image": "s038/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s039",
+    "text": "魔女たちの茶会",
+    "observed_lines": [
+      "魔女たちの",
+      "茶会"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s039/reference.jpg",
+    "source_image": "s039/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s040",
+    "text": "泣きたくなる音",
+    "observed_lines": [
+      "泣きたくなる音"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s040/reference.jpg",
+    "source_image": "s040/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s041",
+    "text": "STRAIGHT BET",
+    "observed_lines": [
+      "STRAIGHT BET"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "latin_title"
+    ],
+    "reference_image": "s041/reference.jpg",
+    "source_image": "s041/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s042",
+    "text": "オットー・スーウェン",
+    "observed_lines": [
+      "オットー・スーウェン"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s042/reference.jpg",
+    "source_image": "s042/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s043",
+    "text": "信じる理由",
+    "observed_lines": [
+      "信じる理由"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "purple_gradient_background"
+    ],
+    "reference_image": "s043/reference.jpg",
+    "source_image": "s043/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s044",
+    "text": "クウェインの石は一人じゃ上がらない",
+    "observed_lines": [
+      "クウェインの石は",
+      "一人じゃ上がらない"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s044/reference.jpg",
+    "source_image": "s044/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s045",
+    "text": "記憶の旅路",
+    "observed_lines": [
+      "記憶の旅路"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s045/reference.jpg",
+    "source_image": "s045/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s046",
+    "text": "平家星の笑った日",
+    "observed_lines": [
+      "平家星の",
+      "笑った日"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s046/reference.jpg",
+    "source_image": "s046/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s047",
+    "text": "エリオール大森林の永久凍土",
+    "observed_lines": [
+      "エリオール大森林の",
+      "永久凍土"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s047/reference.jpg",
+    "source_image": "s047/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s048",
+    "text": "聖域の始まりと、崩壊の始まり",
+    "observed_lines": [
+      "聖域の",
+      "始まりと、",
+      "崩壊の",
+      "始まり"
+    ],
+    "observed_family": "alternating_steps",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s048/reference.jpg",
+    "source_image": "s048/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s049",
+    "text": "咆哮の再会",
+    "observed_lines": [
+      "咆哮の再会"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s049/reference.jpg",
+    "source_image": "s049/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s050",
+    "text": "水面に映る幸せ",
+    "observed_lines": [
+      "水面に映る幸せ"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "reflection"
+    ],
+    "reference_image": "s050/reference.jpg",
+    "source_image": "s050/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s051",
+    "text": "血と臓物まで愛して",
+    "observed_lines": [
+      "血と臓物まで",
+      "愛して"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s051/reference.jpg",
+    "source_image": "s051/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s052",
+    "text": "俺を選べ",
+    "observed_lines": [
+      "俺を選べ"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s052/reference.jpg",
+    "source_image": "s052/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s053",
+    "text": "月下出鱈目なステップ",
+    "observed_lines": [
+      "月下出鱈目なステップ"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "medium",
+    "flags": [
+      "yellow_gradient_background"
+    ],
+    "reference_image": "s053/reference.jpg",
+    "source_image": "s053/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s054",
+    "text": "劇場型悪意",
+    "observed_lines": [
+      "劇場型悪意"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "blood_splatter_background"
+    ],
+    "reference_image": "s054/reference.jpg",
+    "source_image": "s054/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s055",
+    "text": "氷炎の結末",
+    "observed_lines": [
+      "氷炎の結末"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s055/reference.jpg",
+    "source_image": "s055/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s056",
+    "text": "ゴージャス・タイガー",
+    "observed_lines": [
+      "ゴージャス・",
+      "タイガー"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s056/reference.jpg",
+    "source_image": "s056/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s057",
+    "text": "都市庁舎奪還作戦",
+    "observed_lines": [
+      "都市庁舎奪還作戦"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s057/reference.jpg",
+    "source_image": "s057/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s058",
+    "text": "濁流",
+    "observed_lines": [
+      "濁流"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "medium",
+    "flags": [
+      "dark_textured_glyphs"
+    ],
+    "reference_image": "s058/reference.jpg",
+    "source_image": "s058/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s059",
+    "text": "騎士の条件",
+    "observed_lines": [
+      "騎士の条件"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s059/reference.jpg",
+    "source_image": "s059/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s060",
+    "text": "最も新しい英雄と最も古い英雄",
+    "observed_lines": [
+      "最も新しい英雄と",
+      "最も古い英雄"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "day",
+    "transcription_confidence": "high",
+    "flags": [
+      "white_background"
+    ],
+    "reference_image": "s060/reference.jpg",
+    "source_image": "s060/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s061",
+    "text": "いつか好きになる人",
+    "observed_lines": [
+      "いつか好きになる人"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s061/reference.jpg",
+    "source_image": "s061/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s062",
+    "text": "混戦都市",
+    "observed_lines": [
+      "混戦都市"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "warped_multicolor_background"
+    ],
+    "reference_image": "s062/reference.jpg",
+    "source_image": "s062/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s063",
+    "text": "強欲攻略戦",
+    "observed_lines": [
+      "強欲攻略戦"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s063/reference.jpg",
+    "source_image": "s063/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s064",
+    "text": "リリアナ・マスカレード",
+    "observed_lines": [
+      "リリアナ・",
+      "マスカレード"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "glow"
+    ],
+    "reference_image": "s064/reference.jpg",
+    "source_image": "s064/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s065",
+    "text": "レグルス・コルニアス",
+    "observed_lines": [
+      "レグルス・コルニアス"
+    ],
+    "observed_family": "wide_block",
+    "canvas_theme": "day",
+    "transcription_confidence": "medium",
+    "flags": [
+      "white_background",
+      "very_pale_title"
+    ],
+    "reference_image": "s065/reference.jpg",
+    "source_image": "s065/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s066",
+    "text": "戦士の称賛",
+    "observed_lines": [
+      "戦士の称賛"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s066/reference.jpg",
+    "source_image": "s066/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s067",
+    "text": "テレシアヴァン・アストレア",
+    "observed_lines": [
+      "テレシア",
+      "ヴァン・アストレア"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s067/reference.jpg",
+    "source_image": "s067/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s068",
+    "text": "醜悪なる晩餐会",
+    "observed_lines": [
+      "醜悪なる",
+      "晩餐会"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s068/reference.jpg",
+    "source_image": "s068/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s069",
+    "text": "■■なる晩餐会",
+    "observed_lines": [
+      "■■なる",
+      "晩餐会"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "day",
+    "transcription_confidence": "low",
+    "flags": [
+      "white_background",
+      "censored_title"
+    ],
+    "reference_image": "s069/reference.jpg",
+    "source_image": "s069/source.jpg",
+    "comparison_eligible": false,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s070",
+    "text": "プリステラ攻防戦リザルト",
+    "observed_lines": [
+      "プリステラ攻防戦",
+      "リザルト"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "day",
+    "transcription_confidence": "high",
+    "flags": [
+      "white_background",
+      "water_background"
+    ],
+    "reference_image": "s070/reference.jpg",
+    "source_image": "s070/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s071",
+    "text": "君を連れ出す理由",
+    "observed_lines": [
+      "君を連れ出す理由"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s071/reference.jpg",
+    "source_image": "s071/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s072",
+    "text": "ゴージャス・タイガー・リローデッド",
+    "observed_lines": [
+      "ゴージャス・",
+      "タイガー・",
+      "リローデッド"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s072/reference.jpg",
+    "source_image": "s072/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s073",
+    "text": "砂時間を越えろ",
+    "observed_lines": [
+      "砂時間を越えろ"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s073/reference.jpg",
+    "source_image": "s073/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s074",
+    "text": "監視塔の番人",
+    "observed_lines": [
+      "監視塔の番人"
+    ],
+    "observed_family": "interwoven",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s074/reference.jpg",
+    "source_image": "s074/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s075",
+    "text": "白い星空のアステリズム",
+    "observed_lines": [
+      "白い",
+      "星空の",
+      "アステリズム"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "glow",
+      "star_decoration"
+    ],
+    "reference_image": "s075/reference.jpg",
+    "source_image": "s075/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s076",
+    "text": "棒振り",
+    "observed_lines": [
+      "棒振り"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s076/reference.jpg",
+    "source_image": "s076/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s077",
+    "text": "ユリウス・ユークリウス",
+    "observed_lines": [
+      "ユリウス・",
+      "ユークリウス"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "day",
+    "transcription_confidence": "high",
+    "flags": [
+      "white_background"
+    ],
+    "reference_image": "s077/reference.jpg",
+    "source_image": "s077/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s078",
+    "text": "コンビニを出ると、そこは不思議の世界でした",
+    "observed_lines": [
+      "コンビニを出ると、",
+      "そこは不思議の世界でした"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s078/reference.jpg",
+    "source_image": "s078/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s079",
+    "text": "オマエハダレダ",
+    "observed_lines": [
+      "オマエハ",
+      "ダレダ"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [],
+    "reference_image": "s079/reference.jpg",
+    "source_image": "s079/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": true
+  },
+  {
+    "id": "s080",
+    "text": "殺人は癖になる",
+    "observed_lines": [
+      "殺人は",
+      "癖になる"
+    ],
+    "observed_family": "alternating_steps",
+    "canvas_theme": "night",
+    "transcription_confidence": "medium",
+    "flags": [
+      "translation_interleaved",
+      "textured_glyphs"
+    ],
+    "reference_image": "s080/reference.jpg",
+    "source_image": "s080/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s081",
+    "text": "残骸",
+    "observed_lines": [
+      "残骸"
+    ],
+    "observed_family": "compact_anchor",
+    "canvas_theme": "night",
+    "transcription_confidence": "high",
+    "flags": [
+      "fractured_rotated_title"
+    ],
+    "reference_image": "s081/reference.jpg",
+    "source_image": "s081/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  },
+  {
+    "id": "s082",
+    "text": "Re:ゼロから始まる異世界生活",
+    "observed_lines": [
+      "Re:ゼロから始まる",
+      "異世界生活"
+    ],
+    "observed_family": "offset_stack",
+    "canvas_theme": "day",
+    "transcription_confidence": "high",
+    "flags": [
+      "white_background"
+    ],
+    "reference_image": "s082/reference.jpg",
+    "source_image": "s082/source.jpg",
+    "comparison_eligible": true,
+    "pixel_geometry_eligible": false
+  }
+]

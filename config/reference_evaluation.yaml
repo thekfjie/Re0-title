@@ -1,0 +1,12 @@
+version: 1
+seed: 42
+count: 6
+width: 1200
+height: 675
+palette: night
+color_mode: auto
+kanji_font: noto-sans-jp-black.ttf
+kana_font: shippori-mincho-semibold.ttf
+mask_resolution: 240
+page_size: 12
+excluded_transcription_ids: [s069]
