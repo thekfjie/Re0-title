@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),dist=path.join(root,'dist');
+await fs.rm(dist,{recursive:true,force:true});
 await fs.mkdir(dist,{recursive:true});await fs.cp(path.join(root,'web/client'),dist,{recursive:true});await fs.mkdir(path.join(dist,'vendor'),{recursive:true});
 const fontRoot=path.join(root,'assets/open-fonts'),fontOutput=path.join(dist,'open-fonts');
 await fs.rm(fontOutput,{recursive:true,force:true});await fs.mkdir(fontOutput,{recursive:true});
