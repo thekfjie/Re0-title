@@ -1,0 +1,46 @@
+version: 1
+seed: 42
+samples: [s001, s002, s005, s006, s010, s011, s014, s018, s024, s030, s033, s035, s038, s048, s051, s079]
+unseen:
+  - 記憶の海で、名前を呼ぶ
+  - 最後の灯りと、最初の約束
+  - 誰も知らない明日
+  - 君の声はまだ消えない
+fonts:
+  kanji: noto-sans-jp-black.ttf
+  kana: shippori-mincho-semibold.ttf
+canvas: {width: 1200, height: 675, margin: 0.065}
+negatives:
+  per_type: 10
+  types: [size, position, connector_up, anchor_down, color, spacing, line_break, proportion]
+  magnitudes: [0.12, 0.20, 0.30, 0.42, 0.55]
+ranker:
+  l2: 0.08
+  max_iterations: 500
+  gate_accuracy: 0.80
+  gate_legal_accuracy: 0.70
+  gate_type_accuracy: 0.70
+  bootstrap_samples: 2000
+retrieval:
+  top_k: 4
+  weights: {sequence: 0.45, count: 0.20, scripts: 0.15, repetition: 0.15, punctuation: 0.05}
+  mapping_variants: 4
+  max_scale_x: 1.25
+  min_scale_x: 0.78
+  desired_gap: 2.5
+  resize_variant: [0.92, 1.0, 1.08, 1.16]
+search:
+  starts: 8
+  steps: 96
+  temperature: 0.12
+  cooling: 0.965
+  move_ratio: 0.045
+  scale_ratio: 0.05
+  row_move_ratio: 0.05
+  min_scale: 0.72
+  max_scale: 1.35
+  max_ink_overlap: 0.003
+  min_visible_contrast: 1.5
+  mask_resolution: 240
+  candidate_count: 6
+  diversity_distance: 0.025

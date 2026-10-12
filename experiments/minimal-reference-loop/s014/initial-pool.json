@@ -1,0 +1,3610 @@
+[
+  {
+    "id": "s002-1",
+    "reference_id": "s002",
+    "score": -2.8002334462293996,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.4152795508869814,
+            0.2174968084034334,
+            0.6726855111707909
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.4152795508869814,
+                0.2174968084034334,
+                0.6726855111707909
+              ]
+            }
+          ]
+        },
+        {
+          "text": "望",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.21529047160100082,
+            0.44195747954384684,
+            0.37427650589394196,
+            0.7282044437810243
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.21529047160100082,
+                0.44195747954384684,
+                0.37427650589394196,
+                0.7282044437810243
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.3803601551653555,
+            0.449888755631023,
+            0.46184068995689453,
+            0.6762906366649619
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3803601551653555,
+                0.449888755631023,
+                0.46184068995689453,
+                0.6762906366649619
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.4687354924644964,
+            0.2717955562189756,
+            0.7847206863028199,
+            0.6892690884439775
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f8d287",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4687354924644964,
+                0.2717955562189756,
+                0.6907109607776718,
+                0.6892690884439775
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6880038395806093,
+                0.2717955562189756,
+                0.7847206863028199,
+                0.6892690884439775
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7853422279232263,
+            0.4491677305321888,
+            0.935,
+            0.7238782931880191
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7853422279232263,
+                0.4491677305321888,
+                0.935,
+                0.7238782931880191
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1409567901234568,
+      "collision": 0.0,
+      "centroid": [
+        0.4706691117436684,
+        0.5507140598009878
+      ],
+      "box_fill": 0.3980246913580247
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.16332296533381013,
+      "group_height_log_error": 0.23770574649754578,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s033-1",
+    "reference_id": "s033",
+    "score": -0.9242305666600231,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.20476883237976912,
+            0.38541666666666674,
+            0.3232584157131025,
+            0.6253858024691358
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20476883237976912,
+                0.38541666666666674,
+                0.3232584157131025,
+                0.6253858024691358
+              ]
+            }
+          ]
+        },
+        {
+          "text": "望",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.32310216571310246,
+            0.402391975308642,
+            0.46061616960080426,
+            0.6022376543209876
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.32310216571310246,
+                0.402391975308642,
+                0.46061616960080426,
+                0.6022376543209876
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4639354990464358,
+            0.48109567901234573,
+            0.5175307300890899,
+            0.6300154320987654
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fbf08f",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4639354990464358,
+                0.48109567901234573,
+                0.5175307300890899,
+                0.6300154320987654
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5136244800890898,
+            0.36689814814814825,
+            0.685422139842453,
+            0.5922067901234569
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5136244800890898,
+                0.36689814814814825,
+                0.6334236708328029,
+                0.5922067901234569
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6332244800890897,
+                0.36689814814814825,
+                0.685422139842453,
+                0.5922067901234569
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6901964453980086,
+            0.4270833333333334,
+            0.7952311676202309,
+            0.6331018518518519
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6901964453980086,
+                0.4270833333333334,
+                0.7952311676202309,
+                0.6331018518518519
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.07765432098765432,
+      "collision": 0.0,
+      "centroid": [
+        0.469632684154743,
+        0.5066978743449332
+      ],
+      "box_fill": 0.15777777777777777
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.01178305601719886,
+      "group_height_log_error": 0.1982192151494696,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s002-3",
+    "reference_id": "s002",
+    "score": -2.8002334462293996,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.4152795508869814,
+            0.2174968084034334,
+            0.6726855111707909
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.4152795508869814,
+                0.2174968084034334,
+                0.6726855111707909
+              ]
+            }
+          ]
+        },
+        {
+          "text": "望",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.21529047160100082,
+            0.44195747954384684,
+            0.37427650589394196,
+            0.7282044437810243
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.21529047160100082,
+                0.44195747954384684,
+                0.37427650589394196,
+                0.7282044437810243
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.3803601551653555,
+            0.449888755631023,
+            0.46184068995689453,
+            0.6762906366649619
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3803601551653555,
+                0.449888755631023,
+                0.46184068995689453,
+                0.6762906366649619
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.4687354924644964,
+            0.2717955562189756,
+            0.7847206863028199,
+            0.6892690884439775
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f8d287",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4687354924644964,
+                0.2717955562189756,
+                0.6907109607776718,
+                0.6892690884439775
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6880038395806093,
+                0.2717955562189756,
+                0.7847206863028199,
+                0.6892690884439775
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7853422279232263,
+            0.4491677305321888,
+            0.935,
+            0.7238782931880191
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7853422279232263,
+                0.4491677305321888,
+                0.935,
+                0.7238782931880191
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1409567901234568,
+      "collision": 0.0,
+      "centroid": [
+        0.4706691117436684,
+        0.5507140598009878
+      ],
+      "box_fill": 0.3980246913580247
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.16332296533381013,
+      "group_height_log_error": 0.23770574649754578,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s033-3",
+    "reference_id": "s033",
+    "score": -0.8731464314379754,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.15753184556053218,
+            0.36708333333333343,
+            0.2949797622271989,
+            0.6454475308641976
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.15753184556053218,
+                0.36708333333333343,
+                0.2949797622271989,
+                0.6454475308641976
+              ]
+            }
+          ]
+        },
+        {
+          "text": "望",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.29479851222719883,
+            0.3867746913580248,
+            0.45431475673693283,
+            0.6185956790123457
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29479851222719883,
+                0.3867746913580248,
+                0.45431475673693283,
+                0.6185956790123457
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.45816517889386543,
+            0.478070987654321,
+            0.5203356469033441,
+            0.6508179012345678
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fbf08f",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.45816517889386543,
+                0.478070987654321,
+                0.5203356469033441,
+                0.6508179012345678
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5158043969033441,
+            0.34560185185185194,
+            0.7150896822172454,
+            0.6069598765432099
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5158043969033441,
+                0.34560185185185194,
+                0.6547714581660514,
+                0.6069598765432099
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6545403969033441,
+                0.34560185185185194,
+                0.7150896822172454,
+                0.6069598765432099
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7206278766616899,
+            0.41541666666666677,
+            0.8424681544394678,
+            0.6543981481481481
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7206278766616899,
+                0.41541666666666677,
+                0.8424681544394678,
+                0.6543981481481481
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10095679012345679,
+      "collision": 0.0,
+      "centroid": [
+        0.45975236930602265,
+        0.5101916958230013
+      ],
+      "box_fill": 0.20753086419753086
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.011783056017199084,
+      "group_height_log_error": 0.1982192151494696,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s002-0",
+    "reference_id": "s002",
+    "score": -2.0175439129928665,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶望",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.07882566232227489,
+            0.41658950617283946,
+            0.3691208012111638,
+            0.7246759259259259
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.07882566232227489,
+                0.41658950617283946,
+                0.22037013962286817,
+                0.6700154320987655
+              ]
+            },
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2182498849011638,
+                0.44285493827160494,
+                0.3691208012111638,
+                0.7246759259259259
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.37511038454449713,
+            0.4506635802469135,
+            0.4553310598999474,
+            0.6735648148148148
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.37511038454449713,
+                0.4506635802469135,
+                0.4553310598999474,
+                0.6735648148148148
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.4621192543443918,
+            0.27532407407407405,
+            0.7732186563903559,
+            0.6863425925925926
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f8d287",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4621192543443918,
+                0.27532407407407405,
+                0.6806625177874095,
+                0.6863425925925926
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6779972543443918,
+                0.27532407407407405,
+                0.7732186563903559,
+                0.6863425925925926
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7738305876777252,
+            0.44995370370370363,
+            0.921174337677725,
+            0.7204166666666667
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7738305876777252,
+                0.44995370370370363,
+                0.921174337677725,
+                0.7204166666666667
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13256172839506172,
+      "collision": 0.0,
+      "centroid": [
+        0.47464784633294527,
+        0.5474565601690166
+      ],
+      "box_fill": 0.3803086419753086
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.18003926900065423,
+      "group_height_log_error": 0.23770574649754578,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s033-0",
+    "reference_id": "s033",
+    "score": -0.6083158416045532,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶望",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.23942279562909155,
+            0.3945833333333334,
+            0.45305126785131383,
+            0.615354938271605
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.23942279562909155,
+                0.3945833333333334,
+                0.3579755791846385,
+                0.615354938271605
+              ]
+            },
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3584185226163502,
+                0.41020061728395063,
+                0.45305126785131383,
+                0.5940586419753087
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4557851892830168,
+            0.48260802469135805,
+            0.5050928018422586,
+            0.6196141975308642
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fbf08f",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4557851892830168,
+                0.48260802469135805,
+                0.5050928018422586,
+                0.6196141975308642
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.5014990518422586,
+            0.3775462962962964,
+            0.6595528988153527,
+            0.5848302469135803
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5014990518422586,
+                0.3775462962962964,
+                0.6117143073264748,
+                0.5848302469135803
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6115310518422585,
+                0.3775462962962964,
+                0.6595528988153527,
+                0.5848302469135803
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.663945259926464,
+            0.4329166666666667,
+            0.7605772043709085,
+            0.6224537037037037
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.663945259926464,
+                0.4329166666666667,
+                0.7605772043709085,
+                0.6224537037037037
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.06475308641975308,
+      "collision": 0.0,
+      "centroid": [
+        0.4727796313949793,
+        0.5048194047240758
+      ],
+      "box_fill": 0.12731481481481483
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.05326092837006028,
+      "group_height_log_error": 0.19821921514946966,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s002-2",
+    "reference_id": "s002",
+    "score": -2.043918229082043,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶望",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.41385143497850446,
+            0.3648245004976838,
+            0.7320512411004539
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.41385143497850446,
+                0.2111908813467922,
+                0.6755964367884952
+              ]
+            },
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20900102616941643,
+                0.44097906821931576,
+                0.3648245004976838,
+                0.7320512411004539
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3710107006455039,
+            0.44904404026388134,
+            0.453864736748536,
+            0.6792623331723886
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3710107006455039,
+                0.44904404026388134,
+                0.453864736748536,
+                0.6792623331723886
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.46087576358273213,
+            0.2679487588995461,
+            0.7821874575386566,
+            0.6924595601544048
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f8d287",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.46087576358273213,
+                0.2679487588995461,
+                0.6865930286038876,
+                0.6924595601544048
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6838402739985017,
+                0.2679487588995461,
+                0.7821874575386566,
+                0.6924595601544048
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7828194763636241,
+            0.4483108609871026,
+            0.935,
+            0.7276521654397818
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7828194763636241,
+                0.4483108609871026,
+                0.935,
+                0.7276521654397818
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.14194444444444446,
+      "collision": 0.0,
+      "centroid": [
+        0.47680383416684785,
+        0.5497104845658879
+      ],
+      "box_fill": 0.4063888888888889
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.1800392690006541,
+      "group_height_log_error": 0.23770574649754578,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s033-2",
+    "reference_id": "s033",
+    "score": -0.5494041508312856,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶望",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19410502095589005,
+            0.3762500000000001,
+            0.4448862709558901,
+            0.6354166666666666
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.19410502095589005,
+                0.3762500000000001,
+                0.3332756799124017,
+                0.6354166666666666
+              ]
+            },
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3337956569844111,
+                0.3945833333333334,
+                0.4448862709558901,
+                0.6104166666666667
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.44809565698441106,
+            0.4795833333333334,
+            0.5059785065104774,
+            0.6404166666666667
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fbf08f",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.44809565698441106,
+                0.4795833333333334,
+                0.5059785065104774,
+                0.6404166666666667
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.5017597565104774,
+            0.35625000000000007,
+            0.6873012290441098,
+            0.5995833333333335
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5017597565104774,
+                0.35625000000000007,
+                0.6311428825136878,
+                0.5995833333333335
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6309277565104775,
+                0.35625000000000007,
+                0.6873012290441098,
+                0.5995833333333335
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6924574790441098,
+            0.42125000000000007,
+            0.8058949790441099,
+            0.64375
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6924574790441098,
+                0.42125000000000007,
+                0.8058949790441099,
+                0.64375
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08521604938271606,
+      "collision": 0.0,
+      "centroid": [
+        0.4671918387057829,
+        0.508803841871571
+      ],
+      "box_fill": 0.17574074074074075
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.0532609283700604,
+      "group_height_log_error": 0.19821921514946958,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s010-0",
+    "reference_id": "s010",
+    "score": -0.5756332776965567,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶望",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1512220724748981,
+            0.3725771604938271,
+            0.49851876199294176,
+            0.621033950617284
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.1512220724748981,
+                0.3725771604938271,
+                0.3295883408572511,
+                0.621033950617284
+              ]
+            },
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3275554058082314,
+                0.3725771604938271,
+                0.49851876199294176,
+                0.621033950617284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.5033104286596085,
+            0.3988425925925925,
+            0.585574942877618,
+            0.6274228395061728
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5033104286596085,
+                0.3988425925925925,
+                0.585574942877618,
+                0.6274228395061728
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.5911652206553959,
+            0.384645061728395,
+            0.735375149747324,
+            0.5734722222222222
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5911652206553959,
+                0.384645061728395,
+                0.6915667890074558,
+                0.5734722222222222
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6916292206553958,
+                0.384645061728395,
+                0.735375149747324,
+                0.5734722222222222
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.740965427525102,
+            0.4059413580246913,
+            0.848777927525102,
+            0.6018672839506173
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.740965427525102,
+                0.4059413580246913,
+                0.848777927525102,
+                0.6018672839506173
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10265432098765433,
+      "collision": 0.0,
+      "centroid": [
+        0.4479868210062137,
+        0.49863032003741564
+      ],
+      "box_fill": 0.1814814814814815
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.19849732179704302,
+      "group_height_log_error": 0.16013231399544828,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s010-2",
+    "reference_id": "s010",
+    "score": -0.5371571584035962,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶望",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.09056504160096732,
+            0.3504166666666666,
+            0.4982611553830187,
+            0.6420833333333333
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.09056504160096732,
+                0.3504166666666666,
+                0.29995153057155555,
+                0.6420833333333333
+              ]
+            },
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29756504160096736,
+                0.3504166666666666,
+                0.4982611553830187,
+                0.6420833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.5038861553830187,
+            0.3812499999999999,
+            0.6004575416389428,
+            0.6495833333333333
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5038861553830187,
+                0.3812499999999999,
+                0.6004575416389428,
+                0.6495833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.6070200416389429,
+            0.36458333333333326,
+            0.7763099583990326,
+            0.5862499999999999
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6070200416389429,
+                0.36458333333333326,
+                0.7248827523131002,
+                0.5862499999999999
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7249560416389429,
+                0.36458333333333326,
+                0.7763099583990326,
+                0.5862499999999999
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7828724583990326,
+            0.38958333333333334,
+            0.9094349583990325,
+            0.6195833333333334
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7828724583990326,
+                0.38958333333333334,
+                0.9094349583990325,
+                0.6195833333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1342283950617284,
+      "collision": 0.0,
+      "centroid": [
+        0.4396844102092435,
+        0.4972739582534938
+      ],
+      "box_fill": 0.2419753086419753
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.19849732179704246,
+      "group_height_log_error": 0.16013231399544836,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s010-1",
+    "reference_id": "s010",
+    "score": -0.9017270759983416,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.12964862263033172,
+            0.3614969135802469,
+            0.277652094852554,
+            0.6315586419753086
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.12964862263033172,
+                0.3614969135802469,
+                0.277652094852554,
+                0.6315586419753086
+              ]
+            }
+          ]
+        },
+        {
+          "text": "望",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.27714862263033174,
+            0.3722993827160493,
+            0.44758103671508964,
+            0.6199845679012346
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.27714862263033174,
+                0.3722993827160493,
+                0.44758103671508964,
+                0.6199845679012346
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4504819559636651,
+            0.3722993827160493,
+            0.5396222107030016,
+            0.6199845679012346
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4504819559636651,
+                0.3722993827160493,
+                0.5396222107030016,
+                0.6199845679012346
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5448305440363349,
+            0.3746141975308641,
+            0.7470874884807794,
+            0.6385030864197531
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5448305440363349,
+                0.3900462962962962,
+                0.7012491491390971,
+                0.6385030864197531
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6907871090985588,
+                0.3746141975308641,
+                0.7470874884807794,
+                0.579861111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7531638773696684,
+            0.3977623456790123,
+            0.8703513773696684,
+            0.6107253086419753
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7531638773696684,
+                0.3977623456790123,
+                0.8703513773696684,
+                0.6107253086419753
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10743827160493827,
+      "collision": 0.0,
+      "centroid": [
+        0.44868572249353633,
+        0.5001564046091481
+      ],
+      "box_fill": 0.20876543209876544
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.17513252755857625,
+      "group_height_log_error": 0.18393874182599768,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s010-3",
+    "reference_id": "s010",
+    "score": -0.871569483207402,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.07039240225118476,
+            0.33933641975308637,
+            0.24207643002896256,
+            0.6526080246913579
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.07039240225118476,
+                0.33933641975308637,
+                0.24207643002896256,
+                0.6526080246913579
+              ]
+            }
+          ]
+        },
+        {
+          "text": "望",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2414924022511847,
+            0.3518672839506172,
+            0.4391940025895038,
+            0.6391820987654321
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2414924022511847,
+                0.3518672839506172,
+                0.4391940025895038,
+                0.6391820987654321
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.44255906891785135,
+            0.3518672839506172,
+            0.5459617644154817,
+            0.6391820987654321
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.44255906891785135,
+                0.3518672839506172,
+                0.5459617644154817,
+                0.6391820987654321
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5520034310821483,
+            0.3545524691358024,
+            0.786621486637704,
+            0.6606635802469135
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5520034310821483,
+                0.3724537037037036,
+                0.7334490130013525,
+                0.6606635802469135
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.721313046554328,
+                0.3545524691358024,
+                0.786621486637704,
+                0.5926388888888888
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7936700977488153,
+            0.38140432098765426,
+            0.9296075977488152,
+            0.6284413580246913
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7936700977488153,
+                0.38140432098765426,
+                0.9296075977488152,
+                0.6284413580246913
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.14280864197530865,
+      "collision": 0.0,
+      "centroid": [
+        0.438093437072257,
+        0.5015344715798574
+      ],
+      "box_fill": 0.27339506172839506
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.17513252755857645,
+      "group_height_log_error": 0.18393874182599765,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s030-0",
+    "reference_id": "s030",
+    "score": -0.32464194836800825,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶望",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.24538798554472677,
+            0.39706790123456787,
+            0.4243721221188009,
+            0.6022222222222222
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.24538798554472677,
+                0.39706790123456787,
+                0.3372904409018697,
+                0.6022222222222222
+              ]
+            },
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3362839855447267,
+                0.39706790123456787,
+                0.4243721221188009,
+                0.6022222222222222
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.42751731887806005,
+            0.45172839506172835,
+            0.48193452859369984,
+            0.6029320987654321
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.42751731887806005,
+                0.45172839506172835,
+                0.48193452859369984,
+                0.6029320987654321
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.48193452859369984,
+            0.45172839506172835,
+            0.6224050974231095,
+            0.6029320987654321
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.48193452859369984,
+                0.4837659511155401,
+                0.5719209676585354,
+                0.5893712284781045
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5662678619270332,
+                0.45172839506172835,
+                0.6224050974231095,
+                0.6029320987654321
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6267974585342206,
+            0.40061728395061724,
+            0.7546120144552733,
+            0.5816358024691357
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6267974585342206,
+                0.40061728395061724,
+                0.7546120144552733,
+                0.5816358024691357
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0595679012345679,
+      "collision": 0.0005181347150259067,
+      "centroid": [
+        0.474779792746114,
+        0.5016196507388218
+      ],
+      "box_fill": 0.1054320987654321
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.097244252993938,
+      "group_height_log_error": 0.15295029737100127,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        0,
+        5
+      ]
+    }
+  },
+  {
+    "id": "s030-2",
+    "reference_id": "s030",
+    "score": -0.2675212203758849,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶望",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.20110763520467922,
+            0.3791666666666666,
+            0.4112194477046793,
+            0.62
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.20110763520467922,
+                0.3791666666666666,
+                0.3089931262761078,
+                0.62
+              ]
+            },
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.30781163520467925,
+                0.3791666666666666,
+                0.4112194477046793,
+                0.62
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4149116352046792,
+            0.44333333333333336,
+            0.4787927074795607,
+            0.6208333333333333
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4149116352046792,
+                0.44333333333333336,
+                0.4787927074795607,
+                0.6208333333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.4787927074795607,
+            0.44333333333333336,
+            0.6436929404532153,
+            0.6208333333333335
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4787927074795607,
+                0.4809426382660687,
+                0.5844289620339329,
+                0.6049140508221226
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5777927074795607,
+                0.44333333333333336,
+                0.6436929404532153,
+                0.6208333333333335
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6488491904532154,
+            0.38333333333333336,
+            0.7988923647953208,
+            0.5958333333333333
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6488491904532154,
+                0.38333333333333336,
+                0.7988923647953208,
+                0.5958333333333333
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08,
+      "collision": 0.0,
+      "centroid": [
+        0.4718106995884774,
+        0.5033721993598538
+      ],
+      "box_fill": 0.14666666666666667
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.0972442529939372,
+      "group_height_log_error": 0.15295029737100116,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        0,
+        5
+      ]
+    }
+  },
+  {
+    "id": "s030-1",
+    "reference_id": "s030",
+    "score": -0.24979400249598516,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.22808933008900975,
+            0.3881172839506173,
+            0.3509191912001209,
+            0.6111111111111112
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.22808933008900975,
+                0.3881172839506173,
+                0.3509191912001209,
+                0.6111111111111112
+              ]
+            }
+          ]
+        },
+        {
+          "text": "望",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3497559967556764,
+            0.4475308641975309,
+            0.43325723142407974,
+            0.6118827160493828
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3497559967556764,
+                0.4475308641975309,
+                0.43325723142407974,
+                0.6118827160493828
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4364226634223431,
+            0.4475308641975309,
+            0.4955718044176037,
+            0.6118827160493828
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4364226634223431,
+                0.4475308641975309,
+                0.4955718044176037,
+                0.6118827160493828
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.4955718044176037,
+            0.4475308641975309,
+            0.6282074992238558,
+            0.6118827160493828
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4955718044176037,
+                0.4823542946908045,
+                0.5805391678159789,
+                0.5971426396501136
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5752013692097699,
+                0.4475308641975309,
+                0.6282074992238558,
+                0.6118827160493828
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6329818047794114,
+            0.3919753086419754,
+            0.7719106699109903,
+            0.5887345679012346
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6329818047794114,
+                0.3919753086419754,
+                0.7719106699109903,
+                0.5887345679012346
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.06410493827160493,
+      "collision": 0.0,
+      "centroid": [
+        0.47917067886374576,
+        0.5054797696107277
+      ],
+      "box_fill": 0.12037037037037036
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.07959536242093031,
+      "group_height_log_error": 0.07666666677024932,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        0,
+        5
+      ]
+    }
+  },
+  {
+    "id": "s030-3",
+    "reference_id": "s030",
+    "score": -0.19591639860677704,
+    "title": {
+      "id": "generated",
+      "text": "絶望という病",
+      "groups": [
+        {
+          "text": "絶",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1845836229032513,
+            0.370216049382716,
+            0.32706626179214016,
+            0.6288888888888889
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "絶",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.1845836229032513,
+                0.370216049382716,
+                0.32706626179214016,
+                0.6288888888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "望",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.32571695623658464,
+            0.4391358024691358,
+            0.42257838845193246,
+            0.6297839506172841
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "望",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.32571695623658464,
+                0.4391358024691358,
+                0.42257838845193246,
+                0.6297839506172841
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.426250289569918,
+            0.4391358024691358,
+            0.49486329312442034,
+            0.629783950617284
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.426250289569918,
+                0.4391358024691358,
+                0.49486329312442034,
+                0.629783950617284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "いう",
+          "start": 3,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.49486329312442034,
+            0.4391358024691358,
+            0.6487206990996727,
+            0.6297839506172841
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "い",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.49486329312442034,
+                0.47953098184133314,
+                0.5934254346665356,
+                0.6126854619941317
+              ]
+            },
+            {
+              "text": "う",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5872335882833332,
+                0.4391358024691358,
+                0.6487206990996727,
+                0.6297839506172841
+              ]
+            }
+          ]
+        },
+        {
+          "text": "病",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6542588935441171,
+            0.37469135802469133,
+            0.8154163770967487,
+            0.6029320987654321
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "病",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6542588935441171,
+                0.37469135802469133,
+                0.8154163770967487,
+                0.6029320987654321
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0862037037037037,
+      "collision": 0.0,
+      "centroid": [
+        0.47574591240004777,
+        0.5096179602445267
+      ],
+      "box_fill": 0.16419753086419753
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.07959536242092989,
+      "group_height_log_error": 0.07666666677024934,
+      "reference_marked": [
+        5
+      ],
+      "generated_marked": [
+        0,
+        5
+      ]
+    }
+  }
+]

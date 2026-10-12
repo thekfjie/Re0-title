@@ -1,0 +1,7324 @@
+[
+  {
+    "id": "s048-0",
+    "reference_id": "s048",
+    "score": -2.4422598745443262,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.31169548611111114,
+            0.1532253086419753,
+            0.4477877787584264,
+            0.34418209876543215
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f7cee4",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.31169548611111114,
+                0.1532253086419753,
+                0.4477877787584264,
+                0.34418209876543215
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まりの",
+          "start": 1,
+          "end": 4,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.44377686750301515,
+            0.20646604938271607,
+            0.543182119141592,
+            0.30726851851851855
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.44377686750301515,
+                0.20646604938271607,
+                0.47072040351246025,
+                0.30726851851851855
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47248086750301527,
+                0.20646604938271607,
+                0.49300586512749267,
+                0.30726851851851855
+              ]
+            },
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.49460686750301514,
+                0.20646604938271607,
+                0.543182119141592,
+                0.30726851851851855
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.43987256944444453,
+            0.33282407407407416,
+            0.5237267361111112,
+            0.4868672839506174
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.43987256944444453,
+                0.33282407407407416,
+                0.5237267361111112,
+                0.4868672839506174
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりと",
+          "start": 5,
+          "end": 8,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": 2,
+          "ink_bbox": [
+            0.5234392361111112,
+            0.339212962962963,
+            0.6881976286861506,
+            0.48544753086419756
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5234392361111112,
+                0.3498611111111112,
+                0.6076986859614105,
+                0.48544753086419756
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6096892361111111,
+                0.339212962962963,
+                0.653700494108704,
+                0.4740895061728396
+              ]
+            },
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6508975694444444,
+                0.3818055555555556,
+                0.6881976286861506,
+                0.48544753086419756
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 2,
+          "attachment": null,
+          "ink_bbox": [
+            0.35042812500000003,
+            0.5074537037037037,
+            0.4880477874971096,
+            0.6984104938271606
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#f7cee2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.35042812500000003,
+                0.5074537037037037,
+                0.4880477874971096,
+                0.6984104938271606
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりの",
+          "start": 9,
+          "end": 12,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 2,
+          "attachment": 4,
+          "ink_bbox": [
+            0.4899614583333333,
+            0.5727623456790124,
+            0.5838047290496255,
+            0.655817901234568
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4899614583333333,
+                0.5727623456790124,
+                0.5221688610279441,
+                0.655817901234568
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5246454583333334,
+                0.5727623456790124,
+                0.5415569000380084,
+                0.655817901234568
+              ]
+            },
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5437814583333334,
+                0.5727623456790124,
+                0.5838047290496255,
+                0.655817901234568
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 3,
+          "attachment": null,
+          "ink_bbox": [
+            0.4933795138888889,
+            0.6693055555555556,
+            0.5848204861111111,
+            0.8354166666666667
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4933795138888889,
+                0.6693055555555556,
+                0.5848204861111111,
+                0.8354166666666667
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 3,
+          "attachment": 6,
+          "ink_bbox": [
+            0.5876795138888888,
+            0.6799537037037037,
+            0.6883045138888889,
+            0.8467746913580249
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5876795138888888,
+                0.6799537037037037,
+                0.6439664922163737,
+                0.8155401234567902
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6434058840552647,
+                0.7047993827160495,
+                0.6883045138888889,
+                0.8467746913580249
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0875925925925926,
+      "collision": 0.0007047216349541931,
+      "centroid": [
+        0.48074788583509515,
+        0.4914076162138178
+      ],
+      "box_fill": 0.25833333333333336
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.25,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9149965738360177,
+      "group_height_log_error": 0.31883498713732844,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        0,
+        6,
+        8,
+        13
+      ]
+    }
+  },
+  {
+    "id": "s048-2",
+    "reference_id": "s048",
+    "score": -2.4874283584404604,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.27894687500000004,
+            0.09291666666666658,
+            0.43870739245554397,
+            0.3170833333333333
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f7cee4",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.27894687500000004,
+                0.09291666666666658,
+                0.43870739245554397,
+                0.3170833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まりの",
+          "start": 1,
+          "end": 4,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.433998931416583,
+            0.1554166666666666,
+            0.5506920529053471,
+            0.27374999999999994
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.433998931416583,
+                0.1554166666666666,
+                0.4656282997754968,
+                0.27374999999999994
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.467694931416583,
+                0.1554166666666666,
+                0.49178949384531734,
+                0.27374999999999994
+              ]
+            },
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.49366893141658297,
+                0.1554166666666666,
+                0.5506920529053471,
+                0.27374999999999994
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.429415625,
+            0.30375,
+            0.527853125,
+            0.4845833333333333
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.429415625,
+                0.30375,
+                0.527853125,
+                0.4845833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりと",
+          "start": 5,
+          "end": 8,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": 2,
+          "ink_bbox": [
+            0.527515625,
+            0.3112499999999999,
+            0.7209276510663508,
+            0.4829166666666666
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.527515625,
+                0.3237499999999999,
+                0.626428892215569,
+                0.4829166666666666
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6287656250000001,
+                0.3112499999999999,
+                0.6804310148232612,
+                0.46958333333333324
+              ]
+            },
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6771406250000002,
+                0.3612499999999999,
+                0.7209276510663508,
+                0.4829166666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 2,
+          "attachment": null,
+          "ink_bbox": [
+            0.32441562500000004,
+            0.5087499999999999,
+            0.48596914184443296,
+            0.7329166666666667
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#f7cee2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.32441562500000004,
+                0.5087499999999999,
+                0.48596914184443296,
+                0.7329166666666667
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりの",
+          "start": 9,
+          "end": 12,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 2,
+          "attachment": 4,
+          "ink_bbox": [
+            0.488215625,
+            0.5854166666666666,
+            0.5983794645365169,
+            0.6829166666666666
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.488215625,
+                0.5854166666666666,
+                0.5260243151197606,
+                0.6829166666666666
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.528931625,
+                0.5854166666666666,
+                0.5487841870011403,
+                0.6829166666666666
+              ]
+            },
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5513956250000001,
+                0.5854166666666666,
+                0.5983794645365169,
+                0.6829166666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 3,
+          "attachment": null,
+          "ink_bbox": [
+            0.492228125,
+            0.69875,
+            0.5995718750000001,
+            0.89375
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.492228125,
+                0.69875,
+                0.5995718750000001,
+                0.89375
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 3,
+          "attachment": 6,
+          "ink_bbox": [
+            0.602928125,
+            0.7112499999999999,
+            0.7210531250000001,
+            0.9070833333333334
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.602928125,
+                0.7112499999999999,
+                0.6690041430366127,
+                0.8704166666666666
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6683460378040064,
+                0.7404166666666666,
+                0.7210531250000001,
+                0.9070833333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11481481481481481,
+      "collision": 0.00026881720430107527,
+      "centroid": [
+        0.47712925627240144,
+        0.4923855037833532
+      ],
+      "box_fill": 0.35996913580246914
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.25,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9149965738360175,
+      "group_height_log_error": 0.3188349871373285,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        0,
+        6,
+        8,
+        13
+      ]
+    }
+  },
+  {
+    "id": "s048-1",
+    "reference_id": "s048",
+    "score": -2.8804292338856015,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2953211805555556,
+            0.12121913580246917,
+            0.3876272573076477,
+            0.32878086419753094
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f7cee4",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.2953211805555556,
+                0.12121913580246917,
+                0.3876272573076477,
+                0.32878086419753094
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 1,
+          "end": 3,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.39115451388888894,
+            0.12121913580246917,
+            0.5224804366880073,
+            0.311033950617284
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.39115451388888894,
+                0.12121913580246917,
+                0.46465654738296736,
+                0.311033950617284
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4664881919309952,
+                0.12121913580246917,
+                0.5224804366880073,
+                0.311033950617284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 3,
+          "end": 4,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.5239881919309952,
+            0.17908950617283953,
+            0.5973388863754397,
+            0.2886574074074075
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5239881919309952,
+                0.17908950617283953,
+                0.5973388863754397,
+                0.2886574074074075
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.4346440972222223,
+            0.31643518518518526,
+            0.5257899305555557,
+            0.4838734567901235
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4346440972222223,
+                0.31643518518518526,
+                0.5257899305555557,
+                0.4838734567901235
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 5,
+          "end": 7,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": 3,
+          "ink_bbox": [
+            0.5254774305555556,
+            0.3233796296296297,
+            0.6670657544659826,
+            0.4823302469135803
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5254774305555556,
+                0.33495370370370375,
+                0.6170637890884897,
+                0.4823302469135803
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6192274305555556,
+                0.3233796296296297,
+                0.6670657544659826,
+                0.4699845679012346
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 7,
+          "end": 8,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 2,
+          "attachment": 6,
+          "ink_bbox": [
+            0.33742187500000004,
+            0.50625,
+            0.3843129964288256,
+            0.7138117283950618
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.33742187500000004,
+                0.50625,
+                0.3843129964288256,
+                0.7138117283950618
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 2,
+          "attachment": null,
+          "ink_bbox": [
+            0.3843129964288256,
+            0.50625,
+            0.4634281759293459,
+            0.682175925925926
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#f7cee2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3843129964288256,
+                0.50625,
+                0.4634281759293459,
+                0.682175925925926
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 9,
+          "end": 11,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 2,
+          "attachment": 6,
+          "ink_bbox": [
+            0.4634281759293459,
+            0.50625,
+            0.5700995128734736,
+            0.682175925925926
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4634281759293459,
+                0.50625,
+                0.5316489843125795,
+                0.682175925925926
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5342781759293459,
+                0.50625,
+                0.5700995128734736,
+                0.682175925925926
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 11,
+          "end": 12,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g08",
+          "row": 2,
+          "attachment": 6,
+          "ink_bbox": [
+            0.5717781759293459,
+            0.5772376543209877,
+            0.6364483148182347,
+            0.6675154320987655
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5717781759293459,
+                0.5772376543209877,
+                0.6364483148182347,
+                0.6675154320987655
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g09",
+          "row": 3,
+          "attachment": null,
+          "ink_bbox": [
+            0.49280381944444446,
+            0.6858796296296297,
+            0.5921961805555557,
+            0.8664351851851851
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.49280381944444446,
+                0.6858796296296297,
+                0.5921961805555557,
+                0.8664351851851851
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g10",
+          "row": 3,
+          "attachment": 9,
+          "ink_bbox": [
+            0.5953038194444444,
+            0.6974537037037037,
+            0.7046788194444444,
+            0.8787808641975309
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5953038194444444,
+                0.6974537037037037,
+                0.6564853176264932,
+                0.8448302469135803
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6558759609296355,
+                0.72445987654321,
+                0.7046788194444444,
+                0.8787808641975309
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10046296296296296,
+      "collision": 0.00030721966205837174,
+      "centroid": [
+        0.4870890937019969,
+        0.48254650964328377
+      ],
+      "box_fill": 0.3115432098765432
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.25,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9198975434171871,
+      "group_height_log_error": 0.1615964643733799,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        0,
+        5,
+        8,
+        13
+      ]
+    }
+  },
+  {
+    "id": "s048-3",
+    "reference_id": "s048",
+    "score": -2.975499723242024,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.263787653531218,
+            0.06500000000000009,
+            0.3703147238070817,
+            0.3045394063459571
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f7cee4",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.263787653531218,
+                0.06500000000000009,
+                0.3703147238070817,
+                0.3045394063459571
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 1,
+          "end": 3,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.37438540174002044,
+            0.06500000000000009,
+            0.5259438505368083,
+            0.2840583418628455
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.37438540174002044,
+                0.06500000000000009,
+                0.4592114127996348,
+                0.2840583418628455
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4613252468434346,
+                0.06500000000000009,
+                0.5259438505368083,
+                0.2840583418628455
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 3,
+          "end": 4,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.5276838957687161,
+            0.13178607983623342,
+            0.6123352519611419,
+            0.2582343909928353
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5276838957687161,
+                0.13178607983623342,
+                0.6123352519611419,
+                0.2582343909928353
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.42457514073694985,
+            0.2902917093142273,
+            0.5297632164790174,
+            0.4835261003070625
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.42457514073694985,
+                0.2902917093142273,
+                0.5297632164790174,
+                0.4835261003070625
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 5,
+          "end": 7,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": 3,
+          "ink_bbox": [
+            0.5294025716479017,
+            0.2983060388945753,
+            0.6928044825747026,
+            0.4817451381780963
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5294025716479017,
+                0.311663254861822,
+                0.6350990414258484,
+                0.4817451381780963
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6375960209825997,
+                0.2983060388945753,
+                0.6928044825747026,
+                0.46749744114636643
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 7,
+          "end": 8,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 2,
+          "attachment": 6,
+          "ink_bbox": [
+            0.3123745266120777,
+            0.5093500511770727,
+            0.3664898564313504,
+            0.7488894575230296
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3123745266120777,
+                0.5093500511770727,
+                0.3664898564313504,
+                0.7488894575230296
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 2,
+          "attachment": null,
+          "ink_bbox": [
+            0.36648985643135046,
+            0.5093500511770727,
+            0.45779379419023136,
+            0.7123797338792222
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#f7cee2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.36648985643135046,
+                0.5093500511770727,
+                0.45779379419023136,
+                0.7123797338792222
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 9,
+          "end": 11,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 2,
+          "attachment": 6,
+          "ink_bbox": [
+            0.45779379419023136,
+            0.5093500511770727,
+            0.5808992863409405,
+            0.7123797338792222
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.45779379419023136,
+                0.5093500511770727,
+                0.5365249363276556,
+                0.7123797338792222
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5395591903007737,
+                0.5093500511770727,
+                0.5808992863409405,
+                0.7123797338792222
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 11,
+          "end": 12,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g08",
+          "row": 2,
+          "attachment": 6,
+          "ink_bbox": [
+            0.5828365700346531,
+            0.591274309109519,
+            0.6574700142516438,
+            0.695460593654043
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5828365700346531,
+                0.591274309109519,
+                0.6574700142516438,
+                0.695460593654043
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g09",
+          "row": 3,
+          "attachment": null,
+          "ink_bbox": [
+            0.4916951509723644,
+            0.7123797338792223,
+            0.6064002430910952,
+            0.9207523029682703
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4916951509723644,
+                0.7123797338792223,
+                0.6064002430910952,
+                0.9207523029682703
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g10",
+          "row": 3,
+          "attachment": 9,
+          "ink_bbox": [
+            0.6099866555783009,
+            0.7257369498464687,
+            0.736212346468782,
+            0.935
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6099866555783009,
+                0.7257369498464687,
+                0.6805939870319585,
+                0.8958188331627431
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6798907507342709,
+                0.7569037871033777,
+                0.736212346468782,
+                0.935
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.12969135802469137,
+      "collision": 0.0,
+      "centroid": [
+        0.4857994209106774,
+        0.48343117034216515
+      ],
+      "box_fill": 0.4116666666666667
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.25,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9149965738360175,
+      "group_height_log_error": 0.16159646437337985,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        0,
+        5,
+        8,
+        13
+      ]
+    }
+  },
+  {
+    "id": "s005-0",
+    "reference_id": "s005",
+    "score": -1.456503282141311,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.3893163801080109,
+            0.1800858093195114,
+            0.605652546260535
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.3893163801080109,
+                0.1800858093195114,
+                0.605652546260535
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まりの",
+          "start": 1,
+          "end": 4,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.18511688295096537,
+            0.43459604279109737,
+            0.34160883031926736,
+            0.5961494071788996
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.18511688295096537,
+                0.43459604279109737,
+                0.22829855229048898,
+                0.5961494071788996
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22938228118995074,
+                0.43459604279109737,
+                0.262277134348942,
+                0.5961494071788996
+              ]
+            },
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.26375860109895,
+                0.43459604279109737,
+                0.34160883031926736,
+                0.5961494071788996
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3428470785854076,
+            0.43459604279109737,
+            0.4154988117235669,
+            0.5961494071788996
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a9d6f9",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3428470785854076,
+                0.43459604279109737,
+                0.4154988117235669,
+                0.5961494071788996
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりと",
+          "start": 5,
+          "end": 8,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.41769990643732796,
+            0.43850910006000604,
+            0.52586798951359,
+            0.5793791617407195
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.41769990643732796,
+                0.43850910006000604,
+                0.47032281993007274,
+                0.5592548672149034
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47221160381695476,
+                0.43850910006000604,
+                0.49984280842854617,
+                0.5592548672149034
+              ]
+            },
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4970858734950368,
+                0.4653414927610943,
+                0.52586798951359,
+                0.5793791617407195
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5305846210430781,
+            0.42788794461582524,
+            0.6205150622053194,
+            0.595590398997627
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5305846210430781,
+                0.42788794461582524,
+                0.6205150622053194,
+                0.595590398997627
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりの",
+          "start": 9,
+          "end": 12,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6283761147544663,
+            0.47652165638654775,
+            0.7687053847759894,
+            0.6045345298979898
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6283761147544663,
+                0.47652165638654775,
+                0.67801713081533,
+                0.6045345298979898
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.679705140372013,
+                0.47652165638654775,
+                0.7057706122523211,
+                0.6045345298979898
+              ]
+            },
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7070178329024507,
+                0.47652165638654775,
+                0.7687053847759894,
+                0.6045345298979898
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7727931321015458,
+            0.41167670735891776,
+            0.8642957837736164,
+            0.574907096290538
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7727931321015458,
+                0.41167670735891776,
+                0.8642957837736164,
+                0.574907096290538
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.8693268574050703,
+            0.4731676072989117,
+            0.935,
+            0.6106836198919892
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8693268574050703,
+                0.4731676072989117,
+                0.906083572483004,
+                0.6106836198919892
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.9069995367573983,
+                0.4731676072989117,
+                0.935,
+                0.6106836198919892
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0840432098765432,
+      "collision": 0.0,
+      "centroid": [
+        0.4644831068674256,
+        0.5128031446797514
+      ],
+      "box_fill": 0.1935185185185185
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0642884543853677,
+      "group_height_log_error": 0.1470059350332988,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        4
+      ]
+    }
+  },
+  {
+    "id": "s005-2",
+    "reference_id": "s005",
+    "score": -1.456503282141311,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.3893163801080109,
+            0.1800858093195114,
+            0.605652546260535
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.3893163801080109,
+                0.1800858093195114,
+                0.605652546260535
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まりの",
+          "start": 1,
+          "end": 4,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.18511688295096537,
+            0.43459604279109737,
+            0.34160883031926736,
+            0.5961494071788996
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.18511688295096537,
+                0.43459604279109737,
+                0.22829855229048898,
+                0.5961494071788996
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22938228118995074,
+                0.43459604279109737,
+                0.262277134348942,
+                0.5961494071788996
+              ]
+            },
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.26375860109895,
+                0.43459604279109737,
+                0.34160883031926736,
+                0.5961494071788996
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3428470785854076,
+            0.43459604279109737,
+            0.4154988117235669,
+            0.5961494071788996
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a9d6f9",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3428470785854076,
+                0.43459604279109737,
+                0.4154988117235669,
+                0.5961494071788996
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりと",
+          "start": 5,
+          "end": 8,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.41769990643732796,
+            0.43850910006000604,
+            0.52586798951359,
+            0.5793791617407195
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.41769990643732796,
+                0.43850910006000604,
+                0.47032281993007274,
+                0.5592548672149034
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47221160381695476,
+                0.43850910006000604,
+                0.49984280842854617,
+                0.5592548672149034
+              ]
+            },
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4970858734950368,
+                0.4653414927610943,
+                0.52586798951359,
+                0.5793791617407195
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5305846210430781,
+            0.42788794461582524,
+            0.6205150622053194,
+            0.595590398997627
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5305846210430781,
+                0.42788794461582524,
+                0.6205150622053194,
+                0.595590398997627
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりの",
+          "start": 9,
+          "end": 12,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6283761147544663,
+            0.47652165638654775,
+            0.7687053847759894,
+            0.6045345298979898
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6283761147544663,
+                0.47652165638654775,
+                0.67801713081533,
+                0.6045345298979898
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.679705140372013,
+                0.47652165638654775,
+                0.7057706122523211,
+                0.6045345298979898
+              ]
+            },
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7070178329024507,
+                0.47652165638654775,
+                0.7687053847759894,
+                0.6045345298979898
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7727931321015458,
+            0.41167670735891776,
+            0.8642957837736164,
+            0.574907096290538
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7727931321015458,
+                0.41167670735891776,
+                0.8642957837736164,
+                0.574907096290538
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.8693268574050703,
+            0.4731676072989117,
+            0.935,
+            0.6106836198919892
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8693268574050703,
+                0.4731676072989117,
+                0.906083572483004,
+                0.6106836198919892
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.9069995367573983,
+                0.4731676072989117,
+                0.935,
+                0.6106836198919892
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0840432098765432,
+      "collision": 0.0,
+      "centroid": [
+        0.4644831068674256,
+        0.5128031446797514
+      ],
+      "box_fill": 0.1935185185185185
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0642884543853677,
+      "group_height_log_error": 0.1470059350332988,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        4
+      ]
+    }
+  },
+  {
+    "id": "s005-1",
+    "reference_id": "s005",
+    "score": -1.6227098332602163,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.3954994518582152,
+            0.17365681994287852,
+            0.5997505232262492
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.3954994518582152,
+                0.17365681994287852,
+                0.5997505232262492
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 1,
+          "end": 3,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.17840684485841418,
+            0.4382496760980362,
+            0.25125672611198224,
+            0.5907782539413484
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.17840684485841418,
+                0.4382496760980362,
+                0.21917627506011034,
+                0.5907782539413484
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22019946407526325,
+                0.4382496760980362,
+                0.25125672611198224,
+                0.5907782539413484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 3,
+          "end": 4,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.25268963449752724,
+            0.4382496760980362,
+            0.3261909496372534,
+            0.5907782539413484
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.25268963449752724,
+                0.4382496760980362,
+                0.3261909496372534,
+                0.5907782539413484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.327360026169748,
+            0.4382496760980362,
+            0.3959532465920393,
+            0.5907782539413484
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a9d6f9",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.327360026169748,
+                0.4382496760980362,
+                0.3959532465920393,
+                0.5907782539413484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 5,
+          "end": 7,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.39803138249258607,
+            0.4419441399212306,
+            0.500156918176603,
+            0.5749448375562295
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.39803138249258607,
+                0.4419441399212306,
+                0.4647016165355077,
+                0.5559447378940868
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4670945981368073,
+                0.46727760613742086,
+                0.500156918176603,
+                0.5749448375562295
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 7,
+          "end": 8,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.5046100665349178,
+            0.4319163095439887,
+            0.5401677175021624,
+            0.5902504733951778
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5046100665349178,
+                0.4319163095439887,
+                0.5401677175021624,
+                0.5902504733951778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5401677175021624,
+            0.4319163095439887,
+            0.6113717525426031,
+            0.5902504733951778
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5401677175021624,
+                0.4319163095439887,
+                0.6113717525426031,
+                0.5902504733951778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 9,
+          "end": 11,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.6113717525426031,
+            0.4319163095439887,
+            0.7067446560564264,
+            0.5902504733951778
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6113717525426031,
+                0.4319163095439887,
+                0.672770802146921,
+                0.5902504733951778
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6745052836999708,
+                0.4319163095439887,
+                0.7067446560564264,
+                0.5902504733951778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 11,
+          "end": 12,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g08",
+          "row": 0,
+          "attachment": 9,
+          "ink_bbox": [
+            0.714166569986951,
+            0.47783321706083354,
+            0.7779950297894616,
+            0.5986949621339079
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.714166569986951,
+                0.47783321706083354,
+                0.7779950297894616,
+                0.5986949621339079
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g09",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7818544250333341,
+            0.4166106737050404,
+            0.8682455031846393,
+            0.5707225931868645
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7818544250333341,
+                0.4166106737050404,
+                0.8682455031846393,
+                0.5707225931868645
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g10",
+          "row": 0,
+          "attachment": 9,
+          "ink_bbox": [
+            0.8729955281001751,
+            0.47466653378380974,
+            0.935,
+            0.6045005481417848
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8729955281001751,
+                0.47466653378380974,
+                0.9076989185140756,
+                0.6045005481417848
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.9085637146677062,
+                0.47466653378380974,
+                0.935,
+                0.6045005481417848
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.07978395061728395,
+      "collision": 0.0,
+      "centroid": [
+        0.46514990328820116,
+        0.5081166272655635
+      ],
+      "box_fill": 0.18617283950617283
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.1217719979291243,
+      "group_height_log_error": 0.0849592353861175,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        4
+      ]
+    }
+  },
+  {
+    "id": "s005-3",
+    "reference_id": "s005",
+    "score": -1.6227098332602163,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.3954994518582152,
+            0.17365681994287852,
+            0.5997505232262492
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.3954994518582152,
+                0.17365681994287852,
+                0.5997505232262492
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 1,
+          "end": 3,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.17840684485841418,
+            0.4382496760980362,
+            0.25125672611198224,
+            0.5907782539413484
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.17840684485841418,
+                0.4382496760980362,
+                0.21917627506011034,
+                0.5907782539413484
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22019946407526325,
+                0.4382496760980362,
+                0.25125672611198224,
+                0.5907782539413484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 3,
+          "end": 4,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.25268963449752724,
+            0.4382496760980362,
+            0.3261909496372534,
+            0.5907782539413484
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.25268963449752724,
+                0.4382496760980362,
+                0.3261909496372534,
+                0.5907782539413484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.327360026169748,
+            0.4382496760980362,
+            0.3959532465920393,
+            0.5907782539413484
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a9d6f9",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.327360026169748,
+                0.4382496760980362,
+                0.3959532465920393,
+                0.5907782539413484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 5,
+          "end": 7,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.39803138249258607,
+            0.4419441399212306,
+            0.500156918176603,
+            0.5749448375562295
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.39803138249258607,
+                0.4419441399212306,
+                0.4647016165355077,
+                0.5559447378940868
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4670945981368073,
+                0.46727760613742086,
+                0.500156918176603,
+                0.5749448375562295
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 7,
+          "end": 8,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.5046100665349178,
+            0.4319163095439887,
+            0.5401677175021624,
+            0.5902504733951778
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5046100665349178,
+                0.4319163095439887,
+                0.5401677175021624,
+                0.5902504733951778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5401677175021624,
+            0.4319163095439887,
+            0.6113717525426031,
+            0.5902504733951778
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5401677175021624,
+                0.4319163095439887,
+                0.6113717525426031,
+                0.5902504733951778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 9,
+          "end": 11,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.6113717525426031,
+            0.4319163095439887,
+            0.7067446560564264,
+            0.5902504733951778
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6113717525426031,
+                0.4319163095439887,
+                0.672770802146921,
+                0.5902504733951778
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6745052836999708,
+                0.4319163095439887,
+                0.7067446560564264,
+                0.5902504733951778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 11,
+          "end": 12,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g08",
+          "row": 0,
+          "attachment": 9,
+          "ink_bbox": [
+            0.714166569986951,
+            0.47783321706083354,
+            0.7779950297894616,
+            0.5986949621339079
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.714166569986951,
+                0.47783321706083354,
+                0.7779950297894616,
+                0.5986949621339079
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g09",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7818544250333341,
+            0.4166106737050404,
+            0.8682455031846393,
+            0.5707225931868645
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7818544250333341,
+                0.4166106737050404,
+                0.8682455031846393,
+                0.5707225931868645
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g10",
+          "row": 0,
+          "attachment": 9,
+          "ink_bbox": [
+            0.8729955281001751,
+            0.47466653378380974,
+            0.935,
+            0.6045005481417848
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8729955281001751,
+                0.47466653378380974,
+                0.9076989185140756,
+                0.6045005481417848
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.9085637146677062,
+                0.47466653378380974,
+                0.935,
+                0.6045005481417848
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.07978395061728395,
+      "collision": 0.0,
+      "centroid": [
+        0.46514990328820116,
+        0.5081166272655635
+      ],
+      "box_fill": 0.18617283950617283
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.1217719979291243,
+      "group_height_log_error": 0.0849592353861175,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        4
+      ]
+    }
+  },
+  {
+    "id": "s024-0",
+    "reference_id": "s024",
+    "score": -2.202511541626726,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.26002028398331295,
+            0.20502032528522846,
+            0.4564886610559289
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.26002028398331295,
+                0.20502032528522846,
+                0.4564886610559289
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まりの",
+          "start": 1,
+          "end": 4,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.20892433345735759,
+            0.320882770359069,
+            0.4419503465669924,
+            0.4714373419201496
+          ],
+          "reference_groups": [
+            "g01",
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20892433345735759,
+                0.320882770359069,
+                0.2734143930730654,
+                0.4714373419201496
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2745116707491262,
+                0.320882770359069,
+                0.3236387905136144,
+                0.4714373419201496
+              ]
+            },
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3256842086361105,
+                0.320882770359069,
+                0.4419503465669924,
+                0.4714373419201496
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.13136813892619453,
+            0.5280287766204139,
+            0.27449895962894205,
+            0.7266326795307756
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.13136813892619453,
+                0.5280287766204139,
+                0.27449895962894205,
+                0.7266326795307756
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりと",
+          "start": 5,
+          "end": 8,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": 2,
+          "ink_bbox": [
+            0.2714958764196119,
+            0.5856879742395512,
+            0.38392225299777766,
+            0.7218277463958475
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2714958764196119,
+                0.5856879742395512,
+                0.3242883529163525,
+                0.7218277463958475
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3259146271325537,
+                0.5856879742395512,
+                0.353634865774133,
+                0.7218277463958475
+              ]
+            },
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.35334887335973925,
+                0.5856879742395512,
+                0.38392225299777766,
+                0.7218277463958475
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3881265694908398,
+            0.5066735182429557,
+            0.5160579142083006,
+            0.7399797160166871
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.3881265694908398,
+                0.5066735182429557,
+                0.5160579142083006,
+                0.7399797160166871
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりの",
+          "start": 9,
+          "end": 12,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5214634639850947,
+            0.5232238434854858,
+            0.7441264996421879,
+            0.7277004424496484
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5214634639850947,
+                0.5232238434854858,
+                0.600755693390003,
+                0.7277004424496484
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6024169774423633,
+                0.5232238434854858,
+                0.6440516888138335,
+                0.7277004424496484
+              ]
+            },
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6455921846195732,
+                0.5232238434854858,
+                0.7441264996421879,
+                0.7277004424496484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.7441894125482981,
+            0.5232238434854858,
+            0.8351234820607092,
+            0.7277004424496484
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7441894125482981,
+                0.5232238434854858,
+                0.8351234820607092,
+                0.7277004424496484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.8375973126913003,
+            0.5232238434854858,
+            0.9349999999999998,
+            0.7277004424496484
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8375973126913003,
+                0.5232238434854858,
+                0.8922519521511488,
+                0.7277004424496484
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8933652886285298,
+                0.5232238434854858,
+                0.9349999999999998,
+                0.7277004424496484
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13061728395061728,
+      "collision": 0.0,
+      "centroid": [
+        0.4365971565847511,
+        0.5556885808303578
+      ],
+      "box_fill": 0.4108641975308642
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2904099115230386,
+      "group_height_log_error": 0.20597604003768813,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        8
+      ]
+    }
+  },
+  {
+    "id": "s024-2",
+    "reference_id": "s024",
+    "score": -2.202511541626726,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.26002028398331295,
+            0.20502032528522846,
+            0.4564886610559289
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.26002028398331295,
+                0.20502032528522846,
+                0.4564886610559289
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まりの",
+          "start": 1,
+          "end": 4,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.20892433345735759,
+            0.320882770359069,
+            0.4419503465669924,
+            0.4714373419201496
+          ],
+          "reference_groups": [
+            "g01",
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20892433345735759,
+                0.320882770359069,
+                0.2734143930730654,
+                0.4714373419201496
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2745116707491262,
+                0.320882770359069,
+                0.3236387905136144,
+                0.4714373419201496
+              ]
+            },
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3256842086361105,
+                0.320882770359069,
+                0.4419503465669924,
+                0.4714373419201496
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.13136813892619453,
+            0.5280287766204139,
+            0.27449895962894205,
+            0.7266326795307756
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.13136813892619453,
+                0.5280287766204139,
+                0.27449895962894205,
+                0.7266326795307756
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりと",
+          "start": 5,
+          "end": 8,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": 2,
+          "ink_bbox": [
+            0.2714958764196119,
+            0.5856879742395512,
+            0.38392225299777766,
+            0.7218277463958475
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2714958764196119,
+                0.5856879742395512,
+                0.3242883529163525,
+                0.7218277463958475
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3259146271325537,
+                0.5856879742395512,
+                0.353634865774133,
+                0.7218277463958475
+              ]
+            },
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.35334887335973925,
+                0.5856879742395512,
+                0.38392225299777766,
+                0.7218277463958475
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3881265694908398,
+            0.5066735182429557,
+            0.5160579142083006,
+            0.7399797160166871
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.3881265694908398,
+                0.5066735182429557,
+                0.5160579142083006,
+                0.7399797160166871
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりの",
+          "start": 9,
+          "end": 12,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5214634639850947,
+            0.5232238434854858,
+            0.7441264996421879,
+            0.7277004424496484
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5214634639850947,
+                0.5232238434854858,
+                0.600755693390003,
+                0.7277004424496484
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6024169774423633,
+                0.5232238434854858,
+                0.6440516888138335,
+                0.7277004424496484
+              ]
+            },
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6455921846195732,
+                0.5232238434854858,
+                0.7441264996421879,
+                0.7277004424496484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.7441894125482981,
+            0.5232238434854858,
+            0.8351234820607092,
+            0.7277004424496484
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7441894125482981,
+                0.5232238434854858,
+                0.8351234820607092,
+                0.7277004424496484
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.8375973126913003,
+            0.5232238434854858,
+            0.9349999999999998,
+            0.7277004424496484
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8375973126913003,
+                0.5232238434854858,
+                0.8922519521511488,
+                0.7277004424496484
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8933652886285298,
+                0.5232238434854858,
+                0.9349999999999998,
+                0.7277004424496484
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13061728395061728,
+      "collision": 0.0,
+      "centroid": [
+        0.4365971565847511,
+        0.5556885808303578
+      ],
+      "box_fill": 0.4108641975308642
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2904099115230386,
+      "group_height_log_error": 0.20597604003768813,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        8
+      ]
+    }
+  },
+  {
+    "id": "s024-1",
+    "reference_id": "s024",
+    "score": -2.841757000255818,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.27188368535218604,
+            0.20269330020620321,
+            0.4650869161701275
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.27188368535218604,
+                0.20269330020620321,
+                0.4650869161701275
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 1,
+          "end": 3,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.20653242690554072,
+            0.2545583956320989,
+            0.3677278980975578,
+            0.48031217077262833
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#6c6d6b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.20653242690554072,
+                0.2545583956320989,
+                0.3032340698136556,
+                0.48031217077262833
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3043415625071235,
+                0.26505857122003046,
+                0.3677278980975578,
+                0.4593118195967651
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 3,
+          "end": 4,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.38219845257967605,
+            0.3317346862033961,
+            0.4535427988924317,
+            0.4797871619932317
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.38219845257967605,
+                0.3317346862033961,
+                0.4535427988924317,
+                0.4797871619932317
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.13026515388873733,
+            0.5354380926092691,
+            0.22078488493832496,
+            0.7307413585447969
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.13026515388873733,
+                0.5354380926092691,
+                0.22078488493832496,
+                0.7307413585447969
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 5,
+          "end": 7,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": 3,
+          "ink_bbox": [
+            0.22078488493832496,
+            0.5422632067414248,
+            0.3529345024503119,
+            0.7454416043679012
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22078488493832496,
+                0.5422632067414248,
+                0.3062243340199065,
+                0.7454416043679012
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3080720130368302,
+                0.5422632067414248,
+                0.3529345024503119,
+                0.7454416043679012
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 7,
+          "end": 8,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.3522141877816021,
+            0.5921390407840997,
+            0.40039571772133714,
+            0.7260162795302277
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3522141877816021,
+                0.5921390407840997,
+                0.40039571772133714,
+                0.7260162795302277
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.4045301618590853,
+            0.5144377414334059,
+            0.5077059927912181,
+            0.7438665780297115
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.4045301618590853,
+                0.5144377414334059,
+                0.5077059927912181,
+                0.7438665780297115
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 9,
+          "end": 11,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.5077059927912182,
+            0.5144377414334059,
+            0.6450861956240814,
+            0.7438665780297115
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5077059927912182,
+                0.5144377414334059,
+                0.5966742367646221,
+                0.7438665780297115
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5983708089227724,
+                0.5144377414334059,
+                0.6450861956240814,
+                0.7438665780297115
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 11,
+          "end": 12,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g08",
+          "row": 1,
+          "attachment": 9,
+          "ink_bbox": [
+            0.6504019095154717,
+            0.5307130135947,
+            0.7472986635501719,
+            0.7317913761035901
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6504019095154717,
+                0.5307130135947,
+                0.7472986635501719,
+                0.7317913761035901
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g09",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.747360530894432,
+            0.5307130135947,
+            0.8367833493805215,
+            0.7317913761035901
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.747360530894432,
+                0.5307130135947,
+                0.8367833493805215,
+                0.7317913761035901
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g10",
+          "row": 1,
+          "attachment": 9,
+          "ink_bbox": [
+            0.8392160669376577,
+            0.5307130135947,
+            0.935,
+            0.7317913761035901
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8392160669376577,
+                0.5307130135947,
+                0.8929623902909046,
+                0.7317913761035901
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8940572240123538,
+                0.5307130135947,
+                0.935,
+                0.7317913761035901
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13012345679012347,
+      "collision": 0.0,
+      "centroid": [
+        0.43306056293485135,
+        0.5530342961557383
+      ],
+      "box_fill": 0.42574074074074075
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.26790525983760555,
+      "group_height_log_error": 0.09854701099981412,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        1,
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "id": "s024-3",
+    "reference_id": "s024",
+    "score": -2.841757000255818,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.27188368535218604,
+            0.20269330020620321,
+            0.4650869161701275
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.27188368535218604,
+                0.20269330020620321,
+                0.4650869161701275
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 1,
+          "end": 3,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.20653242690554072,
+            0.2545583956320989,
+            0.3677278980975578,
+            0.48031217077262833
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#6c6d6b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.20653242690554072,
+                0.2545583956320989,
+                0.3032340698136556,
+                0.48031217077262833
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3043415625071235,
+                0.26505857122003046,
+                0.3677278980975578,
+                0.4593118195967651
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 3,
+          "end": 4,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.38219845257967605,
+            0.3317346862033961,
+            0.4535427988924317,
+            0.4797871619932317
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.38219845257967605,
+                0.3317346862033961,
+                0.4535427988924317,
+                0.4797871619932317
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.13026515388873733,
+            0.5354380926092691,
+            0.22078488493832496,
+            0.7307413585447969
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.13026515388873733,
+                0.5354380926092691,
+                0.22078488493832496,
+                0.7307413585447969
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 5,
+          "end": 7,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": 3,
+          "ink_bbox": [
+            0.22078488493832496,
+            0.5422632067414248,
+            0.3529345024503119,
+            0.7454416043679012
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22078488493832496,
+                0.5422632067414248,
+                0.3062243340199065,
+                0.7454416043679012
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3080720130368302,
+                0.5422632067414248,
+                0.3529345024503119,
+                0.7454416043679012
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 7,
+          "end": 8,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.3522141877816021,
+            0.5921390407840997,
+            0.40039571772133714,
+            0.7260162795302277
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3522141877816021,
+                0.5921390407840997,
+                0.40039571772133714,
+                0.7260162795302277
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.4045301618590853,
+            0.5144377414334059,
+            0.5077059927912181,
+            0.7438665780297115
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.4045301618590853,
+                0.5144377414334059,
+                0.5077059927912181,
+                0.7438665780297115
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 9,
+          "end": 11,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.5077059927912182,
+            0.5144377414334059,
+            0.6450861956240814,
+            0.7438665780297115
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5077059927912182,
+                0.5144377414334059,
+                0.5966742367646221,
+                0.7438665780297115
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5983708089227724,
+                0.5144377414334059,
+                0.6450861956240814,
+                0.7438665780297115
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 11,
+          "end": 12,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g08",
+          "row": 1,
+          "attachment": 9,
+          "ink_bbox": [
+            0.6504019095154717,
+            0.5307130135947,
+            0.7472986635501719,
+            0.7317913761035901
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6504019095154717,
+                0.5307130135947,
+                0.7472986635501719,
+                0.7317913761035901
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g09",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.747360530894432,
+            0.5307130135947,
+            0.8367833493805215,
+            0.7317913761035901
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.747360530894432,
+                0.5307130135947,
+                0.8367833493805215,
+                0.7317913761035901
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g10",
+          "row": 1,
+          "attachment": 9,
+          "ink_bbox": [
+            0.8392160669376577,
+            0.5307130135947,
+            0.935,
+            0.7317913761035901
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8392160669376577,
+                0.5307130135947,
+                0.8929623902909046,
+                0.7317913761035901
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8940572240123538,
+                0.5307130135947,
+                0.935,
+                0.7317913761035901
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13012345679012347,
+      "collision": 0.0,
+      "centroid": [
+        0.43306056293485135,
+        0.5530342961557383
+      ],
+      "box_fill": 0.42574074074074075
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.26790525983760555,
+      "group_height_log_error": 0.09854701099981412,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        1,
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "id": "s051-0",
+    "reference_id": "s051",
+    "score": -3.5144587155577987,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.15833551191869527,
+            0.25615740740740744,
+            0.29529731747425086,
+            0.49112654320987664
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.15833551191869527,
+                0.25615740740740744,
+                0.29529731747425086,
+                0.49112654320987664
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まりの",
+          "start": 1,
+          "end": 4,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.2921028730298065,
+            0.32643518518518516,
+            0.4132186602489076,
+            0.4499537037037037
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2921028730298065,
+                0.32643518518518516,
+                0.3251181918019434,
+                0.4499537037037037
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.32678687302980647,
+                0.32643518518518516,
+                0.3519372222316309,
+                0.4499537037037037
+              ]
+            },
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.35369687302980646,
+                0.32643518518518516,
+                0.4132186602489076,
+                0.4499537037037037
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.4157968730298065,
+            0.2802932098765432,
+            0.5605788971438659,
+            0.4811882716049383
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.4157968730298065,
+                0.2802932098765432,
+                0.5605788971438659,
+                0.4811882716049383
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりと",
+          "start": 5,
+          "end": 8,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.5614635396964731,
+            0.31933641975308646,
+            0.6671416178955253,
+            0.44640432098765437
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5614635396964731,
+                0.31933641975308646,
+                0.6107381130497666,
+                0.44640432098765437
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6128915396964731,
+                0.31933641975308646,
+                0.638764600082258,
+                0.44640432098765437
+              ]
+            },
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6386055396964732,
+                0.31933641975308646,
+                0.6671416178955253,
+                0.44640432098765437
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6700388730298065,
+            0.38109567901234576,
+            0.7195205598577634,
+            0.49112654320987664
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6700388730298065,
+                0.38109567901234576,
+                0.7195205598577634,
+                0.49112654320987664
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりの",
+          "start": 9,
+          "end": 12,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.7198722063631399,
+            0.38109567901234576,
+            0.8416644880813047,
+            0.49112654320987664
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7198722063631399,
+                0.38109567901234576,
+                0.7625401330098464,
+                0.49112654320987664
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7647222063631399,
+                0.38109567901234576,
+                0.7871262530659145,
+                0.49112654320987664
+              ]
+            },
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7886422063631399,
+                0.38109567901234576,
+                0.8416644880813047,
+                0.49112654320987664
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.26934245636313975,
+            0.4904166666666668,
+            0.3995160674742509,
+            0.7438425925925926
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.26934245636313975,
+                0.4904166666666668,
+                0.3995160674742509,
+                0.7438425925925926
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.40470703969647315,
+            0.5195216049382717,
+            0.538420264626791,
+            0.7268055555555556
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.40470703969647315,
+                0.5195216049382717,
+                0.48528708938163645,
+                0.7076388888888889
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.48329037302980643,
+                0.557854938271605,
+                0.538420264626791,
+                0.7268055555555556
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10669753086419753,
+      "collision": 0.0,
+      "centroid": [
+        0.4168691543727702,
+        0.46679308756254084
+      ],
+      "box_fill": 0.32901234567901233
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.5,
+      "aspect_log_error": 0.03292460535087902,
+      "group_height_log_error": 0.43773649701038525,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        0,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s051-2",
+    "reference_id": "s051",
+    "score": -4.104418310673233,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.09891560094803367,
+            0.21375000000000005,
+            0.25969685094803374,
+            0.4895833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.09891560094803367,
+                0.21375000000000005,
+                0.25969685094803374,
+                0.4895833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まりの",
+          "start": 1,
+          "end": 4,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.25594685094803377,
+            0.29625000000000007,
+            0.3981262533356742,
+            0.44125
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.25594685094803377,
+                0.29625000000000007,
+                0.294703964289238,
+                0.44125
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29666285094803374,
+                0.29625000000000007,
+                0.32618717392408847,
+                0.44125
+              ]
+            },
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.32825285094803375,
+                0.29625000000000007,
+                0.3981262533356742,
+                0.44125
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.40115285094803377,
+            0.24208333333333337,
+            0.5711143575167124,
+            0.4779166666666668
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.40115285094803377,
+                0.24208333333333337,
+                0.5711143575167124,
+                0.4779166666666668
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりと",
+          "start": 5,
+          "end": 8,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.5721528509480338,
+            0.2879166666666667,
+            0.6962097253556169,
+            0.4370833333333333
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5721528509480338,
+                0.2879166666666667,
+                0.6299969153192913,
+                0.4370833333333333
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6325248509480339,
+                0.2879166666666667,
+                0.6628975740096075,
+                0.4370833333333333
+              ]
+            },
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6627108509480338,
+                0.2879166666666667,
+                0.6962097253556169,
+                0.4370833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6996108509480339,
+            0.36041666666666666,
+            0.7576980485286791,
+            0.4895833333333333
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6996108509480339,
+                0.36041666666666666,
+                0.7576980485286791,
+                0.4895833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わりの",
+          "start": 9,
+          "end": 12,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.7581108509480339,
+            0.36041666666666666,
+            0.9010843990519664,
+            0.4895833333333333
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7581108509480339,
+                0.36041666666666666,
+                0.8081992865767764,
+                0.4895833333333333
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.810760850948034,
+                0.36041666666666666,
+                0.8370612535991172,
+                0.4895833333333333
+              ]
+            },
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8388408509480337,
+                0.36041666666666666,
+                0.9010843990519664,
+                0.4895833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.22922810094803373,
+            0.4887500000000001,
+            0.38204060094803377,
+            0.78625
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22922810094803373,
+                0.4887500000000001,
+                0.38204060094803377,
+                0.78625
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.3881343509480338,
+            0.5229166666666667,
+            0.5451020497792767,
+            0.76625
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3881343509480338,
+                0.5229166666666667,
+                0.4827283223175733,
+                0.74375
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4803843509480338,
+                0.5679166666666666,
+                0.5451020497792767,
+                0.76625
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.14123456790123456,
+      "collision": 0.0,
+      "centroid": [
+        0.40005281177156177,
+        0.46458171458171454
+      ],
+      "box_fill": 0.4562962962962963
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.5,
+      "aspect_log_error": 0.03292460535087881,
+      "group_height_log_error": 0.4377364970103856,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        0,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s051-1",
+    "reference_id": "s051",
+    "score": -3.651120034804319,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.12320593068796626,
+            0.23495370370370375,
+            0.27207745846574405,
+            0.490354938271605
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.12320593068796626,
+                0.23495370370370375,
+                0.27207745846574405,
+                0.490354938271605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 1,
+          "end": 3,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.2686052362435219,
+            0.3113425925925926,
+            0.3336425723324615,
+            0.44560185185185186
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2686052362435219,
+                0.3113425925925926,
+                0.3044914523001925,
+                0.44560185185185186
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3063052362435219,
+                0.3113425925925926,
+                0.3336425723324615,
+                0.44560185185185186
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 3,
+          "end": 4,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.33713856957685523,
+            0.3113425925925926,
+            0.40183616438022596,
+            0.44560185185185186
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.33713856957685523,
+                0.3113425925925926,
+                0.40183616438022596,
+                0.44560185185185186
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.40463856957685523,
+            0.26118827160493835,
+            0.5028385511498695,
+            0.4795524691358026
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.40463856957685523,
+                0.26118827160493835,
+                0.5028385511498695,
+                0.4795524691358026
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 5,
+          "end": 7,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.5028385511498695,
+            0.306712962962963,
+            0.6273372220449663,
+            0.5127314814814815
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#5e5e5e",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5028385511498695,
+                0.306712962962963,
+                0.5827287083354982,
+                0.5127314814814815
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#5e5e5e",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5853885511498694,
+                0.306712962962963,
+                0.6273372220449663,
+                0.5127314814814815
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 7,
+          "end": 8,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.6273372220449663,
+            0.306712962962963,
+            0.6812328263428281,
+            0.5127314814814815
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#5e5e5e",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6273372220449663,
+                0.306712962962963,
+                0.6812328263428281,
+                0.5127314814814815
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6807987985650502,
+            0.3036265432098766,
+            0.742911154400985,
+            0.4417438271604939
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6807987985650502,
+                0.3036265432098766,
+                0.742911154400985,
+                0.4417438271604939
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 9,
+          "end": 11,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.742911154400985,
+            0.3707561728395062,
+            0.8160133790779139,
+            0.490354938271605
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.742911154400985,
+                0.3707561728395062,
+                0.7892893355387095,
+                0.490354938271605
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7916611544009851,
+                0.3707561728395062,
+                0.8160133790779139,
+                0.490354938271605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 11,
+          "end": 12,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g08",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.8191611544009851,
+            0.3707561728395062,
+            0.8767940693120339,
+            0.490354938271605
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8191611544009851,
+                0.3707561728395062,
+                0.8767940693120339,
+                0.490354938271605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g09",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.2438656529101885,
+            0.4895833333333334,
+            0.38535870846574405,
+            0.7650462962962963
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2438656529101885,
+                0.4895833333333334,
+                0.38535870846574405,
+                0.7650462962962963
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g10",
+          "row": 1,
+          "attachment": 9,
+          "ink_bbox": [
+            0.3910010695768552,
+            0.5212191358024691,
+            0.5363415314576356,
+            0.7465277777777779
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3910010695768552,
+                0.5212191358024691,
+                0.4785880801042066,
+                0.7256944444444444
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47641773624352185,
+                0.5628858024691358,
+                0.5363415314576356,
+                0.7465277777777779
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1238888888888889,
+      "collision": 0.00024912805181863477,
+      "centroid": [
+        0.4123401428334164,
+        0.46537489158316264
+      ],
+      "box_fill": 0.3966358024691358
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.2,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.2,
+      "aspect_log_error": 0.04741257283575307,
+      "group_height_log_error": 0.3697585543252601,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        0,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "id": "s051-3",
+    "reference_id": "s051",
+    "score": -4.334412521904795,
+    "title": {
+      "id": "generated",
+      "text": "始まりの終わりと終わりの始まり",
+      "groups": [
+        {
+          "text": "始",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.1940102080178717,
+            0.2368687204965122,
+            0.4888650002917712
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.1940102080178717,
+                0.2368687204965122,
+                0.4888650002917712
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 1,
+          "end": 3,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.23286012060154984,
+            0.28219940570704405,
+            0.30794421428259966,
+            0.4371986016455894
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.23286012060154984,
+                0.28219940570704405,
+                0.27428992339317554,
+                0.4371986016455894
+              ]
+            },
+            {
+              "text": "り",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.27638389482109343,
+                0.28219940570704405,
+                0.30794421428259966,
+                0.4371986016455894
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 3,
+          "end": 4,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.3119802618883593,
+            0.28219940570704405,
+            0.3866721321474952,
+            0.4371986016455894
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3119802618883593,
+                0.28219940570704405,
+                0.3866721321474952,
+                0.4371986016455894
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.389907443846428,
+            0.2242974072242541,
+            0.503277041362269,
+            0.47639380061855496
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.389907443846428,
+                0.2242974072242541,
+                0.503277041362269,
+                0.47639380061855496
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 5,
+          "end": 7,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 3,
+          "ink_bbox": [
+            0.5032770413622691,
+            0.2768546058470942,
+            0.647007864775305,
+            0.5146981996148622
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#5e5e5e",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5032770413622691,
+                0.2768546058470942,
+                0.595508371964687,
+                0.5146981996148622
+              ]
+            },
+            {
+              "text": "り",
+              "start": 6,
+              "end": 7,
+              "script": "hiragana",
+              "color": "#5e5e5e",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5985790987050627,
+                0.2768546058470942,
+                0.647007864775305,
+                0.5146981996148622
+              ]
+            }
+          ]
+        },
+        {
+          "text": "と",
+          "start": 7,
+          "end": 8,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.647007864775305,
+            0.2768546058470942,
+            0.7092290879287796,
+            0.5146981996148622
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "と",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#5e5e5e",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.647007864775305,
+                0.2768546058470942,
+                0.7092290879287796,
+                0.5146981996148622
+              ]
+            }
+          ]
+        },
+        {
+          "text": "終",
+          "start": 8,
+          "end": 9,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7087280129419091,
+            0.273291405940461,
+            0.7804352848688899,
+            0.4327446017622979
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "終",
+              "start": 8,
+              "end": 9,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7087280129419091,
+                0.273291405940461,
+                0.7804352848688899,
+                0.4327446017622979
+              ]
+            }
+          ]
+        },
+        {
+          "text": "わり",
+          "start": 9,
+          "end": 11,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g07",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.78043528486889,
+            0.35079100390973367,
+            0.8648301050753887,
+            0.4888650002917712
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "わ",
+              "start": 9,
+              "end": 10,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.78043528486889,
+                0.35079100390973367,
+                0.833977817615612,
+                0.4888650002917712
+              ]
+            },
+            {
+              "text": "り",
+              "start": 10,
+              "end": 11,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8367160273941618,
+                0.35079100390973367,
+                0.8648301050753887,
+                0.4888650002917712
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 11,
+          "end": 12,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g08",
+          "row": 0,
+          "attachment": 6,
+          "ink_bbox": [
+            0.868464138562264,
+            0.35079100390973367,
+            0.935,
+            0.4888650002917712
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 11,
+              "end": 12,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.868464138562264,
+                0.35079100390973367,
+                0.935,
+                0.4888650002917712
+              ]
+            }
+          ]
+        },
+        {
+          "text": "始",
+          "start": 12,
+          "end": 13,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g09",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.2042988463499428,
+            0.48797420031511296,
+            0.36764929206965985,
+            0.8059897919821284
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "始",
+              "start": 12,
+              "end": 13,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2042988463499428,
+                0.48797420031511296,
+                0.36764929206965985,
+                0.8059897919821284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "まり",
+          "start": 13,
+          "end": 15,
+          "kind": "kana",
+          "pos": "名詞",
+          "id": "g10",
+          "row": 1,
+          "attachment": 9,
+          "ink_bbox": [
+            0.3741632668989737,
+            0.5244969993581035,
+            0.5419554538449489,
+            0.7846105925423291
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "ま",
+              "start": 13,
+              "end": 14,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3741632668989737,
+                0.5244969993581035,
+                0.4752804358845766,
+                0.7605589931725547
+              ]
+            },
+            {
+              "text": "り",
+              "start": 14,
+              "end": 15,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47277482431504836,
+                0.5726001980976521,
+                0.5419554538449489,
+                0.7846105925423291
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.16135802469135802,
+      "collision": 0.00038255547054322876,
+      "centroid": [
+        0.3969196314715634,
+        0.46269942474992204
+      ],
+      "box_fill": 0.5328395061728395
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.2,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.2,
+      "aspect_log_error": 0.04741257283575328,
+      "group_height_log_error": 0.36975855432526,
+      "reference_marked": [
+        0
+      ],
+      "generated_marked": [
+        0,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  }
+]

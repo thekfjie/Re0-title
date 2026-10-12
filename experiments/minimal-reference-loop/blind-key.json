@@ -1,0 +1,185 @@
+{
+  "seed": 42,
+  "key": [
+    {
+      "id": "s001",
+      "order": [
+        "ranked",
+        "transfer",
+        "optimized",
+        "legacy"
+      ]
+    },
+    {
+      "id": "s002",
+      "order": [
+        "optimized",
+        "ranked",
+        "legacy",
+        "transfer"
+      ]
+    },
+    {
+      "id": "s005",
+      "order": [
+        "transfer",
+        "optimized",
+        "ranked",
+        "legacy"
+      ]
+    },
+    {
+      "id": "s006",
+      "order": [
+        "transfer",
+        "ranked",
+        "legacy",
+        "optimized"
+      ]
+    },
+    {
+      "id": "s010",
+      "order": [
+        "transfer",
+        "ranked",
+        "optimized",
+        "legacy"
+      ]
+    },
+    {
+      "id": "s011",
+      "order": [
+        "transfer",
+        "optimized",
+        "ranked",
+        "legacy"
+      ]
+    },
+    {
+      "id": "s014",
+      "order": [
+        "ranked",
+        "transfer",
+        "legacy",
+        "optimized"
+      ]
+    },
+    {
+      "id": "s018",
+      "order": [
+        "transfer",
+        "optimized",
+        "legacy",
+        "ranked"
+      ]
+    },
+    {
+      "id": "s024",
+      "order": [
+        "legacy",
+        "ranked",
+        "transfer",
+        "optimized"
+      ]
+    },
+    {
+      "id": "s030",
+      "order": [
+        "ranked",
+        "optimized",
+        "legacy",
+        "transfer"
+      ]
+    },
+    {
+      "id": "s033",
+      "order": [
+        "ranked",
+        "transfer",
+        "optimized",
+        "legacy"
+      ]
+    },
+    {
+      "id": "s035",
+      "order": [
+        "optimized",
+        "ranked",
+        "transfer",
+        "legacy"
+      ]
+    },
+    {
+      "id": "s038",
+      "order": [
+        "optimized",
+        "transfer",
+        "legacy",
+        "ranked"
+      ]
+    },
+    {
+      "id": "s048",
+      "order": [
+        "ranked",
+        "optimized",
+        "transfer",
+        "legacy"
+      ]
+    },
+    {
+      "id": "s051",
+      "order": [
+        "legacy",
+        "transfer",
+        "optimized",
+        "ranked"
+      ]
+    },
+    {
+      "id": "s079",
+      "order": [
+        "optimized",
+        "legacy",
+        "ranked",
+        "transfer"
+      ]
+    },
+    {
+      "id": "u01",
+      "order": [
+        "transfer",
+        "optimized",
+        "ranked",
+        "legacy"
+      ]
+    },
+    {
+      "id": "u02",
+      "order": [
+        "transfer",
+        "optimized",
+        "legacy",
+        "ranked"
+      ]
+    },
+    {
+      "id": "u03",
+      "order": [
+        "optimized",
+        "ranked",
+        "transfer",
+        "legacy"
+      ]
+    },
+    {
+      "id": "u04",
+      "order": [
+        "legacy",
+        "transfer",
+        "ranked",
+        "optimized"
+      ]
+    }
+  ]
+}

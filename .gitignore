@@ -14,6 +14,7 @@ dist/
 *.tar.gz
 references/originals/
 analysis/contact-sheets/
+analysis/minimal-loop-qa/
 .openai/local.json
 hosting/public/
 hosting/.wrangler/

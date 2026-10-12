@@ -2,6 +2,8 @@
 
 根据 82 张参考截图研究并实现的第一版：字形级字号与混排、光学字距、禁则断行、多家族搜索、可解释评分和 4–8 候选。输入日文或中文，选择预置字体或用户自己的 TTF/OTF，输出可下载 PNG、轮廓 SVG 和可复现参数 JSON。
 
+新增独立的 [16 张参考最小闭环](docs/minimal_reference_loop.md)：Title → Visual Groups → Glyphs 标注、结构迁移、留一 pairwise ranker、退火搜索与 Top-6。已实际生成四阶段共 480 张对照，难例留一正确率 91.4%，但生成候选排序与着色位置仍有明确失败，未替换默认引擎。运行 `.venv/bin/python -m experiments.minimal_reference_loop --ranker --benchmark --diagnose`；查看 `experiments/minimal-reference-loop/index.html`。
+
 A 不依赖任何大模型。B 用语义 JSON 调用完全相同的布局/字体/渲染引擎。完整 Benchmark 有 20 条标题 × 2 方案 × 6 候选。B 已接入兼容服务并完成 20 条真实调用；仍不能声称比 A 好。
 
 “参考标题 · 82”提供全部参考原文；“参考对照”逐条展示原图与 A 的六张生成图，可搜索、筛选偏差、切换原截图并下载。全参考共 492 张，默认断行匹配 56/81，六候选覆盖 74/81，默认色位平均重合 31.5%。这些是开发样本诊断，不是审美胜率；详细偏差见 [full_reference_comparison.md](docs/full_reference_comparison.md)。

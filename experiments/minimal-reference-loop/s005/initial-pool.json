@@ -1,0 +1,4920 @@
+[
+  {
+    "id": "s051-0",
+    "reference_id": "s051",
+    "score": -2.816152213639038,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約束",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.23927095537913662,
+            0.2543055555555556,
+            0.4443558863001893,
+            0.4892746913580248
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.23927095537913662,
+                0.2543055555555556,
+                0.34182164106087515,
+                0.4892746913580248
+              ]
+            },
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.3409376220458033,
+                0.2543055555555556,
+                0.4443558863001893,
+                0.4892746913580248
+              ]
+            }
+          ]
+        },
+        {
+          "text": "した",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.44116144185574474,
+            0.32458333333333333,
+            0.534340327623535,
+            0.44810185185185186
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.44116144185574474,
+                0.32458333333333333,
+                0.4860668300645077,
+                0.44810185185185186
+              ]
+            },
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4811614418557447,
+                0.32458333333333333,
+                0.534340327623535,
+                0.44810185185185186
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.535594775189078,
+            0.2784413580246914,
+            0.6706173063369539,
+            0.4793364197530865
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.535594775189078,
+                0.2784413580246914,
+                0.6706173063369539,
+                0.4793364197530865
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.6735947751890782,
+            0.31748456790123464,
+            0.7607290446208634,
+            0.4445524691358025
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6735947751890782,
+                0.31748456790123464,
+                0.7607290446208634,
+                0.4445524691358025
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3502778998235811,
+            0.4922685185185186,
+            0.4804515109346922,
+            0.7456944444444444
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3502778998235811,
+                0.4922685185185186,
+                0.4804515109346922,
+                0.7456944444444444
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.4856424831569145,
+            0.5213734567901235,
+            0.5294761344408292,
+            0.7094907407407407
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4856424831569145,
+                0.5213734567901235,
+                0.5294761344408292,
+                0.7094907407407407
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0979320987654321,
+      "collision": 0.0003151591553734636,
+      "centroid": [
+        0.4563163147389432,
+        0.44567706691879394
+      ],
+      "box_fill": 0.25666666666666665
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9716458071094575,
+      "group_height_log_error": 0.2041291457938855,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0,
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s051-2",
+    "reference_id": "s051",
+    "score": -3.0398226313628243,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約束",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19529594761898644,
+            0.21375000000000005,
+            0.43463599696109173,
+            0.4895833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.19529594761898644,
+                0.21375000000000005,
+                0.3156815351584187,
+                0.4895833333333334
+              ]
+            },
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.31323194761898643,
+                0.21375000000000005,
+                0.43463599696109173,
+                0.4895833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "した",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.43088599696109176,
+            0.29625000000000007,
+            0.538943384601541,
+            0.44125
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.43088599696109176,
+                0.29625000000000007,
+                0.48360101790181337,
+                0.44125
+              ]
+            },
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47651599696109165,
+                0.29625000000000007,
+                0.538943384601541,
+                0.44125
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5404159969610917,
+            0.24208333333333337,
+            0.6989207074390329,
+            0.4779166666666668
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5404159969610917,
+                0.24208333333333337,
+                0.6989207074390329,
+                0.4779166666666668
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.7024159969610917,
+            0.2879166666666667,
+            0.8047040523810135,
+            0.4370833333333333
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7024159969610917,
+                0.2879166666666667,
+                0.8047040523810135,
+                0.4370833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.32560844761898644,
+            0.4887500000000001,
+            0.47842094761898646,
+            0.78625
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.32560844761898644,
+                0.4887500000000001,
+                0.47842094761898646,
+                0.78625
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.4845146976189865,
+            0.5229166666666667,
+            0.5359715926044516,
+            0.74375
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4845146976189865,
+                0.5229166666666667,
+                0.5359715926044516,
+                0.74375
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13030864197530864,
+      "collision": 0.0,
+      "centroid": [
+        0.4511536791410074,
+        0.441288137972174
+      ],
+      "box_fill": 0.34935185185185186
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9685634332239319,
+      "group_height_log_error": 0.2041291457938855,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0,
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s051-1",
+    "reference_id": "s051",
+    "score": -2.8664527457303697,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.21910984829794766,
+            0.23495370370370375,
+            0.36798137607572545,
+            0.490354938271605
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.21910984829794766,
+                0.23495370370370375,
+                0.36798137607572545,
+                0.490354938271605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3691098482979477,
+            0.3113425925925926,
+            0.4282021180347898,
+            0.44560185185185186
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3691098482979477,
+                0.3113425925925926,
+                0.4282021180347898,
+                0.44560185185185186
+              ]
+            }
+          ]
+        },
+        {
+          "text": "し",
+          "start": 2,
+          "end": 3,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4282021180347898,
+            0.3113425925925926,
+            0.477012322609532,
+            0.44560185185185186
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4282021180347898,
+                0.3113425925925926,
+                0.477012322609532,
+                0.44560185185185186
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.477012322609532,
+            0.3113425925925926,
+            0.5348154593136518,
+            0.44560185185185186
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.477012322609532,
+                0.3113425925925926,
+                0.5348154593136518,
+                0.44560185185185186
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5361789892761987,
+            0.26118827160493835,
+            0.6829426100891073,
+            0.4795524691358026
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5361789892761987,
+                0.26118827160493835,
+                0.6829426100891073,
+                0.4795524691358026
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6861789892761987,
+            0.3036265432098766,
+            0.7808901517020522,
+            0.4417438271604939
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6861789892761987,
+                0.3036265432098766,
+                0.7808901517020522,
+                0.4417438271604939
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3397695705201699,
+            0.4895833333333334,
+            0.48126262607572545,
+            0.7650462962962963
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3397695705201699,
+                0.4895833333333334,
+                0.48126262607572545,
+                0.7650462962962963
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.4869049871868366,
+            0.5212191358024691,
+            0.5345502603215265,
+            0.7256944444444444
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4869049871868366,
+                0.5212191358024691,
+                0.5345502603215265,
+                0.7256944444444444
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10580246913580246,
+      "collision": 0.0,
+      "centroid": [
+        0.45993169000388956,
+        0.4495743117680107
+      ],
+      "box_fill": 0.29583333333333334
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9729797038725712,
+      "group_height_log_error": 0.2462240598469419,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s051-3",
+    "reference_id": "s051",
+    "score": -3.125954570492469,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.17416742402561933,
+            0.19254629629629638,
+            0.34685839624784154,
+            0.4888117283950618
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.17416742402561933,
+                0.19254629629629638,
+                0.34685839624784154,
+                0.4888117283950618
+              ]
+            }
+          ]
+        },
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.34816742402561934,
+            0.28115740740740747,
+            0.41671445692035614,
+            0.43689814814814815
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.34816742402561934,
+                0.28115740740740747,
+                0.41671445692035614,
+                0.43689814814814815
+              ]
+            }
+          ]
+        },
+        {
+          "text": "し",
+          "start": 2,
+          "end": 3,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.41671445692035614,
+            0.28115740740740747,
+            0.47333429422705714,
+            0.43689814814814815
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.41671445692035614,
+                0.28115740740740747,
+                0.47333429422705714,
+                0.43689814814814815
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.47333429422705714,
+            0.28115740740740747,
+            0.5403859328038362,
+            0.43689814814814815
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47333429422705714,
+                0.28115740740740747,
+                0.5403859328038362,
+                0.43689814814814815
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5419676275603905,
+            0.22297839506172845,
+            0.7122134277033645,
+            0.4762808641975309
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5419676275603905,
+                0.22297839506172845,
+                0.7122134277033645,
+                0.4762808641975309
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.7159676275603905,
+            0.2722067901234569,
+            0.8258325759743806,
+            0.43242283950617294
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7159676275603905,
+                0.2722067901234569,
+                0.8258325759743806,
+                0.43242283950617294
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3141327018033971,
+            0.4879166666666668,
+            0.47826464624784154,
+            0.8074537037037037
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3141327018033971,
+                0.4879166666666668,
+                0.47826464624784154,
+                0.8074537037037037
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.4848097851367305,
+            0.5246141975308642,
+            0.5400783019729708,
+            0.7618055555555555
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4848097851367305,
+                0.5246141975308642,
+                0.5400783019729708,
+                0.7618055555555555
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13808641975308641,
+      "collision": 0.0,
+      "centroid": [
+        0.4509266502756668,
+        0.44426894485008034
+      ],
+      "box_fill": 0.3996296296296296
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9729797038725712,
+      "group_height_log_error": 0.24622405984694196,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s048-0",
+    "reference_id": "s048",
+    "score": -2.1997221726057403,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約束",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3472415389817506,
+            0.15890432098765425,
+            0.6036240773589436,
+            0.34986111111111107
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f7cee4",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3472415389817506,
+                0.15890432098765425,
+                0.4808021093608837,
+                0.34986111111111107
+              ]
+            },
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4804498723150839,
+                0.15890432098765425,
+                0.6036240773589436,
+                0.3335339506172839
+              ]
+            }
+          ]
+        },
+        {
+          "text": "した",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.4754186223150839,
+            0.34489197530864196,
+            0.638436087462816,
+            0.4911265432098765
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4754186223150839,
+                0.3555401234567901,
+                0.554413327847372,
+                0.4911265432098765
+              ]
+            },
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5453769556484173,
+                0.34489197530864196,
+                0.638436087462816,
+                0.47976851851851854
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 2,
+          "attachment": null,
+          "ink_bbox": [
+            0.3859741778706395,
+            0.5131327160493827,
+            0.514317149173744,
+            0.7040895061728395
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#f7cee2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3859741778706395,
+                0.5131327160493827,
+                0.514317149173744,
+                0.7040895061728395
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g03",
+          "row": 2,
+          "attachment": 2,
+          "ink_bbox": [
+            0.5170741778706395,
+            0.5784413580246913,
+            0.5740278623595717,
+            0.6614969135802469
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5170741778706395,
+                0.5784413580246913,
+                0.5740278623595717,
+                0.6614969135802469
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g04",
+          "row": 3,
+          "attachment": null,
+          "ink_bbox": [
+            0.5289255667595284,
+            0.6749845679012346,
+            0.6203665389817506,
+            0.8410956790123457
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5289255667595284,
+                0.6749845679012346,
+                0.6203665389817506,
+                0.8410956790123457
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g05",
+          "row": 3,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6211651500928618,
+            0.6856327160493827,
+            0.6527584610182494,
+            0.8212191358024693
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6211651500928618,
+                0.6856327160493827,
+                0.6527584610182494,
+                0.8212191358024693
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08003086419753086,
+      "collision": 0.0,
+      "centroid": [
+        0.4952355701246947,
+        0.4625558840753596
+      ],
+      "box_fill": 0.21012345679012345
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 1.8343438975774313,
+      "group_height_log_error": 0.15237578310384883,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0,
+        2,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "s048-2",
+    "reference_id": "s048",
+    "score": -2.261475860865208,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約束",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3206748501090116,
+            0.09958333333333325,
+            0.6216456560300643,
+            0.32375
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f7cee4",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3206748501090116,
+                0.09958333333333325,
+                0.47746334577147215,
+                0.32375
+              ]
+            },
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4770498501090116,
+                0.09958333333333325,
+                0.6216456560300643,
+                0.30458333333333326
+              ]
+            }
+          ]
+        },
+        {
+          "text": "した",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.47114360010901163,
+            0.3179166666666667,
+            0.662511928760697,
+            0.4895833333333333
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.47114360010901163,
+                0.3304166666666667,
+                0.5638765152990889,
+                0.4895833333333333
+              ]
+            },
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5532686001090116,
+                0.3179166666666667,
+                0.662511928760697,
+                0.47625
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 2,
+          "attachment": null,
+          "ink_bbox": [
+            0.36614360010901154,
+            0.5154166666666666,
+            0.5168070881604822,
+            0.7395833333333334
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#f7cee2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.36614360010901154,
+                0.5154166666666666,
+                0.5168070881604822,
+                0.7395833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g03",
+          "row": 2,
+          "attachment": 2,
+          "ink_bbox": [
+            0.5200436001090115,
+            0.5920833333333333,
+            0.5869022732047146,
+            0.6895833333333333
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5200436001090115,
+                0.5920833333333333,
+                0.5869022732047146,
+                0.6895833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g04",
+          "row": 3,
+          "attachment": null,
+          "ink_bbox": [
+            0.5339561001090115,
+            0.7054166666666667,
+            0.6412998501090116,
+            0.9004166666666666
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5339561001090115,
+                0.7054166666666667,
+                0.6412998501090116,
+                0.9004166666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g05",
+          "row": 3,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6422373501090116,
+            0.7179166666666666,
+            0.6793251498909884,
+            0.8770833333333335
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6422373501090116,
+                0.7179166666666666,
+                0.6793251498909884,
+                0.8770833333333335
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10728395061728395,
+      "collision": 0.0,
+      "centroid": [
+        0.49544855197545073,
+        0.4573541320376764
+      ],
+      "box_fill": 0.2866666666666667
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 1.8343438975774315,
+      "group_height_log_error": 0.15237578310384886,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0,
+        2,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "s048-1",
+    "reference_id": "s048",
+    "score": -2.7826147979304316,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.33395819454538106,
+            0.1292438271604938,
+            0.4791327275661779,
+            0.3368055555555556
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f7cee4",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.33395819454538106,
+                0.1292438271604938,
+                0.4791327275661779,
+                0.3368055555555556
+              ]
+            }
+          ]
+        },
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.47328111121204774,
+            0.3244598765432099,
+            0.5644269445453811,
+            0.49189814814814814
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47328111121204774,
+                0.3244598765432099,
+                0.5644269445453811,
+                0.49189814814814814
+              ]
+            }
+          ]
+        },
+        {
+          "text": "し",
+          "start": 2,
+          "end": 3,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": 1,
+          "ink_bbox": [
+            0.5632811112120477,
+            0.3429783950617284,
+            0.6491449215732304,
+            0.4903549382716049
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5632811112120477,
+                0.3429783950617284,
+                0.6491449215732304,
+                0.4903549382716049
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 2,
+          "attachment": 4,
+          "ink_bbox": [
+            0.37605888898982553,
+            0.5142746913580246,
+            0.4730118911517752,
+            0.7218364197530864
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.37605888898982553,
+                0.5142746913580246,
+                0.4730118911517752,
+                0.7218364197530864
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 2,
+          "attachment": null,
+          "ink_bbox": [
+            0.4730118911517752,
+            0.5142746913580246,
+            0.5852602778787144,
+            0.6902006172839507
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#f7cee2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4730118911517752,
+                0.5142746913580246,
+                0.5852602778787144,
+                0.6902006172839507
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 2,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5888452244851086,
+            0.5852623456790124,
+            0.6507514032774263,
+            0.67554012345679
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5888452244851086,
+                0.5852623456790124,
+                0.6507514032774263,
+                0.67554012345679
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g06",
+          "row": 3,
+          "attachment": null,
+          "ink_bbox": [
+            0.53144083343427,
+            0.6902006172839507,
+            0.6308331945453811,
+            0.8707561728395061
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.53144083343427,
+                0.6902006172839507,
+                0.6308331945453811,
+                0.8707561728395061
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g07",
+          "row": 3,
+          "attachment": 6,
+          "ink_bbox": [
+            0.6317012501009367,
+            0.7017746913580246,
+            0.6660418054546189,
+            0.8491512345679013
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6317012501009367,
+                0.7017746913580246,
+                0.6660418054546189,
+                0.8491512345679013
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08114197530864198,
+      "collision": 0.0,
+      "centroid": [
+        0.5040145175605427,
+        0.5044729019624417
+      ],
+      "box_fill": 0.24691358024691357
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 1.8343438975774315,
+      "group_height_log_error": 0.22157754175851532,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0,
+        2,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "s048-3",
+    "reference_id": "s048",
+    "score": -2.7791382705109124,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.30739150567264206,
+            0.06992283950617287,
+            0.4757939639767664,
+            0.3106944444444445
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f7cee4",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.30739150567264206,
+                0.06992283950617287,
+                0.4757939639767664,
+                0.3106944444444445
+              ]
+            }
+          ]
+        },
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.46900608900597535,
+            0.2963734567901235,
+            0.574735255672642,
+            0.49060185185185184
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46900608900597535,
+                0.2963734567901235,
+                0.574735255672642,
+                0.49060185185185184
+              ]
+            }
+          ]
+        },
+        {
+          "text": "し",
+          "start": 2,
+          "end": 3,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": 1,
+          "ink_bbox": [
+            0.5734060890059753,
+            0.31785493827160494,
+            0.6730081090249473,
+            0.48881172839506165
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5734060890059753,
+                0.31785493827160494,
+                0.6730081090249473,
+                0.48881172839506165
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 2,
+          "attachment": 4,
+          "ink_bbox": [
+            0.3562283112281976,
+            0.5165586419753087,
+            0.4686937937360593,
+            0.7573302469135802
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3562283112281976,
+                0.5165586419753087,
+                0.4686937937360593,
+                0.7573302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 2,
+          "attachment": null,
+          "ink_bbox": [
+            0.4686937937360593,
+            0.5165586419753087,
+            0.5989019223393088,
+            0.7206327160493827
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#f7cee2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4686937937360593,
+                0.5165586419753087,
+                0.5989019223393088,
+                0.7206327160493827
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 2,
+          "attachment": 4,
+          "ink_bbox": [
+            0.603060460402726,
+            0.5989043209876542,
+            0.6748716278018145,
+            0.7036265432098765
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.603060460402726,
+                0.5989043209876542,
+                0.6748716278018145,
+                0.7036265432098765
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g06",
+          "row": 3,
+          "attachment": null,
+          "ink_bbox": [
+            0.5364713667837531,
+            0.7206327160493827,
+            0.651766505672642,
+            0.930077160493827
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5364713667837531,
+                0.7206327160493827,
+                0.651766505672642,
+                0.930077160493827
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g07",
+          "row": 3,
+          "attachment": 6,
+          "ink_bbox": [
+            0.6527734501170865,
+            0.7340586419753086,
+            0.6926084943273578,
+            0.9050154320987653
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#f6cee1",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6527734501170865,
+                0.7340586419753086,
+                0.6926084943273578,
+                0.9050154320987653
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10623456790123456,
+      "collision": 0.0,
+      "centroid": [
+        0.504114613596746,
+        0.5097682226095939
+      ],
+      "box_fill": 0.33296296296296296
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 1.8343438975774313,
+      "group_height_log_error": 0.2215775417585154,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0,
+        2,
+        4,
+        7
+      ]
+    }
+  },
+  {
+    "id": "s001-0",
+    "reference_id": "s001",
+    "score": -0.8614271666524459,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約束",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19094380482456141,
+            0.20327160493827154,
+            0.5519034173976608,
+            0.5120679012345678
+          ],
+          "reference_groups": [
+            "g00",
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#877589",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.19094380482456141,
+                0.20327160493827154,
+                0.40692465283542717,
+                0.5120679012345678
+              ]
+            },
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.40369380482456135,
+                0.29342592592592587,
+                0.5519034173976608,
+                0.5035493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "した",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.5542992507309941,
+            0.26929012345679,
+            0.8090561951754385,
+            0.5028395061728395
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5542992507309941,
+                0.2777037037037036,
+                0.6778114530291869,
+                0.5028395061728395
+              ]
+            },
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.658075493765828,
+                0.26929012345679,
+                0.8090561951754385,
+                0.5016790123456789
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.26042297149122806,
+            0.563179012345679,
+            0.37502366593567255,
+            0.7796913580246915
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.26042297149122806,
+                0.563179012345679,
+                0.37502366593567255,
+                0.7796913580246915
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": 2,
+          "ink_bbox": [
+            0.3777229714912281,
+            0.563179012345679,
+            0.5378747851395932,
+            0.7967283950617285
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3777229714912281,
+                0.563179012345679,
+                0.5378747851395932,
+                0.7967283950617285
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.5466595073618155,
+            0.5731172839506171,
+            0.66485395180626,
+            0.7796913580246913
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5466595073618155,
+                0.5731172839506171,
+                0.66485395180626,
+                0.7796913580246913
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6676490906951489,
+            0.5617592592592592,
+            0.722399802298831,
+            0.7967283950617283
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6676490906951489,
+                0.5617592592592592,
+                0.722399802298831,
+                0.7967283950617283
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.14777777777777779,
+      "collision": 0.0,
+      "centroid": [
+        0.4465826023391813,
+        0.5023948760790866
+      ],
+      "box_fill": 0.37
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9903329677188567,
+      "group_height_log_error": 0.14444624185318589,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s001-2",
+    "reference_id": "s001",
+    "score": -1.0455591978955205,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約束",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.13719490131578946,
+            0.15166666666666667,
+            0.5609300986842104,
+            0.5141666666666667
+          ],
+          "reference_groups": [
+            "g00",
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#877589",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.13719490131578946,
+                0.15166666666666667,
+                0.3907376359372406,
+                0.5141666666666667
+              ]
+            },
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.38694490131578946,
+                0.2575,
+                0.5609300986842104,
+                0.5041666666666667
+              ]
+            }
+          ]
+        },
+        {
+          "text": "した",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.5637425986842104,
+            0.22916666666666663,
+            0.8628050986842104,
+            0.5033333333333333
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5637425986842104,
+                0.23904347826086952,
+                0.7087351839907847,
+                0.5033333333333333
+              ]
+            },
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.685566883985972,
+                0.22916666666666663,
+                0.8628050986842104,
+                0.5019710144927536
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.21875740131578947,
+            0.5741666666666667,
+            0.35328865131578946,
+            0.8283333333333334
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.21875740131578947,
+                0.5741666666666667,
+                0.35328865131578946,
+                0.8283333333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": 2,
+          "ink_bbox": [
+            0.35645740131578946,
+            0.5741666666666667,
+            0.5444617042943052,
+            0.8483333333333334
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.35645740131578946,
+                0.5741666666666667,
+                0.5444617042943052,
+                0.8483333333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.554774204294305,
+            0.5858333333333333,
+            0.693524204294305,
+            0.8283333333333335
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.554774204294305,
+                0.5858333333333333,
+                0.693524204294305,
+                0.8283333333333335
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6968054542943052,
+            0.5725,
+            0.7610780287855842,
+            0.8483333333333334
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6968054542943052,
+                0.5725,
+                0.7610780287855842,
+                0.8483333333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1970679012345679,
+      "collision": 0.0,
+      "centroid": [
+        0.43777930044374835,
+        0.5035726094144262
+      ],
+      "box_fill": 0.5131172839506173
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.9903329677188563,
+      "group_height_log_error": 0.14444624185318572,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s001-1",
+    "reference_id": "s001",
+    "score": -0.8018510375167195,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.18442525584795325,
+            0.17746913580246917,
+            0.37626553362573106,
+            0.5131172839506173
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#877589",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.18442525584795325,
+                0.17746913580246917,
+                0.37626553362573106,
+                0.5131172839506173
+              ]
+            }
+          ]
+        },
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3749634502923977,
+            0.27546296296296297,
+            0.5360608552631579,
+            0.503858024691358
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3749634502923977,
+                0.27546296296296297,
+                0.5360608552631579,
+                0.503858024691358
+              ]
+            }
+          ]
+        },
+        {
+          "text": "し",
+          "start": 2,
+          "end": 3,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.5386650219298245,
+            0.2492283950617284,
+            0.6691070175930516,
+            0.5030864197530864
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5386650219298245,
+                0.2492283950617284,
+                0.6691070175930516,
+                0.5030864197530864
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.6691070175930516,
+            0.2492283950617284,
+            0.8155747441520467,
+            0.5030864197530864
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6691070175930516,
+                0.2492283950617284,
+                0.8155747441520467,
+                0.5030864197530864
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.2599460891812866,
+            0.5686728395061729,
+            0.3845120614035088,
+            0.8040123456790124
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2599460891812866,
+                0.5686728395061729,
+                0.3845120614035088,
+                0.8040123456790124
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.3874460891812866,
+            0.5686728395061729,
+            0.561524147494727,
+            0.822530864197531
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3874460891812866,
+                0.5686728395061729,
+                0.561524147494727,
+                0.822530864197531
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.571072758605838,
+            0.5794753086419753,
+            0.6995449808280602,
+            0.8040123456790124
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.571072758605838,
+                0.5794753086419753,
+                0.6995449808280602,
+                0.8040123456790124
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.7025831752725048,
+            0.5671296296296297,
+            0.7620948183199855,
+            0.822530864197531
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7025831752725048,
+                0.5671296296296297,
+                0.7620948183199855,
+                0.822530864197531
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.16194444444444445,
+      "collision": 0.0,
+      "centroid": [
+        0.450580490438981,
+        0.5129195519132626
+      ],
+      "box_fill": 0.40814814814814815
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0528421375272714,
+      "group_height_log_error": 0.1444462418531858,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s001-3",
+    "reference_id": "s001",
+    "score": -1.02790095219108,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.13393329678362587,
+            0.12586419753086417,
+            0.3564680190058481,
+            0.515216049382716
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#877589",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.13393329678362587,
+                0.12586419753086417,
+                0.3564680190058481,
+                0.515216049382716
+              ]
+            }
+          ]
+        },
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.35495760233918144,
+            0.23953703703703697,
+            0.5418305921052632,
+            0.5044753086419752
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.35495760233918144,
+                0.23953703703703697,
+                0.5418305921052632,
+                0.5044753086419752
+              ]
+            }
+          ]
+        },
+        {
+          "text": "し",
+          "start": 2,
+          "end": 3,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.5448514254385965,
+            0.20910493827160487,
+            0.6961641404079401,
+            0.5035802469135802
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5448514254385965,
+                0.20910493827160487,
+                0.6961641404079401,
+                0.5035802469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.69616414040794,
+            0.20910493827160487,
+            0.8660667032163742,
+            0.5035802469135802
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.69616414040794,
+                0.20910493827160487,
+                0.8660667032163742,
+                0.5035802469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.22153746345029252,
+            0.5796604938271605,
+            0.3660339912280703,
+            0.8526543209876543
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22153746345029252,
+                0.5796604938271605,
+                0.3660339912280703,
+                0.8526543209876543
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.36943746345029255,
+            0.5796604938271605,
+            0.5713680110938834,
+            0.8741358024691357
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.36943746345029255,
+                0.5796604938271605,
+                0.5713680110938834,
+                0.8741358024691357
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.5824443999827722,
+            0.5921913580246913,
+            0.7314721777605498,
+            0.8526543209876543
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5824443999827722,
+                0.5921913580246913,
+                0.7314721777605498,
+                0.8526543209876543
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.7349964833161057,
+            0.5778703703703703,
+            0.8040299892511832,
+            0.8741358024691357
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7349964833161057,
+                0.5778703703703703,
+                0.8040299892511832,
+                0.8741358024691357
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.21407407407407408,
+      "collision": 0.0,
+      "centroid": [
+        0.4433643310265282,
+        0.5155623905335555
+      ],
+      "box_fill": 0.548641975308642
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0528421375272712,
+      "group_height_log_error": 0.1444462418531858,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s024-0",
+    "reference_id": "s024",
+    "score": 0.2648726206752554,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約束",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19916808129441213,
+            0.18091049382716043,
+            0.46191113684996765,
+            0.48757716049382704
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.19916808129441213,
+                0.18091049382716043,
+                0.33345222379777106,
+                0.442145061728395
+              ]
+            },
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.33017084715992817,
+                0.2334413580246913,
+                0.46191113684996765,
+                0.48757716049382704
+              ]
+            }
+          ]
+        },
+        {
+          "text": "した",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.46710210907218985,
+            0.26183641975308636,
+            0.7039297854142623,
+            0.4620216049382715
+          ],
+          "reference_groups": [
+            "g01",
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46710210907218985,
+                0.26183641975308636,
+                0.5837330355648874,
+                0.4620216049382715
+              ]
+            },
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5658104424055233,
+                0.26183641975308636,
+                0.7039297854142623,
+                0.4620216049382715
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.28741460907218985,
+            0.5372685185185184,
+            0.4649000563761115,
+            0.8013425925925926
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.28741460907218985,
+                0.5372685185185184,
+                0.4649000563761115,
+                0.8013425925925926
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": 2,
+          "ink_bbox": [
+            0.4683479424055232,
+            0.6139351851851851,
+            0.5545979424055232,
+            0.7949537037037037
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4683479424055232,
+                0.6139351851851851,
+                0.5545979424055232,
+                0.7949537037037037
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.560188220183301,
+            0.5088734567901234,
+            0.7302923868499678,
+            0.8190895061728396
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.560188220183301,
+                0.5088734567901234,
+                0.7302923868499678,
+                0.8190895061728396
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.7374798868499678,
+            0.5308796296296295,
+            0.8008319187055879,
+            0.8027623456790123
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7374798868499678,
+                0.5308796296296295,
+                0.8008319187055879,
+                0.8027623456790123
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.15675925925925926,
+      "collision": 0.0,
+      "centroid": [
+        0.474224748966332,
+        0.5405015568827343
+      ],
+      "box_fill": 0.38666666666666666
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0899588117137524,
+      "group_height_log_error": 0.1309168645632833,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        6
+      ]
+    }
+  },
+  {
+    "id": "s024-2",
+    "reference_id": "s024",
+    "score": 0.055585555470833,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約束",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.14684948673691853,
+            0.1254166666666666,
+            0.4552869867369186,
+            0.48541666666666666
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.14684948673691853,
+                0.1254166666666666,
+                0.30448739315390516,
+                0.4320833333333333
+              ]
+            },
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3006353423181765,
+                0.1870833333333333,
+                0.4552869867369186,
+                0.48541666666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "した",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4613807367369186,
+            0.2204166666666666,
+            0.7393958350515253,
+            0.4554166666666666
+          ],
+          "reference_groups": [
+            "g01",
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4613807367369186,
+                0.2204166666666666,
+                0.5982953026196505,
+                0.4554166666666666
+              ]
+            },
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5772557367369185,
+                0.2204166666666666,
+                0.7393958350515253,
+                0.4554166666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.25044323673691854,
+            0.54375,
+            0.4587957183545656,
+            0.85375
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.25044323673691854,
+                0.54375,
+                0.4587957183545656,
+                0.85375
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g03",
+          "row": 1,
+          "attachment": 2,
+          "ink_bbox": [
+            0.4628432367369186,
+            0.6337499999999999,
+            0.5640932367369186,
+            0.84625
+          ],
+          "reference_groups": [
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4628432367369186,
+                0.6337499999999999,
+                0.5640932367369186,
+                0.84625
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.5706557367369186,
+            0.5104166666666666,
+            0.7703432367369186,
+            0.8745833333333334
+          ],
+          "reference_groups": [
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#8b82a6",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5706557367369186,
+                0.5104166666666666,
+                0.7703432367369186,
+                0.8745833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": 4,
+          "ink_bbox": [
+            0.7787807367369186,
+            0.5362499999999999,
+            0.8531505132630814,
+            0.8554166666666667
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7787807367369186,
+                0.5362499999999999,
+                0.8531505132630814,
+                0.8554166666666667
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.21006172839506174,
+      "collision": 0.0,
+      "centroid": [
+        0.46993645312959154,
+        0.5433963496261468
+      ],
+      "box_fill": 0.5299382716049382
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0899588117137522,
+      "group_height_log_error": 0.13091686456328328,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        6
+      ]
+    }
+  },
+  {
+    "id": "s024-1",
+    "reference_id": "s024",
+    "score": -6.560283497614787,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.07263470761760497,
+            0.1755401234567901,
+            0.27123778624828615,
+            0.45949074074074076
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.07263470761760497,
+                0.1755401234567901,
+                0.27123778624828615,
+                0.45949074074074076
+              ]
+            }
+          ]
+        },
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.27688014735939726,
+            0.15007716049382713,
+            0.46134195291495284,
+            0.48186728395061723
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#6c6d6b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.27688014735939726,
+                0.15007716049382713,
+                0.46134195291495284,
+                0.48186728395061723
+              ]
+            }
+          ]
+        },
+        {
+          "text": "し",
+          "start": 2,
+          "end": 3,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.46655028624828615,
+            0.16550925925925922,
+            0.5703421005738876,
+            0.45100308641975306
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46655028624828615,
+                0.16550925925925922,
+                0.5703421005738876,
+                0.45100308641975306
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5703421005738876,
+            0.16550925925925922,
+            0.6932568165539126,
+            0.45100308641975306
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5703421005738876,
+                0.16550925925925922,
+                0.6932568165539126,
+                0.45100308641975306
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6932568165539126,
+            0.16550925925925922,
+            0.8129910383676381,
+            0.45100308641975306
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6932568165539126,
+                0.16550925925925922,
+                0.8129910383676381,
+                0.45100308641975306
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.8342583994787492,
+            0.26350308641975306,
+            0.9273652923823951,
+            0.4810956790123457
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8342583994787492,
+                0.26350308641975306,
+                0.9273652923823951,
+                0.4810956790123457
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.16855484650649383,
+            0.5628858024691358,
+            0.37423835031449953,
+            0.849922839506173
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.16855484650649383,
+                0.5628858024691358,
+                0.37423835031449953,
+                0.849922839506173
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.37105484650649384,
+            0.646219135802469,
+            0.41690218480591246,
+            0.8429783950617286
+          ],
+          "reference_groups": [
+            "g05",
+            "g06",
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.37105484650649384,
+                0.646219135802469,
+                0.41690218480591246,
+                0.8429783950617286
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.18425925925925926,
+      "collision": 0.0,
+      "centroid": [
+        0.4123150474595198,
+        0.4220212171970966
+      ],
+      "box_fill": 0.6010802469135802
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 1.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.8311124022781171,
+      "group_height_log_error": 0.12084560660844372,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        1
+      ]
+    }
+  },
+  {
+    "id": "s024-3",
+    "reference_id": "s024",
+    "score": -6.812854510376292,
+    "title": {
+      "id": "generated",
+      "text": "約束した朝は遠く",
+      "groups": [
+        {
+          "text": "約",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.16974377935677576,
+            0.2671510420809857,
+            0.45876705925381867
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "約",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.16974377935677576,
+                0.2671510420809857,
+                0.45876705925381867
+              ]
+            }
+          ]
+        },
+        {
+          "text": "束",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2728942016849182,
+            0.14382593088774748,
+            0.4606513425827084,
+            0.48154335033266166
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "束",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#6c6d6b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.2728942016849182,
+                0.14382593088774748,
+                0.4606513425827084,
+                0.48154335033266166
+              ]
+            }
+          ]
+        },
+        {
+          "text": "し",
+          "start": 2,
+          "end": 3,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.465952720678646,
+            0.15953371783867368,
+            0.5715987336712923,
+            0.45012777643080915
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "し",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.465952720678646,
+                0.15953371783867368,
+                0.5715987336712923,
+                0.45012777643080915
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5715987336712923,
+            0.15953371783867368,
+            0.6967092712005525,
+            0.45012777643080915
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5715987336712923,
+                0.15953371783867368,
+                0.6967092712005525,
+                0.45012777643080915
+              ]
+            }
+          ]
+        },
+        {
+          "text": "朝",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6967092712005525,
+            0.15953371783867368,
+            0.818582496325177,
+            0.45012777643080915
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "朝",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6967092712005525,
+                0.15953371783867368,
+                0.818582496325177,
+                0.45012777643080915
+              ]
+            }
+          ]
+        },
+        {
+          "text": "は",
+          "start": 5,
+          "end": 6,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.8402297902169222,
+            0.25927816497705536,
+            0.935,
+            0.4807579609851153
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "は",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8402297902169222,
+                0.25927816497705536,
+                0.935,
+                0.4807579609851153
+              ]
+            }
+          ]
+        },
+        {
+          "text": "遠",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "形容詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.16263371326685094,
+            0.5640092318250244,
+            0.3719916694492754,
+            0.8561740691122525
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "遠",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.16263371326685094,
+                0.5640092318250244,
+                0.3719916694492754,
+                0.8561740691122525
+              ]
+            }
+          ]
+        },
+        {
+          "text": "く",
+          "start": 7,
+          "end": 8,
+          "kind": "kana",
+          "pos": "形容詞",
+          "id": "g07",
+          "row": 1,
+          "attachment": 6,
+          "ink_bbox": [
+            0.3687512936369051,
+            0.6488312813600261,
+            0.4154176760402803,
+            0.8491055649843356
+          ],
+          "reference_groups": [
+            "g05",
+            "g06",
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "く",
+              "start": 7,
+              "end": 8,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3687512936369051,
+                0.6488312813600261,
+                0.4154176760402803,
+                0.8491055649843356
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.19067901234567902,
+      "collision": 0.0,
+      "centroid": [
+        0.41201170821193484,
+        0.4181252472932628
+      ],
+      "box_fill": 0.6192592592592593
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 1.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.8311124022781166,
+      "group_height_log_error": 0.12084560660844379,
+      "reference_marked": [
+        1
+      ],
+      "generated_marked": [
+        1
+      ]
+    }
+  }
+]

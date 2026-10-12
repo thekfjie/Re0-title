@@ -1,0 +1,2450 @@
+[
+  {
+    "id": "s006-0",
+    "reference_id": "s006",
+    "score": 0.04624448348558631,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2902447916666666,
+            0.3363734567901234,
+            0.461546875,
+            0.6465895061728395
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.2902447916666666,
+                0.3363734567901234,
+                0.461546875,
+                0.6465895061728395
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4667378472222222,
+            0.4542129629629629,
+            0.5637690972222222,
+            0.6082561728395062
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4667378472222222,
+                0.4542129629629629,
+                0.5637690972222222,
+                0.6082561728395062
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5664045138888889,
+            0.3938734567901234,
+            0.7097552083333334,
+            0.6636265432098766
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5664045138888889,
+                0.3938734567901234,
+                0.7097552083333334,
+                0.6636265432098766
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.06938271604938272,
+      "collision": 0.0,
+      "centroid": [
+        0.48755375148279956,
+        0.49537366548042705
+      ],
+      "box_fill": 0.13580246913580246
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.0779790348440968,
+      "group_height_log_error": 0.11202720067607623,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s006-1",
+    "reference_id": "s006",
+    "score": 0.08098417290200381,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2720052083333333,
+            0.322145061728395,
+            0.458203125,
+            0.6593364197530864
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.2720052083333333,
+                0.322145061728395,
+                0.458203125,
+                0.6593364197530864
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.46384548611111115,
+            0.4502314814814814,
+            0.5693142361111111,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46384548611111115,
+                0.4502314814814814,
+                0.5693142361111111,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5721788194444445,
+            0.384645061728395,
+            0.7279947916666668,
+            0.6778549382716049
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5721788194444445,
+                0.384645061728395,
+                0.7279947916666668,
+                0.6778549382716049
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0825,
+      "collision": 0.0,
+      "centroid": [
+        0.4858632622521511,
+        0.49696138338113643
+      ],
+      "box_fill": 0.16484567901234567
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.0779790348440972,
+      "group_height_log_error": 0.11202720067607633,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s006-2",
+    "reference_id": "s006",
+    "score": 0.11187617206602615,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.25376562499999994,
+            0.30791666666666656,
+            0.45485937499999995,
+            0.6720833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.25376562499999994,
+                0.30791666666666656,
+                0.45485937499999995,
+                0.6720833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4609531250000001,
+            0.4462499999999999,
+            0.5748593750000001,
+            0.6270833333333332
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4609531250000001,
+                0.4462499999999999,
+                0.5748593750000001,
+                0.6270833333333332
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5779531250000001,
+            0.37541666666666657,
+            0.7462343750000001,
+            0.6920833333333334
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5779531250000001,
+                0.37541666666666657,
+                0.7462343750000001,
+                0.6920833333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09268518518518519,
+      "collision": 0.0,
+      "centroid": [
+        0.48703518703518706,
+        0.5001048334381668
+      ],
+      "box_fill": 0.18938271604938273
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.0779790348440972,
+      "group_height_log_error": 0.11202720067607634,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s006-3",
+    "reference_id": "s006",
+    "score": 0.13730224152875123,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.23552604166666663,
+            0.29368827160493827,
+            0.45151562500000003,
+            0.6848302469135802
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.23552604166666663,
+                0.29368827160493827,
+                0.45151562500000003,
+                0.6848302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.45806076388888894,
+            0.4422685185185185,
+            0.5804045138888889,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.45806076388888894,
+                0.4422685185185185,
+                0.5804045138888889,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5837274305555556,
+            0.36618827160493833,
+            0.7644739583333334,
+            0.7063117283950618
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5837274305555556,
+                0.36618827160493833,
+                0.7644739583333334,
+                0.7063117283950618
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10762345679012346,
+      "collision": 0.0,
+      "centroid": [
+        0.4862584838925533,
+        0.4973159566219503
+      ],
+      "box_fill": 0.21388888888888888
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.07797903484409699,
+      "group_height_log_error": 0.11202720067607617,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s035-0",
+    "reference_id": "s035",
+    "score": -0.06131034718235511,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3129465773942011,
+            0.3576697530864197,
+            0.46787713294975664,
+            0.6423302469135802
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.3129465773942011,
+                0.3576697530864197,
+                0.46787713294975664,
+                0.6423302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4678132440608677,
+            0.48331790123456786,
+            0.5452785218386454,
+            0.5990277777777778
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4678132440608677,
+                0.48331790123456786,
+                0.5452785218386454,
+                0.5990277777777778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5475465773942011,
+            0.39458333333333334,
+            0.6870534226057988,
+            0.5940586419753087
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5475465773942011,
+                0.39458333333333334,
+                0.6870534226057988,
+                0.5940586419753087
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.053919753086419754,
+      "collision": 0.0,
+      "centroid": [
+        0.47810293837053996,
+        0.4871758994254701
+      ],
+      "box_fill": 0.10438271604938272
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.1028687327860518,
+      "group_height_log_error": 0.21915471111434998,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s035-1",
+    "reference_id": "s035",
+    "score": -0.029502018067302935,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2966810623850012,
+            0.3452932098765432,
+            0.465083840162779,
+            0.6547067901234569
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.2966810623850012,
+                0.3452932098765432,
+                0.465083840162779,
+                0.6547067901234569
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4650143957183345,
+            0.4818672839506173,
+            0.5492157846072232,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4650143957183345,
+                0.4818672839506173,
+                0.5492157846072232,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5516810623850011,
+            0.38541666666666674,
+            0.7033189376149988,
+            0.6022376543209876
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5516810623850011,
+                0.38541666666666674,
+                0.7033189376149988,
+                0.6022376543209876
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.062191358024691355,
+      "collision": 0.0,
+      "centroid": [
+        0.4755603804797353,
+        0.49123426155684213
+      ],
+      "box_fill": 0.12574074074074074
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.1028687327860518,
+      "group_height_log_error": 0.2191547111143499,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s035-2",
+    "reference_id": "s035",
+    "score": 0.0007931448573900816,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.28041554737580127,
+            0.3329166666666667,
+            0.4622905473758013,
+            0.6670833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.28041554737580127,
+                0.3329166666666667,
+                0.4622905473758013,
+                0.6670833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.46221554737580123,
+            0.48041666666666666,
+            0.5531530473758012,
+            0.6162500000000001
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.46221554737580123,
+                0.48041666666666666,
+                0.5531530473758012,
+                0.6162500000000001
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5558155473758012,
+            0.3762500000000001,
+            0.7195844526241987,
+            0.6104166666666667
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5558155473758012,
+                0.3762500000000001,
+                0.7195844526241987,
+                0.6104166666666667
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.07469135802469136,
+      "collision": 0.0,
+      "centroid": [
+        0.47634297520661156,
+        0.4892959902050811
+      ],
+      "box_fill": 0.14583333333333334
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.1028687327860518,
+      "group_height_log_error": 0.2191547111143499,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s035-3",
+    "reference_id": "s035",
+    "score": 0.02857581512371981,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2641500323666014,
+            0.3205401234567901,
+            0.4594972545888236,
+            0.6794598765432098
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.2641500323666014,
+                0.3205401234567901,
+                0.4594972545888236,
+                0.6794598765432098
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.45941669903326804,
+            0.47896604938271603,
+            0.557090310144379,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.45941669903326804,
+                0.47896604938271603,
+                0.557090310144379,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5599500323666013,
+            0.3670833333333333,
+            0.7358499676333986,
+            0.6185956790123456
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5599500323666013,
+                0.3670833333333333,
+                0.7358499676333986,
+                0.6185956790123456
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08333333333333333,
+      "collision": 0.0,
+      "centroid": [
+        0.47476080246913577,
+        0.4867050754458162
+      ],
+      "box_fill": 0.1674074074074074
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.10286873278605199,
+      "group_height_log_error": 0.21915471111434998,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s014-0",
+    "reference_id": "s014",
+    "score": -0.03597816278194295,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.23789249643999685,
+            0.33459876543209877,
+            0.4123890242177747,
+            0.6490740740740742
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.23789249643999685,
+                0.33459876543209877,
+                0.4123890242177747,
+                0.6490740740740742
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.41957652421777464,
+            0.4275925925925927,
+            0.5648505591155586,
+            0.61570987654321
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.41957652421777464,
+                0.4275925925925927,
+                0.5648505591155586,
+                0.61570987654321
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5688436146711142,
+            0.3225308641975309,
+            0.7621075035600031,
+            0.6774691358024691
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#a7d6fa",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5688436146711142,
+                0.3225308641975309,
+                0.7621075035600031,
+                0.6774691358024691
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0945679012345679,
+      "collision": 0.0,
+      "centroid": [
+        0.5121600304612707,
+        0.4876559326950972
+      ],
+      "box_fill": 0.18666666666666668
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2195825417659475,
+      "group_height_log_error": 0.06432410096690482,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s014-1",
+    "reference_id": "s014",
+    "score": -0.005113356159538857,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.21510053960869224,
+            0.32021604938271603,
+            0.40477067849758114,
+            0.6620370370370371
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.21510053960869224,
+                0.32021604938271603,
+                0.40477067849758114,
+                0.6620370370370371
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.41258317849758114,
+            0.4212962962962963,
+            0.5704897381690854,
+            0.6257716049382716
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.41258317849758114,
+                0.4212962962962963,
+                0.5704897381690854,
+                0.6257716049382716
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5748300159468633,
+            0.30709876543209874,
+            0.7848994603913078,
+            0.6929012345679011
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#a7d6fa",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5748300159468633,
+                0.30709876543209874,
+                0.7848994603913078,
+                0.6929012345679011
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11058641975308642,
+      "collision": 0.0,
+      "centroid": [
+        0.5094148292864452,
+        0.48433239267735495
+      ],
+      "box_fill": 0.2182716049382716
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.21958254176594766,
+      "group_height_log_error": 0.06432410096690494,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s014-2",
+    "reference_id": "s014",
+    "score": 0.01600700756105892,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1923085827773876,
+            0.3058333333333334,
+            0.39715233277738765,
+            0.6750000000000002
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.1923085827773876,
+                0.3058333333333334,
+                0.39715233277738765,
+                0.6750000000000002
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.40558983277738764,
+            0.4150000000000001,
+            0.5761289172226124,
+            0.6358333333333335
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.40558983277738764,
+                0.4150000000000001,
+                0.5761289172226124,
+                0.6358333333333335
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5808164172226125,
+            0.2916666666666667,
+            0.8076914172226124,
+            0.7083333333333334
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#a7d6fa",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5808164172226125,
+                0.2916666666666667,
+                0.8076914172226124,
+                0.7083333333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.12885802469135801,
+      "collision": 0.0,
+      "centroid": [
+        0.5092734530938123,
+        0.4828547349744955
+      ],
+      "box_fill": 0.25407407407407406
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.21958254176594766,
+      "group_height_log_error": 0.06432410096690498,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s014-3",
+    "reference_id": "s014",
+    "score": 0.024426965950965437,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.16951662594608302,
+            0.29145061728395066,
+            0.3895339870571941,
+            0.6879629629629631
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.16951662594608302,
+                0.29145061728395066,
+                0.3895339870571941,
+                0.6879629629629631
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.39859648705719414,
+            0.4087037037037038,
+            0.5817680962761392,
+            0.6458950617283951
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.39859648705719414,
+                0.4087037037037038,
+                0.5817680962761392,
+                0.6458950617283951
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5868028184983615,
+            0.2762345679012347,
+            0.8304833740539169,
+            0.7237654320987654
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#a7d6fa",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5868028184983615,
+                0.2762345679012347,
+                0.8304833740539169,
+                0.7237654320987654
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.14623456790123457,
+      "collision": 0.0,
+      "centroid": [
+        0.5115150555790067,
+        0.4821803229992339
+      ],
+      "box_fill": 0.29259259259259257
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2195825417659475,
+      "group_height_log_error": 0.06432410096690498,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s030-0",
+    "reference_id": "s030",
+    "score": -2.870693840769791,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.32002499999999995,
+            0.3913888888888888,
+            0.4330284722222222,
+            0.5965432098765432
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.32002499999999995,
+                0.3913888888888888,
+                0.4330284722222222,
+                0.5965432098765432
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4318305555555555,
+            0.3949382716049382,
+            0.5880686685588327,
+            0.597253086419753
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4318305555555555,
+                0.3949382716049382,
+                0.5880686685588327,
+                0.597253086419753
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5905305555555556,
+            0.44462962962962965,
+            0.679975,
+            0.6086111111111111
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5905305555555556,
+                0.44462962962962965,
+                0.679975,
+                0.6086111111111111
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.03984567901234568,
+      "collision": 0.0,
+      "centroid": [
+        0.48569907048799377,
+        0.4949135037438678
+      ],
+      "box_fill": 0.07697530864197531
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.3346687520565108,
+      "group_height_log_error": 0.2733572761357976,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s030-1",
+    "reference_id": "s030",
+    "score": -2.8418608185412406,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3043749999999999,
+            0.38194444444444436,
+            0.42720486111111106,
+            0.6049382716049383
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3043749999999999,
+                0.38194444444444436,
+                0.42720486111111106,
+                0.6049382716049383
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.42590277777777774,
+            0.3858024691358024,
+            0.5957268136509051,
+            0.6057098765432098
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.42590277777777774,
+                0.3858024691358024,
+                0.5957268136509051,
+                0.6057098765432098
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5984027777777777,
+            0.4398148148148148,
+            0.695625,
+            0.6180555555555556
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5984027777777777,
+                0.4398148148148148,
+                0.695625,
+                0.6180555555555556
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.04660493827160494,
+      "collision": 0.0,
+      "centroid": [
+        0.48891004415011036,
+        0.4963502575423105
+      ],
+      "box_fill": 0.08993827160493827
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.3346687520565108,
+      "group_height_log_error": 0.2733572761357976,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s030-2",
+    "reference_id": "s030",
+    "score": -2.8128030182265555,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.28872499999999995,
+            0.37249999999999994,
+            0.42138124999999993,
+            0.6133333333333333
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.28872499999999995,
+                0.37249999999999994,
+                0.42138124999999993,
+                0.6133333333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.41997499999999993,
+            0.3766666666666666,
+            0.6033849587429775,
+            0.6141666666666665
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.41997499999999993,
+                0.3766666666666666,
+                0.6033849587429775,
+                0.6141666666666665
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.606275,
+            0.435,
+            0.7112750000000001,
+            0.6275
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.606275,
+                0.435,
+                0.7112750000000001,
+                0.6275
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.053580246913580244,
+      "collision": 0.0,
+      "centroid": [
+        0.483138920890937,
+        0.4954429083461342
+      ],
+      "box_fill": 0.11018518518518519
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.334668752056511,
+      "group_height_log_error": 0.27335727613579763,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s030-3",
+    "reference_id": "s030",
+    "score": -2.7840431535296104,
+    "title": {
+      "id": "generated",
+      "text": "死の味",
+      "groups": [
+        {
+          "text": "死",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.27307499999999996,
+            0.36305555555555546,
+            0.4155576388888888,
+            0.6217283950617284
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "死",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.27307499999999996,
+                0.36305555555555546,
+                0.4155576388888888,
+                0.6217283950617284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4140472222222221,
+            0.36753086419753084,
+            0.6110431038350498,
+            0.6226234567901234
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4140472222222221,
+                0.36753086419753084,
+                0.6110431038350498,
+                0.6226234567901234
+              ]
+            }
+          ]
+        },
+        {
+          "text": "味",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6141472222222223,
+            0.43018518518518517,
+            0.726925,
+            0.6369444444444444
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "味",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6141472222222223,
+                0.43018518518518517,
+                0.726925,
+                0.6369444444444444
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.06169753086419753,
+      "collision": 0.0,
+      "centroid": [
+        0.48549483074870764,
+        0.49558853500824485
+      ],
+      "box_fill": 0.12333333333333334
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.334668752056511,
+      "group_height_log_error": 0.2733572761357975,
+      "reference_marked": [
+        1,
+        2
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  }
+]

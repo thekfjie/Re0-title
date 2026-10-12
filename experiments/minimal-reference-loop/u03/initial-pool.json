@@ -1,0 +1,4328 @@
+[
+  {
+    "id": "s014-0",
+    "reference_id": "s014",
+    "score": 0.047196820943506766,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.3435901500218355,
+            0.23001071350968924,
+            0.6409702510532815
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.3435901500218355,
+                0.23001071350968924,
+                0.6409702510532815
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.23680749347118668,
+            0.40736240645070093,
+            0.2983317152833413,
+            0.6550672761586096
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.23680749347118668,
+                0.40736240645070093,
+                0.2983317152833413,
+                0.6550672761586096
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.298431631788764,
+            0.40736240645070093,
+            0.4036656155215969,
+            0.6550672761586096
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.298431631788764,
+                0.40736240645070093,
+                0.4036656155215969,
+                0.6550672761586096
+              ]
+            }
+          ]
+        },
+        {
+          "text": "らない",
+          "start": 3,
+          "end": 6,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.4119727910300939,
+            0.38386736460848736,
+            0.6664744406995,
+            0.6470118332412792
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4119727910300939,
+                0.431528735202692,
+                0.4671204372864025,
+                0.6094197662937375
+              ]
+            },
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46276134534835667,
+                0.498657426180445,
+                0.5264855781550873,
+                0.6470118332412792
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5181078468490277,
+                0.38386736460848736,
+                0.6664744406995,
+                0.6262019390381757
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明日",
+          "start": 6,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6702504295669987,
+            0.3321782725556175,
+            0.935,
+            0.6678217274443826
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#a7d6fa",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6702504295669987,
+                0.3321782725556175,
+                0.8123862107349848,
+                0.6678217274443826
+              ]
+            },
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8144509132301294,
+                0.3321782725556175,
+                0.935,
+                0.6678217274443826
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.15246913580246912,
+      "collision": 0.0,
+      "centroid": [
+        0.5167881241565452,
+        0.4976863097915729
+      ],
+      "box_fill": 0.28888888888888886
+    },
+    "comparison": null
+  },
+  {
+    "id": "s014-2",
+    "reference_id": "s014",
+    "score": 0.047196820943506766,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.3435901500218355,
+            0.23001071350968924,
+            0.6409702510532815
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.3435901500218355,
+                0.23001071350968924,
+                0.6409702510532815
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.23680749347118668,
+            0.40736240645070093,
+            0.2983317152833413,
+            0.6550672761586096
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.23680749347118668,
+                0.40736240645070093,
+                0.2983317152833413,
+                0.6550672761586096
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.298431631788764,
+            0.40736240645070093,
+            0.4036656155215969,
+            0.6550672761586096
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.298431631788764,
+                0.40736240645070093,
+                0.4036656155215969,
+                0.6550672761586096
+              ]
+            }
+          ]
+        },
+        {
+          "text": "らない",
+          "start": 3,
+          "end": 6,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.4119727910300939,
+            0.38386736460848736,
+            0.6664744406995,
+            0.6470118332412792
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4119727910300939,
+                0.431528735202692,
+                0.4671204372864025,
+                0.6094197662937375
+              ]
+            },
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46276134534835667,
+                0.498657426180445,
+                0.5264855781550873,
+                0.6470118332412792
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5181078468490277,
+                0.38386736460848736,
+                0.6664744406995,
+                0.6262019390381757
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明日",
+          "start": 6,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6702504295669987,
+            0.3321782725556175,
+            0.935,
+            0.6678217274443826
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#a7d6fa",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6702504295669987,
+                0.3321782725556175,
+                0.8123862107349848,
+                0.6678217274443826
+              ]
+            },
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8144509132301294,
+                0.3321782725556175,
+                0.935,
+                0.6678217274443826
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.15246913580246912,
+      "collision": 0.0,
+      "centroid": [
+        0.5167881241565452,
+        0.4976863097915729
+      ],
+      "box_fill": 0.28888888888888886
+    },
+    "comparison": null
+  },
+  {
+    "id": "s014-1",
+    "reference_id": "s014",
+    "score": 0.21578780456983648,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.3359921973293762,
+            0.2380264720771363,
+            0.647818191248202
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.3359921973293762,
+                0.2380264720771363,
+                0.647818191248202
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.24515342058374595,
+            0.4028623314654674,
+            0.3096663168741024,
+            0.6626000103730221
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.24515342058374595,
+                0.4028623314654674,
+                0.3096663168741024,
+                0.6626000103730221
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3097710870436741,
+            0.4028623314654674,
+            0.42011704313728054,
+            0.6626000103730221
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3097710870436741,
+                0.4028623314654674,
+                0.42011704313728054,
+                0.6626000103730221
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ら",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.42882775797869255,
+            0.42820259282230205,
+            0.4901558076142523,
+            0.6147350722545566
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.42882775797869255,
+                0.42820259282230205,
+                0.4901558076142523,
+                0.6147350722545566
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ない",
+          "start": 4,
+          "end": 6,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 5,
+          "ink_bbox": [
+            0.4901558076142522,
+            0.4985922077023981,
+            0.6286078415183666,
+            0.6541532565874105
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4901558076142522,
+                0.4985922077023981,
+                0.5481868423722264,
+                0.6541532565874105
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5458942464947456,
+                0.4985922077023981,
+                0.6286078415183666,
+                0.6541532565874105
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6317977324944148,
+            0.3782259662574339,
+            0.739404857651933,
+            0.6323324759745806
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6317977324944148,
+                0.3782259662574339,
+                0.739404857651933,
+                0.6323324759745806
+              ]
+            }
+          ]
+        },
+        {
+          "text": "日",
+          "start": 7,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7433642734889385,
+            0.3240259627997598,
+            0.935,
+            0.6759740372002403
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#a7d6fa",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.7433642734889385,
+                0.3240259627997598,
+                0.935,
+                0.6759740372002403
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1584567901234568,
+      "collision": 0.0,
+      "centroid": [
+        0.5127743150240228,
+        0.5026980623007113
+      ],
+      "box_fill": 0.30814814814814817
+    },
+    "comparison": null
+  },
+  {
+    "id": "s014-3",
+    "reference_id": "s014",
+    "score": 0.21578780456983648,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.3359921973293762,
+            0.2380264720771363,
+            0.647818191248202
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.3359921973293762,
+                0.2380264720771363,
+                0.647818191248202
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.24515342058374595,
+            0.4028623314654674,
+            0.3096663168741024,
+            0.6626000103730221
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.24515342058374595,
+                0.4028623314654674,
+                0.3096663168741024,
+                0.6626000103730221
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3097710870436741,
+            0.4028623314654674,
+            0.42011704313728054,
+            0.6626000103730221
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3097710870436741,
+                0.4028623314654674,
+                0.42011704313728054,
+                0.6626000103730221
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ら",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.42882775797869255,
+            0.42820259282230205,
+            0.4901558076142523,
+            0.6147350722545566
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.42882775797869255,
+                0.42820259282230205,
+                0.4901558076142523,
+                0.6147350722545566
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ない",
+          "start": 4,
+          "end": 6,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 5,
+          "ink_bbox": [
+            0.4901558076142522,
+            0.4985922077023981,
+            0.6286078415183666,
+            0.6541532565874105
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4901558076142522,
+                0.4985922077023981,
+                0.5481868423722264,
+                0.6541532565874105
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5458942464947456,
+                0.4985922077023981,
+                0.6286078415183666,
+                0.6541532565874105
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6317977324944148,
+            0.3782259662574339,
+            0.739404857651933,
+            0.6323324759745806
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6317977324944148,
+                0.3782259662574339,
+                0.739404857651933,
+                0.6323324759745806
+              ]
+            }
+          ]
+        },
+        {
+          "text": "日",
+          "start": 7,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7433642734889385,
+            0.3240259627997598,
+            0.935,
+            0.6759740372002403
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#a7d6fa",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.7433642734889385,
+                0.3240259627997598,
+                0.935,
+                0.6759740372002403
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1584567901234568,
+      "collision": 0.0,
+      "centroid": [
+        0.5127743150240228,
+        0.5026980623007113
+      ],
+      "box_fill": 0.30814814814814817
+    },
+    "comparison": null
+  },
+  {
+    "id": "s051-0",
+    "reference_id": "s051",
+    "score": -0.2813670872855526,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2688169966894061,
+            0.25615740740740744,
+            0.4057788022449617,
+            0.49112654320987664
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.2688169966894061,
+                0.25615740740740744,
+                0.4057788022449617,
+                0.49112654320987664
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.40375033002273947,
+            0.32643518518518516,
+            0.45206630224496164,
+            0.4499537037037037
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.40375033002273947,
+                0.32643518518518516,
+                0.45206630224496164,
+                0.4499537037037037
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.451666996689406,
+            0.2802932098765432,
+            0.5884418124340619,
+            0.4811882716049383
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.451666996689406,
+                0.2802932098765432,
+                0.5884418124340619,
+                0.4811882716049383
+              ]
+            }
+          ]
+        },
+        {
+          "text": "らない",
+          "start": 3,
+          "end": 6,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.5912003300227393,
+            0.31933641975308646,
+            0.7311830033105939,
+            0.49112654320987664
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5912003300227393,
+                0.31933641975308646,
+                0.6254111965000121,
+                0.44640432098765437
+              ]
+            },
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6276783300227394,
+                0.31933641975308646,
+                0.6750801818745913,
+                0.44640432098765437
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6726783300227394,
+                0.38109567901234576,
+                0.7311830033105939,
+                0.49112654320987664
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明日",
+          "start": 6,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.37982394113385054,
+            0.4904166666666668,
+            0.6761086633560729,
+            0.7438425925925926
+          ],
+          "reference_groups": [
+            "g04",
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.37982394113385054,
+                0.4904166666666668,
+                0.5384486479194357,
+                0.7438425925925926
+              ]
+            },
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5415748859707645,
+                0.4904166666666668,
+                0.6761086633560729,
+                0.7438425925925926
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11635802469135803,
+      "collision": 0.0007957559681697613,
+      "centroid": [
+        0.4849480548187445,
+        0.49072993417821004
+      ],
+      "box_fill": 0.22067901234567902
+    },
+    "comparison": null
+  },
+  {
+    "id": "s051-2",
+    "reference_id": "s051",
+    "score": -0.2618122872031354,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.22877430046147676,
+            0.21375000000000005,
+            0.3895555504614768,
+            0.4895833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.22877430046147676,
+                0.21375000000000005,
+                0.3895555504614768,
+                0.4895833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3871743004614767,
+            0.29625000000000007,
+            0.44389305046147676,
+            0.44125
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3871743004614767,
+                0.29625000000000007,
+                0.44389305046147676,
+                0.44125
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.44342430046147674,
+            0.24208333333333337,
+            0.6039860406834641,
+            0.4779166666666668
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.44342430046147674,
+                0.24208333333333337,
+                0.6039860406834641,
+                0.4779166666666668
+              ]
+            }
+          ]
+        },
+        {
+          "text": "らない",
+          "start": 3,
+          "end": 6,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.6072243004614767,
+            0.2879166666666667,
+            0.7712256995385233,
+            0.4895833333333333
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6072243004614767,
+                0.2879166666666667,
+                0.6473848828478403,
+                0.4370833333333333
+              ]
+            },
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6500463004614767,
+                0.2879166666666667,
+                0.7056919526353898,
+                0.4370833333333333
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7025463004614767,
+                0.36041666666666666,
+                0.7712256995385233,
+                0.4895833333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明日",
+          "start": 6,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3590868004614768,
+            0.4887500000000001,
+            0.7068993004614769,
+            0.78625
+          ],
+          "reference_groups": [
+            "g04",
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3590868004614768,
+                0.4887500000000001,
+                0.5452984127749897,
+                0.78625
+              ]
+            },
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5489683444004627,
+                0.4887500000000001,
+                0.7068993004614769,
+                0.78625
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1562962962962963,
+      "collision": 0.0,
+      "centroid": [
+        0.48362131384939444,
+        0.4896597624480721
+      ],
+      "box_fill": 0.3089506172839506
+    },
+    "comparison": null
+  },
+  {
+    "id": "s051-1",
+    "reference_id": "s051",
+    "score": -4.006020256388502,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.22519327110536827,
+            0.23495370370370375,
+            0.3740647988831461,
+            0.490354938271605
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.22519327110536827,
+                0.23495370370370375,
+                0.3740647988831461,
+                0.490354938271605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3718599377720349,
+            0.3113425925925926,
+            0.424377298883146,
+            0.44560185185185186
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3718599377720349,
+                0.3113425925925926,
+                0.424377298883146,
+                0.44560185185185186
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.4239432711053682,
+            0.26118827160493835,
+            0.5726115490886898,
+            0.4795524691358026
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.4239432711053682,
+                0.26118827160493835,
+                0.5726115490886898,
+                0.4795524691358026
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ら",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.5756099377720348,
+            0.3036265432098766,
+            0.612795662203853,
+            0.4417438271604939
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5756099377720348,
+                0.3036265432098766,
+                0.612795662203853,
+                0.4417438271604939
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ない",
+          "start": 4,
+          "end": 6,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 5,
+          "ink_bbox": [
+            0.6139432711053682,
+            0.3707561728395062,
+            0.7210853072878187,
+            0.490354938271605
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6139432711053682,
+                0.3707561728395062,
+                0.6585588105578641,
+                0.490354938271605
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6574932711053681,
+                0.3707561728395062,
+                0.7210853072878187,
+                0.490354938271605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7241599377720348,
+            0.3707561728395062,
+            0.7748067288946319,
+            0.490354938271605
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7241599377720348,
+                0.3707561728395062,
+                0.7748067288946319,
+                0.490354938271605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "日",
+          "start": 7,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3458529933275905,
+            0.4895833333333334,
+            0.5044023071503417,
+            0.7650462962962963
+          ],
+          "reference_groups": [
+            "g04",
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3458529933275905,
+                0.4895833333333334,
+                0.5044023071503417,
+                0.7650462962962963
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10666666666666667,
+      "collision": 0.0,
+      "centroid": [
+        0.433226032021605,
+        0.4509645061728395
+      ],
+      "box_fill": 0.28925925925925927
+    },
+    "comparison": null
+  },
+  {
+    "id": "s051-3",
+    "reference_id": "s051",
+    "score": -4.362215606430445,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1812241944822271,
+            0.19254629629629638,
+            0.35391516670444934,
+            0.4888117283950618
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#646464",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.1812241944822271,
+                0.19254629629629638,
+                0.35391516670444934,
+                0.4888117283950618
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3513575278155604,
+            0.28115740740740747,
+            0.41227766670444926,
+            0.43689814814814815
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3513575278155604,
+                0.28115740740740747,
+                0.41227766670444926,
+                0.43689814814814815
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.411774194482227,
+            0.22297839506172845,
+            0.58422939694288,
+            0.4762808641975309
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#636363",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.411774194482227,
+                0.22297839506172845,
+                0.58422939694288,
+                0.4762808641975309
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ら",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.5877075278155603,
+            0.2722067901234569,
+            0.6308429681564695,
+            0.43242283950617294
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5877075278155603,
+                0.2722067901234569,
+                0.6308429681564695,
+                0.43242283950617294
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ない",
+          "start": 4,
+          "end": 6,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 5,
+          "ink_bbox": [
+            0.632174194482227,
+            0.3500771604938272,
+            0.7564589564538696,
+            0.4888117283950618
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.632174194482227,
+                0.3500771604938272,
+                0.6839282202471224,
+                0.4888117283950618
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.682692194482227,
+                0.3500771604938272,
+                0.7564589564538696,
+                0.4888117283950618
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7600255278155603,
+            0.3500771604938272,
+            0.8187758055177728,
+            0.4888117283950618
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7600255278155603,
+                0.3500771604938272,
+                0.8187758055177728,
+                0.4888117283950618
+              ]
+            }
+          ]
+        },
+        {
+          "text": "日",
+          "start": 7,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3211894722600049,
+            0.4879166666666668,
+            0.5051066762943964,
+            0.8074537037037037
+          ],
+          "reference_groups": [
+            "g04",
+            "g05"
+          ],
+          "glyphs": [
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3211894722600049,
+                0.4879166666666668,
+                0.5051066762943964,
+                0.8074537037037037
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13842592592592592,
+      "collision": 0.0,
+      "centroid": [
+        0.4227536231884058,
+        0.44783682232957595
+      ],
+      "box_fill": 0.39194444444444443
+    },
+    "comparison": null
+  },
+  {
+    "id": "s010-0",
+    "reference_id": "s010",
+    "score": -0.8083383190165889,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.08628986469499073,
+            0.3725771604938271,
+            0.2224530591394352,
+            0.621033950617284
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.08628986469499073,
+                0.3725771604938271,
+                0.2224530591394352,
+                0.621033950617284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.22352319802832407,
+            0.3825154320987654,
+            0.3142247781836913,
+            0.6103858024691358
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22352319802832407,
+                0.3825154320987654,
+                0.3142247781836913,
+                0.6103858024691358
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3142247781836914,
+            0.3825154320987654,
+            0.4693651168905272,
+            0.6103858024691358
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3142247781836914,
+                0.3825154320987654,
+                0.4693651168905272,
+                0.6103858024691358
+              ]
+            }
+          ]
+        },
+        {
+          "text": "らない",
+          "start": 3,
+          "end": 6,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.4741567835571938,
+            0.3988425925925925,
+            0.7404115241938981,
+            0.6274228395061728
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4741567835571938,
+                0.3988425925925925,
+                0.5356981187844666,
+                0.6274228395061728
+              ]
+            },
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5381427835571939,
+                0.3988425925925925,
+                0.6234131539275642,
+                0.6274228395061728
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6188727835571939,
+                0.3988425925925925,
+                0.7404115241938981,
+                0.6274228395061728
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明日",
+          "start": 6,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7460018019716758,
+            0.4059413580246913,
+            0.9137101353050093,
+            0.6018672839506173
+          ],
+          "reference_groups": [
+            "g03",
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7460018019716758,
+                0.4059413580246913,
+                0.8352654675741221,
+                0.6018672839506173
+              ]
+            },
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8380032775266129,
+                0.4059413580246913,
+                0.9137101353050093,
+                0.6018672839506173
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1115432098765432,
+      "collision": 0.0002767017155506364,
+      "centroid": [
+        0.4552112156428703,
+        0.5005001127303286
+      ],
+      "box_fill": 0.21388888888888888
+    },
+    "comparison": null
+  },
+  {
+    "id": "s010-1",
+    "reference_id": "s010",
+    "score": -0.8221327105144346,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.370481495021435,
+            0.20340260855822276,
+            0.6230245409406424
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.370481495021435,
+                0.20340260855822276,
+                0.6230245409406424
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.20449034753457473,
+            0.38058321685820334,
+            0.2966836553155361,
+            0.6122012675441049
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20449034753457473,
+                0.38058321685820334,
+                0.2966836553155361,
+                0.6122012675441049
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.29668365531553614,
+            0.38058321685820334,
+            0.45437551659448805,
+            0.6122012675441049
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29668365531553614,
+                0.38058321685820334,
+                0.45437551659448805,
+                0.6122012675441049
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ら",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.45924598962292984,
+            0.39717890273289413,
+            0.5594919472679902,
+            0.629518504978565
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.45924598962292984,
+                0.39717890273289413,
+                0.5594919472679902,
+                0.629518504978565
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ない",
+          "start": 4,
+          "end": 6,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 5,
+          "ink_bbox": [
+            0.5651741658011724,
+            0.38274787153751083,
+            0.7353045168741932,
+            0.5746805864361084
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5651741658011724,
+                0.38274787153751083,
+                0.6367734133589971,
+                0.5746805864361084
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6332516896035213,
+                0.38274787153751083,
+                0.7353045168741932,
+                0.5746805864361084
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7384539070178655,
+            0.38274787153751083,
+            0.8197321383268762,
+            0.5746805864361084
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7384539070178655,
+                0.38274787153751083,
+                0.8197321383268762,
+                0.5746805864361084
+              ]
+            }
+          ]
+        },
+        {
+          "text": "日",
+          "start": 7,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.8254143568600583,
+            0.4043944183305858,
+            0.935,
+            0.603542648826875
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8254143568600583,
+                0.4043944183305858,
+                0.935,
+                0.603542648826875
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11608024691358025,
+      "collision": 0.0,
+      "centroid": [
+        0.4593880173712665,
+        0.4926782672063182
+      ],
+      "box_fill": 0.22469135802469137
+    },
+    "comparison": null
+  },
+  {
+    "id": "s010-2",
+    "reference_id": "s010",
+    "score": -0.7941097038102639,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.36601987610402625,
+            0.20817026470638697,
+            0.6272624575167884
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.36601987610402625,
+                0.20817026470638697,
+                0.6272624575167884
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.20929547382490046,
+            0.3764695793605367,
+            0.30466463208469574,
+            0.6160663468848129
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20929547382490046,
+                0.3764695793605367,
+                0.30466463208469574,
+                0.6160663468848129
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.30466463208469574,
+            0.3764695793605367,
+            0.4677886205451653,
+            0.6160663468848129
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.30466463208469574,
+                0.3764695793605367,
+                0.4677886205451653,
+                0.6160663468848129
+              ]
+            }
+          ]
+        },
+        {
+          "text": "らない",
+          "start": 3,
+          "end": 6,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.47282687032955417,
+            0.3936369489962325,
+            0.7527832994645982,
+            0.6339801238959737
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.47282687032955417,
+                0.3936369489962325,
+                0.5375351734126464,
+                0.6339801238959737
+              ]
+            },
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.540105642650371,
+                0.3936369489962325,
+                0.629764096591231,
+                0.6339801238959737
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6249900750177565,
+                0.3936369489962325,
+                0.7527832994645982,
+                0.6339801238959737
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明日",
+          "start": 6,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7586612575463854,
+            0.4011010227508829,
+            0.935,
+            0.6071094583792325
+          ],
+          "reference_groups": [
+            "g03",
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7586612575463854,
+                0.4011010227508829,
+                0.8525185049847078,
+                0.6071094583792325
+              ]
+            },
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8553972048948647,
+                0.4011010227508829,
+                0.935,
+                0.6071094583792325
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.12160493827160494,
+      "collision": 0.0,
+      "centroid": [
+        0.46192681895093063,
+        0.49753149088174464
+      ],
+      "box_fill": 0.2311111111111111
+    },
+    "comparison": null
+  },
+  {
+    "id": "s010-3",
+    "reference_id": "s010",
+    "score": -0.8221327105144346,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.370481495021435,
+            0.20340260855822276,
+            0.6230245409406424
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.370481495021435,
+                0.20340260855822276,
+                0.6230245409406424
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.20449034753457473,
+            0.38058321685820334,
+            0.2966836553155361,
+            0.6122012675441049
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20449034753457473,
+                0.38058321685820334,
+                0.2966836553155361,
+                0.6122012675441049
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.29668365531553614,
+            0.38058321685820334,
+            0.45437551659448805,
+            0.6122012675441049
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29668365531553614,
+                0.38058321685820334,
+                0.45437551659448805,
+                0.6122012675441049
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ら",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.45924598962292984,
+            0.39717890273289413,
+            0.5594919472679902,
+            0.629518504978565
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.45924598962292984,
+                0.39717890273289413,
+                0.5594919472679902,
+                0.629518504978565
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ない",
+          "start": 4,
+          "end": 6,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 5,
+          "ink_bbox": [
+            0.5651741658011724,
+            0.38274787153751083,
+            0.7353045168741932,
+            0.5746805864361084
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5651741658011724,
+                0.38274787153751083,
+                0.6367734133589971,
+                0.5746805864361084
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6332516896035213,
+                0.38274787153751083,
+                0.7353045168741932,
+                0.5746805864361084
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7384539070178655,
+            0.38274787153751083,
+            0.8197321383268762,
+            0.5746805864361084
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7384539070178655,
+                0.38274787153751083,
+                0.8197321383268762,
+                0.5746805864361084
+              ]
+            }
+          ]
+        },
+        {
+          "text": "日",
+          "start": 7,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.8254143568600583,
+            0.4043944183305858,
+            0.935,
+            0.603542648826875
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8254143568600583,
+                0.4043944183305858,
+                0.935,
+                0.603542648826875
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11608024691358025,
+      "collision": 0.0,
+      "centroid": [
+        0.4593880173712665,
+        0.4926782672063182
+      ],
+      "box_fill": 0.22469135802469137
+    },
+    "comparison": null
+  },
+  {
+    "id": "s030-0",
+    "reference_id": "s030",
+    "score": -0.1847050668453687,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1967891508188727,
+            0.3913888888888888,
+            0.30979262304109495,
+            0.5965432098765432
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.1967891508188727,
+                0.3913888888888888,
+                0.30979262304109495,
+                0.5965432098765432
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3085947063744282,
+            0.4460493827160494,
+            0.36877986703827,
+            0.597253086419753
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3085947063744282,
+                0.4460493827160494,
+                0.36877986703827,
+                0.597253086419753
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.37317222814938117,
+            0.3949382716049382,
+            0.47419653370493675,
+            0.5759567901234568
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.37317222814938117,
+                0.3949382716049382,
+                0.47419653370493675,
+                0.5759567901234568
+              ]
+            }
+          ]
+        },
+        {
+          "text": "らない",
+          "start": 3,
+          "end": 6,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.47743889481604784,
+            0.44462962962962965,
+            0.6692797304902052,
+            0.6086111111111111
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47743889481604784,
+                0.44462962962962965,
+                0.5215881135660478,
+                0.6086111111111111
+              ]
+            },
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5240828948160479,
+                0.44462962962962965,
+                0.58525511703827,
+                0.6086111111111111
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5820888948160479,
+                0.44462962962962965,
+                0.6692797304902052,
+                0.6086111111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明日",
+          "start": 6,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6725555614827144,
+            0.44462962962962965,
+            0.8032108491811273,
+            0.6086111111111111
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6725555614827144,
+                0.44462962962962965,
+                0.7419972134141617,
+                0.6086111111111111
+              ]
+            },
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7443155614827145,
+                0.44462962962962965,
+                0.8032108491811273,
+                0.6086111111111111
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.06820987654320988,
+      "collision": 0.0,
+      "centroid": [
+        0.47020173453996983,
+        0.5041763029998324
+      ],
+      "box_fill": 0.13067901234567902
+    },
+    "comparison": null
+  },
+  {
+    "id": "s030-2",
+    "reference_id": "s030",
+    "score": -0.12330030595549628,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1440568292221549,
+            0.37249999999999994,
+            0.27671307922215493,
+            0.6133333333333333
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.1440568292221549,
+                0.37249999999999994,
+                0.27671307922215493,
+                0.6133333333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.2753068292221549,
+            0.4366666666666666,
+            0.34595897434927353,
+            0.6141666666666665
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2753068292221549,
+                0.4366666666666666,
+                0.34595897434927353,
+                0.6141666666666665
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.35111522434927356,
+            0.3766666666666666,
+            0.46970897434927356,
+            0.5891666666666666
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.35111522434927356,
+                0.3766666666666666,
+                0.46970897434927356,
+                0.5891666666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "らない",
+          "start": 3,
+          "end": 6,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.47351522434927357,
+            0.435,
+            0.6987196836189364,
+            0.6275
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47351522434927357,
+                0.435,
+                0.5253425680992736,
+                0.6275
+              ]
+            },
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5282712243492736,
+                0.435,
+                0.600082093914491,
+                0.6275
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5963652243492735,
+                0.435,
+                0.6987196836189364,
+                0.6275
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明日",
+          "start": 6,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7025652243492736,
+            0.435,
+            0.8559431707778451,
+            0.6275
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7025652243492736,
+                0.435,
+                0.7840836853122769,
+                0.6275
+              ]
+            },
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7868052243492737,
+                0.435,
+                0.8559431707778451,
+                0.6275
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09243827160493827,
+      "collision": 0.0,
+      "centroid": [
+        0.4668962159154146,
+        0.507393804488963
+      ],
+      "box_fill": 0.18472222222222223
+    },
+    "comparison": null
+  },
+  {
+    "id": "s030-1",
+    "reference_id": "s030",
+    "score": -0.6306443493308518,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.17172070504544726,
+            0.38194444444444436,
+            0.26935370355735205,
+            0.6049382716049383
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.17172070504544726,
+                0.38194444444444436,
+                0.26935370355735205,
+                0.6049382716049383
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.2708873717121139,
+            0.38194444444444436,
+            0.32627393597765064,
+            0.6049382716049383
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2708873717121139,
+                0.38194444444444436,
+                0.32627393597765064,
+                0.6049382716049383
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3258873717121139,
+            0.441358024691358,
+            0.4092799868882656,
+            0.6057098765432098
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3258873717121139,
+                0.441358024691358,
+                0.4092799868882656,
+                0.6057098765432098
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ら",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.4125540383787806,
+            0.441358024691358,
+            0.4762820194085909,
+            0.6057098765432098
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4125540383787806,
+                0.441358024691358,
+                0.4762820194085909,
+                0.6057098765432098
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ない",
+          "start": 4,
+          "end": 6,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 5,
+          "ink_bbox": [
+            0.4792207050454472,
+            0.441358024691358,
+            0.6129494338434415,
+            0.6057098765432098
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4792207050454472,
+                0.441358024691358,
+                0.544083872913599,
+                0.6057098765432098
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5433873717121139,
+                0.4705364331723027,
+                0.6129494338434415,
+                0.5941973072105922
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6177237393989973,
+            0.3858024691358024,
+            0.7275327671767751,
+            0.5825617283950617
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6177237393989973,
+                0.3858024691358024,
+                0.7275327671767751,
+                0.5825617283950617
+              ]
+            }
+          ]
+        },
+        {
+          "text": "日",
+          "start": 7,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7310570727323306,
+            0.4398148148148148,
+            0.8282792949545529,
+            0.6180555555555556
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7310570727323306,
+                0.4398148148148148,
+                0.8282792949545529,
+                0.6180555555555556
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.07777777777777778,
+      "collision": 0.0003968253968253968,
+      "centroid": [
+        0.4878587962962963,
+        0.503639035861258
+      ],
+      "box_fill": 0.15021604938271604
+    },
+    "comparison": null
+  },
+  {
+    "id": "s030-3",
+    "reference_id": "s030",
+    "score": -0.5746822900012057,
+    "title": {
+      "id": "generated",
+      "text": "誰も知らない明日",
+      "groups": [
+        {
+          "text": "誰",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "代名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1197188346883468,
+            0.36305555555555546,
+            0.2329731129621564,
+            0.6217283950617284
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "誰",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#3863b2",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.1197188346883468,
+                0.36305555555555546,
+                0.2329731129621564,
+                0.6217283950617284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "も",
+          "start": 1,
+          "end": 2,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.23475216802168017,
+            0.36305555555555546,
+            0.2990005825697028,
+            0.6217283950617284
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "も",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.23475216802168017,
+                0.36305555555555546,
+                0.2990005825697028,
+                0.6217283950617284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "知",
+          "start": 2,
+          "end": 3,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2985521680216801,
+            0.43197530864197525,
+            0.3952876016260161,
+            0.6226234567901234
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "知",
+              "start": 2,
+              "end": 3,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2985521680216801,
+                0.43197530864197525,
+                0.3952876016260161,
+                0.6226234567901234
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ら",
+          "start": 3,
+          "end": 4,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 2,
+          "ink_bbox": [
+            0.39908550135501347,
+            0.43197530864197525,
+            0.4730099593495934,
+            0.6226234567901233
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ら",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.39908550135501347,
+                0.43197530864197525,
+                0.4730099593495934,
+                0.6226234567901233
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ない",
+          "start": 4,
+          "end": 6,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": 5,
+          "ink_bbox": [
+            0.47641883468834684,
+            0.43197530864197525,
+            0.6304985264227642,
+            0.6226234567901233
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "な",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47641883468834684,
+                0.43197530864197525,
+                0.551660109415403,
+                0.6226234567901233
+              ]
+            },
+            {
+              "text": "い",
+              "start": 5,
+              "end": 6,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.549806534350424,
+                0.46582226247987113,
+                0.6304985264227642,
+                0.6092688763642868
+              ]
+            }
+          ]
+        },
+        {
+          "text": "明",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6360367208672086,
+            0.36753086419753084,
+            0.763415193089431,
+            0.5957716049382715
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "明",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#f3b3cf",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6360367208672086,
+                0.36753086419753084,
+                0.763415193089431,
+                0.5957716049382715
+              ]
+            }
+          ]
+        },
+        {
+          "text": "日",
+          "start": 7,
+          "end": 8,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7675033875338754,
+            0.43018518518518517,
+            0.8802811653116532,
+            0.6369444444444444
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "日",
+              "start": 7,
+              "end": 8,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7675033875338754,
+                0.43018518518518517,
+                0.8802811653116532,
+                0.6369444444444444
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10382716049382716,
+      "collision": 0.0,
+      "centroid": [
+        0.486242816091954,
+        0.5037389351301361
+      ],
+      "box_fill": 0.2078395061728395
+    },
+    "comparison": null
+  }
+]

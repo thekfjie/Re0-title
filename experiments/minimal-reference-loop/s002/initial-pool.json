@@ -1,0 +1,3218 @@
+[
+  {
+    "id": "s033-1",
+    "reference_id": "s033",
+    "score": -0.7177092347410796,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.20348053879878686,
+            0.38541666666666674,
+            0.32197012213212023,
+            0.6253858024691358
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20348053879878686,
+                0.38541666666666674,
+                0.32197012213212023,
+                0.6253858024691358
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.31514720546545355,
+            0.402391975308642,
+            0.4587764056456575,
+            0.6022376543209876
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.31514720546545355,
+                0.402391975308642,
+                0.4587764056456575,
+                0.6022376543209876
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4600784889789908,
+            0.48109567901234573,
+            0.5603389056456575,
+            0.6300154320987654
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fbf08f",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4600784889789908,
+                0.48109567901234573,
+                0.5603389056456575,
+                0.6300154320987654
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5625784889789908,
+            0.36689814814814825,
+            0.6867104334234352,
+            0.5922067901234569
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5625784889789908,
+                0.36689814814814825,
+                0.6867104334234352,
+                0.5922067901234569
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6914847389789909,
+            0.4270833333333334,
+            0.7965194612012131,
+            0.6331018518518519
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6914847389789909,
+                0.4270833333333334,
+                0.7965194612012131,
+                0.6331018518518519
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0824074074074074,
+      "collision": 0.0,
+      "centroid": [
+        0.48687578027465667,
+        0.5032653627410182
+      ],
+      "box_fill": 0.15777777777777777
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.2174662432650485,
+      "group_height_log_error": 0.1648472770703804,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s033-3",
+    "reference_id": "s033",
+    "score": -0.6679210547885575,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1560374250065928,
+            0.36708333333333343,
+            0.2934853416732595,
+            0.6454475308641976
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.1560374250065928,
+                0.36708333333333343,
+                0.2934853416732595,
+                0.6454475308641976
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2855707583399261,
+            0.3867746913580248,
+            0.4521806305489627,
+            0.6185956790123457
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2855707583399261,
+                0.3867746913580248,
+                0.4521806305489627,
+                0.6185956790123457
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.45369104721562925,
+            0.478070987654321,
+            0.5699931305489626,
+            0.6508179012345678
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fbf08f",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.45369104721562925,
+                0.478070987654321,
+                0.5699931305489626,
+                0.6508179012345678
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5725910472156293,
+            0.34560185185185194,
+            0.7165841027711849,
+            0.6069598765432099
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5725910472156293,
+                0.34560185185185194,
+                0.7165841027711849,
+                0.6069598765432099
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7221222972156294,
+            0.41541666666666677,
+            0.8439625749934072,
+            0.6543981481481481
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7221222972156294,
+                0.41541666666666677,
+                0.8439625749934072,
+                0.6543981481481481
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1111111111111111,
+      "collision": 0.0,
+      "centroid": [
+        0.479662037037037,
+        0.5038415637860082
+      ],
+      "box_fill": 0.20879629629629629
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.2174662432650485,
+      "group_height_log_error": 0.1648472770703804,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s033-0",
+    "reference_id": "s033",
+    "score": -0.002833107927094559,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再会",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.26564785691790077,
+            0.3860648148148149,
+            0.46213110995060114,
+            0.6068364197530864
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.26564785691790077,
+                0.3860648148148149,
+                0.36766599947148537,
+                0.6068364197530864
+              ]
+            },
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3631218569179008,
+                0.3860648148148149,
+                0.46213110995060114,
+                0.6068364197530864
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.45742185691790077,
+            0.4740895061728395,
+            0.5632252106359096,
+            0.6110956790123457
+          ],
+          "reference_groups": [
+            "g01",
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fbf08f",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.45742185691790077,
+                0.4740895061728395,
+                0.5632252106359096,
+                0.6110956790123457
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔女",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5676175717470207,
+            0.42439814814814825,
+            0.7343521430820992,
+            0.6139351851851852
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5676175717470207,
+                0.42439814814814825,
+                0.6516477255428321,
+                0.6139351851851852
+              ]
+            },
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6543275717470207,
+                0.42439814814814825,
+                0.7343521430820992,
+                0.6139351851851852
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.06169753086419753,
+      "collision": 0.0,
+      "centroid": [
+        0.48376688344172086,
+        0.5064124654920052
+      ],
+      "box_fill": 0.10716049382716049
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.13766316251189306,
+      "group_height_log_error": 0.18741368785763776,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s033-2",
+    "reference_id": "s033",
+    "score": 0.05355254748263241,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再会",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.22489096246884002,
+            0.3662500000000001,
+            0.4555452160289665,
+            0.6254166666666666
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22489096246884002,
+                0.3662500000000001,
+                0.3446513906839176,
+                0.6254166666666666
+              ]
+            },
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.33931696246884,
+                0.3662500000000001,
+                0.4555452160289665,
+                0.6254166666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.45001696246884004,
+            0.4695833333333334,
+            0.5742208994421547,
+            0.6304166666666667
+          ],
+          "reference_groups": [
+            "g01",
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fbf08f",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.45001696246884004,
+                0.4695833333333334,
+                0.5742208994421547,
+                0.6304166666666667
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔女",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5793771494421548,
+            0.41125000000000006,
+            0.77510903753116,
+            0.63375
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5793771494421548,
+                0.41125000000000006,
+                0.6780212430285422,
+                0.63375
+              ]
+            },
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6811671494421548,
+                0.41125000000000006,
+                0.77510903753116,
+                0.63375
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08388888888888889,
+      "collision": 0.0,
+      "centroid": [
+        0.47952845229335295,
+        0.5084266753876762
+      ],
+      "box_fill": 0.15074074074074073
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.13766316251189306,
+      "group_height_log_error": 0.1874136878576378,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-0",
+    "reference_id": "s035",
+    "score": 0.4167425664564728,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再会",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.23142879166666655,
+            0.3576697530864197,
+            0.48407224011075944,
+            0.6423302469135802
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.23142879166666655,
+                0.3576697530864197,
+                0.36296986936437536,
+                0.6423302469135802
+              ]
+            },
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.35641079166666656,
+                0.3576697530864197,
+                0.48407224011075944,
+                0.6423302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4783107916666666,
+            0.48331790123456786,
+            0.5557760694444444,
+            0.5990277777777778
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4783107916666666,
+                0.48331790123456786,
+                0.5557760694444444,
+                0.5990277777777778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔女",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.554144125,
+            0.39458333333333334,
+            0.7685712083333334,
+            0.6274228395061728
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.554144125,
+                0.39458333333333334,
+                0.6628037230959584,
+                0.5940586419753087
+              ]
+            },
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6650912387476486,
+                0.4279475308641975,
+                0.7685712083333334,
+                0.6274228395061728
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08592592592592592,
+      "collision": 0.00035919540229885057,
+      "centroid": [
+        0.46740900383141765,
+        0.49964612601106856
+      ],
+      "box_fill": 0.1512962962962963
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.05143407594892109,
+      "group_height_log_error": 0.33551784498901494,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-2",
+    "reference_id": "s035",
+    "score": 0.47422897716565,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再会",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.18513162499999994,
+            0.3329166666666667,
+            0.48171306447784806,
+            0.6670833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.18513162499999994,
+                0.3329166666666667,
+                0.3395494118625277,
+                0.6670833333333334
+              ]
+            },
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.331849625,
+                0.3329166666666667,
+                0.48171306447784806,
+                0.6670833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.47494962499999993,
+            0.48041666666666666,
+            0.5658871249999998,
+            0.6162500000000001
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.47494962499999993,
+                0.48041666666666666,
+                0.5658871249999998,
+                0.6162500000000001
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔女",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.563149625,
+            0.3762500000000001,
+            0.814868375,
+            0.6495833333333333
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.563149625,
+                0.3762500000000001,
+                0.6907065445039511,
+                0.6104166666666667
+              ]
+            },
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.693391888964631,
+                0.41541666666666666,
+                0.814868375,
+                0.6495833333333333
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11506172839506174,
+      "collision": 0.0,
+      "centroid": [
+        0.4635170779685265,
+        0.5036023684628835
+      ],
+      "box_fill": 0.20972222222222223
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.0501300334970097,
+      "group_height_log_error": 0.3355178449890148,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-1",
+    "reference_id": "s035",
+    "score": 0.4417059488014618,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.25551022538958584,
+            0.3452932098765432,
+            0.42391300316736363,
+            0.6547067901234569
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.25551022538958584,
+                0.3452932098765432,
+                0.42391300316736363,
+                0.6547067901234569
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.4255102253895858,
+            0.4818672839506173,
+            0.48191490959317235,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4255102253895858,
+                0.4818672839506173,
+                0.48191490959317235,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4838435587229192,
+            0.4818672839506173,
+            0.544451075693893,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4838435587229192,
+                0.4818672839506173,
+                0.544451075693893,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.544451075693893,
+            0.4818672839506173,
+            0.6002111924041897,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.544451075693893,
+                0.4818672839506173,
+                0.6002111924041897,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5977844090272263,
+            0.38541666666666674,
+            0.7444897746104142,
+            0.6022376543209876
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5977844090272263,
+                0.38541666666666674,
+                0.7444897746104142,
+                0.6022376543209876
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0724074074074074,
+      "collision": 0.0,
+      "centroid": [
+        0.4594558113100312,
+        0.5014082283476998
+      ],
+      "box_fill": 0.15166666666666667
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.1258901333169347,
+      "group_height_log_error": 0.41285202394719156,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-3",
+    "reference_id": "s035",
+    "score": 0.48283198791851756,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2163918614519196,
+            0.3205401234567901,
+            0.4117390836741418,
+            0.6794598765432098
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.2163918614519196,
+                0.3205401234567901,
+                0.4117390836741418,
+                0.6794598765432098
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.41359186145191956,
+            0.47896604938271603,
+            0.4790212951280799,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.41359186145191956,
+                0.47896604938271603,
+                0.4790212951280799,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.48125852811858627,
+            0.47896604938271603,
+            0.5515632478049158,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.48125852811858627,
+                0.47896604938271603,
+                0.5515632478049158,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5515632478049158,
+            0.47896604938271603,
+            0.6162449831888601,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5515632478049158,
+                0.47896604938271603,
+                0.6162449831888601,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6134299144715826,
+            0.3670833333333333,
+            0.7836081385480804,
+            0.6185956790123456
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6134299144715826,
+                0.3670833333333333,
+                0.7836081385480804,
+                0.6185956790123456
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0974074074074074,
+      "collision": 0.0,
+      "centroid": [
+        0.4559819919729616,
+        0.5007956625827349
+      ],
+      "box_fill": 0.20148148148148148
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.12589013331693455,
+      "group_height_log_error": 0.41285202394719167,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s006-0",
+    "reference_id": "s006",
+    "score": 0.35719751953050244,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再会",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19520992919131208,
+            0.3363734567901234,
+            0.4706762557999619,
+            0.6465895061728395
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.19520992919131208,
+                0.3363734567901234,
+                0.33856018094667056,
+                0.6465895061728395
+              ]
+            },
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.33155392919131205,
+                0.3363734567901234,
+                0.4706762557999619,
+                0.6465895061728395
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.47586722802218406,
+            0.4542129629629629,
+            0.5728984780221841,
+            0.6082561728395062
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47586722802218406,
+                0.4542129629629629,
+                0.5728984780221841,
+                0.6082561728395062
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔女",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5689054224666286,
+            0.3938734567901234,
+            0.8047900708086879,
+            0.6636265432098766
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5689054224666286,
+                0.3938734567901234,
+                0.6884988997790195,
+                0.6636265432098766
+              ]
+            },
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6908974224666286,
+                0.3938734567901234,
+                0.8047900708086879,
+                0.6636265432098766
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10993827160493827,
+      "collision": 0.0,
+      "centroid": [
+        0.48055867490174065,
+        0.5038887849106827
+      ],
+      "box_fill": 0.19827160493827162
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.03850462072085392,
+      "group_height_log_error": 0.22807237560651764,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-0",
+    "reference_id": "s038",
+    "score": 0.7032322712853595,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再会",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2060538333503619,
+            0.32253086419753085,
+            0.44296433862462353,
+            0.5894444444444444
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2060538333503619,
+                0.32253086419753085,
+                0.3293940957302584,
+                0.5894444444444444
+              ]
+            },
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.32326183335036185,
+                0.32253086419753085,
+                0.44296433862462353,
+                0.5894444444444444
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4445615608468458,
+            0.4141049382716049,
+            0.5447872552912901,
+            0.5837654320987654
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4445615608468458,
+                0.4141049382716049,
+                0.5447872552912901,
+                0.5837654320987654
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔女",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5523740608468458,
+            0.4013271604938272,
+            0.7939461666496381,
+            0.6774691358024691
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5523740608468458,
+                0.4013271604938272,
+                0.6748000152534775,
+                0.6774691358024691
+              ]
+            },
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6773560608468457,
+                0.4013271604938272,
+                0.7939461666496381,
+                0.6774691358024691
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09984567901234567,
+      "collision": 0.0,
+      "centroid": [
+        0.4920041215868109,
+        0.49701757398820773
+      ],
+      "box_fill": 0.20598765432098765
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.07893203796085496,
+      "group_height_log_error": 0.15615646899574626,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s006-2",
+    "reference_id": "s006",
+    "score": 0.388788917807804,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再会",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1422029603550185,
+            0.30791666666666656,
+            0.46557647419995524,
+            0.6720833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.1422029603550185,
+                0.30791666666666656,
+                0.3104836906765263,
+                0.6720833333333334
+              ]
+            },
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3022589603550185,
+                0.30791666666666656,
+                0.46557647419995524,
+                0.6720833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4716702241999553,
+            0.4462499999999999,
+            0.5855764741999553,
+            0.6270833333333332
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4716702241999553,
+                0.4462499999999999,
+                0.5855764741999553,
+                0.6270833333333332
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔女",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5808889741999552,
+            0.37541666666666657,
+            0.8577970396449816,
+            0.6920833333333334
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5808889741999552,
+                0.37541666666666657,
+                0.7212813171318925,
+                0.6920833333333334
+              ]
+            },
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7240969741999553,
+                0.37541666666666657,
+                0.8577970396449816,
+                0.6920833333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1504320987654321,
+      "collision": 0.0,
+      "centroid": [
+        0.4756582546847216,
+        0.5100685420751075
+      ],
+      "box_fill": 0.2760493827160494
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.03850462072085435,
+      "group_height_log_error": 0.22807237560651777,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-2",
+    "reference_id": "s038",
+    "score": 0.7316615260600844,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再会",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.15493276088955527,
+            0.29166666666666663,
+            0.4330450931680363,
+            0.605
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.15493276088955527,
+                0.29166666666666663,
+                0.2997235036833468,
+                0.605
+              ]
+            },
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29252476088955526,
+                0.29166666666666663,
+                0.4330450931680363,
+                0.605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4349200931680363,
+            0.39916666666666656,
+            0.5525763431680363,
+            0.5983333333333334
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4349200931680363,
+                0.39916666666666656,
+                0.5525763431680363,
+                0.5983333333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔女",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5614825931680363,
+            0.38416666666666666,
+            0.8450672391104447,
+            0.7083333333333334
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5614825931680363,
+                0.38416666666666666,
+                0.7052000179062562,
+                0.7083333333333334
+              ]
+            },
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.7082005931680363,
+                0.38416666666666666,
+                0.8450672391104447,
+                0.7083333333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13327160493827162,
+      "collision": 0.0,
+      "centroid": [
+        0.4932241006638876,
+        0.4961539121335323
+      ],
+      "box_fill": 0.29203703703703704
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.07893203796085496,
+      "group_height_log_error": 0.15615646899574626,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s006-1",
+    "reference_id": "s006",
+    "score": 0.4709289572326025,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.20957883456226584,
+            0.322145061728395,
+            0.3957767512289325,
+            0.6593364197530864
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.20957883456226584,
+                0.322145061728395,
+                0.3957767512289325,
+                0.6593364197530864
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.4014191123400437,
+            0.4502314814814814,
+            0.4765100109423643,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4014191123400437,
+                0.4502314814814814,
+                0.4765100109423643,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.477252445673377,
+            0.4502314814814814,
+            0.5579385265488451,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.477252445673377,
+                0.4502314814814814,
+                0.5579385265488451,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5579385265488451,
+            0.4502314814814814,
+            0.6321713199607125,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5579385265488451,
+                0.4502314814814814,
+                0.6321713199607125,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6346051932155118,
+            0.384645061728395,
+            0.7904211654377341,
+            0.6778549382716049
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6346051932155118,
+                0.384645061728395,
+                0.7904211654377341,
+                0.6778549382716049
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.0990432098765432,
+      "collision": 0.0,
+      "centroid": [
+        0.4661317128908279,
+        0.5071938875616034
+      ],
+      "box_fill": 0.21021604938271604
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.09316807137958957,
+      "group_height_log_error": 0.3779399127341904,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-1",
+    "reference_id": "s038",
+    "score": 0.22788908131111021,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19907347920234233,
+            0.30709876543209874,
+            0.3709484792023424,
+            0.5972222222222222
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.19907347920234233,
+                0.30709876543209874,
+                0.3709484792023424,
+                0.5972222222222222
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3726845903134535,
+            0.4066358024691357,
+            0.4553883910782215,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3726845903134535,
+                0.4066358024691357,
+                0.4553883910782215,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4553883910782215,
+            0.4066358024691357,
+            0.5442546276184836,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4553883910782215,
+                0.4066358024691357,
+                0.5442546276184836,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5442546276184836,
+            0.4066358024691357,
+            0.6260133263532132,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5442546276184836,
+                0.4066358024691357,
+                0.6260133263532132,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.634259854130991,
+            0.39274691358024694,
+            0.8009265207976576,
+            0.6929012345679012
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.634259854130991,
+                0.39274691358024694,
+                0.8009265207976576,
+                0.6929012345679012
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09805555555555556,
+      "collision": 0.0,
+      "centroid": [
+        0.4794368376875459,
+        0.48859277911843224
+      ],
+      "box_fill": 0.23555555555555555
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.1388441728424579,
+      "group_height_log_error": 0.3005540324208065,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s006-3",
+    "reference_id": "s006",
+    "score": 0.49468241911782296,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.16311144809222838,
+            0.29368827160493827,
+            0.3791010314255618,
+            0.6848302469135802
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.16311144809222838,
+                0.29368827160493827,
+                0.3791010314255618,
+                0.6848302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3856461703144507,
+            0.4422685185185185,
+            0.47275161269314264,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3856461703144507,
+                0.4422685185185185,
+                0.47275161269314264,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4736128369811174,
+            0.4422685185185185,
+            0.5672086907966605,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4736128369811174,
+                0.4422685185185185,
+                0.5672086907966605,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5672086907966605,
+            0.4422685185185185,
+            0.6533187311544265,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5672086907966605,
+                0.4422685185185185,
+                0.6533187311544265,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6561420241299937,
+            0.36618827160493833,
+            0.8368885519077716,
+            0.7063117283950618
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6561420241299937,
+                0.36618827160493833,
+                0.8368885519077716,
+                0.7063117283950618
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.12941358024691357,
+      "collision": 0.0,
+      "centroid": [
+        0.46159571508069003,
+        0.5083675614560422
+      ],
+      "box_fill": 0.2733024691358025
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.09316807137958981,
+      "group_height_log_error": 0.3779399127341905,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-3",
+    "reference_id": "s038",
+    "score": 0.23878127324732049,
+    "title": {
+      "id": "generated",
+      "text": "再会の魔女",
+      "groups": [
+        {
+          "text": "再",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.15092523587471712,
+            0.2762345679012346,
+            0.35030023587471715,
+            0.6127777777777778
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.15092523587471712,
+                0.2762345679012346,
+                0.35030023587471715,
+                0.6127777777777778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3523141247636061,
+            0.3916975308641975,
+            0.4482505336507369,
+            0.6056172839506172
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3523141247636061,
+                0.3916975308641975,
+                0.4482505336507369,
+                0.6056172839506172
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4482505336507369,
+            0.3916975308641975,
+            0.551335368037441,
+            0.6056172839506172
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4482505336507369,
+                0.3916975308641975,
+                0.551335368037441,
+                0.6056172839506172
+              ]
+            }
+          ]
+        },
+        {
+          "text": "魔",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5513353680374411,
+            0.3916975308641975,
+            0.6461754585697274,
+            0.6056172839506172
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "魔",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5513353680374411,
+                0.3916975308641975,
+                0.6461754585697274,
+                0.6056172839506172
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6557414307919495,
+            0.3755864197530865,
+            0.8490747641252828,
+            0.7237654320987654
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6557414307919495,
+                0.3755864197530865,
+                0.8490747641252828,
+                0.7237654320987654
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.126358024691358,
+      "collision": 0.0,
+      "centroid": [
+        0.48155430711610486,
+        0.4899039244422733
+      ],
+      "box_fill": 0.31441358024691357
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.1388441728424579,
+      "group_height_log_error": 0.3005540324208067,
+      "reference_marked": [
+        3
+      ],
+      "generated_marked": [
+        2,
+        4
+      ]
+    }
+  }
+]

@@ -1,0 +1,1746 @@
+{
+  "version": 1,
+  "protocol": "16 leave-one-title-out queries + 4 non-reference texts; shared fonts and renderer; no target annotation in generation",
+  "annotation_sha256": "fa6c8fce9b80a645361aeb5dfae85173f4505f7562fc48c3ee44b9eadbd0847c",
+  "config": {
+    "version": 1,
+    "seed": 42,
+    "samples": [
+      "s001",
+      "s002",
+      "s005",
+      "s006",
+      "s010",
+      "s011",
+      "s014",
+      "s018",
+      "s024",
+      "s030",
+      "s033",
+      "s035",
+      "s038",
+      "s048",
+      "s051",
+      "s079"
+    ],
+    "unseen": [
+      "記憶の海で、名前を呼ぶ",
+      "最後の灯りと、最初の約束",
+      "誰も知らない明日",
+      "君の声はまだ消えない"
+    ],
+    "fonts": {
+      "kanji": "noto-sans-jp-black.ttf",
+      "kana": "shippori-mincho-semibold.ttf"
+    },
+    "canvas": {
+      "width": 1200,
+      "height": 675,
+      "margin": 0.065
+    },
+    "negatives": {
+      "per_type": 10,
+      "types": [
+        "size",
+        "position",
+        "connector_up",
+        "anchor_down",
+        "color",
+        "spacing",
+        "line_break",
+        "proportion"
+      ],
+      "magnitudes": [
+        0.12,
+        0.2,
+        0.3,
+        0.42,
+        0.55
+      ]
+    },
+    "ranker": {
+      "l2": 0.08,
+      "max_iterations": 500,
+      "gate_accuracy": 0.8,
+      "gate_legal_accuracy": 0.7,
+      "gate_type_accuracy": 0.7,
+      "bootstrap_samples": 2000
+    },
+    "retrieval": {
+      "top_k": 4,
+      "weights": {
+        "sequence": 0.45,
+        "count": 0.2,
+        "scripts": 0.15,
+        "repetition": 0.15,
+        "punctuation": 0.05
+      },
+      "mapping_variants": 4,
+      "max_scale_x": 1.25,
+      "min_scale_x": 0.78,
+      "desired_gap": 2.5,
+      "resize_variant": [
+        0.92,
+        1.0,
+        1.08,
+        1.16
+      ]
+    },
+    "search": {
+      "starts": 8,
+      "steps": 96,
+      "temperature": 0.12,
+      "cooling": 0.965,
+      "move_ratio": 0.045,
+      "scale_ratio": 0.05,
+      "row_move_ratio": 0.05,
+      "min_scale": 0.72,
+      "max_scale": 1.35,
+      "max_ink_overlap": 0.003,
+      "min_visible_contrast": 1.5,
+      "mask_resolution": 240,
+      "candidate_count": 6,
+      "diversity_distance": 0.025
+    }
+  },
+  "fonts": {
+    "kanji": {
+      "family": "Noto Sans JP Thin",
+      "subfamily": "Regular",
+      "weight": 900,
+      "glyph_count": 16732,
+      "japanese_coverage": {
+        "hiragana": 1.0,
+        "katakana": 1.0,
+        "cjk": 0.6072
+      },
+      "axes": {},
+      "sha256": "f75e58a835846ad1639666ab52a709e39d0bdccaa474b828cd441face9ab178e",
+      "size_bytes": 5756568
+    },
+    "kana": {
+      "family": "Shippori Mincho",
+      "subfamily": "SemiBold",
+      "weight": 600,
+      "glyph_count": 15363,
+      "japanese_coverage": {
+        "hiragana": 1.0,
+        "katakana": 1.0,
+        "cjk": 0.6474
+      },
+      "axes": {},
+      "sha256": "bc7925544894a91466449adb73c6d943f50c3e53eb1c74d0673fe2dbafcd4d2d",
+      "size_bytes": 8650032
+    }
+  },
+  "generator_source_sha256": "2743c4d9aaf096a25670e37ee09604c903b96292cf3b320d3439df82c3c4e426",
+  "summary": {
+    "legacy": {
+      "exact_break_match": 13,
+      "line_count_match": 13,
+      "marked_jaccard_mean": 0.31101190476190477,
+      "accent_jaccard_mean": 0.15625,
+      "muted_jaccard_mean": 0.625,
+      "aspect_log_error_median": 0.18297402940349938,
+      "group_height_log_error_mean": 0.1882352259220155,
+      "candidate_count": 120,
+      "integrity_failures": 0,
+      "kinsoku_failures": 0,
+      "overflow_failures": 0.0,
+      "max_ink_collision": 0.0029469548133595285
+    },
+    "transfer": {
+      "exact_break_match": 9,
+      "line_count_match": 9,
+      "marked_jaccard_mean": 0.18288690476190475,
+      "accent_jaccard_mean": 0.0625,
+      "muted_jaccard_mean": 0.375,
+      "aspect_log_error_median": 0.28551256703769856,
+      "group_height_log_error_mean": 0.18090721571473456,
+      "candidate_count": 120,
+      "integrity_failures": 0,
+      "kinsoku_failures": 0,
+      "overflow_failures": 0.0,
+      "max_ink_collision": 0.002466091245376079
+    },
+    "ranked": {
+      "exact_break_match": 10,
+      "line_count_match": 10,
+      "marked_jaccard_mean": 0.14955357142857142,
+      "accent_jaccard_mean": 0.125,
+      "muted_jaccard_mean": 0.375,
+      "aspect_log_error_median": 0.250627084421177,
+      "group_height_log_error_mean": 0.174315197404698,
+      "candidate_count": 120,
+      "integrity_failures": 0,
+      "kinsoku_failures": 0,
+      "overflow_failures": 0.0,
+      "max_ink_collision": 0.002466091245376079
+    },
+    "optimized": {
+      "exact_break_match": 10,
+      "line_count_match": 10,
+      "marked_jaccard_mean": 0.15476190476190477,
+      "accent_jaccard_mean": 0.125,
+      "muted_jaccard_mean": 0.3125,
+      "aspect_log_error_median": 0.2382839929140773,
+      "group_height_log_error_mean": 0.15068431918584202,
+      "candidate_count": 120,
+      "integrity_failures": 0,
+      "kinsoku_failures": 0,
+      "overflow_failures": 0.0,
+      "max_ink_collision": 0.002995693690320165
+    }
+  },
+  "cases": [
+    {
+      "id": "s001",
+      "text": "始まりの終わりと終わりの始まり",
+      "retrieved": [
+        {
+          "id": "s048",
+          "distance": 0.06133928571428571
+        },
+        {
+          "id": "s005",
+          "distance": 0.1663727460581794
+        },
+        {
+          "id": "s024",
+          "distance": 0.22062500000000002
+        },
+        {
+          "id": "s051",
+          "distance": 0.24947382519109598
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 1.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.24583805229578168,
+          "group_height_log_error": 0.31996710191829275,
+          "reference_marked": [
+            0
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.25,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.9149965738360177,
+          "group_height_log_error": 0.31883498713732844,
+          "reference_marked": [
+            0
+          ],
+          "generated_marked": [
+            0,
+            6,
+            8,
+            13
+          ]
+        },
+        "ranked": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.0642884543853677,
+          "group_height_log_error": 0.1470059350332988,
+          "reference_marked": [
+            0
+          ],
+          "generated_marked": [
+            1,
+            4
+          ]
+        },
+        "optimized": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.1436363385914246,
+          "group_height_log_error": 0.1327222622909048,
+          "reference_marked": [
+            0
+          ],
+          "generated_marked": [
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "id": "s002",
+      "text": "再会の魔女",
+      "retrieved": [
+        {
+          "id": "s033",
+          "distance": 0.0
+        },
+        {
+          "id": "s035",
+          "distance": 0.007500000000000002
+        },
+        {
+          "id": "s006",
+          "distance": 0.020000000000000004
+        },
+        {
+          "id": "s038",
+          "distance": 0.020000000000000004
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.016104441609777958,
+          "group_height_log_error": 0.26394910708167996,
+          "reference_marked": [
+            3
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.2174662432650485,
+          "group_height_log_error": 0.1648472770703804,
+          "reference_marked": [
+            3
+          ],
+          "generated_marked": [
+            2
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.3333333333333333,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.07893203796085496,
+          "group_height_log_error": 0.15615646899574626,
+          "reference_marked": [
+            3
+          ],
+          "generated_marked": [
+            2,
+            3,
+            4
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.3333333333333333,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.09029123745040803,
+          "group_height_log_error": 0.15615646899574626,
+          "reference_marked": [
+            3
+          ],
+          "generated_marked": [
+            2,
+            3,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "id": "s005",
+      "text": "約束した朝は遠く",
+      "retrieved": [
+        {
+          "id": "s051",
+          "distance": 0.027083333333333334
+        },
+        {
+          "id": "s048",
+          "distance": 0.15892857142857142
+        },
+        {
+          "id": "s001",
+          "distance": 0.19906249999999998
+        },
+        {
+          "id": "s024",
+          "distance": 0.20906249999999998
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.11703178351281748,
+          "group_height_log_error": 0.2202895809129082,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.3333333333333333,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.9716458071094575,
+          "group_height_log_error": 0.2041291457938855,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            0,
+            1,
+            4
+          ]
+        },
+        "ranked": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.0899588117137524,
+          "group_height_log_error": 0.1309168645632833,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            6
+          ]
+        },
+        "optimized": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.0968060758873532,
+          "group_height_log_error": 0.13091686456328322,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            6
+          ]
+        }
+      }
+    },
+    {
+      "id": "s006",
+      "text": "鎖の音",
+      "retrieved": [
+        {
+          "id": "s038",
+          "distance": 0.0
+        },
+        {
+          "id": "s035",
+          "distance": 0.0125
+        },
+        {
+          "id": "s014",
+          "distance": 0.21030715852442936
+        },
+        {
+          "id": "s030",
+          "distance": 0.22102144423871506
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 1.0,
+          "accent_jaccard": 1.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.03243196654893241,
+          "group_height_log_error": 0.14580892950357469,
+          "reference_marked": [
+            0
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.06205238139261008,
+          "group_height_log_error": 0.11202720067607634,
+          "reference_marked": [
+            0
+          ],
+          "generated_marked": [
+            1,
+            2
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.06205238139260961,
+          "group_height_log_error": 0.11202720067607615,
+          "reference_marked": [
+            0
+          ],
+          "generated_marked": [
+            1,
+            2
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.0644547621590051,
+          "group_height_log_error": 0.11202720067607627,
+          "reference_marked": [
+            0
+          ],
+          "generated_marked": [
+            1,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "s010",
+      "text": "鬼がかったやり方",
+      "retrieved": [
+        {
+          "id": "s006",
+          "distance": 0.09999999999999999
+        },
+        {
+          "id": "s038",
+          "distance": 0.09999999999999999
+        },
+        {
+          "id": "s035",
+          "distance": 0.11249999999999999
+        },
+        {
+          "id": "s030",
+          "distance": 0.18396787281014362
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.2387630897530765,
+          "group_height_log_error": 0.3500012143155504,
+          "reference_marked": [
+            5
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.3324592968048761,
+          "group_height_log_error": 0.37728668690112177,
+          "reference_marked": [
+            5
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.3544503133598144,
+          "group_height_log_error": 0.3146394397671527,
+          "reference_marked": [
+            5
+          ],
+          "generated_marked": [
+            1,
+            7
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.36322087526773544,
+          "group_height_log_error": 0.3146394397671527,
+          "reference_marked": [
+            5
+          ],
+          "generated_marked": [
+            1,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "id": "s011",
+      "text": "レム",
+      "retrieved": [
+        {
+          "id": "s079",
+          "distance": 0.0
+        },
+        {
+          "id": "s018",
+          "distance": 0.2826983527757503
+        },
+        {
+          "id": "s006",
+          "distance": 0.5076983527757503
+        },
+        {
+          "id": "s035",
+          "distance": 0.5076983527757503
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 1.0,
+          "accent_jaccard": 1.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.19950842156684664,
+          "group_height_log_error": 0.09170703046976827,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            1
+          ]
+        },
+        "transfer": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.6383306383646024,
+          "group_height_log_error": 0.02278402586519372,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            0,
+            1
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.008878845552938051,
+          "group_height_log_error": 0.39276025034548046,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 1.0,
+          "accent_jaccard": 1.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.16940203682868912,
+          "group_height_log_error": 0.17254313511385916,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "s014",
+      "text": "絶望という病",
+      "retrieved": [
+        {
+          "id": "s002",
+          "distance": 0.135
+        },
+        {
+          "id": "s033",
+          "distance": 0.135
+        },
+        {
+          "id": "s010",
+          "distance": 0.15
+        },
+        {
+          "id": "s030",
+          "distance": 0.1513392857142857
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.23051688142354299,
+          "group_height_log_error": 0.21906508651073459,
+          "reference_marked": [
+            5
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.16332296533381013,
+          "group_height_log_error": 0.23770574649754578,
+          "reference_marked": [
+            5
+          ],
+          "generated_marked": [
+            3
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.5,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.0795953624209301,
+          "group_height_log_error": 0.07666666677024934,
+          "reference_marked": [
+            5
+          ],
+          "generated_marked": [
+            0,
+            5
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.0847489958701929,
+          "group_height_log_error": 0.11957152356897432,
+          "reference_marked": [
+            5
+          ],
+          "generated_marked": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "s018",
+      "text": "ゼロから",
+      "retrieved": [
+        {
+          "id": "s011",
+          "distance": 0.2826983527757503
+        },
+        {
+          "id": "s079",
+          "distance": 0.2826983527757503
+        },
+        {
+          "id": "s014",
+          "distance": 0.37280715852442936
+        },
+        {
+          "id": "s006",
+          "distance": 0.3826983527757503
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.03593091476577282,
+          "group_height_log_error": 0.10330672252580975,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.5,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.0718353114408918,
+          "group_height_log_error": 0.1242811512332838,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            1,
+            2
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.026730910805818107,
+          "group_height_log_error": 0.12710895307584202,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            3
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.010996318884151906,
+          "group_height_log_error": 0.13450651232718575,
+          "reference_marked": [
+            1
+          ],
+          "generated_marked": [
+            3
+          ]
+        }
+      }
+    },
+    {
+      "id": "s024",
+      "text": "自称騎士と最優の騎士",
+      "retrieved": [
+        {
+          "id": "s002",
+          "distance": 0.13084128099437642
+        },
+        {
+          "id": "s033",
+          "distance": 0.13084128099437642
+        },
+        {
+          "id": "s005",
+          "distance": 0.1770695440230513
+        },
+        {
+          "id": "s051",
+          "distance": 0.22833333333333333
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.1271003369736392,
+          "group_height_log_error": 0.1157369994650487,
+          "reference_marked": [
+            2,
+            8
+          ],
+          "generated_marked": [
+            8
+          ]
+        },
+        "transfer": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.86147531655113,
+          "group_height_log_error": 0.1702751398675088,
+          "reference_marked": [
+            2,
+            8
+          ],
+          "generated_marked": [
+            5
+          ]
+        },
+        "ranked": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.876246446676887,
+          "group_height_log_error": 0.18919625236932272,
+          "reference_marked": [
+            2,
+            8
+          ],
+          "generated_marked": [
+            5,
+            6
+          ]
+        },
+        "optimized": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.9238464940289667,
+          "group_height_log_error": 0.15786553878963808,
+          "reference_marked": [
+            2,
+            8
+          ],
+          "generated_marked": [
+            6
+          ]
+        }
+      }
+    },
+    {
+      "id": "s030",
+      "text": "待ちかねた再会",
+      "retrieved": [
+        {
+          "id": "s006",
+          "distance": 0.0732142857142857
+        },
+        {
+          "id": "s038",
+          "distance": 0.0732142857142857
+        },
+        {
+          "id": "s035",
+          "distance": 0.08571428571428572
+        },
+        {
+          "id": "s010",
+          "distance": 0.1326269952800907
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.5,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.1100274058275816,
+          "group_height_log_error": 0.16637800201917358,
+          "reference_marked": [
+            0,
+            5
+          ],
+          "generated_marked": [
+            5
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.5,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.23856583727052097,
+          "group_height_log_error": 0.123436788447189,
+          "reference_marked": [
+            0,
+            5
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.5,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.23999473285156378,
+          "group_height_log_error": 0.12343678844718921,
+          "reference_marked": [
+            0,
+            5
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.25,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.2126899187703765,
+          "group_height_log_error": 0.12184348615410333,
+          "reference_marked": [
+            0,
+            5
+          ],
+          "generated_marked": [
+            1,
+            5,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "id": "s033",
+      "text": "少女の福音",
+      "retrieved": [
+        {
+          "id": "s002",
+          "distance": 0.0
+        },
+        {
+          "id": "s035",
+          "distance": 0.007500000000000002
+        },
+        {
+          "id": "s006",
+          "distance": 0.020000000000000004
+        },
+        {
+          "id": "s038",
+          "distance": 0.020000000000000004
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.16643963724015215,
+          "group_height_log_error": 0.18473896639900056,
+          "reference_marked": [
+            2
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.13228640181422155,
+          "group_height_log_error": 0.16484727707038052,
+          "reference_marked": [
+            2
+          ],
+          "generated_marked": [
+            3
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.26125943599079016,
+          "group_height_log_error": 0.24365791170430195,
+          "reference_marked": [
+            2
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.26387806705777817,
+          "group_height_log_error": 0.2202521925151015,
+          "reference_marked": [
+            2
+          ],
+          "generated_marked": [
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "s035",
+      "text": "命の価値",
+      "retrieved": [
+        {
+          "id": "s006",
+          "distance": 0.0125
+        },
+        {
+          "id": "s038",
+          "distance": 0.0125
+        },
+        {
+          "id": "s030",
+          "distance": 0.0763392857142857
+        },
+        {
+          "id": "s002",
+          "distance": 0.13398689494776841
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.03765914028845764,
+          "group_height_log_error": 0.29169280555161314,
+          "reference_marked": [
+            0,
+            1
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.04209490031030939,
+          "group_height_log_error": 0.12872439510035072,
+          "reference_marked": [
+            0,
+            1
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.25,
+          "accent_jaccard": 1.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.03778416689747766,
+          "group_height_log_error": 0.20058152469727347,
+          "reference_marked": [
+            0,
+            1
+          ],
+          "generated_marked": [
+            1,
+            2,
+            3
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.25,
+          "accent_jaccard": 1.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.0437222683220584,
+          "group_height_log_error": 0.18030269083134615,
+          "reference_marked": [
+            0,
+            1
+          ],
+          "generated_marked": [
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "id": "s038",
+      "text": "死の味",
+      "retrieved": [
+        {
+          "id": "s006",
+          "distance": 0.0
+        },
+        {
+          "id": "s035",
+          "distance": 0.0125
+        },
+        {
+          "id": "s014",
+          "distance": 0.21030715852442936
+        },
+        {
+          "id": "s030",
+          "distance": 0.22102144423871506
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.039418589118793174,
+          "group_height_log_error": 0.1424500067163089,
+          "reference_marked": [
+            1,
+            2
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.0779790348440968,
+          "group_height_log_error": 0.11202720067607623,
+          "reference_marked": [
+            1,
+            2
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "ranked": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.07797903484409699,
+          "group_height_log_error": 0.11202720067607617,
+          "reference_marked": [
+            1,
+            2
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "optimized": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.5,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.12917821237809535,
+          "group_height_log_error": 0.010162697387434956,
+          "reference_marked": [
+            1,
+            2
+          ],
+          "generated_marked": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "id": "s048",
+      "text": "聖域の始まりと、崩壊の始まり",
+      "retrieved": [
+        {
+          "id": "s001",
+          "distance": 0.06133928571428571
+        },
+        {
+          "id": "s005",
+          "distance": 0.12623881748675084
+        },
+        {
+          "id": "s024",
+          "distance": 0.18049107142857143
+        },
+        {
+          "id": "s051",
+          "distance": 0.20361072995300075
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": true,
+          "exact_break_match": true,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 0.22220007317253757,
+          "group_height_log_error": 0.10726891620277806,
+          "reference_marked": [
+            0,
+            5,
+            9,
+            12
+          ],
+          "generated_marked": [
+            11
+          ]
+        },
+        "transfer": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.2,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.9546920565043439,
+          "group_height_log_error": 0.2744128326424677,
+          "reference_marked": [
+            0,
+            5,
+            9,
+            12
+          ],
+          "generated_marked": [
+            0,
+            1
+          ]
+        },
+        "ranked": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 1.9225633267343858,
+          "group_height_log_error": 0.1930292248245281,
+          "reference_marked": [
+            0,
+            5,
+            9,
+            12
+          ],
+          "generated_marked": [
+            1,
+            2,
+            3
+          ]
+        },
+        "optimized": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 1.0,
+          "aspect_log_error": 1.898623709477717,
+          "group_height_log_error": 0.19674678517781113,
+          "reference_marked": [
+            0,
+            5,
+            9,
+            12
+          ],
+          "generated_marked": [
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "id": "s051",
+      "text": "血と臓物まで愛して",
+      "retrieved": [
+        {
+          "id": "s005",
+          "distance": 0.11540287735638464
+        },
+        {
+          "id": "s048",
+          "distance": 0.15892857142857142
+        },
+        {
+          "id": "s001",
+          "distance": 0.20479166666666665
+        },
+        {
+          "id": "s030",
+          "distance": 0.22882930515670266
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.3333333333333333,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.034958320105393,
+          "group_height_log_error": 0.162423438616023,
+          "reference_marked": [
+            0,
+            2,
+            3
+          ],
+          "generated_marked": [
+            0
+          ]
+        },
+        "transfer": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.9809797458160258,
+          "group_height_log_error": 0.1395222925700988,
+          "reference_marked": [
+            0,
+            2,
+            3
+          ],
+          "generated_marked": [
+            1
+          ]
+        },
+        "ranked": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.6666666666666666,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.0429467807355592,
+          "group_height_log_error": 0.15588552713466475,
+          "reference_marked": [
+            0,
+            2,
+            3
+          ],
+          "generated_marked": [
+            0,
+            2
+          ]
+        },
+        "optimized": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.0,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.0020373695147922,
+          "group_height_log_error": 0.14505774154177076,
+          "reference_marked": [
+            0,
+            2,
+            3
+          ],
+          "generated_marked": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "s079",
+      "text": "オマエハダレダ",
+      "retrieved": [
+        {
+          "id": "s011",
+          "distance": 0.0
+        },
+        {
+          "id": "s018",
+          "distance": 0.2826983527757503
+        },
+        {
+          "id": "s024",
+          "distance": 0.47088167462960795
+        },
+        {
+          "id": "s005",
+          "distance": 0.4928571428571429
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.14285714285714285,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.034453478480266,
+          "group_height_log_error": 0.12697970654398352,
+          "reference_marked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "generated_marked": [
+            6
+          ]
+        },
+        "transfer": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.14285714285714285,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.0835181487700858,
+          "group_height_log_error": 0.21937330388686532,
+          "reference_marked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "generated_marked": [
+            6
+          ]
+        },
+        "ranked": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.14285714285714285,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 1.0616199623804217,
+          "group_height_log_error": 0.11394694939468268,
+          "reference_marked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "generated_marked": [
+            1
+          ]
+        },
+        "optimized": {
+          "line_count_match": false,
+          "exact_break_match": false,
+          "marked_jaccard": 0.14285714285714285,
+          "accent_jaccard": 0.0,
+          "muted_jaccard": 0.0,
+          "aspect_log_error": 0.9916620568457706,
+          "group_height_log_error": 0.10563456727308404,
+          "reference_marked": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "generated_marked": [
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "u01",
+      "text": "記憶の海で、名前を呼ぶ",
+      "retrieved": [
+        {
+          "id": "s048",
+          "distance": 0.05746753246753246
+        },
+        {
+          "id": "s005",
+          "distance": 0.09799206423999758
+        },
+        {
+          "id": "s001",
+          "distance": 0.11880681818181818
+        },
+        {
+          "id": "s051",
+          "distance": 0.18369731003958084
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": null,
+        "transfer": null,
+        "ranked": null,
+        "optimized": null
+      }
+    },
+    {
+      "id": "u02",
+      "text": "最後の灯りと、最初の約束",
+      "retrieved": [
+        {
+          "id": "s048",
+          "distance": 0.12058405558198894
+        },
+        {
+          "id": "s005",
+          "distance": 0.17291666666666666
+        },
+        {
+          "id": "s051",
+          "distance": 0.1758195440230513
+        },
+        {
+          "id": "s001",
+          "distance": 0.18192334129627466
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": null,
+        "transfer": null,
+        "ranked": null,
+        "optimized": null
+      }
+    },
+    {
+      "id": "u03",
+      "text": "誰も知らない明日",
+      "retrieved": [
+        {
+          "id": "s014",
+          "distance": 0.12648689494776844
+        },
+        {
+          "id": "s051",
+          "distance": 0.13292461432770974
+        },
+        {
+          "id": "s010",
+          "distance": 0.15
+        },
+        {
+          "id": "s030",
+          "distance": 0.15970118066205413
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": null,
+        "transfer": null,
+        "ranked": null,
+        "optimized": null
+      }
+    },
+    {
+      "id": "u04",
+      "text": "君の声はまだ消えない",
+      "retrieved": [
+        {
+          "id": "s051",
+          "distance": 0.11266478211828938
+        },
+        {
+          "id": "s001",
+          "distance": 0.1504352460581794
+        },
+        {
+          "id": "s048",
+          "distance": 0.17364953177246512
+        },
+        {
+          "id": "s005",
+          "distance": 0.17464285714285716
+        }
+      ],
+      "arm_first_comparison": {
+        "legacy": null,
+        "transfer": null,
+        "ranked": null,
+        "optimized": null
+      }
+    }
+  ]
+}

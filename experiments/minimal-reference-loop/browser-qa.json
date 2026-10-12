@@ -1,0 +1,10 @@
+{
+  "http": 200,
+  "cases": 20,
+  "candidateNavigation": true,
+  "svgDownload": true,
+  "search": true,
+  "mobileOverflow": false,
+  "blindReveal": true,
+  "pageErrors": []
+}

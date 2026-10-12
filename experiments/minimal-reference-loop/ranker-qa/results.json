@@ -1,0 +1,226 @@
+[
+  {
+    "id": "s001",
+    "original": "ranker-qa/s001-original.png",
+    "negative": "ranker-qa/s001-negative.png",
+    "evaluation": {
+      "title": "s001",
+      "type": "size",
+      "ordinal": 6,
+      "legal": true,
+      "difference": -0.795877714207641,
+      "probability_original": 0.31090800562657045,
+      "correct": false
+    }
+  },
+  {
+    "id": "s002",
+    "original": "ranker-qa/s002-original.png",
+    "negative": "ranker-qa/s002-negative.png",
+    "evaluation": {
+      "title": "s002",
+      "type": "size",
+      "ordinal": 0,
+      "legal": true,
+      "difference": -0.016767366783341897,
+      "probability_original": 0.49580825651087096,
+      "correct": false
+    }
+  },
+  {
+    "id": "s005",
+    "original": "ranker-qa/s005-original.png",
+    "negative": "ranker-qa/s005-negative.png",
+    "evaluation": {
+      "title": "s005",
+      "type": "proportion",
+      "ordinal": 5,
+      "legal": true,
+      "difference": -0.3078613844692514,
+      "probability_original": 0.4236368363083351,
+      "correct": false
+    }
+  },
+  {
+    "id": "s006",
+    "original": "ranker-qa/s006-original.png",
+    "negative": "ranker-qa/s006-negative.png",
+    "evaluation": {
+      "title": "s006",
+      "type": "spacing",
+      "ordinal": 0,
+      "legal": true,
+      "difference": -0.01118365147542666,
+      "probability_original": 0.49720411627212674,
+      "correct": false
+    }
+  },
+  {
+    "id": "s010",
+    "original": "ranker-qa/s010-original.png",
+    "negative": "ranker-qa/s010-negative.png",
+    "evaluation": {
+      "title": "s010",
+      "type": "proportion",
+      "ordinal": 1,
+      "legal": true,
+      "difference": -0.44067827439872786,
+      "probability_original": 0.3915793619147022,
+      "correct": false
+    }
+  },
+  {
+    "id": "s011",
+    "original": "ranker-qa/s011-original.png",
+    "negative": "ranker-qa/s011-negative.png",
+    "evaluation": {
+      "title": "s011",
+      "type": "position",
+      "ordinal": 6,
+      "legal": true,
+      "difference": -0.28219702122780754,
+      "probability_original": 0.4299152295400292,
+      "correct": false
+    }
+  },
+  {
+    "id": "s014",
+    "original": "ranker-qa/s014-original.png",
+    "negative": "ranker-qa/s014-negative.png",
+    "evaluation": {
+      "title": "s014",
+      "type": "proportion",
+      "ordinal": 5,
+      "legal": true,
+      "difference": -0.1412492377929732,
+      "probability_original": 0.4647462843308354,
+      "correct": false
+    }
+  },
+  {
+    "id": "s018",
+    "original": "ranker-qa/s018-original.png",
+    "negative": "ranker-qa/s018-negative.png",
+    "evaluation": {
+      "title": "s018",
+      "type": "size",
+      "ordinal": 0,
+      "legal": true,
+      "difference": -0.9478905208672977,
+      "probability_original": 0.279309253084542,
+      "correct": false
+    }
+  },
+  {
+    "id": "s024",
+    "original": "ranker-qa/s024-original.png",
+    "negative": "ranker-qa/s024-negative.png",
+    "evaluation": {
+      "title": "s024",
+      "type": "connector_up",
+      "ordinal": 1,
+      "legal": true,
+      "difference": -0.09532351189377697,
+      "probability_original": 0.4761871507270426,
+      "correct": false
+    }
+  },
+  {
+    "id": "s030",
+    "original": "ranker-qa/s030-original.png",
+    "negative": "ranker-qa/s030-negative.png",
+    "evaluation": {
+      "title": "s030",
+      "type": "proportion",
+      "ordinal": 5,
+      "legal": true,
+      "difference": -0.21095051057574288,
+      "probability_original": 0.4474570751927364,
+      "correct": false
+    }
+  },
+  {
+    "id": "s033",
+    "original": "ranker-qa/s033-original.png",
+    "negative": "ranker-qa/s033-negative.png",
+    "evaluation": {
+      "title": "s033",
+      "type": "spacing",
+      "ordinal": 2,
+      "legal": true,
+      "difference": -1.3297677366385687,
+      "probability_original": 0.20919778689164242,
+      "correct": false
+    }
+  },
+  {
+    "id": "s035",
+    "original": "ranker-qa/s035-original.png",
+    "negative": "ranker-qa/s035-negative.png",
+    "evaluation": {
+      "title": "s035",
+      "type": "proportion",
+      "ordinal": 7,
+      "legal": true,
+      "difference": 1.1694539396454733,
+      "probability_original": 0.7630462985683922,
+      "correct": true
+    }
+  },
+  {
+    "id": "s038",
+    "original": "ranker-qa/s038-original.png",
+    "negative": "ranker-qa/s038-negative.png",
+    "evaluation": {
+      "title": "s038",
+      "type": "size",
+      "ordinal": 0,
+      "legal": true,
+      "difference": -0.050528745048871886,
+      "probability_original": 0.4873705007115789,
+      "correct": false
+    }
+  },
+  {
+    "id": "s048",
+    "original": "ranker-qa/s048-original.png",
+    "negative": "ranker-qa/s048-negative.png",
+    "evaluation": {
+      "title": "s048",
+      "type": "proportion",
+      "ordinal": 2,
+      "legal": true,
+      "difference": -1.8996872920834216,
+      "probability_original": 0.13014387082001871,
+      "correct": false
+    }
+  },
+  {
+    "id": "s051",
+    "original": "ranker-qa/s051-original.png",
+    "negative": "ranker-qa/s051-negative.png",
+    "evaluation": {
+      "title": "s051",
+      "type": "proportion",
+      "ordinal": 0,
+      "legal": true,
+      "difference": -0.3078175821678508,
+      "probability_original": 0.42364753149366213,
+      "correct": false
+    }
+  },
+  {
+    "id": "s079",
+    "original": "ranker-qa/s079-original.png",
+    "negative": "ranker-qa/s079-negative.png",
+    "evaluation": {
+      "title": "s079",
+      "type": "size",
+      "ordinal": 1,
+      "legal": true,
+      "difference": -0.4477295542017523,
+      "probability_original": 0.3899007202870635,
+      "correct": false
+    }
+  }
+]

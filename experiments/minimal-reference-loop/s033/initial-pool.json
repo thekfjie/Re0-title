@@ -1,0 +1,3218 @@
+[
+  {
+    "id": "s002-1",
+    "reference_id": "s002",
+    "score": -0.04166017900978943,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.4129653713285924,
+            0.2216623316085336,
+            0.6774024984408691
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.4129653713285924,
+                0.2216623316085336,
+                0.6774024984408691
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2241955948430547,
+            0.44037202035703565,
+            0.38752440864769616,
+            0.7344379572297915
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2241955948430547,
+                0.44037202035703565,
+                0.38752440864769616,
+                0.7344379572297915
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.39377423570654724,
+            0.4485199430411674,
+            0.532520396413041,
+            0.6811060996609288
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.39377423570654724,
+                0.4485199430411674,
+                0.532520396413041,
+                0.6811060996609288
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5396035337464056,
+            0.26556204277020856,
+            0.7795968928062869,
+            0.6944390640531445
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#f8d287",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5396035337464056,
+                0.26556204277020856,
+                0.7795968928062869,
+                0.6944390640531445
+              ]
+            }
+          ]
+        },
+        {
+          "text": "音",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7812542543522636,
+            0.4477792227971553,
+            0.935,
+            0.7299936357657195
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7812542543522636,
+                0.4477792227971553,
+                0.935,
+                0.7299936357657195
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1693827160493827,
+      "collision": 0.0,
+      "centroid": [
+        0.5694029397473275,
+        0.531107601770867
+      ],
+      "box_fill": 0.4063888888888889
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.13228640181422155,
+      "group_height_log_error": 0.16484727707038052,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s002-3",
+    "reference_id": "s002",
+    "score": -0.04166017900978943,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0650000000000001,
+            0.4129653713285924,
+            0.2216623316085336,
+            0.6774024984408691
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0650000000000001,
+                0.4129653713285924,
+                0.2216623316085336,
+                0.6774024984408691
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2241955948430547,
+            0.44037202035703565,
+            0.38752440864769616,
+            0.7344379572297915
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2241955948430547,
+                0.44037202035703565,
+                0.38752440864769616,
+                0.7344379572297915
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.39377423570654724,
+            0.4485199430411674,
+            0.532520396413041,
+            0.6811060996609288
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.39377423570654724,
+                0.4485199430411674,
+                0.532520396413041,
+                0.6811060996609288
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5396035337464056,
+            0.26556204277020856,
+            0.7795968928062869,
+            0.6944390640531445
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#f8d287",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.5396035337464056,
+                0.26556204277020856,
+                0.7795968928062869,
+                0.6944390640531445
+              ]
+            }
+          ]
+        },
+        {
+          "text": "音",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7812542543522636,
+            0.4477792227971553,
+            0.935,
+            0.7299936357657195
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7812542543522636,
+                0.4477792227971553,
+                0.935,
+                0.7299936357657195
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1693827160493827,
+      "collision": 0.0,
+      "centroid": [
+        0.5694029397473275,
+        0.531107601770867
+      ],
+      "box_fill": 0.4063888888888889
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.13228640181422155,
+      "group_height_log_error": 0.16484727707038052,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s002-0",
+    "reference_id": "s002",
+    "score": 0.19895149009825064,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少女",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19507946261415526,
+            0.3480864197530864,
+            0.4133066085565636,
+            0.6015123456790124
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.19507946261415526,
+                0.3480864197530864,
+                0.3070842449101804,
+                0.6015123456790124
+              ]
+            },
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.30630746261415526,
+                0.3480864197530864,
+                0.4133066085565636,
+                0.6015123456790124
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4075074626141552,
+            0.38216049382716044,
+            0.5796434888703974,
+            0.6050617283950618
+          ],
+          "reference_groups": [
+            "g01",
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f8d287",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4075074626141552,
+                0.38216049382716044,
+                0.5796434888703974,
+                0.6050617283950618
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福音",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5769407959474886,
+            0.3814506172839506,
+            0.8049205373858448,
+            0.6519135802469136
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5769407959474886,
+                0.3814506172839506,
+                0.6948569538422255,
+                0.6519135802469136
+              ]
+            },
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6917567959474886,
+                0.3814506172839506,
+                0.8049205373858448,
+                0.6519135802469136
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09342592592592593,
+      "collision": 0.0,
+      "centroid": [
+        0.533312685827552,
+        0.4969912760464462
+      ],
+      "box_fill": 0.18475308641975308
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 1.0,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.05370205338680923,
+      "group_height_log_error": 0.09627568798114465,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s002-2",
+    "reference_id": "s002",
+    "score": 0.2564457420316772,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少女",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.14204980393835617,
+            0.3216666666666666,
+            0.3982294970011834,
+            0.6191666666666666
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.14204980393835617,
+                0.3216666666666666,
+                0.2735336788076031,
+                0.6191666666666666
+              ]
+            },
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.27262180393835617,
+                0.3216666666666666,
+                0.3982294970011834,
+                0.6191666666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3914218039383562,
+            0.3616666666666666,
+            0.5934945304130753,
+            0.6233333333333333
+          ],
+          "reference_groups": [
+            "g01",
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f8d287",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3914218039383562,
+                0.3616666666666666,
+                0.5934945304130753,
+                0.6233333333333333
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福音",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5903218039383561,
+            0.36083333333333323,
+            0.8579501960616439,
+            0.6783333333333333
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5903218039383561,
+                0.36083333333333323,
+                0.7287451197278298,
+                0.6783333333333333
+              ]
+            },
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7251058039383561,
+                0.36083333333333323,
+                0.8579501960616439,
+                0.6783333333333333
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.12469135802469136,
+      "collision": 0.0,
+      "centroid": [
+        0.5407425742574258,
+        0.49796296296296294
+      ],
+      "box_fill": 0.26012345679012344
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 1.0,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.05370205338680911,
+      "group_height_log_error": 0.09627568798114465,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-0",
+    "reference_id": "s035",
+    "score": 0.23935864170801516,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少女",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.23597714212478185,
+            0.3576697530864197,
+            0.4805478578752182,
+            0.6423302469135802
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.23597714212478185,
+                0.3576697530864197,
+                0.3617864354040706,
+                0.6423302469135802
+              ]
+            },
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.3603611421247819,
+                0.3576697530864197,
+                0.4805478578752182,
+                0.6423302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4721624412085515,
+            0.48331790123456786,
+            0.5496277189863292,
+            0.5990277777777778
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4721624412085515,
+                0.48331790123456786,
+                0.5496277189863292,
+                0.5990277777777778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福音",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5495957745418849,
+            0.39458333333333334,
+            0.7640228578752182,
+            0.6274228395061728
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5495957745418849,
+                0.39458333333333334,
+                0.658036342519724,
+                0.5940586419753087
+              ]
+            },
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6599528083148567,
+                0.4279475308641975,
+                0.7640228578752182,
+                0.6274228395061728
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.07524691358024692,
+      "collision": 0.0,
+      "centroid": [
+        0.5008579436696746,
+        0.5042931364506426
+      ],
+      "box_fill": 0.14777777777777779
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.13255581235425692,
+      "group_height_log_error": 0.2092830351043786,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-2",
+    "reference_id": "s035",
+    "score": 0.306223674754281,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少女",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19006012336387432,
+            0.3329166666666667,
+            0.4771648766361256,
+            0.6670833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.19006012336387432,
+                0.3329166666666667,
+                0.3377492937352133,
+                0.6670833333333334
+              ]
+            },
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.3360761233638743,
+                0.3329166666666667,
+                0.4771648766361256,
+                0.6670833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.46732112663612574,
+            0.48041666666666666,
+            0.5582586266361257,
+            0.6162500000000001
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.46732112663612574,
+                0.48041666666666666,
+                0.5582586266361257,
+                0.6162500000000001
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福音",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5582211266361257,
+            0.3762500000000001,
+            0.8099398766361258,
+            0.6495833333333333
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5582211266361257,
+                0.3762500000000001,
+                0.685520923827502,
+                0.6104166666666667
+              ]
+            },
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6877706880217884,
+                0.41541666666666666,
+                0.8099398766361258,
+                0.6495833333333333
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10191358024691358,
+      "collision": 0.0,
+      "centroid": [
+        0.5034713809812235,
+        0.5079300984812796
+      ],
+      "box_fill": 0.20555555555555555
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.13255581235425665,
+      "group_height_log_error": 0.20928303510437846,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        0,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-1",
+    "reference_id": "s035",
+    "score": 0.15237856954042894,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.26565379677534534,
+            0.3452932098765432,
+            0.4340565745531231,
+            0.6547067901234569
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.26565379677534534,
+                0.3452932098765432,
+                0.4340565745531231,
+                0.6547067901234569
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.42494199121978976,
+            0.4818672839506173,
+            0.47804411272938835,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.42494199121978976,
+                0.4818672839506173,
+                0.47804411272938835,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4807753245531231,
+            0.4818672839506173,
+            0.5413828415240969,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4807753245531231,
+                0.4818672839506173,
+                0.5413828415240969,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5441086578864565,
+            0.4818672839506173,
+            0.598942429816281,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5441086578864565,
+                0.4818672839506173,
+                0.598942429816281,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "音",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5889623333250529,
+            0.38541666666666674,
+            0.7343462032246547,
+            0.6022376543209876
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5889623333250529,
+                0.38541666666666674,
+                0.7343462032246547,
+                0.6022376543209876
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.062191358024691355,
+      "collision": 0.001488833746898263,
+      "centroid": [
+        0.504001240694789,
+        0.5054167815458137
+      ],
+      "box_fill": 0.1451851851851852
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.33517358061769237,
+      "group_height_log_error": 0.2825481822079754,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-3",
+    "reference_id": "s035",
+    "score": 0.20958986198356558,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.22815840425940057,
+            0.3205401234567901,
+            0.42350562648162277,
+            0.6794598765432098
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.22815840425940057,
+                0.3205401234567901,
+                0.42350562648162277,
+                0.6794598765432098
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.41293270981495617,
+            0.47896604938271603,
+            0.4745311707660905,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.41293270981495617,
+                0.47896604938271603,
+                0.4745311707660905,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.47769937648162275,
+            0.47896604938271603,
+            0.5480040961679523,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.47769937648162275,
+                0.47896604938271603,
+                0.5480040961679523,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5511660431482894,
+            0.47896604938271603,
+            0.614773218586886,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5511660431482894,
+                0.47896604938271603,
+                0.614773218586886,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "音",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6031963066570614,
+            0.3670833333333333,
+            0.7718415957405995,
+            0.6185956790123456
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6031963066570614,
+                0.3670833333333333,
+                0.7718415957405995,
+                0.6185956790123456
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08166666666666667,
+      "collision": 0.0007558578987150416,
+      "centroid": [
+        0.5059901738473167,
+        0.5051846252904454
+      ],
+      "box_fill": 0.1925925925925926
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.33517358061769226,
+      "group_height_log_error": 0.2825481822079754,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s006-0",
+    "reference_id": "s006",
+    "score": 0.5148331379396915,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少女",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.20190187922005856,
+            0.3363734567901234,
+            0.46862442481342687,
+            0.6465895061728395
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.20190187922005856,
+                0.3363734567901234,
+                0.3390057723947448,
+                0.6465895061728395
+              ]
+            },
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.33764787922005857,
+                0.3363734567901234,
+                0.46862442481342687,
+                0.6465895061728395
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4738153970356492,
+            0.4542129629629629,
+            0.5708466470356491,
+            0.6082561728395062
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4738153970356492,
+                0.4542129629629629,
+                0.5708466470356491,
+                0.6082561728395062
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福音",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5704153970356491,
+            0.3938734567901234,
+            0.7980981207799414,
+            0.6636265432098766
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5704153970356491,
+                0.3938734567901234,
+                0.6880220637023158,
+                0.6636265432098766
+              ]
+            },
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6852313970356492,
+                0.3938734567901234,
+                0.7980981207799414,
+                0.6636265432098766
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09731481481481481,
+      "collision": 0.0,
+      "centroid": [
+        0.5154456073580717,
+        0.508108679564436
+      ],
+      "box_fill": 0.19419753086419753
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.15060541363123794,
+      "group_height_log_error": 0.11757730123730038,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-0",
+    "reference_id": "s038",
+    "score": 0.6937050876381843,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少女",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.21456830821369943,
+            0.32253086419753085,
+            0.4438720865732108,
+            0.5894444444444444
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.21456830821369943,
+                0.32253086419753085,
+                0.33253412934340654,
+                0.5894444444444444
+              ]
+            },
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3311783082136994,
+                0.32253086419753085,
+                0.4438720865732108,
+                0.5894444444444444
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.445469308795433,
+            0.4141049382716049,
+            0.5456950032398774,
+            0.5837654320987654
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.445469308795433,
+                0.4141049382716049,
+                0.5456950032398774,
+                0.5837654320987654
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福音",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.553281808795433,
+            0.4013271604938272,
+            0.7854316917863006,
+            0.6774691358024691
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.553281808795433,
+                0.4013271604938272,
+                0.6736738965147312,
+                0.6774691358024691
+              ]
+            },
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.669891808795433,
+                0.4013271604938272,
+                0.7854316917863006,
+                0.6774691358024691
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09126543209876543,
+      "collision": 0.0,
+      "centroid": [
+        0.5299163003043625,
+        0.5042297623968236
+      ],
+      "box_fill": 0.2001851851851852
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.275235423451125,
+      "group_height_log_error": 0.07448459839850803,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s006-2",
+    "reference_id": "s006",
+    "score": 0.5645106531654047,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少女",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.15005872778006876,
+            0.30791666666666656,
+            0.46316780304184896,
+            0.6720833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.15005872778006876,
+                0.30791666666666656,
+                0.311006776289483,
+                0.6720833333333334
+              ]
+            },
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3094127277800688,
+                0.30791666666666656,
+                0.46316780304184896,
+                0.6720833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4692615530418489,
+            0.4462499999999999,
+            0.5831678030418489,
+            0.6270833333333332
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4692615530418489,
+                0.4462499999999999,
+                0.5831678030418489,
+                0.6270833333333332
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福音",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.582661553041849,
+            0.37541666666666657,
+            0.8499412722199312,
+            0.6920833333333334
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.582661553041849,
+                0.37541666666666657,
+                0.720721553041849,
+                0.6920833333333334
+              ]
+            },
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.717445553041849,
+                0.37541666666666657,
+                0.8499412722199312,
+                0.6920833333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13240740740740742,
+      "collision": 0.0,
+      "centroid": [
+        0.5224873737373738,
+        0.5163239229905896
+      ],
+      "box_fill": 0.2696296296296296
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.15060541363123794,
+      "group_height_log_error": 0.1175773012373004,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-2",
+    "reference_id": "s038",
+    "score": 0.7413485606898067,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少女",
+          "start": 0,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.164928013989995,
+            0.29166666666666663,
+            0.43411071032507353,
+            0.605
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.164928013989995,
+                0.29166666666666663,
+                0.30340963009878164,
+                0.605
+              ]
+            },
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.30181801398999497,
+                0.29166666666666663,
+                0.43411071032507353,
+                0.605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.4359857103250735,
+            0.39916666666666656,
+            0.5536419603250735,
+            0.5983333333333334
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.4359857103250735,
+                0.39916666666666656,
+                0.5536419603250735,
+                0.5983333333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福音",
+          "start": 3,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5625482103250735,
+            0.38416666666666666,
+            0.835071986010005,
+            0.7083333333333334
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5625482103250735,
+                0.38416666666666666,
+                0.7038780524303367,
+                0.7083333333333334
+              ]
+            },
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6994382103250736,
+                0.38416666666666666,
+                0.835071986010005,
+                0.7083333333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.12308641975308642,
+      "collision": 0.0,
+      "centroid": [
+        0.5401997659645603,
+        0.505228648909692
+      ],
+      "box_fill": 0.28324074074074074
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.275235423451125,
+      "group_height_log_error": 0.074484598398508,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s006-1",
+    "reference_id": "s006",
+    "score": 0.7618694356789695,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.20992187499999995,
+            0.322145061728395,
+            0.39611979166666667,
+            0.6593364197530864
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.20992187499999995,
+                0.322145061728395,
+                0.39611979166666667,
+                0.6593364197530864
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.4017621527777778,
+            0.4502314814814814,
+            0.4724563881617219,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4017621527777778,
+                0.4502314814814814,
+                0.4724563881617219,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.47426215277777783,
+            0.4502314814814814,
+            0.554948233653246,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.47426215277777783,
+                0.4502314814814814,
+                0.554948233653246,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5575954861111111,
+            0.4502314814814814,
+            0.6305950475146198,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5575954861111111,
+                0.4502314814814814,
+                0.6305950475146198,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "音",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6342621527777778,
+            0.384645061728395,
+            0.7900781250000001,
+            0.6778549382716049
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6342621527777778,
+                0.384645061728395,
+                0.7900781250000001,
+                0.6778549382716049
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08808641975308643,
+      "collision": 0.0,
+      "centroid": [
+        0.5195427470217239,
+        0.5161229203976225
+      ],
+      "box_fill": 0.21021604938271604
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.2612594359907897,
+      "group_height_log_error": 0.243657911704302,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-1",
+    "reference_id": "s038",
+    "score": 0.28117137617403126,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.20095429459064326,
+            0.30709876543209874,
+            0.3728292945906433,
+            0.5972222222222222
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.20095429459064326,
+                0.30709876543209874,
+                0.3728292945906433,
+                0.5972222222222222
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.37456540570175445,
+            0.4066358024691357,
+            0.4524267985900616,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.37456540570175445,
+                0.4066358024691357,
+                0.4524267985900616,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.45289873903508776,
+            0.4066358024691357,
+            0.54176497557535,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.45289873903508776,
+                0.4066358024691357,
+                0.54176497557535,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5437320723684211,
+            0.4066358024691357,
+            0.6241325109649123,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5437320723684211,
+                0.4066358024691357,
+                0.6241325109649123,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "音",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6323790387426901,
+            0.39274691358024694,
+            0.7990457054093568,
+            0.6929012345679012
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6323790387426901,
+                0.39274691358024694,
+                0.7990457054093568,
+                0.6929012345679012
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08651234567901235,
+      "collision": 0.0,
+      "centroid": [
+        0.5315539897728624,
+        0.5009183282461913
+      ],
+      "box_fill": 0.23555555555555555
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.31202335205833354,
+      "group_height_log_error": 0.19301644898177242,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "id": "s006-3",
+    "reference_id": "s006",
+    "score": 0.8005340916034067,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.16350937499999996,
+            0.29368827160493827,
+            0.37949895833333336,
+            0.6848302469135802
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.16350937499999996,
+                0.29368827160493827,
+                0.37949895833333336,
+                0.6848302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.38604409722222227,
+            0.4422685185185185,
+            0.46804941026759744,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.38604409722222227,
+                0.4422685185185185,
+                0.46804941026759744,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.4701440972222222,
+            0.4422685185185185,
+            0.5637399510377653,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4701440972222222,
+                0.4422685185185185,
+                0.5637399510377653,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5668107638888888,
+            0.4422685185185185,
+            0.651490255116959,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5668107638888888,
+                0.4422685185185185,
+                0.651490255116959,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "音",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6557440972222223,
+            0.36618827160493833,
+            0.836490625,
+            0.7063117283950618
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6557440972222223,
+                0.36618827160493833,
+                0.836490625,
+                0.7063117283950618
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11330246913580247,
+      "collision": 0.0,
+      "centroid": [
+        0.5218208026877327,
+        0.5175661087401757
+      ],
+      "box_fill": 0.2733024691358025
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.26125943599079016,
+      "group_height_log_error": 0.24365791170430195,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-3",
+    "reference_id": "s038",
+    "score": 0.307560412764671,
+    "title": {
+      "id": "generated",
+      "text": "少女の福音",
+      "groups": [
+        {
+          "text": "少",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.1531069817251462,
+            0.2762345679012346,
+            0.3524819817251462,
+            0.6127777777777778
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "少",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.1531069817251462,
+                0.2762345679012346,
+                0.3524819817251462,
+                0.6127777777777778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "女",
+          "start": 1,
+          "end": 2,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.35449587061403515,
+            0.3916975308641975,
+            0.4448150863644715,
+            0.6056172839506172
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "女",
+              "start": 1,
+              "end": 2,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.35449587061403515,
+                0.3916975308641975,
+                0.4448150863644715,
+                0.6056172839506172
+              ]
+            }
+          ]
+        },
+        {
+          "text": "の",
+          "start": 2,
+          "end": 3,
+          "kind": "particle",
+          "pos": "助詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 1,
+          "ink_bbox": [
+            0.44536253728070185,
+            0.3916975308641975,
+            0.5484473716674059,
+            0.6056172839506172
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "の",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.44536253728070185,
+                0.3916975308641975,
+                0.5484473716674059,
+                0.6056172839506172
+              ]
+            }
+          ]
+        },
+        {
+          "text": "福",
+          "start": 3,
+          "end": 4,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5507292039473685,
+            0.3916975308641975,
+            0.6439937127192983,
+            0.6056172839506172
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "福",
+              "start": 3,
+              "end": 4,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5507292039473685,
+                0.3916975308641975,
+                0.6439937127192983,
+                0.6056172839506172
+              ]
+            }
+          ]
+        },
+        {
+          "text": "音",
+          "start": 4,
+          "end": 5,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6535596849415205,
+            0.3755864197530865,
+            0.8468930182748539,
+            0.7237654320987654
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "音",
+              "start": 4,
+              "end": 5,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6535596849415205,
+                0.3755864197530865,
+                0.8468930182748539,
+                0.7237654320987654
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11478395061728396,
+      "collision": 0.0,
+      "centroid": [
+        0.5387525768575782,
+        0.5018035513329947
+      ],
+      "box_fill": 0.31253086419753084
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.31202335205833354,
+      "group_height_log_error": 0.19301644898177234,
+      "reference_marked": [
+        2
+      ],
+      "generated_marked": [
+        2,
+        4
+      ]
+    }
+  }
+]

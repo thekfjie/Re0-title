@@ -1,0 +1,3850 @@
+[
+  {
+    "id": "s006-0",
+    "reference_id": "s006",
+    "score": 0.6684142138830467,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.16496017079817155,
+            0.3363734567901234,
+            0.33626225413150496,
+            0.6465895061728395
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.16496017079817155,
+                0.3363734567901234,
+                0.33626225413150496,
+                0.6465895061728395
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ちかねた",
+          "start": 1,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.34145322635372716,
+            0.4542129629629629,
+            0.593747354006661,
+            0.6082561728395062
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.34145322635372716,
+                0.4542129629629629,
+                0.38872512635372714,
+                0.6082561728395062
+              ]
+            },
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3851072263537272,
+                0.4542129629629629,
+                0.46303577361323506,
+                0.6082561728395062
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46344055968706055,
+                0.4542129629629629,
+                0.5299735120751501,
+                0.6082561728395062
+              ]
+            },
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5274265596870605,
+                0.4542129629629629,
+                0.593747354006661,
+                0.6082561728395062
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再会",
+          "start": 5,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5956598930203938,
+            0.3938734567901234,
+            0.8350398292018284,
+            0.6636265432098766
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5956598930203938,
+                0.3938734567901234,
+                0.7203122858511404,
+                0.6636265432098766
+              ]
+            },
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7140638930203939,
+                0.3938734567901234,
+                0.8350398292018284,
+                0.6636265432098766
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09996913580246913,
+      "collision": 0.0,
+      "centroid": [
+        0.49773592672635586,
+        0.5078293483356774
+      ],
+      "box_fill": 0.21728395061728395
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.23856583727052097,
+      "group_height_log_error": 0.123436788447189,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-0",
+    "reference_id": "s038",
+    "score": 0.6090320285046572,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.15503773861811376,
+            0.32253086419753085,
+            0.3131627386181138,
+            0.5894444444444444
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.15503773861811376,
+                0.32253086419753085,
+                0.3131627386181138,
+                0.5894444444444444
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ちかねた",
+          "start": 1,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3152710719514471,
+            0.4141049382716049,
+            0.5921403001037567,
+            0.5837654320987654
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3152710719514471,
+                0.4141049382716049,
+                0.36733551480858995,
+                0.5837654320987654
+              ]
+            },
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.36251307195144705,
+                0.4141049382716049,
+                0.4483422092556976,
+                0.5837654320987654
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4474290719514471,
+                0.4141049382716049,
+                0.5207073006185134,
+                0.5837654320987654
+              ]
+            },
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5190957386181138,
+                0.4141049382716049,
+                0.5921403001037567,
+                0.5837654320987654
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再会",
+          "start": 5,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5997271056593123,
+            0.4013271604938272,
+            0.8449622613818861,
+            0.6774691358024691
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5997271056593123,
+                0.4013271604938272,
+                0.7273317920044712,
+                0.6774691358024691
+              ]
+            },
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.7211211056593123,
+                0.4013271604938272,
+                0.8449622613818861,
+                0.6774691358024691
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09891975308641976,
+      "collision": 0.0006240249609984399,
+      "centroid": [
+        0.5155239209568383,
+        0.5016143756861385
+      ],
+      "box_fill": 0.24080246913580247
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.25,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.29059028684443555,
+      "group_height_log_error": 0.1412858975142811,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        1,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "id": "s006-2",
+    "reference_id": "s006",
+    "score": 0.7003584947225945,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.10725396861814332,
+            0.30791666666666656,
+            0.30834771861814336,
+            0.6720833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.10725396861814332,
+                0.30791666666666656,
+                0.30834771861814336,
+                0.6720833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ちかねた",
+          "start": 1,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3144414686181435,
+            0.4462499999999999,
+            0.6094896474570949,
+            0.6270833333333332
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3144414686181435,
+                0.4462499999999999,
+                0.36993456861814344,
+                0.6270833333333332
+              ]
+            },
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3656874686181435,
+                0.4462499999999999,
+                0.45716880670539184,
+                0.6270833333333332
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4565208019514769,
+                0.4462499999999999,
+                0.5346247025809732,
+                0.6270833333333332
+              ]
+            },
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5316348019514769,
+                0.4462499999999999,
+                0.6094896474570949,
+                0.6270833333333332
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再会",
+          "start": 5,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6117348019514769,
+            0.37541666666666657,
+            0.8927460313818566,
+            0.6920833333333334
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6117348019514769,
+                0.37541666666666657,
+                0.7580658717962663,
+                0.6920833333333334
+              ]
+            },
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7507308019514769,
+                0.37541666666666657,
+                0.8927460313818566,
+                0.6920833333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.13330246913580246,
+      "collision": 0.0,
+      "centroid": [
+        0.5006482982171799,
+        0.514510389064684
+      ],
+      "box_fill": 0.3017283950617284
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.23999473285156378,
+      "group_height_log_error": 0.12343678844718921,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-2",
+    "reference_id": "s038",
+    "score": 0.6187464775995009,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.0955038525806844,
+            0.29166666666666663,
+            0.28112885258068443,
+            0.605
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.0955038525806844,
+                0.29166666666666663,
+                0.28112885258068443,
+                0.605
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ちかねた",
+          "start": 1,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.2836038525806844,
+            0.39916666666666656,
+            0.6077051493971637,
+            0.5983333333333334
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.2836038525806844,
+                0.39916666666666656,
+                0.344722981152113,
+                0.5983333333333334
+              ]
+            },
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3394371859140177,
+                0.39916666666666656,
+                0.4401931297059641,
+                0.5983333333333334
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.43912118591401766,
+                0.39916666666666656,
+                0.5251434543492695,
+                0.5983333333333334
+              ]
+            },
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5219571859140176,
+                0.39916666666666656,
+                0.6077051493971637,
+                0.5983333333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再会",
+          "start": 5,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6166113993971638,
+            0.38416666666666666,
+            0.9044961474193157,
+            0.7083333333333334
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6166113993971638,
+                0.38416666666666666,
+                0.7664082051066982,
+                0.7083333333333334
+              ]
+            },
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.7591173993971638,
+                0.38416666666666666,
+                0.9044961474193157,
+                0.7083333333333334
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1321604938271605,
+      "collision": 0.00046707146193367583,
+      "centroid": [
+        0.5192229098552078,
+        0.502023976335046
+      ],
+      "box_fill": 0.3412962962962963
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.25,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2917257485189758,
+      "group_height_log_error": 0.14128589751428122,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        1,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "id": "s006-1",
+    "reference_id": "s006",
+    "score": 0.25621886727321114,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.13005240745154362,
+            0.322145061728395,
+            0.31625032411821036,
+            0.6593364197530864
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.13005240745154362,
+                0.322145061728395,
+                0.31625032411821036,
+                0.6593364197530864
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ち",
+          "start": 1,
+          "end": 2,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.32189268522932146,
+            0.4502314814814814,
+            0.37327518522932146,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.32189268522932146,
+                0.4502314814814814,
+                0.37327518522932146,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "かね",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "接尾辞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.37327518522932146,
+            0.4502314814814814,
+            0.5287936117381145,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.37327518522932146,
+                0.4502314814814814,
+                0.4579801279026995,
+                0.6176697530864197
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4564751852293215,
+                0.4502314814814814,
+                0.5287936117381145,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 4,
+          "end": 5,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5287936117381145,
+            0.4502314814814814,
+            0.6008814316507237,
+            0.6176697530864197
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5287936117381145,
+                0.4502314814814814,
+                0.6008814316507237,
+                0.6176697530864197
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6029602784047812,
+            0.384645061728395,
+            0.7384520097425491,
+            0.6778549382716049
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6029602784047812,
+                0.384645061728395,
+                0.7384520097425491,
+                0.6778549382716049
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7384520097425491,
+            0.384645061728395,
+            0.8699475925484563,
+            0.6778549382716049
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7384520097425491,
+                0.384645061728395,
+                0.8699475925484563,
+                0.6778549382716049
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.12003086419753087,
+      "collision": 0.0,
+      "centroid": [
+        0.49996785806119826,
+        0.5132043846366294
+      ],
+      "box_fill": 0.2691975308641975
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.22283551026199586,
+      "group_height_log_error": 0.12343678844718904,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-1",
+    "reference_id": "s038",
+    "score": 0.5614334043155873,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.11816890545300343,
+            0.30709876543209874,
+            0.29004390545300346,
+            0.5972222222222222
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.11816890545300343,
+                0.30709876543209874,
+                0.29004390545300346,
+                0.5972222222222222
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ち",
+          "start": 1,
+          "end": 2,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.29233557211967004,
+            0.4066358024691357,
+            0.3489273578339558,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29233557211967004,
+                0.4066358024691357,
+                0.3489273578339558,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "かね",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "接尾辞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3489273578339558,
+            0.4066358024691357,
+            0.5208776063851149,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3489273578339558,
+                0.4066358024691357,
+                0.4422198983820543,
+                0.5910493827160493
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4412273578339558,
+                0.4066358024691357,
+                0.5208776063851149,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 4,
+          "end": 5,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5208776063851149,
+            0.4066358024691357,
+            0.6002738688695094,
+            0.5910493827160493
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5208776063851149,
+                0.4066358024691357,
+                0.6002738688695094,
+                0.5910493827160493
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6085203966472872,
+            0.39274691358024694,
+            0.7472211426746338,
+            0.6929012345679012
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6085203966472872,
+                0.39274691358024694,
+                0.7472211426746338,
+                0.6929012345679012
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7472211426746338,
+            0.39274691358024694,
+            0.8818310945469966,
+            0.6929012345679012
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.7472211426746338,
+                0.39274691358024694,
+                0.8818310945469966,
+                0.6929012345679012
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11345679012345679,
+      "collision": 0.0,
+      "centroid": [
+        0.5178500181356547,
+        0.5021097811631
+      ],
+      "box_fill": 0.29935185185185187
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.25,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.27242856957984274,
+      "group_height_log_error": 0.14128589751428117,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        2,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "id": "s006-3",
+    "reference_id": "s006",
+    "score": 0.2475808764030555,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.07036679264379074,
+            0.29368827160493827,
+            0.2863563759771241,
+            0.6848302469135802
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#f3b2d0",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.07036679264379074,
+                0.29368827160493827,
+                0.2863563759771241,
+                0.6848302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ち",
+          "start": 1,
+          "end": 2,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.292901514866013,
+            0.4422685185185185,
+            0.35250521486601305,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.292901514866013,
+                0.4422685185185185,
+                0.35250521486601305,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "かね",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "接尾辞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.352505214866013,
+            0.4422685185185185,
+            0.5338945896162128,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.352505214866013,
+                0.4422685185185185,
+                0.45076294836713154,
+                0.6364969135802468
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.45000521486601297,
+                0.4422685185185185,
+                0.5338945896162128,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 4,
+          "end": 5,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5338945896162128,
+            0.4422685185185185,
+            0.6175164607148395,
+            0.6364969135802468
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5338945896162128,
+                0.4422685185185185,
+                0.6175164607148395,
+                0.6364969135802468
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.619927922949546,
+            0.36618827160493833,
+            0.7770983313013569,
+            0.7063117283950618
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.619927922949546,
+                0.36618827160493833,
+                0.7770983313013569,
+                0.7063117283950618
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7770983313013569,
+            0.36618827160493833,
+            0.9296332073562092,
+            0.7063117283950618
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7770983313013569,
+                0.36618827160493833,
+                0.9296332073562092,
+                0.7063117283950618
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.15416666666666667,
+      "collision": 0.0002002002002002002,
+      "centroid": [
+        0.5010126793460127,
+        0.5137018499981463
+      ],
+      "box_fill": 0.35138888888888886
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.22168503070297624,
+      "group_height_log_error": 0.12343678844718914,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        0
+      ]
+    }
+  },
+  {
+    "id": "s038-3",
+    "reference_id": "s038",
+    "score": 0.528927600510554,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.2802378113375233,
+            0.26080811009826677,
+            0.6107601430858882
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.2802378113375233,
+                0.26080811009826677,
+                0.6107601430858882
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ち",
+          "start": 1,
+          "end": 2,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.26341888489957693,
+            0.39363510068736124,
+            0.3278909175267791,
+            0.603727753048689
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.26341888489957693,
+                0.39363510068736124,
+                0.3278909175267791,
+                0.603727753048689
+              ]
+            }
+          ]
+        },
+        {
+          "text": "かね",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "接尾辞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3278909175267791,
+            0.39363510068736124,
+            0.5237847543252063,
+            0.603727753048689
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#bc271b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3278909175267791,
+                0.39363510068736124,
+                0.43417418182344286,
+                0.603727753048689
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.43304343279700463,
+                0.39363510068736124,
+                0.5237847543252063,
+                0.603727753048689
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 4,
+          "end": 5,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5237847543252064,
+            0.39363510068736124,
+            0.6142367229415567,
+            0.603727753048689
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5237847543252064,
+                0.39363510068736124,
+                0.6142367229415567,
+                0.603727753048689
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6236315565068776,
+            0.377812223103663,
+            0.7816459911182778,
+            0.7197621886624767
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.6236315565068776,
+                0.377812223103663,
+                0.7816459911182778,
+                0.7197621886624767
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7816459911182778,
+            0.377812223103663,
+            0.935,
+            0.7197621886624767
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#a8abb9",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.7816459911182778,
+                0.377812223103663,
+                0.935,
+                0.7197621886624767
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.145,
+      "collision": 0.0,
+      "centroid": [
+        0.522738399318859,
+        0.5031613137189979
+      ],
+      "box_fill": 0.38058641975308644
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.25,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2724285695798429,
+      "group_height_log_error": 0.14128589751428114,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        2,
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "id": "s035-0",
+    "reference_id": "s035",
+    "score": 0.5233594475468494,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2171013701205034,
+            0.3576697530864197,
+            0.37203192567605897,
+            0.6423302469135802
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.2171013701205034,
+                0.3576697530864197,
+                0.37203192567605897,
+                0.6423302469135802
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ちかねた",
+          "start": 1,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3735013701205034,
+            0.48331790123456786,
+            0.5653603723052724,
+            0.5990277777777778
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3735013701205034,
+                0.48331790123456786,
+                0.40900975583478916,
+                0.5990277777777778
+              ]
+            },
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4085013701205034,
+                0.48331790123456786,
+                0.4670375599974609,
+                0.5990277777777778
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4665073701205033,
+                0.48331790123456786,
+                0.5164837352783771,
+                0.5990277777777778
+              ]
+            },
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5155433701205033,
+                0.48331790123456786,
+                0.5653603723052724,
+                0.5990277777777778
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再会",
+          "start": 5,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5684433701205034,
+            0.39458333333333334,
+            0.7828986298794965,
+            0.6274228395061728
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5684433701205034,
+                0.39458333333333334,
+                0.6795076567292656,
+                0.5940586419753087
+              ]
+            },
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6751100367871701,
+                0.4279475308641975,
+                0.7828986298794965,
+                0.6274228395061728
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.07287037037037038,
+      "collision": 0.00042354934349851756,
+      "centroid": [
+        0.48621523365805447,
+        0.5033178031907384
+      ],
+      "box_fill": 0.15950617283950616
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.26829000430883027,
+      "group_height_log_error": 0.173480634683358,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s035-2",
+    "reference_id": "s035",
+    "score": 0.5888127161834033,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.16846162500000011,
+            0.3329166666666667,
+            0.3503366250000001,
+            0.6670833333333334
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.16846162500000011,
+                0.3329166666666667,
+                0.3503366250000001,
+                0.6670833333333334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ちかねた",
+          "start": 1,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.35206162500000004,
+            0.48041666666666666,
+            0.5762004536516853,
+            0.6162500000000001
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.35206162500000004,
+                0.48041666666666666,
+                0.3937453821428572,
+                0.6162500000000001
+              ]
+            },
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.392061625,
+                0.48041666666666666,
+                0.46077802181208066,
+                0.6162500000000001
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46015562499999985,
+                0.48041666666666666,
+                0.5188235319244603,
+                0.6162500000000001
+              ]
+            },
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5177196249999999,
+                0.48041666666666666,
+                0.5762004536516853,
+                0.6162500000000001
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再会",
+          "start": 5,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.579819625,
+            0.3762500000000001,
+            0.8315383749999999,
+            0.6495833333333333
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.579819625,
+                0.3762500000000001,
+                0.7101994397146338,
+                0.6104166666666667
+              ]
+            },
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.705003939630747,
+                0.41541666666666666,
+                0.8315383749999999,
+                0.6495833333333333
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09675925925925925,
+      "collision": 0.0,
+      "centroid": [
+        0.47977671451355663,
+        0.506789532754445
+      ],
+      "box_fill": 0.22083333333333333
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2699777249379037,
+      "group_height_log_error": 0.17348063468335803,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "s035-1",
+    "reference_id": "s035",
+    "score": 0.4130034552162854,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.19172943793179745,
+            0.3452932098765432,
+            0.3601322157095752,
+            0.6547067901234569
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.19172943793179745,
+                0.3452932098765432,
+                0.3601322157095752,
+                0.6547067901234569
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ち",
+          "start": 1,
+          "end": 2,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3617294379317974,
+            0.4818672839506173,
+            0.4003255093603688,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3617294379317974,
+                0.4818672839506173,
+                0.4003255093603688,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "かね",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "接尾辞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.40032550936036887,
+            0.4818672839506173,
+            0.517697645401536,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.40032550936036887,
+                0.4818672839506173,
+                0.46395180270488795,
+                0.607638888888889
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.46337550936036886,
+                0.4818672839506173,
+                0.517697645401536,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 4,
+          "end": 5,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.517697645401536,
+            0.4818672839506173,
+            0.5718465608197632,
+            0.607638888888889
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.517697645401536,
+                0.4818672839506173,
+                0.5718465608197632,
+                0.607638888888889
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.575197645401536,
+            0.38541666666666674,
+            0.6905802774147373,
+            0.6022376543209876
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.575197645401536,
+                0.38541666666666674,
+                0.6905802774147373,
+                0.6022376543209876
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6905802774147373,
+            0.4216820987654321,
+            0.8082705620682026,
+            0.6385030864197531
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6905802774147373,
+                0.4216820987654321,
+                0.8082705620682026,
+                0.6385030864197531
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08441358024691357,
+      "collision": 0.0,
+      "centroid": [
+        0.47864564290067035,
+        0.5066043740266775
+      ],
+      "box_fill": 0.19185185185185186
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2657824027800322,
+      "group_height_log_error": 0.17348063468335798,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s035-3",
+    "reference_id": "s035",
+    "score": 0.45561305123252943,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.14240614800088508,
+            0.3205401234567901,
+            0.33775337022310725,
+            0.6794598765432098
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#9b9b9b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.14240614800088508,
+                0.3205401234567901,
+                0.33775337022310725,
+                0.6794598765432098
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ち",
+          "start": 1,
+          "end": 2,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.33960614800088496,
+            0.47896604938271603,
+            0.38437759085802786,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.33960614800088496,
+                0.47896604938271603,
+                0.38437759085802786,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "かね",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "接尾辞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3843775908580279,
+            0.47896604938271603,
+            0.5205292686657818,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#b3261b",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3843775908580279,
+                0.47896604938271603,
+                0.45818409113767,
+                0.6248611111111111
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.45751559085802784,
+                0.47896604938271603,
+                0.5205292686657818,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 4,
+          "end": 5,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.5205292686657818,
+            0.47896604938271603,
+            0.5833420105509254,
+            0.6248611111111111
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5205292686657818,
+                0.47896604938271603,
+                0.5833420105509254,
+                0.6248611111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5872292686657817,
+            0.3670833333333333,
+            0.7210731218010952,
+            0.6185956790123456
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5872292686657817,
+                0.3670833333333333,
+                0.7210731218010952,
+                0.6185956790123456
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7210731218010952,
+            0.4091512345679012,
+            0.8575938519991149,
+            0.6606635802469135
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7210731218010952,
+                0.4091512345679012,
+                0.8575938519991149,
+                0.6606635802469135
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11151234567901235,
+      "collision": 0.0,
+      "centroid": [
+        0.47609788725897223,
+        0.5062418632305152
+      ],
+      "box_fill": 0.2548148148148148
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.3333333333333333,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 0.2657824027800322,
+      "group_height_log_error": 0.17348063468335811,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "id": "s010-0",
+    "reference_id": "s010",
+    "score": -1.0069750594337317,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.11958450355259184,
+            0.37577160493827155,
+            0.25574769799703634,
+            0.6242283950617284
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.11958450355259184,
+                0.37577160493827155,
+                0.25574769799703634,
+                0.6242283950617284
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ちかねた",
+          "start": 1,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.2537511702192585,
+            0.3857098765432098,
+            0.5958534249811633,
+            0.6135802469135802
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2537511702192585,
+                0.3857098765432098,
+                0.32367872736211567,
+                0.6135802469135802
+              ]
+            },
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.32012917021925846,
+                0.40315823633156955,
+                0.41827912379068705,
+                0.5971735802469135
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4152111702192586,
+                0.3870119929453262,
+                0.50901921664783,
+                0.6042050088183422
+              ]
+            },
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5060445035525919,
+                0.3945642680776013,
+                0.5958534249811633,
+                0.6031633156966489
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再会",
+          "start": 5,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6006450916478301,
+            0.4091358024691357,
+            0.880415496447408,
+            0.6050617283950617
+          ],
+          "reference_groups": [
+            "g02",
+            "g03",
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6006450916478301,
+                0.4091358024691357,
+                0.7457364395783549,
+                0.6050617283950617
+              ]
+            },
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7396034249811634,
+                0.4091358024691357,
+                0.880415496447408,
+                0.6050617283950617
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09342592592592593,
+      "collision": 0.0009910802775024777,
+      "centroid": [
+        0.49163225415703116,
+        0.4981438657025047
+      ],
+      "box_fill": 0.19203703703703703
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.16391370042999018,
+      "group_height_log_error": 0.13555665432770073,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "s010-2",
+    "reference_id": "s010",
+    "score": -0.9561858081756192,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.35773458382629536,
+            0.22093305794182125,
+            0.6422654161737046
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.35773458382629536,
+                0.22093305794182125,
+                0.6422654161737046
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ちかねた",
+          "start": 1,
+          "end": 5,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.2186466494676009,
+            0.3691158171201917,
+            0.609121673194918,
+            0.6300712376445299
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2186466494676009,
+                0.3691158171201917,
+                0.29872715774427827,
+                0.6300712376445299
+              ]
+            },
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29466223181562884,
+                0.38909754646319816,
+                0.4070628145111613,
+                0.6112824473667775
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4035494173411825,
+                0.3706069909517593,
+                0.5109776808953526,
+                0.6193347860572428
+              ]
+            },
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.50627317727095,
+                0.37925579917485164,
+                0.609121673194918,
+                0.6181418469919887
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再会",
+          "start": 5,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6146090535330466,
+            0.39594300988437603,
+            0.935,
+            0.6203158948211901
+          ],
+          "reference_groups": [
+            "g02",
+            "g03",
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.6146090535330466,
+                0.39594300988437603,
+                0.7807665651573676,
+                0.6203158948211901
+              ]
+            },
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7737430833387762,
+                0.39594300988437603,
+                0.935,
+                0.6203158948211901
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11725308641975309,
+      "collision": 0.0,
+      "centroid": [
+        0.49711656576292007,
+        0.4979400037046786
+      ],
+      "box_fill": 0.24512345679012346
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.5,
+      "accent_jaccard": 0.5,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.16242299054908313,
+      "group_height_log_error": 0.13555665432770064,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        5
+      ]
+    }
+  },
+  {
+    "id": "s010-1",
+    "reference_id": "s010",
+    "score": -1.3593475005712834,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.10127674486439275,
+            0.3614969135802469,
+            0.249280217086615,
+            0.6315586419753086
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.10127674486439275,
+                0.3614969135802469,
+                0.249280217086615,
+                0.6315586419753086
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ち",
+          "start": 1,
+          "end": 2,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.2471100781977261,
+            0.3722993827160493,
+            0.36891811391201185,
+            0.6199845679012346
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2471100781977261,
+                0.3722993827160493,
+                0.36891811391201185,
+                0.6199845679012346
+              ]
+            }
+          ]
+        },
+        {
+          "text": "かね",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "接尾辞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3741264472453452,
+            0.3900462962962962,
+            0.6042876607745219,
+            0.6385030864197531
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3741264472453452,
+                0.3900462962962962,
+                0.499817652502616,
+                0.6385030864197531
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.49697644724534523,
+                0.3900462962962962,
+                0.6042876607745219,
+                0.6385030864197531
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 4,
+          "end": 5,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6103640496634107,
+            0.3746141975308641,
+            0.6987297643949962,
+            0.579861111111111
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6103640496634107,
+                0.3746141975308641,
+                0.6987297643949962,
+                0.579861111111111
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7048061532838852,
+            0.3977623456790123,
+            0.8032159370976325,
+            0.6107253086419753
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7048061532838852,
+                0.3977623456790123,
+                0.8032159370976325,
+                0.6107253086419753
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.8032159370976325,
+            0.3977623456790123,
+            0.8987232551356072,
+            0.6107253086419753
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8032159370976325,
+                0.3977623456790123,
+                0.8987232551356072,
+                0.6107253086419753
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.09913580246913581,
+      "collision": 0.0,
+      "centroid": [
+        0.48874922166874224,
+        0.5019371800193718
+      ],
+      "box_fill": 0.22518518518518518
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.10214637049058473,
+      "group_height_log_error": 0.15358247780303666,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s010-3",
+    "reference_id": "s010",
+    "score": -1.3366084542484236,
+    "title": {
+      "id": "generated",
+      "text": "待ちかねた再会",
+      "groups": [
+        {
+          "text": "待",
+          "start": 0,
+          "end": 1,
+          "kind": "kanji",
+          "pos": "動詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.34889558906690366,
+            0.22646916335434278,
+            0.6435281452038603
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "待",
+              "start": 0,
+              "end": 1,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.34889558906690366,
+                0.22646916335434278,
+                0.6435281452038603
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ち",
+          "start": 1,
+          "end": 2,
+          "kind": "kana",
+          "pos": "動詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.22410158031395652,
+            0.3606808913123819,
+            0.3569919870139454,
+            0.6309010356551334
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ち",
+              "start": 1,
+              "end": 2,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.22410158031395652,
+                0.3606808913123819,
+                0.3569919870139454,
+                0.6309010356551334
+              ]
+            }
+          ]
+        },
+        {
+          "text": "かね",
+          "start": 2,
+          "end": 4,
+          "kind": "kana",
+          "pos": "接尾辞",
+          "id": "g02",
+          "row": 0,
+          "attachment": 0,
+          "ink_bbox": [
+            0.3626741863108725,
+            0.3800424592870962,
+            0.6137759883643812,
+            0.6511044109330963
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "か",
+              "start": 2,
+              "end": 3,
+              "script": "hiragana",
+              "color": "#f2abcd",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3626741863108725,
+                0.3800424592870962,
+                0.49980106211428504,
+                0.6511044109330963
+              ]
+            },
+            {
+              "text": "ね",
+              "start": 3,
+              "end": 4,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.49670135756734957,
+                0.3800424592870962,
+                0.6137759883643812,
+                0.6511044109330963
+              ]
+            }
+          ]
+        },
+        {
+          "text": "た",
+          "start": 4,
+          "end": 5,
+          "kind": "kana",
+          "pos": "助動詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": 4,
+          "ink_bbox": [
+            0.6204052208774626,
+            0.36320631322212726,
+            0.7168106484845541,
+            0.5871270558862142
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "た",
+              "start": 4,
+              "end": 5,
+              "script": "hiragana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6204052208774626,
+                0.36320631322212726,
+                0.7168106484845541,
+                0.5871270558862142
+              ]
+            }
+          ]
+        },
+        {
+          "text": "再",
+          "start": 5,
+          "end": 6,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7234398809976358,
+            0.38846053231958066,
+            0.8308032098419009,
+            0.6207993480161521
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "再",
+              "start": 5,
+              "end": 6,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7234398809976358,
+                0.38846053231958066,
+                0.8308032098419009,
+                0.6207993480161521
+              ]
+            }
+          ]
+        },
+        {
+          "text": "会",
+          "start": 6,
+          "end": 7,
+          "kind": "kanji",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.8308032098419011,
+            0.38846053231958066,
+            0.935,
+            0.6207993480161521
+          ],
+          "reference_groups": [
+            "g04"
+          ],
+          "glyphs": [
+            {
+              "text": "会",
+              "start": 6,
+              "end": 7,
+              "script": "kanji",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8308032098419011,
+                0.38846053231958066,
+                0.935,
+                0.6207993480161521
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11441358024691357,
+      "collision": 0.0,
+      "centroid": [
+        0.4801883823397176,
+        0.49913177272227716
+      ],
+      "box_fill": 0.2632098765432099
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": true,
+      "marked_jaccard": 0.0,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 1.0,
+      "aspect_log_error": 0.10214637049058473,
+      "group_height_log_error": 0.1535824778030368,
+      "reference_marked": [
+        0,
+        5
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  }
+]

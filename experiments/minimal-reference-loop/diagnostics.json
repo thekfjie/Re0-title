@@ -1,0 +1,1459 @@
+{
+  "protocol": "post-generation diagnostics only; no diagnostic oracle or query annotation used by selection/search",
+  "limits": "reference likeness is not aesthetic quality; synthetic negatives are provisional labels; developer image review is not independent",
+  "summary": {
+    "reference_queries": 16,
+    "failure_counts": {
+      "legacy": {
+        "aspect_error_over_20pct": 8,
+        "hierarchy_log_error_over_log_1_2": 7,
+        "marked_position_jaccard_below_0_5": 10,
+        "zero_chromatic_position_overlap": 9,
+        "break_mismatch": 3
+      },
+      "transfer": {
+        "break_mismatch": 7,
+        "aspect_error_over_20pct": 10,
+        "hierarchy_log_error_over_log_1_2": 6,
+        "marked_position_jaccard_below_0_5": 12,
+        "zero_chromatic_position_overlap": 10
+      },
+      "ranked": {
+        "break_mismatch": 6,
+        "aspect_error_over_20pct": 9,
+        "marked_position_jaccard_below_0_5": 12,
+        "zero_chromatic_position_overlap": 8,
+        "hierarchy_log_error_over_log_1_2": 7
+      },
+      "optimized": {
+        "break_mismatch": 6,
+        "aspect_error_over_20pct": 9,
+        "marked_position_jaccard_below_0_5": 13,
+        "hierarchy_log_error_over_log_1_2": 5,
+        "zero_chromatic_position_overlap": 9
+      }
+    },
+    "pool_exact_break_coverage": 11,
+    "ranker_dropped_exact_break_count": 1,
+    "ranker_color_regret_mean": 0.4114583333333333,
+    "annotation_beats_ranked_count": 1,
+    "font_replay_beats_ranked_count": 1,
+    "missing_row_count_bank": [
+      "s048"
+    ],
+    "optimizer_same_candidate_score_increased": 16,
+    "optimizer_same_candidate_color_worse": 0,
+    "optimizer_same_candidate_hierarchy_worse": 3,
+    "color_position_probe_count": 19,
+    "blind_color_position_probe_count": 17,
+    "color_role_position_probe_count": 6,
+    "blind_color_role_position_probe_count": 5,
+    "color_role_probe_titles": [
+      "s048"
+    ]
+  },
+  "cases": [
+    {
+      "id": "s001",
+      "target_line_count": 2,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": false,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.5,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 0.5,
+      "annotation_energy": -3.2976718946005197,
+      "font_replay_energy": -3.2976718946005197,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.20753086419753086,
+        "collision": 0.0,
+        "centroid": [
+          0.45151633452310136,
+          0.5095071275916011
+        ],
+        "box_fill": 0.5638888888888889
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": -1.456503282141311,
+      "optimizer_score_gain": 0.26212402606515073,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "aspect_per_character^2",
+          "contribution": 0.9023931323185599
+        },
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": -0.6985114861689571
+        },
+        {
+          "feature": "box_fill^2",
+          "contribution": 0.4521162826542843
+        },
+        {
+          "feature": "height_log_mean^2",
+          "contribution": 0.3259692970441247
+        },
+        {
+          "feature": "accent_height_mean^2",
+          "contribution": -0.26313483489748624
+        },
+        {
+          "feature": "white_peak_fraction",
+          "contribution": 0.22522732836791798
+        },
+        {
+          "feature": "accent_fraction^2",
+          "contribution": 0.15734933757077657
+        },
+        {
+          "feature": "connector_height_max^2",
+          "contribution": 0.15542427860351357
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.009027028612586419,
+        "group_height_log_error": 0.01567697458736833
+      }
+    },
+    {
+      "id": "s002",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.3333333333333333,
+      "ranked_marked_jaccard": 0.3333333333333333,
+      "ranker_color_regret": 0.0,
+      "annotation_energy": -0.8993564879929714,
+      "font_replay_energy": -0.8993564879929714,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.1913888888888889,
+        "collision": 0.0006450572488308337,
+        "centroid": [
+          0.525294307369779,
+          0.5299993429972465
+        ],
+        "box_fill": 0.4212962962962963
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.7316615260600844,
+      "optimizer_score_gain": 0.5399299473164535,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "vertical_pair_max^2",
+          "contribution": 0.7344527908587577
+        },
+        {
+          "feature": "gap_std",
+          "contribution": 0.3098514884186537
+        },
+        {
+          "feature": "height_log_max^2",
+          "contribution": -0.29430967234894634
+        },
+        {
+          "feature": "bbox_overlap_max",
+          "contribution": 0.16999425341200117
+        },
+        {
+          "feature": "vertical_pair_max",
+          "contribution": 0.16931253478286665
+        },
+        {
+          "feature": "center_distance_sq",
+          "contribution": 0.1463023418042336
+        },
+        {
+          "feature": "accent_height_mean^2",
+          "contribution": -0.13734750871987114
+        },
+        {
+          "feature": "height_log_max",
+          "contribution": 0.11914418795217871
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.030897235976383303,
+        "group_height_log_error": -0.015667737829846318
+      }
+    },
+    {
+      "id": "s005",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": false,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 1.0,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 1.0,
+      "annotation_energy": -0.5199385490526003,
+      "font_replay_energy": -0.5199385490526003,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.11768518518518518,
+        "collision": 0.0,
+        "centroid": [
+          0.46651477401870795,
+          0.5080242056900856
+        ],
+        "box_fill": 0.26067901234567903
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.2648726206752554,
+      "optimizer_score_gain": 0.034409800455746264,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": 0.4108272154705598
+        },
+        {
+          "feature": "accent_fraction^2",
+          "contribution": -0.22604357193741237
+        },
+        {
+          "feature": "aspect_per_character^2",
+          "contribution": -0.19889996722585396
+        },
+        {
+          "feature": "accent_height_mean^2",
+          "contribution": 0.14529967661361404
+        },
+        {
+          "feature": "height_log_max",
+          "contribution": 0.1364170309007598
+        },
+        {
+          "feature": "vertical_pair_max^2",
+          "contribution": 0.13477216244628423
+        },
+        {
+          "feature": "vertical_pair_max",
+          "contribution": 0.11515692808947647
+        },
+        {
+          "feature": "gap_mean^2",
+          "contribution": 0.11411013272231119
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.00684726417360082,
+        "group_height_log_error": -8.326672684688674e-17
+      }
+    },
+    {
+      "id": "s006",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.5,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 0.5,
+      "annotation_energy": -0.2593480787543597,
+      "font_replay_energy": -0.2593480787543597,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.09030864197530865,
+        "collision": 0.001367053998632946,
+        "centroid": [
+          0.4820417521075416,
+          0.5053897369686843
+        ],
+        "box_fill": 0.16182098765432099
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.1295565452071724,
+      "optimizer_score_gain": 0.1867364667991147,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "height_log_std^2",
+          "contribution": 0.11418173627166708
+        },
+        {
+          "feature": "accent_area_fraction^2",
+          "contribution": 0.1140113073077598
+        },
+        {
+          "feature": "height_ratio_pair_mean^2",
+          "contribution": -0.10215759257711432
+        },
+        {
+          "feature": "box_fill^2",
+          "contribution": 0.0925543328914255
+        },
+        {
+          "feature": "height_log_mean^2",
+          "contribution": 0.08968193276004285
+        },
+        {
+          "feature": "accent_area_fraction",
+          "contribution": 0.08731158472786202
+        },
+        {
+          "feature": "color_transition_fraction",
+          "contribution": -0.07916749007518661
+        },
+        {
+          "feature": "bbox_overlap_max",
+          "contribution": 0.07244863824713692
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.0024023807663954913,
+        "group_height_log_error": 1.249000902703301e-16
+      }
+    },
+    {
+      "id": "s010",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.5,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 0.5,
+      "annotation_energy": -30.488960947315608,
+      "font_replay_energy": -30.488960947315608,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.09,
+        "collision": 0.0003429355281207133,
+        "centroid": [
+          0.4543181298582533,
+          0.49846568104455624
+        ],
+        "box_fill": 0.23808641975308642
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.5622025915090884,
+      "optimizer_score_gain": 0.1485967419284262,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "dependency_gap_max^2",
+          "contribution": 15.667424803467803
+        },
+        {
+          "feature": "dependency_gap_mean^2",
+          "contribution": 12.406359979835477
+        },
+        {
+          "feature": "dependency_gap_max",
+          "contribution": 1.004887857450756
+        },
+        {
+          "feature": "dependency_gap_mean",
+          "contribution": 0.5624365106381524
+        },
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": 0.49699512052582645
+        },
+        {
+          "feature": "white_peak_fraction",
+          "contribution": 0.32460422385600646
+        },
+        {
+          "feature": "connector_height_max",
+          "contribution": 0.16415895436220124
+        },
+        {
+          "feature": "connector_height_mean",
+          "contribution": 0.11037749691496698
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.008770561907921026,
+        "group_height_log_error": 0.0
+      }
+    },
+    {
+      "id": "s011",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 1.0,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 1.0,
+      "annotation_energy": -2.37414846873292,
+      "font_replay_energy": -2.37414846873292,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.060987654320987655,
+        "collision": 0.0,
+        "centroid": [
+          0.48447410593792173,
+          0.5267543859649123
+        ],
+        "box_fill": 0.16712962962962963
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": -2.2113556717837746,
+      "optimizer_score_gain": 0.2810705008515262,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "accent_area_fraction^2",
+          "contribution": -0.17274550937405153
+        },
+        {
+          "feature": "gap_mean",
+          "contribution": -0.13672239532341118
+        },
+        {
+          "feature": "height_ratio_pair_mean",
+          "contribution": 0.13030641994240771
+        },
+        {
+          "feature": "bbox_overlap_mean",
+          "contribution": 0.13009020307413274
+        },
+        {
+          "feature": "height_ratio_pair_mean^2",
+          "contribution": 0.11491256631049236
+        },
+        {
+          "feature": "accent_height_mean^2",
+          "contribution": 0.08672674922425762
+        },
+        {
+          "feature": "bbox_overlap_max",
+          "contribution": 0.06918234233580878
+        },
+        {
+          "feature": "center_distance_sq",
+          "contribution": -0.06503641328803819
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.09281413653972961,
+        "group_height_log_error": -0.011295484537560574
+      }
+    },
+    {
+      "id": "s014",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.5,
+      "ranked_marked_jaccard": 0.5,
+      "ranker_color_regret": 0.0,
+      "annotation_energy": 0.16408216595602124,
+      "font_replay_energy": 0.16408216595602126,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.16203703703703703,
+        "collision": 0.0,
+        "centroid": [
+          0.4905555555555556,
+          0.506694885361552
+        ],
+        "box_fill": 0.3322222222222222
+      },
+      "annotation_beats_ranked": true,
+      "font_replay_beats_ranked": true,
+      "ranked_energy": -0.19591639860677704,
+      "optimizer_score_gain": 0.8387474009334468,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "accent_area_fraction^2",
+          "contribution": -0.10741084421417951
+        },
+        {
+          "feature": "white_peak_fraction",
+          "contribution": 0.10131952032922856
+        },
+        {
+          "feature": "box_fill^2",
+          "contribution": -0.08923951350004405
+        },
+        {
+          "feature": "accent_fraction",
+          "contribution": -0.08736584499372493
+        },
+        {
+          "feature": "gap_mean^2",
+          "contribution": 0.08313066473010491
+        },
+        {
+          "feature": "aspect_per_character^2",
+          "contribution": -0.0713499510007118
+        },
+        {
+          "feature": "gap_std",
+          "contribution": -0.07047953273532974
+        },
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": -0.07016301487893159
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.0314880675001325,
+        "group_height_log_error": -0.07864769158049525
+      }
+    },
+    {
+      "id": "s018",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 1.0,
+      "ranked_marked_jaccard": 1.0,
+      "ranker_color_regret": 0.0,
+      "annotation_energy": -1.4909353347556922,
+      "font_replay_energy": -1.490935334755695,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.12657407407407406,
+        "collision": 0.0,
+        "centroid": [
+          0.4526030236527676,
+          0.5168784487974929
+        ],
+        "box_fill": 0.35
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.020832828818865497,
+      "optimizer_score_gain": 0.5087510112846487,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "white_peak_fraction^2",
+          "contribution": 0.3260398446084321
+        },
+        {
+          "feature": "white_peak_fraction",
+          "contribution": 0.2570731779185789
+        },
+        {
+          "feature": "connector_height_max",
+          "contribution": 0.2261741613566969
+        },
+        {
+          "feature": "connector_height_mean",
+          "contribution": 0.19332322815455044
+        },
+        {
+          "feature": "gap_std",
+          "contribution": 0.17799785491386907
+        },
+        {
+          "feature": "height_log_max^2",
+          "contribution": 0.11660433336230704
+        },
+        {
+          "feature": "center_distance_sq",
+          "contribution": -0.11452087090111807
+        },
+        {
+          "feature": "height_log_std^2",
+          "contribution": -0.11390947551443302
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.10270848609490378,
+        "group_height_log_error": -0.02593938375130811
+      }
+    },
+    {
+      "id": "s024",
+      "target_line_count": 2,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": false,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.5,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 0.5,
+      "annotation_energy": -0.8680806787675526,
+      "font_replay_energy": -0.8680806787675526,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.2870987654320988,
+        "collision": 0.0006450225757901526,
+        "centroid": [
+          0.4563346592130725,
+          0.5254011482994497
+        ],
+        "box_fill": 0.6257098765432099
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": -0.3451176522729534,
+      "optimizer_score_gain": 0.5751487136621469,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "box_fill^2",
+          "contribution": 0.6849905571126219
+        },
+        {
+          "feature": "vertical_pair_max^2",
+          "contribution": -0.4835616102696992
+        },
+        {
+          "feature": "height_log_max^2",
+          "contribution": 0.3045491434768392
+        },
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": -0.3041468175412767
+        },
+        {
+          "feature": "accent_fraction^2",
+          "contribution": 0.2266316074807888
+        },
+        {
+          "feature": "aspect_per_character^2",
+          "contribution": 0.1893039509635973
+        },
+        {
+          "feature": "gap_std",
+          "contribution": 0.169864230571072
+        },
+        {
+          "feature": "white_peak_fraction",
+          "contribution": -0.15264430544675764
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.04783229235235875,
+        "group_height_log_error": -0.005037304144604765
+      }
+    },
+    {
+      "id": "s030",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.5,
+      "ranked_marked_jaccard": 0.5,
+      "ranker_color_regret": 0.0,
+      "annotation_energy": -0.2562056836805977,
+      "font_replay_energy": -0.2562056836805977,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.06601851851851852,
+        "collision": 0.0004675081813931744,
+        "centroid": [
+          0.4957261960417641,
+          0.5044655688881963
+        ],
+        "box_fill": 0.1451851851851852
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.7003584947225945,
+      "optimizer_score_gain": 0.26349242727611555,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": 0.22023232703245568
+        },
+        {
+          "feature": "box_fill^2",
+          "contribution": 0.15425901178987655
+        },
+        {
+          "feature": "connector_height_max",
+          "contribution": 0.12032780346166144
+        },
+        {
+          "feature": "gap_std",
+          "contribution": 0.09832962039970873
+        },
+        {
+          "feature": "height_ratio_pair_mean^2",
+          "contribution": 0.0970358617522048
+        },
+        {
+          "feature": "connector_height_mean",
+          "contribution": 0.09561787229008115
+        },
+        {
+          "feature": "height_log_mean^2",
+          "contribution": -0.08103968197302223
+        },
+        {
+          "feature": "accent_fraction",
+          "contribution": 0.07509513723284272
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": -0.07903582974859932,
+        "group_height_log_error": -0.019442411360177894
+      }
+    },
+    {
+      "id": "s033",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 1.0,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 1.0,
+      "annotation_energy": -1.9437162520290068,
+      "font_replay_energy": -1.9437162520290068,
+      "font_replay_hard_check": {
+        "valid": false,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.07626543209876543,
+        "collision": 0.01254552812626467,
+        "centroid": [
+          0.515462700661001,
+          0.5058980469745342
+        ],
+        "box_fill": 0.15
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.8005340916034067,
+      "optimizer_score_gain": 0.15641167427850733,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "gap_std",
+          "contribution": 0.8633055717894258
+        },
+        {
+          "feature": "bbox_overlap_max",
+          "contribution": 0.43981562629976
+        },
+        {
+          "feature": "vertical_pair_max^2",
+          "contribution": 0.39285886148528554
+        },
+        {
+          "feature": "height_log_max^2",
+          "contribution": 0.2998297471799871
+        },
+        {
+          "feature": "aspect_per_character^2",
+          "contribution": 0.1998136833474124
+        },
+        {
+          "feature": "accent_height_mean^2",
+          "contribution": 0.1741003056888442
+        },
+        {
+          "feature": "gap_mean^2",
+          "contribution": 0.16302481384520665
+        },
+        {
+          "feature": "box_fill^2",
+          "contribution": 0.1332826002080622
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.0026186310669884527,
+        "group_height_log_error": -0.023405719189200508
+      }
+    },
+    {
+      "id": "s035",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 1.0,
+      "ranked_marked_jaccard": 0.25,
+      "ranker_color_regret": 0.75,
+      "annotation_energy": -0.1374822234880546,
+      "font_replay_energy": -0.1374822234880546,
+      "font_replay_hard_check": {
+        "valid": false,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.07731481481481481,
+        "collision": 0.003592814371257485,
+        "centroid": [
+          0.49830671989354625,
+          0.5084586382789976
+        ],
+        "box_fill": 0.1451851851851852
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.646414354294197,
+      "optimizer_score_gain": 0.2218878898610923,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "height_ratio_pair_mean^2",
+          "contribution": -0.7814119311081669
+        },
+        {
+          "feature": "height_log_std^2",
+          "contribution": 0.5616478837906864
+        },
+        {
+          "feature": "height_log_mean^2",
+          "contribution": 0.3091643869349069
+        },
+        {
+          "feature": "bbox_overlap_mean",
+          "contribution": 0.22831724294210526
+        },
+        {
+          "feature": "bbox_overlap_max",
+          "contribution": 0.22747465447352297
+        },
+        {
+          "feature": "gap_mean^2",
+          "contribution": 0.20174708712510261
+        },
+        {
+          "feature": "gap_mean",
+          "contribution": -0.15410794833436545
+        },
+        {
+          "feature": "box_fill^2",
+          "contribution": 0.14180313086964996
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.005132993863692009,
+        "group_height_log_error": -0.020278833865927326
+      }
+    },
+    {
+      "id": "s038",
+      "target_line_count": 1,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.5,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 0.5,
+      "annotation_energy": 0.014174423028303873,
+      "font_replay_energy": 0.014174423028303873,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.07685185185185185,
+        "collision": 0.0,
+        "centroid": [
+          0.4987232262382865,
+          0.48529525509445187
+        ],
+        "box_fill": 0.17993827160493828
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": 0.13730224152875123,
+      "optimizer_score_gain": 0.4001017225658877,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "height_ratio_pair_mean^2",
+          "contribution": 0.1264858370056411
+        },
+        {
+          "feature": "color_transition_fraction",
+          "contribution": 0.0996515652546602
+        },
+        {
+          "feature": "aspect_per_character^2",
+          "contribution": -0.08921128023398688
+        },
+        {
+          "feature": "gap_std",
+          "contribution": 0.08418051107492742
+        },
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": 0.08006851160718258
+        },
+        {
+          "feature": "height_log_std^2",
+          "contribution": -0.0705292407665523
+        },
+        {
+          "feature": "height_log_mean^2",
+          "contribution": -0.06742452175878923
+        },
+        {
+          "feature": "accent_area_fraction^2",
+          "contribution": -0.059124633173438655
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": -0.09040432938785214,
+        "group_height_log_error": -0.054161403579470024
+      }
+    },
+    {
+      "id": "s048",
+      "target_line_count": 4,
+      "available_reference_line_counts": [
+        1,
+        2
+      ],
+      "missing_target_row_count_in_bank": true,
+      "pool_has_exact_break": false,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.25,
+      "ranked_marked_jaccard": 0.0,
+      "ranker_color_regret": 0.25,
+      "annotation_energy": -3.243887396922212,
+      "font_replay_energy": -3.243887396922212,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.12219135802469136,
+        "collision": 0.0015155342258145997,
+        "centroid": [
+          0.4740938368274817,
+          0.46958734435369953
+        ],
+        "box_fill": 0.3148148148148148
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": -0.8811503182232825,
+      "optimizer_score_gain": 0.07995350128909151,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "aspect_per_character^2",
+          "contribution": 1.8232964881305942
+        },
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": -0.6167426760054926
+        },
+        {
+          "feature": "accent_palette_count^2",
+          "contribution": 0.2925775324291134
+        },
+        {
+          "feature": "row_aspect_mean",
+          "contribution": 0.19421938651212514
+        },
+        {
+          "feature": "color_transition_fraction",
+          "contribution": 0.1770326166123154
+        },
+        {
+          "feature": "bbox_overlap_max",
+          "contribution": 0.16407921034071962
+        },
+        {
+          "feature": "height_log_mean^2",
+          "contribution": 0.1351645632783056
+        },
+        {
+          "feature": "accent_palette_count",
+          "contribution": 0.13179062152433588
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": -0.011587311146111778,
+        "group_height_log_error": 0.008535189763747175
+      }
+    },
+    {
+      "id": "s051",
+      "target_line_count": 2,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": true,
+      "ranker_dropped_exact_break": true,
+      "pool_best_marked_jaccard": 0.75,
+      "ranked_marked_jaccard": 0.6666666666666666,
+      "ranker_color_regret": 0.08333333333333337,
+      "annotation_energy": -1.0437912989033693,
+      "font_replay_energy": -1.0437912989033693,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.12188271604938272,
+        "collision": 0.0012661433274246644,
+        "centroid": [
+          0.46336308770152784,
+          0.4660007690648359
+        ],
+        "box_fill": 0.293641975308642
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": -0.10340087319967659,
+      "optimizer_score_gain": 0.41809512880175403,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "row_width_cv^2",
+          "contribution": 0.6756823527013984
+        },
+        {
+          "feature": "row_aspect_mean^2",
+          "contribution": -0.3576616603507121
+        },
+        {
+          "feature": "accent_fraction^2",
+          "contribution": 0.31834377715065476
+        },
+        {
+          "feature": "aspect_per_character^2",
+          "contribution": 0.28842910228200436
+        },
+        {
+          "feature": "vertical_pair_max^2",
+          "contribution": 0.24271658786737751
+        },
+        {
+          "feature": "accent_height_mean^2",
+          "contribution": -0.18636979643125112
+        },
+        {
+          "feature": "row_width_cv",
+          "contribution": 0.13230746287706407
+        },
+        {
+          "feature": "row_aspect_mean",
+          "contribution": 0.12143414733996635
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": 0.021057623698766403,
+        "group_height_log_error": 0.0055354489716719635
+      }
+    },
+    {
+      "id": "s079",
+      "target_line_count": 2,
+      "available_reference_line_counts": [
+        1,
+        2,
+        4
+      ],
+      "missing_target_row_count_in_bank": false,
+      "pool_has_exact_break": false,
+      "ranker_dropped_exact_break": false,
+      "pool_best_marked_jaccard": 0.14285714285714285,
+      "ranked_marked_jaccard": 0.14285714285714285,
+      "ranker_color_regret": 0.0,
+      "annotation_energy": -3.1310840717931,
+      "font_replay_energy": -3.1310840717931,
+      "font_replay_hard_check": {
+        "valid": true,
+        "integrity": true,
+        "readable": true,
+        "safe_margin": true,
+        "overflow": 0.0,
+        "kinsoku": false,
+        "ink_fill": 0.16299382716049382,
+        "collision": 0.0,
+        "centroid": [
+          0.47553730354099605,
+          0.47784720907235584
+        ],
+        "box_fill": 0.5112345679012346
+      },
+      "annotation_beats_ranked": false,
+      "font_replay_beats_ranked": false,
+      "ranked_energy": -0.25454208525931266,
+      "optimizer_score_gain": 0.37021937429825397,
+      "ranked_minus_annotation_score_drivers": [
+        {
+          "feature": "muted_fraction^2",
+          "contribution": 1.5712945900417066
+        },
+        {
+          "feature": "vertical_pair_max^2",
+          "contribution": 0.6026438331612147
+        },
+        {
+          "feature": "height_log_max^2",
+          "contribution": 0.44961155614281156
+        },
+        {
+          "feature": "height_log_std^2",
+          "contribution": 0.404925603402817
+        },
+        {
+          "feature": "muted_fraction",
+          "contribution": 0.36090021227850655
+        },
+        {
+          "feature": "white_peak_fraction",
+          "contribution": -0.32284437150722906
+        },
+        {
+          "feature": "gap_std",
+          "contribution": -0.298971014351289
+        },
+        {
+          "feature": "accent_fraction^2",
+          "contribution": 0.27840977963182434
+        }
+      ],
+      "optimizer_same_candidate_metric_delta": {
+        "marked_jaccard": 0.0,
+        "aspect_log_error": -0.06995790553465109,
+        "group_height_log_error": -0.008312382121598641
+      }
+    }
+  ],
+  "pools": [
+    {
+      "id": "s001",
+      "count": 16,
+      "source_counts": {
+        "s048": 4,
+        "s005": 4,
+        "s024": 4,
+        "s051": 4
+      }
+    },
+    {
+      "id": "s002",
+      "count": 16,
+      "source_counts": {
+        "s033": 4,
+        "s035": 4,
+        "s006": 4,
+        "s038": 4
+      }
+    },
+    {
+      "id": "s005",
+      "count": 16,
+      "source_counts": {
+        "s051": 4,
+        "s048": 4,
+        "s001": 4,
+        "s024": 4
+      }
+    },
+    {
+      "id": "s006",
+      "count": 16,
+      "source_counts": {
+        "s038": 4,
+        "s035": 4,
+        "s014": 4,
+        "s030": 4
+      }
+    },
+    {
+      "id": "s010",
+      "count": 16,
+      "source_counts": {
+        "s006": 4,
+        "s038": 4,
+        "s035": 4,
+        "s030": 4
+      }
+    },
+    {
+      "id": "s011",
+      "count": 14,
+      "source_counts": {
+        "s079": 2,
+        "s018": 4,
+        "s006": 4,
+        "s035": 4
+      }
+    },
+    {
+      "id": "s014",
+      "count": 16,
+      "source_counts": {
+        "s002": 4,
+        "s033": 4,
+        "s010": 4,
+        "s030": 4
+      }
+    },
+    {
+      "id": "s018",
+      "count": 16,
+      "source_counts": {
+        "s011": 4,
+        "s079": 4,
+        "s014": 4,
+        "s006": 4
+      }
+    },
+    {
+      "id": "s024",
+      "count": 16,
+      "source_counts": {
+        "s002": 4,
+        "s033": 4,
+        "s005": 4,
+        "s051": 4
+      }
+    },
+    {
+      "id": "s030",
+      "count": 16,
+      "source_counts": {
+        "s006": 4,
+        "s038": 4,
+        "s035": 4,
+        "s010": 4
+      }
+    },
+    {
+      "id": "s033",
+      "count": 16,
+      "source_counts": {
+        "s002": 4,
+        "s035": 4,
+        "s006": 4,
+        "s038": 4
+      }
+    },
+    {
+      "id": "s035",
+      "count": 16,
+      "source_counts": {
+        "s006": 4,
+        "s038": 4,
+        "s030": 4,
+        "s002": 4
+      }
+    },
+    {
+      "id": "s038",
+      "count": 16,
+      "source_counts": {
+        "s006": 4,
+        "s035": 4,
+        "s014": 4,
+        "s030": 4
+      }
+    },
+    {
+      "id": "s048",
+      "count": 16,
+      "source_counts": {
+        "s001": 4,
+        "s005": 4,
+        "s024": 4,
+        "s051": 4
+      }
+    },
+    {
+      "id": "s051",
+      "count": 16,
+      "source_counts": {
+        "s005": 4,
+        "s048": 4,
+        "s001": 4,
+        "s030": 4
+      }
+    },
+    {
+      "id": "s079",
+      "count": 9,
+      "source_counts": {
+        "s011": 3,
+        "s018": 4,
+        "s024": 1,
+        "s005": 1
+      }
+    },
+    {
+      "id": "u01",
+      "count": 16,
+      "source_counts": {
+        "s048": 4,
+        "s005": 4,
+        "s001": 4,
+        "s051": 4
+      }
+    },
+    {
+      "id": "u02",
+      "count": 16,
+      "source_counts": {
+        "s048": 4,
+        "s005": 4,
+        "s051": 4,
+        "s001": 4
+      }
+    },
+    {
+      "id": "u03",
+      "count": 16,
+      "source_counts": {
+        "s014": 4,
+        "s051": 4,
+        "s010": 4,
+        "s030": 4
+      }
+    },
+    {
+      "id": "u04",
+      "count": 16,
+      "source_counts": {
+        "s051": 4,
+        "s001": 4,
+        "s048": 4,
+        "s005": 4
+      }
+    }
+  ],
+  "ranker_qa_score_basis": "measured annotation features; replay pictures use common fonts and inferred unresolved kana boxes"
+}

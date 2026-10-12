@@ -1,0 +1,1973 @@
+[
+  {
+    "id": "s011-3",
+    "reference_id": "s011",
+    "score": -0.28569383236629037,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オマエハダレ",
+          "start": 0,
+          "end": 6,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.3398885700465655,
+            0.7765290560092033,
+            0.5947836333968418
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.3398885700465655,
+                0.177352964642364,
+                0.5947836333968418
+              ]
+            },
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.17948649683831028,
+                0.3398885700465655,
+                0.30244958738025235,
+                0.5947836333968418
+              ]
+            },
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2939729936766205,
+                0.3398885700465655,
+                0.430519665343381,
+                0.5947836333968418
+              ]
+            },
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4315533332248045,
+                0.3398885700465655,
+                0.5700088912312318,
+                0.5947836333968418
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5602892223734623,
+                0.3398885700465655,
+                0.6705267855748971,
+                0.5947836333968418
+              ]
+            },
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6733590447595186,
+                0.3398885700465655,
+                0.7765290560092033,
+                0.5947836333968418
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ダ",
+          "start": 6,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7699671121586525,
+            0.382468294587916,
+            0.935,
+            0.6601114299534344
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#a7d7fb",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.7699671121586525,
+                0.382468294587916,
+                0.935,
+                0.6601114299534344
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11243827160493827,
+      "collision": 0.0002744990392533626,
+      "centroid": [
+        0.49195489065788267,
+        0.46965768953142
+      ],
+      "box_fill": 0.27737654320987654
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0835181487700858,
+      "group_height_log_error": 0.21937330388686532,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        6
+      ]
+    }
+  },
+  {
+    "id": "s011-0",
+    "reference_id": "s011",
+    "score": -1.2778202927683653,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オマエハダレダ",
+          "start": 0,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.3375111603980797,
+            0.935,
+            0.6624888396019201
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.3375111603980797,
+                0.17902123418598384,
+                0.5961910252652532
+              ]
+            },
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.1811864460691921,
+                0.3375111603980797,
+                0.30597535028319406,
+                0.5961910252652532
+              ]
+            },
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29853014977869086,
+                0.3375111603980797,
+                0.4371043305045084,
+                0.5961910252652532
+              ]
+            },
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.43815334677171136,
+                0.3375111603980797,
+                0.5786647578773627,
+                0.5961910252652532
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5752832723898564,
+                0.3807231286710858,
+                0.69714191083689,
+                0.6624888396019201
+              ]
+            },
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6979522240337244,
+                0.3807231286710858,
+                0.8119982600158412,
+                0.6624888396019201
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#a7d7fb",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.8131413615529663,
+                0.3807231286710858,
+                0.935,
+                0.6624888396019201
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11598765432098765,
+      "collision": 0.0,
+      "centroid": [
+        0.49072977647684934,
+        0.4823527092819269
+      ],
+      "box_fill": 0.2760493827160494
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0687788387745656,
+      "group_height_log_error": 0.29071359752592063,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        6
+      ]
+    }
+  },
+  {
+    "id": "s011-2",
+    "reference_id": "s011",
+    "score": -1.2778202927683653,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オマエハダレダ",
+          "start": 0,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.3375111603980797,
+            0.935,
+            0.6624888396019201
+          ],
+          "reference_groups": [
+            "g00",
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.3375111603980797,
+                0.17902123418598384,
+                0.5961910252652532
+              ]
+            },
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.1811864460691921,
+                0.3375111603980797,
+                0.30597535028319406,
+                0.5961910252652532
+              ]
+            },
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.29853014977869086,
+                0.3375111603980797,
+                0.4371043305045084,
+                0.5961910252652532
+              ]
+            },
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.43815334677171136,
+                0.3375111603980797,
+                0.5786647578773627,
+                0.5961910252652532
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5752832723898564,
+                0.3807231286710858,
+                0.69714191083689,
+                0.6624888396019201
+              ]
+            },
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6979522240337244,
+                0.3807231286710858,
+                0.8119982600158412,
+                0.6624888396019201
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#a7d7fb",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.8131413615529663,
+                0.3807231286710858,
+                0.935,
+                0.6624888396019201
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11598765432098765,
+      "collision": 0.0,
+      "centroid": [
+        0.49072977647684934,
+        0.4823527092819269
+      ],
+      "box_fill": 0.2760493827160494
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0687788387745656,
+      "group_height_log_error": 0.29071359752592063,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        6
+      ]
+    }
+  },
+  {
+    "id": "s018-0",
+    "reference_id": "s018",
+    "score": -1.3039521502299756,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オマエハダレダ",
+          "start": 0,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.33624295519512465,
+            0.935,
+            0.6637570448048753
+          ],
+          "reference_groups": [
+            "g00",
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.33624295519512465,
+                0.1961288800781414,
+                0.6337349199239815
+              ]
+            },
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.19789080694369393,
+                0.33624295519512465,
+                0.3414029288092546,
+                0.6337349199239815
+              ]
+            },
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#a7d7fb",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.33124144366920005,
+                0.33624295519512465,
+                0.49060717283402366,
+                0.6337349199239815
+              ]
+            },
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4917220375216194,
+                0.33624295519512465,
+                0.6533156574120127,
+                0.6337349199239815
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6485239931195421,
+                0.4394098934221961,
+                0.745550129893419,
+                0.6637570448048753
+              ]
+            },
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7464677366455172,
+                0.4394098934221961,
+                0.8372733325945398,
+                0.6637570448048753
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8379738632261231,
+                0.4394098934221961,
+                0.935,
+                0.6637570448048753
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11861111111111111,
+      "collision": 0.0,
+      "centroid": [
+        0.46469555035128807,
+        0.4904732992164686
+      ],
+      "box_fill": 0.28246913580246913
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0610042635139063,
+      "group_height_log_error": 0.47455221717734003,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s018-2",
+    "reference_id": "s018",
+    "score": -1.3039521502299756,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オマエハダレダ",
+          "start": 0,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.33624295519512465,
+            0.935,
+            0.6637570448048753
+          ],
+          "reference_groups": [
+            "g00",
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.33624295519512465,
+                0.1961288800781414,
+                0.6337349199239815
+              ]
+            },
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.19789080694369393,
+                0.33624295519512465,
+                0.3414029288092546,
+                0.6337349199239815
+              ]
+            },
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#a7d7fb",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.33124144366920005,
+                0.33624295519512465,
+                0.49060717283402366,
+                0.6337349199239815
+              ]
+            },
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4917220375216194,
+                0.33624295519512465,
+                0.6533156574120127,
+                0.6337349199239815
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6485239931195421,
+                0.4394098934221961,
+                0.745550129893419,
+                0.6637570448048753
+              ]
+            },
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7464677366455172,
+                0.4394098934221961,
+                0.8372733325945398,
+                0.6637570448048753
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8379738632261231,
+                0.4394098934221961,
+                0.935,
+                0.6637570448048753
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11861111111111111,
+      "collision": 0.0,
+      "centroid": [
+        0.46469555035128807,
+        0.4904732992164686
+      ],
+      "box_fill": 0.28246913580246913
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0610042635139063,
+      "group_height_log_error": 0.47455221717734003,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s018-3",
+    "reference_id": "s018",
+    "score": -0.6620294521758643,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オマエハダレ",
+          "start": 0,
+          "end": 6,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.3549797269669408,
+            0.7983879894491589,
+            0.6184332229769984
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.3549797269669408,
+                0.1811253612881832,
+                0.6184332229769984
+              ]
+            },
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.18268569180960392,
+                0.3549797269669408,
+                0.3097774277486349,
+                0.6184332229769984
+              ]
+            },
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3024545292321834,
+                0.3549797269669408,
+                0.44358593266666474,
+                0.6184332229769984
+              ]
+            },
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4445732366423972,
+                0.3549797269669408,
+                0.5876776197535385,
+                0.6184332229769984
+              ]
+            },
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5769187378123671,
+                0.3549797269669408,
+                0.6908576703100026,
+                0.6184332229769984
+              ]
+            },
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6917539111352333,
+                0.3549797269669408,
+                0.7983879894491589,
+                0.6184332229769984
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ダ",
+          "start": 6,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7973003374014108,
+            0.4463424989777681,
+            0.935,
+            0.6450202730330594
+          ],
+          "reference_groups": [
+            "g01",
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#a7d7fb",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.7973003374014108,
+                0.4463424989777681,
+                0.935,
+                0.6450202730330594
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.11317901234567901,
+      "collision": 0.0,
+      "centroid": [
+        0.4738137442050723,
+        0.48835358401761453
+      ],
+      "box_fill": 0.25037037037037035
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.1825146121444192,
+      "group_height_log_error": 0.28538399681738424,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        6
+      ]
+    }
+  },
+  {
+    "id": "s018-1",
+    "reference_id": "s018",
+    "score": -0.6521947092463934,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オ",
+          "start": 0,
+          "end": 1,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.065,
+            0.33424570873633774,
+            0.22971832694326433,
+            0.6353660045319908
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.065,
+                0.33424570873633774,
+                0.22971832694326433,
+                0.6353660045319908
+              ]
+            }
+          ]
+        },
+        {
+          "text": "マ",
+          "start": 1,
+          "end": 2,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.23208032559377154,
+            0.438670912232445,
+            0.3416268728253048,
+            0.6657542912636623
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.23208032559377154,
+                0.438670912232445,
+                0.3416268728253048,
+                0.6657542912636623
+              ]
+            }
+          ]
+        },
+        {
+          "text": "エ",
+          "start": 2,
+          "end": 3,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3416268728253048,
+            0.438670912232445,
+            0.4632748921709903,
+            0.6657542912636623
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#a7d7fb",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.3416268728253048,
+                0.438670912232445,
+                0.4632748921709903,
+                0.6657542912636623
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ハ",
+          "start": 3,
+          "end": 4,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.4651469706749859,
+            0.438670912232445,
+            0.5884955971430713,
+            0.6657542912636623
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4651469706749859,
+                0.438670912232445,
+                0.5884955971430713,
+                0.6657542912636623
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ダ",
+          "start": 4,
+          "end": 5,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5968869081382944,
+            0.3651865097722214,
+            0.7008312761948341,
+            0.6055302321045316
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5968869081382944,
+                0.3651865097722214,
+                0.7008312761948341,
+                0.6055302321045316
+              ]
+            }
+          ]
+        },
+        {
+          "text": "レ",
+          "start": 5,
+          "end": 6,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7019088270829507,
+            0.3585563381216749,
+            0.8139488800451722,
+            0.6353660045319909
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7019088270829507,
+                0.3585563381216749,
+                0.8139488800451722,
+                0.6353660045319909
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ダ",
+          "start": 6,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.8152847623072957,
+            0.3585563381216749,
+            0.935,
+            0.6353660045319909
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.8152847623072957,
+                0.3585563381216749,
+                0.935,
+                0.6353660045319909
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.10922839506172839,
+      "collision": 0.0,
+      "centroid": [
+        0.4843199585570312,
+        0.5066088976798216
+      ],
+      "box_fill": 0.2902777777777778
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0488816401053447,
+      "group_height_log_error": 0.10276748673888875,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        2
+      ]
+    }
+  },
+  {
+    "id": "s024-1",
+    "reference_id": "s024",
+    "score": -2.285363443434993,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オ",
+          "start": 0,
+          "end": 1,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.09862419962160146,
+            0.17476851851851852,
+            0.22378430764629287,
+            0.45871913580246915
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.09862419962160146,
+                0.17476851851851852,
+                0.22378430764629287,
+                0.45871913580246915
+              ]
+            }
+          ]
+        },
+        {
+          "text": "マ",
+          "start": 1,
+          "end": 2,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2269575329549348,
+            0.23186728395061731,
+            0.36021494381728963,
+            0.5081018518518519
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.2269575329549348,
+                0.23186728395061731,
+                0.36021494381728963,
+                0.5081018518518519
+              ]
+            }
+          ]
+        },
+        {
+          "text": "エ",
+          "start": 2,
+          "end": 3,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.36021494381728963,
+            0.23186728395061731,
+            0.5081931366879223,
+            0.5081018518518519
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.36021494381728963,
+                0.23186728395061731,
+                0.5081931366879223,
+                0.5081018518518519
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ハ",
+          "start": 3,
+          "end": 4,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5138354977990335,
+            0.14930555555555555,
+            0.6982973033545891,
+            0.4810956790123457
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#6c6d6b",
+              "color_role": "muted",
+              "ink_bbox": [
+                0.5138354977990335,
+                0.14930555555555555,
+                0.6982973033545891,
+                0.4810956790123457
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ダ",
+          "start": 4,
+          "end": 5,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7035056366879224,
+            0.16473765432098764,
+            0.9013758003783986,
+            0.45023148148148145
+          ],
+          "reference_groups": [
+            "g02",
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7035056366879224,
+                0.16473765432098764,
+                0.9013758003783986,
+                0.45023148148148145
+              ]
+            }
+          ]
+        },
+        {
+          "text": "レ",
+          "start": 5,
+          "end": 6,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.19454433851049033,
+            0.5621141975308642,
+            0.38072964420056304,
+            0.8491512345679013
+          ],
+          "reference_groups": [
+            "g04",
+            "g05",
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.19454433851049033,
+                0.5621141975308642,
+                0.38072964420056304,
+                0.8491512345679013
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ダ",
+          "start": 6,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 1,
+          "attachment": null,
+          "ink_bbox": [
+            0.3885421442005631,
+            0.5551697530864197,
+            0.5486983942005632,
+            0.8506944444444444
+          ],
+          "reference_groups": [
+            "g07"
+          ],
+          "glyphs": [
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3885421442005631,
+                0.5551697530864197,
+                0.5486983942005632,
+                0.8506944444444444
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.1578395061728395,
+      "collision": 0.0,
+      "centroid": [
+        0.4554653891278842,
+        0.43299294601601995
+      ],
+      "box_fill": 0.562962962962963
+    },
+    "comparison": {
+      "line_count_match": true,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 1.0,
+      "muted_jaccard": 0.14285714285714285,
+      "aspect_log_error": 0.21902495853588572,
+      "group_height_log_error": 0.3114242052900262,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        3
+      ]
+    }
+  },
+  {
+    "id": "s005-1",
+    "reference_id": "s005",
+    "score": -0.25454208525931266,
+    "title": {
+      "id": "generated",
+      "text": "オマエハダレダ",
+      "groups": [
+        {
+          "text": "オ",
+          "start": 0,
+          "end": 1,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g00",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.10314429577244975,
+            0.3506944444444444,
+            0.2619984624391164,
+            0.6493055555555556
+          ],
+          "reference_groups": [
+            "g00"
+          ],
+          "glyphs": [
+            {
+              "text": "オ",
+              "start": 0,
+              "end": 1,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.10314429577244975,
+                0.3506944444444444,
+                0.2619984624391164,
+                0.6493055555555556
+              ]
+            }
+          ]
+        },
+        {
+          "text": "マ",
+          "start": 1,
+          "end": 2,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g01",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.2689429068835608,
+            0.4131944444444444,
+            0.3869984624391164,
+            0.6361882716049383
+          ],
+          "reference_groups": [
+            "g01"
+          ],
+          "glyphs": [
+            {
+              "text": "マ",
+              "start": 1,
+              "end": 2,
+              "script": "katakana",
+              "color": "#a9d6f9",
+              "color_role": "accent",
+              "ink_bbox": [
+                0.2689429068835608,
+                0.4131944444444444,
+                0.3869984624391164,
+                0.6361882716049383
+              ]
+            }
+          ]
+        },
+        {
+          "text": "エ",
+          "start": 2,
+          "end": 3,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g02",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.3900366568835608,
+            0.4185956790123457,
+            0.4793195888948924,
+            0.5852623456790124
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "エ",
+              "start": 2,
+              "end": 3,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.3900366568835608,
+                0.4185956790123457,
+                0.4793195888948924,
+                0.5852623456790124
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ハ",
+          "start": 3,
+          "end": 4,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g03",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.4793195888948924,
+            0.4556327160493827,
+            0.5648211680172328,
+            0.6130401234567902
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ハ",
+              "start": 3,
+              "end": 4,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.4793195888948924,
+                0.4556327160493827,
+                0.5648211680172328,
+                0.6130401234567902
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ダ",
+          "start": 4,
+          "end": 5,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g04",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.5648211680172328,
+            0.4556327160493827,
+            0.6328970608743757,
+            0.6130401234567902
+          ],
+          "reference_groups": [
+            "g02"
+          ],
+          "glyphs": [
+            {
+              "text": "ダ",
+              "start": 4,
+              "end": 5,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.5648211680172328,
+                0.4556327160493827,
+                0.6328970608743757,
+                0.6130401234567902
+              ]
+            }
+          ]
+        },
+        {
+          "text": "レ",
+          "start": 5,
+          "end": 6,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g05",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.6394074775410424,
+            0.4039351851851852,
+            0.7635394219854869,
+            0.6354166666666666
+          ],
+          "reference_groups": [
+            "g03"
+          ],
+          "glyphs": [
+            {
+              "text": "レ",
+              "start": 5,
+              "end": 6,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.6394074775410424,
+                0.4039351851851852,
+                0.7635394219854869,
+                0.6354166666666666
+              ]
+            }
+          ]
+        },
+        {
+          "text": "ダ",
+          "start": 6,
+          "end": 7,
+          "kind": "katakana",
+          "pos": "名詞",
+          "id": "g06",
+          "row": 0,
+          "attachment": null,
+          "ink_bbox": [
+            0.7743901164299313,
+            0.4710648148148148,
+            0.8968557042275502,
+            0.6477623456790124
+          ],
+          "reference_groups": [
+            "g04",
+            "g05",
+            "g06"
+          ],
+          "glyphs": [
+            {
+              "text": "ダ",
+              "start": 6,
+              "end": 7,
+              "script": "katakana",
+              "color": "#fdfdfd",
+              "color_role": "base",
+              "ink_bbox": [
+                0.7743901164299313,
+                0.4710648148148148,
+                0.8968557042275502,
+                0.6477623456790124
+              ]
+            }
+          ]
+        }
+      ],
+      "canvas": {
+        "width": 1200,
+        "height": 675
+      },
+      "background": "#000000"
+    },
+    "hard_check": {
+      "valid": true,
+      "integrity": true,
+      "readable": true,
+      "safe_margin": true,
+      "overflow": 0.0,
+      "kinsoku": false,
+      "ink_fill": 0.08151234567901235,
+      "collision": 0.0,
+      "centroid": [
+        0.45604568976397825,
+        0.5147657312746294
+      ],
+      "box_fill": 0.2404320987654321
+    },
+    "comparison": {
+      "line_count_match": false,
+      "exact_break_match": false,
+      "marked_jaccard": 0.14285714285714285,
+      "accent_jaccard": 0.0,
+      "muted_jaccard": 0.0,
+      "aspect_log_error": 1.0616199623804217,
+      "group_height_log_error": 0.11394694939468268,
+      "reference_marked": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "generated_marked": [
+        1
+      ]
+    }
+  }
+]
