@@ -1,0 +1,49 @@
+{
+  "work": "TVアニメ「Re:ゼロから始める異世界生活」",
+  "source": "用户提供的参考截图中的日文标题区域；沿用已保存裁剪。",
+  "usage": "原作参考对照；不是生成结果。原作版权归各自权利人。",
+  "samples": [
+    {
+      "id": "s006",
+      "text": "鎖の音",
+      "image": "s006.jpg",
+      "source_crop": "experiments/live-benchmark/b01/reference.jpg",
+      "source_screenshot": "Screenshot_2026-10-11-13-00-07-343_tv.danmaku.bili.jpg",
+      "title_ink_bbox": [
+        1083,
+        489,
+        2117,
+        950
+      ],
+      "sha256": "9030fbb6ac8613baf7fa9d0e071fee38008b370ab11c830ff2005d46dd6a58d7"
+    },
+    {
+      "id": "s030",
+      "text": "待ちかねた再会",
+      "image": "s030.jpg",
+      "source_crop": "experiments/live-benchmark/b03/reference.jpg",
+      "source_screenshot": "Screenshot_2026-10-11-13-01-33-652_tv.danmaku.bili.jpg",
+      "title_ink_bbox": [
+        890,
+        571,
+        2304,
+        877
+      ],
+      "sha256": "3db6b7c75544a5b98944d766992280aef7c59c205e12a51a292d1439bd8b41ff"
+    },
+    {
+      "id": "s055",
+      "text": "氷炎の結末",
+      "image": "s055.jpg",
+      "source_crop": "experiments/live-benchmark/b10/reference.jpg",
+      "source_screenshot": "Screenshot_2026-10-11-13-02-39-940_tv.danmaku.bili.jpg",
+      "title_ink_bbox": [
+        814,
+        509,
+        2386,
+        932
+      ],
+      "sha256": "996330d9fd9b47fa6410eac4fd1a227908116e7e8fac1d0adcec78a6c7175b78"
+    }
+  ]
+}

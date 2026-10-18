@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "count": 6,
+  "canvas": {
+    "width": 1200,
+    "height": 675
+  },
+  "fonts": {
+    "kanji": "assets/open-fonts/noto-sans-jp-black.ttf",
+    "kana": "assets/open-fonts/shippori-mincho-semibold.ttf"
+  },
+  "palette": "night",
+  "color_mode": "dual",
+  "hero": [
+    "b01-A",
+    "b03-B",
+    "b10-A",
+    "b14-A",
+    "b15-A",
+    "b20-A"
+  ],
+  "titles": [
+    {
+      "id": "b01",
+      "text": "鎖の音",
+      "selected": {
+        "A": 1,
+        "B": 1
+      },
+      "reference_id": "s006",
+      "palette": "night",
+      "saved_plan": {
+        "emphasis_relation": [
+          "鎖",
+          "音"
+        ],
+        "suggested_layout_family": "interwoven",
+        "tokens": [
+          {
+            "importance": 0.84,
+            "semantic_role": "noun",
+            "text": "鎖",
+            "visual_role": "primary"
+          },
+          {
+            "importance": 0.16,
+            "semantic_role": "particle",
+            "text": "の",
+            "visual_role": "connector"
+          },
+          {
+            "importance": 0.9,
+            "semantic_role": "noun",
+            "text": "音",
+            "visual_role": "primary"
+          }
+        ],
+        "provenance": "live_chat_completions",
+        "model": "gpt-6.1-sol"
+      },
+      "plan_source": "experiments/live-benchmark/results.json"
+    },
+    {
+      "id": "b03",
+      "text": "待ちかねた再会",
+      "selected": {
+        "A": 1,
+        "B": 1
+      },
+      "reference_id": "s030",
+      "palette": "night",
+      "saved_plan": {
+        "emphasis_relation": [
+          "再会",
+          "待ちかねた"
+        ],
+        "suggested_layout_family": "interwoven",
+        "tokens": [
+          {
+            "importance": 0.76,
+            "semantic_role": "modifier",
+            "text": "待ちかねた",
+            "visual_role": "secondary"
+          },
+          {
+            "importance": 0.94,
+            "semantic_role": "noun",
+            "text": "再会",
+            "visual_role": "primary"
+          }
+        ],
+        "provenance": "live_chat_completions",
+        "model": "gpt-6.1-sol"
+      },
+      "plan_source": "experiments/live-benchmark/results.json"
+    },
+    {
+      "id": "b10",
+      "text": "氷炎の結末",
+      "selected": {
+        "A": 1,
+        "B": 1
+      },
+      "reference_id": "s055",
+      "palette": "night",
+      "saved_plan": {
+        "emphasis_relation": [
+          "氷炎",
+          "結末"
+        ],
+        "suggested_layout_family": "interwoven",
+        "tokens": [
+          {
+            "importance": 0.88,
+            "semantic_role": "concept",
+            "text": "氷炎",
+            "visual_role": "primary"
+          },
+          {
+            "importance": 0.12,
+            "semantic_role": "particle",
+            "text": "の",
+            "visual_role": "connector"
+          },
+          {
+            "importance": 0.84,
+            "semantic_role": "noun",
+            "text": "結末",
+            "visual_role": "primary"
+          }
+        ],
+        "provenance": "live_chat_completions",
+        "model": "gpt-6.1-sol"
+      },
+      "plan_source": "experiments/live-benchmark/results.json"
+    },
+    {
+      "id": "b14",
+      "text": "聖域の終わりと、崩壊の始まり",
+      "selected": {
+        "A": 3
+      },
+      "reference_id": null,
+      "palette": "night"
+    },
+    {
+      "id": "b15",
+      "text": "記憶を失った星の旅人",
+      "selected": {
+        "A": 2
+      },
+      "reference_id": null,
+      "palette": "night"
+    },
+    {
+      "id": "b20",
+      "text": "超電脳都市ネオ・トーキョー",
+      "selected": {
+        "A": 4
+      },
+      "reference_id": null,
+      "palette": "violet"
+    }
+  ]
+}

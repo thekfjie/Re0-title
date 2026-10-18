@@ -11,6 +11,9 @@ COPY assets/conversion assets/conversion
 COPY experiments/benchmark_cases.json experiments/session_plans.json experiments/
 COPY experiments/benchmark experiments/benchmark
 COPY experiments/live-benchmark experiments/live-benchmark
+COPY references/catalog.json references/catalog.json
+COPY experiments/reference-benchmark experiments/reference-benchmark
+COPY experiments/composition-study experiments/composition-study
 ENV PYTHON_BUILD=/usr/bin/python3
 RUN npm run build:browser
 

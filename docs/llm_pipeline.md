@@ -1,33 +1,41 @@
-# B：语义规划与共用布局
+# B：语义规划与共用排版
 
-`llm/planner.py` 使用 OpenAI Responses 的严格 JSON schema。LLM 输入原文、Sudachi 分词与参考家族统计，输出分词修正、semantic_role、importance、visual_role、家族建议与强调关系。没有绝对坐标，没有模型生成 PNG。
+B 让模型分析标题的分词、重点、连接关系和布局家族建议。模型返回严格 JSON，由正式排版引擎决定字号和位置，再导出图片。
 
-LLM 输出的 token 必须逐字符重建输入，role/importance/family 必须在允许范围；新增坐标字段、遗漏标点、改写原文、非法强调子串都拒绝。规划失败明确返回错误，不默默把 A 输出冒充 B。B 与 A 使用同一 `LayoutEngine`、`Renderer`、`FontProvider`、字体字节与约束。家族建议改变搜索优先顺序，并不免除硬约束。短语强调关系转换为短语内部的首个内容字符锚点。
+在同一运行端，A 和 B 使用相同的字体系统、布局搜索、约束和渲染器。B 失败时会显示错误，不会把 A 的结果标成 B。
 
-## 已执行与未执行
+## 服务端配置
 
-20 条标题的冻结语义 JSON 是本次会话助手产生的模型辅助研究产物，保存为 `session_plans.json`。它们在对照前冻结，记录 provenance，所有计划经原文重建校验。B 使用这些计划生成了完整候选，与 A 具有相同字体、seed 和配置。
+| 变量 | 用途 |
+| --- | --- |
+| `LLM_API_KEY` | 模型服务密钥；也兼容 `OPENAI_API_KEY` |
+| `LLM_BASE_URL` | 兼容服务的接口前缀，通常以 `/v1` 结尾 |
+| `LLM_MODEL` | 服务提供的模型名 |
+| `LLM_API_STYLE` | `chat_completions` 或 `responses` |
+| `LLM_JSON_MODE` | `json_schema` 或 `json_object` |
 
-当前环境没有 `OPENAI_API_KEY`，因此没有执行在线 Responses 调用。不能把冻结计划的读取时间计为 LLM 延迟，也不能计算未知调用成本。`--live-llm` 可以在配置 Key 后用完全相同 Benchmark 重跑，记录实际模型、response ID、usage 与 API latency。默认模型名是可改的实验配置，不是“最新”或“最佳”结论。
+从 [.env.example](../.env.example) 复制配置。Docker Compose 读取根目录 `.env`；直接启动 uvicorn 时由运行环境注入变量。浏览器不接收密钥。无需为了使用 A 配置模型。
 
-## Vision Critic
+优先选服务支持的严格 JSON schema；仅支持 JSON object 的服务也必须通过同样的本地校验。`LLM_MODEL` 是可更换的部署配置，没有预设某个模型最适合排版。
 
-`llm/critic.py` 是可选实验适配器，接受 1–4 张参考图与 4–50 张有效候选，返回严格候选 ID 排名和理由。ID 不得遗漏、重复，Critic 只能排名，不能绕过共用约束。默认关闭，未在线运行，未纳入“B 更好”的结论。无证据时不加入 CLIP/DINO 依赖，也不训练神经网络。
+Sites 入口由 `hosting/` 的 `/api/plan` 请求模型，浏览器 Worker 随后排版；Python 入口由 `llm/planner.py` 请求并在服务端排版。配置方式见[部署说明](deployment.md)。
 
-## 部署与秘密
+## 计划与校验
 
-Key 只放服务端环境变量，不进入 JavaScript、仓库、模型输入日志或可下载参数。模型仅收到文本/参考统计；规划器不上传字体本体。Vision Critic 若显式启用会发送渲染图与选择的参考图，应在私有研究范围使用。
+计划包含 `tokens`、`suggested_layout_family` 和 `emphasis_relation`。每个 token 指定原文、语义角色、重要度和视觉角色。模型不能输出绝对坐标、字体文件、SVG 或 PNG。
 
-在线浏览器版可以演示 20 条固定文本的冻结 B 计划；任意新文本的在线 B 需要 Python 后端实际配置 API Key。两者在 UI 中分别标明，不能作为生产实时推理的等价证据。
+校验会拒绝改写、缺字、调换顺序、遗漏标点、未知角色、超范围重要度和额外坐标字段。合法的家族建议只影响候选搜索，不绕过边界、禁则或碰撞约束。
 
-官方技术来源：OpenAI Structured Outputs / Responses 文档、HarfBuzz shaping 文档。接口结构经文档检索后实现；当前无在线调用凭据，仍需真实 provider 集成验证。
+模型只收到文本和参考统计，不收到用户字体。自动着色仍受共用规则影响，语义重点正确也不保证色位和构图合适。
 
-## 兼容服务与在线网关
+## 计划复用和复现
 
-按用户选择增加 OpenAI 兼容服务。`LLM_BASE_URL`、`LLM_MODEL`、`LLM_API_KEY`、`LLM_API_STYLE=chat_completions|responses` 由服务器管理员配置；`LLM_JSON_MODE=json_schema|json_object` 适配提供商能力。返回仍必须通过同样的严格计划验证。JSON-object 模式也不允许多字段、丢字或坐标。
+页面把计划暂存在当前内存。修改字体、画布、配色和 Seed 时复用它；“重新规划”会再次请求模型。整句中文翻译是另一次显式模型处理，与后续选择 A 或 B 排版分开。
 
-Sites Worker 的 `/api/plan` 只返回验证后的语义计划及模型/usage/延迟，浏览器随后将计划交给同一个 HarfBuzz 排版 Worker。模型看不到用户字体文件。`/api/status` 只暴露是否配置密钥，不返回密钥或上游地址。Python 服务同样支持兼容路径。
+参数 JSON 保留计划及其来源。要复现 B 的布局，应同时固定输入、计划、字体、配置、Seed 和运行端。只固定 Seed 不能保证上游模型返回同一内容。
 
-已有接口协议测试使用 stub，证明请求封装与边界验证，不代表真实服务可用或模型质量已测。没有配置时保持明确的固定计划实验，不把它标成 live B。
+## 已保存的对照
 
-实际兼容服务报告 `gpt-6.1-sol`，Chat Completions + strict JSON schema 已验证。使用低 reasoning effort 与 max_completion_tokens；完整 20 条真实输出已保存。页面内复用语义计划不代表再次调用上游；重规划按钮会发起新请求。
+仓库保留 20 条标题的真实兼容服务调用计划，以及按相同配置重放得到的 A/B 图片。首页展示中的 B 图也使用这些已保存计划重放，不发起新模型请求。
+
+这些结果支持检查 B 的行为，不足以证明 B 整体更好。调用延迟、usage、旧冻结计划和可选 Vision Critic 的记录统一见[研究记录](research/README.md)与 [A/B 对照](comparison.md)。Vision Critic 默认关闭，未进入正式生成流程。
